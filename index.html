@@ -664,10 +664,6 @@
         display: block;
       }
 
-      .page::before {
-        display: none;
-      }
-
       .masthead {
         padding-top: max(28px, env(safe-area-inset-top));
         padding-bottom: 24px;
@@ -1413,43 +1409,14 @@ h1 {
   background: var(--faint);
   opacity: 0.62;
 }
-/* ===== Unified desktop content vertical line ===== */
+/* ===== Prevent horizontal layout shift when tab content height changes ===== */
 
-.page::before {
-  display: none;
+html {
+  scrollbar-gutter: stable;
 }
 
-@media (min-width: 761px) {
-  .panel-body {
-    position: relative;
-    padding-left: 1.35rem;
-  }
-
-  .panel-body::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0.15rem;
-    bottom: 0;
-    width: 1px;
-    background: var(--line);
-    opacity: 0.65;
-    pointer-events: none;
-  }
-
-  #education .edu-item,
-  #languages .language-group,
-  #academic-events .row,
-  #writings .writing-item {
-    padding-left: 1.45rem;
-  }
-
-  #education .edu-item::before,
-  #languages .language-group::before,
-  #academic-events .row::before,
-  #writings .writing-item::before {
-    left: 0.2rem;
-  }
+body {
+  overflow-y: scroll;
 }
   </style>
 </head>
