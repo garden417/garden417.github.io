@@ -1131,6 +1131,21 @@ h1 {
     letter-spacing: normal;
   }
 	}
+/* ===== Header action layout fix ===== */
+
+@media (min-width: 761px) {
+  .title-row {
+    grid-template-columns: 1fr;
+    gap: 1.4rem;
+  }
+
+  .header-actions {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.85rem 1.1rem;
+    padding-top: 0;
+  }
+}
   </style>
 
 </head>
