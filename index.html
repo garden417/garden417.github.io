@@ -679,11 +679,13 @@
       }
 
       .header-actions {
-        justify-content: flex-start;
-        flex-wrap: wrap;
-        gap: 0.72rem 1rem;
-        padding-top: 0;
-      }
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 0.9rem;
+  flex: 0 0 auto;
+  padding-top: 0.32rem;
+}
 
       .action-link,
       .theme-toggle {
@@ -1167,10 +1169,6 @@ h1 {
         Naver blog ↗
       </a>
 	-->
-      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
-        <span class="theme-icon" aria-hidden="true">☾</span>
-        <span class="theme-text">Dark</span>
-      </button>
     </div>
   </div>
 	 
