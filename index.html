@@ -1894,10 +1894,6 @@ body {
       if (updateHash) {
         history.replaceState(null, "", `#${name}`);
       }
-
-      if (userAction && window.matchMedia("(max-width: 760px)").matches) {
-        panel.scrollIntoView({ block: "start", behavior: "smooth" });
-      }
     }
 
     tabs.forEach((tab) => {
