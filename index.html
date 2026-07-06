@@ -1364,6 +1364,36 @@ h1 {
   background: var(--faint);
   opacity: 0.62;
 }
+/* ===== Writings ===== */
+
+#writings {
+  text-align: left;
+}
+
+#writings .writing-list {
+  width: 100%;
+  max-width: var(--measure);
+}
+
+#writings .writing-title {
+  text-decoration: none;
+}
+
+#writings .writing-title:hover {
+  color: var(--muted);
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+}
+
+#writings .writing-meta {
+  color: var(--faint);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+#writings .writing-description {
+  margin-top: 0.15rem;
+}
   </style>
 </head>
 
@@ -1415,7 +1445,8 @@ h1 {
   <button class="tab" type="button" data-tab="interests" aria-selected="false">Interests</button>
   <button class="tab" type="button" data-tab="education" aria-selected="false">Education</button>
   <button class="tab" type="button" data-tab="experiences" aria-selected="false">Experiences</button>
-  <button class="tab" type="button" data-tab="academic-events" aria-selected="false">Academic Events Attended</button>																				
+  <button class="tab" type="button" data-tab="academic-events" aria-selected="false">Academic Events Attended</button>
+  <button class="tab" type="button" data-tab="writings" aria-selected="false">Writings</button>
   <button class="tab" type="button" data-tab="languages" aria-selected="false">Languages</button>
 </nav>
 
@@ -1702,6 +1733,34 @@ h1 {
     </li>
   </ul>
 </section>
+
+<section class="view" id="writings">
+  <p class="lead">
+    The following is a list of my writings in public so far.
+  </p>
+
+  <ul class="rows writing-list">
+	<li class="row writing-item">
+      <a class="row-title writing-title" href="https://www.snunews.com/news/articleView.html?idxno=31806" target="_blank" rel="noopener noreferrer">
+        대학신문에 기고한 칼럼 (2023년 3월 작성)
+      </a>
+	  <!--
+      <p class="row-text writing-description">
+      </p>
+	  -->
+    </li>
+	  
+    <li class="row writing-item">
+	  <a class="row-title writing-title" href="https://crossroads.apctp.org/cop/bbs/000000000021/selectArticleDetail.do?nttId=1759l" target="_blank" rel="noopener noreferrer">
+       통계물리학으로 읽어낸 자연과 사회, 그리고 삶 ↗
+      </a>
+      <p class="row-text writing-description">
+       APCTP & 서울시립과학관 올해의 과학도서 청소년 독후감 대회 대상 수상작 (2021년 9월 작성)
+	   글의 2번째 줄 '중학생'은 '초등학생'의 오기.
+      </p>
+    </li>
+  </ul>
+</section>
 	  
 <section class="view" id="languages">
   <ul class="language-groups">
@@ -1735,6 +1794,7 @@ h1 {
       education: "Education",
       experiences: "Experiences",
 	  "academic-events": "Academic Events Attended",
+	  writings: "Writings",
       languages: "Languages",
     };
 
