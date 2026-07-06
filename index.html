@@ -1131,19 +1131,34 @@ h1 {
     letter-spacing: normal;
   }
 	}
-/* ===== Header action layout fix ===== */
+/* ===== Header action layout fix: compact desktop version ===== */
 
 @media (min-width: 761px) {
   .title-row {
-    grid-template-columns: 1fr;
-    gap: 1.4rem;
+    grid-template-columns: minmax(max-content, 1fr) auto;
+    gap: clamp(16px, 3vw, 36px);
+  }
+
+  .identity-block {
+    min-width: max-content;
+  }
+
+  .title-row h1 {
+    flex-wrap: nowrap;
+    white-space: nowrap;
   }
 
   .header-actions {
-    justify-content: flex-start;
+    max-width: min(42vw, 460px);
     flex-wrap: wrap;
-    gap: 0.85rem 1.1rem;
-    padding-top: 0;
+    justify-content: flex-end;
+    gap: 0.55rem 0.9rem;
+    padding-top: 0.32rem;
+  }
+
+  .action-link,
+  .theme-toggle {
+    font-size: 0.86rem;
   }
 }
   </style>
