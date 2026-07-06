@@ -894,10 +894,6 @@
   word-break: keep-all;
   overflow-wrap: normal;
 }
-/* ===== Final layout fix ===== */
-.panel-body {
-  grid-column: 1 / -1;
-}
 
 /* ===== Interests ===== */
 #interests {
@@ -1267,40 +1263,47 @@ h1 {
     padding-right: var(--page-pad);
   }
 }
-/* ===== Section left-margin layout fix ===== */
+/* ===== Desktop two-column panel layout ===== */
 
-.panel-body {
-  grid-column: 1 / -1;
-}
+@media (min-width: 761px) {
+  .panel {
+    display: grid;
+    grid-template-columns: var(--side) minmax(0, 1fr);
+    column-gap: clamp(28px, 5vw, 72px);
+    align-items: start;
+  }
 
-/* Each active section has a left label column and a right content column */
-.view.active {
-  display: grid;
-  grid-template-columns: var(--side) minmax(0, 1fr);
-  column-gap: clamp(28px, 5vw, 72px);
-  align-items: start;
-  max-width: none;
-}
+  .panel-heading {
+    grid-column: 1;
+  }
 
-/* Section title goes to the left column */
-.view > h2 {
-  grid-column: 1;
-  margin: 0;
-}
+  .panel-body {
+    grid-column: 2;
+    min-width: 0;
+  }
 
-/* Section content goes to the right column */
-.view > :not(h2) {
-  grid-column: 2;
-}
-
-/* Mobile: return to one-column layout */
-@media (max-width: 760px) {
   .view.active {
     display: block;
   }
+}
 
-  .view > h2 {
-    margin: 0 0 1.1rem;
+/* ===== Mobile one-column layout ===== */
+
+@media (max-width: 760px) {
+  .panel {
+    display: block;
+  }
+
+  .panel-heading {
+    display: none;
+  }
+
+  .panel-body {
+    padding: 0;
+  }
+
+  .view.active {
+    display: block;
   }
 }
   </style>
@@ -1358,21 +1361,19 @@ h1 {
 </nav>
 
 <main class="panel" aria-live="polite" data-active-panel="home">
-
+<aside class="panel-heading" aria-hidden="true">
+    <h2 id="panel-title">Home</h2>
+  </aside>
   <div class="panel-body">
 	  
 <section class="view active" id="home">
-  <h2>Home</h2>
-
-  <p class="lead">
+   <p class="lead">
     Welcome
     <br>
   </p>
 </section>
 
 <section class="view" id="interests">
-  <h2>Interests</h2>
-
   <div class="interest-groups">
     <div class="interest-row">
       <span class="interest">Mathematics</span>
@@ -1389,9 +1390,6 @@ h1 {
 </section>
 
 <section class="view" id="education">
-
-  <h2>Education</h2>
-
   <div class="education-list">
     <div class="edu-item">
       <div class="edu-title">M.S.&amp;Ph.D. candidate (2026.9.-)</div>
@@ -1411,16 +1409,12 @@ h1 {
 </section>
 
 <section class="view" id="experiences">
-  <h2>Experiences</h2>
-
   <p class="lead">
     To be updated.
   </p>
 </section>
 	  
 <section class="view" id="languages">
-  <h2>Languages</h2>
-
   <ul class="language-groups">
     <li class="language-group">
       <strong class="language-level-title">Native</strong>
