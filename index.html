@@ -1179,8 +1179,76 @@ h1 {
     flex-wrap: wrap;
   }
 }
-  </style>
 
+/* ===== Masthead height / tabs position fix ===== */
+
+/* Desktop: keep the header elegant, but reduce excess vertical height */
+@media (min-width: 761px) {
+  .masthead {
+    padding-top: clamp(34px, 5vw, 58px);
+    padding-bottom: 24px;
+  }
+
+  .title-row {
+    align-items: start;
+  }
+
+  .header-actions {
+    padding-top: 0.22rem;
+  }
+}
+
+/* Mobile portrait: reduce the vertical stack so tabs do not fall too low */
+@media (max-width: 760px) and (orientation: portrait) {
+  .masthead {
+    padding-top: max(22px, env(safe-area-inset-top));
+    padding-bottom: 16px;
+  }
+
+  .title-row {
+    gap: 12px;
+  }
+
+  .names {
+    margin-top: 10px;
+  }
+
+  .header-actions {
+    gap: 0.45rem 0.85rem;
+    padding-top: 0;
+  }
+
+  .action-group {
+    gap: 0.75rem;
+  }
+
+  .tabs {
+    padding-top: 11px;
+    padding-bottom: 10px;
+  }
+}
+
+/* Mobile landscape: preserve the layout that already looks right */
+@media (max-width: 760px) and (orientation: landscape) {
+  .masthead {
+    padding-top: max(20px, env(safe-area-inset-top));
+    padding-bottom: 14px;
+  }
+
+  .title-row {
+    gap: 10px;
+  }
+
+  .names {
+    margin-top: 8px;
+  }
+
+  .tabs {
+    padding-top: 10px;
+    padding-bottom: 9px;
+  }
+}
+  </style>
 </head>
 
 <body>
