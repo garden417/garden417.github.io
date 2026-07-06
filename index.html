@@ -1145,9 +1145,23 @@ h1 {
         </div>
 
     <div class="header-actions" aria-label="Quick links and display settings">
-      <a class="action-link" href="https://github.com/garden417" target="_blank" rel="noopener noreferrer" aria-label="Open Jeong-won Ju's GitHub profile">
-        GitHub ↗
-      </a>
+  <a class="action-link" href="https://github.com/garden417" target="_blank" rel="noopener noreferrer" aria-label="Open Jeong-won Ju's GitHub profile">
+    GitHub ↗
+  </a>
+
+  <a class="action-link" href="/cv_ko.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open Korean CV">
+    CV (Korean) ↗
+  </a>
+
+  <a class="action-link" href="/cv_en.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open English CV">
+    CV (English) ↗
+  </a>
+
+  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+    <span class="theme-icon" aria-hidden="true">☾</span>
+    <span class="theme-text">Dark</span>
+  </button>
+</div>
 	<!--
       <a class="action-link" href="https://blog.naver.com/ naver blog" target="_blank" rel="noopener noreferrer" aria-label="Open Name's Naver blog">
         Naver blog ↗
@@ -1326,8 +1340,8 @@ h1 {
         view.classList.toggle("active", view.id === name);
       });
 
-      title.textContent = meta[name];
-      panel.dataset.activePanel = name;
+      if (title) title.textContent = meta[name];
+		panel.dataset.activePanel = name;
 
       if (updateHash) {
         history.replaceState(null, "", `#${name}`);
