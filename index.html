@@ -1180,13 +1180,18 @@ h1 {
   }
 }
 
-/* ===== Masthead height / tabs position fix ===== */
+/* ===== Masthead / tabs position fix ===== */
 
-/* Desktop: keep the header elegant, but reduce excess vertical height */
+/* Desktop */
 @media (min-width: 761px) {
+  .page {
+    width: min(1060px, calc(100% - 48px));
+    margin: 0 auto;
+  }
+
   .masthead {
-    padding-top: clamp(34px, 5vw, 58px);
-    padding-bottom: 24px;
+    padding-top: clamp(28px, 4.2vw, 52px);
+    padding-bottom: 18px;
   }
 
   .title-row {
@@ -1196,39 +1201,51 @@ h1 {
   .header-actions {
     padding-top: 0.22rem;
   }
+
+  .tabs {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: var(--page-pad);
+    padding-right: var(--page-pad);
+    margin: 0;
+  }
 }
 
-/* Mobile portrait: reduce the vertical stack so tabs do not fall too low */
+/* Mobile portrait */
 @media (max-width: 760px) and (orientation: portrait) {
   .masthead {
-    padding-top: max(22px, env(safe-area-inset-top));
-    padding-bottom: 16px;
+    padding-top: max(18px, env(safe-area-inset-top));
+    padding-bottom: 12px;
   }
 
   .title-row {
-    gap: 12px;
+    gap: 8px;
   }
 
   .names {
-    margin-top: 10px;
+    margin-top: 8px;
   }
 
   .header-actions {
-    gap: 0.45rem 0.85rem;
+    gap: 0.35rem 0.75rem;
     padding-top: 0;
+    margin-top: 0;
   }
 
   .action-group {
-    gap: 0.75rem;
+    gap: 0.65rem;
   }
 
   .tabs {
-    padding-top: 11px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: var(--page-pad);
+    padding-right: var(--page-pad);
+    margin: 0;
   }
 }
 
-/* Mobile landscape: preserve the layout that already looks right */
+/* Mobile landscape: keep compact layout */
 @media (max-width: 760px) and (orientation: landscape) {
   .masthead {
     padding-top: max(20px, env(safe-area-inset-top));
@@ -1246,6 +1263,8 @@ h1 {
   .tabs {
     padding-top: 10px;
     padding-bottom: 9px;
+    padding-left: var(--page-pad);
+    padding-right: var(--page-pad);
   }
 }
   </style>
@@ -1290,7 +1309,6 @@ h1 {
         Naver blog ↗
       </a>
 	-->
-    </div>
   </div>
 	 
 </header>
