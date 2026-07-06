@@ -1412,11 +1412,13 @@ h1 {
 /* ===== Prevent horizontal layout shift when tab content height changes ===== */
 
 html {
+  overflow-y: scroll;
   scrollbar-gutter: stable;
 }
 
 body {
   overflow-y: scroll;
+  overflow-x: hidden;
 }
   </style>
 </head>
