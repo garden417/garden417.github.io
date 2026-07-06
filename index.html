@@ -1131,7 +1131,13 @@ h1 {
     letter-spacing: normal;
   }
 	}
-/* ===== Header action layout fix: compact desktop version ===== */
+/* ===== Header action layout fix ===== */
+
+.action-group {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
 
 @media (min-width: 761px) {
   .title-row {
@@ -1149,16 +1155,28 @@ h1 {
   }
 
   .header-actions {
-    max-width: min(42vw, 460px);
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 0.55rem 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 0.55rem;
     padding-top: 0.32rem;
   }
 
   .action-link,
   .theme-toggle {
     font-size: 0.86rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .header-actions {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .action-group {
+    flex-wrap: wrap;
   }
 }
   </style>
@@ -1176,22 +1194,29 @@ h1 {
 		  </div>
         </div>
 
-    <div class="header-actions" aria-label="Quick links and display settings">
-  <a class="action-link" href="/cv_korean.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open Korean CV">
-    CV (Korean) ↗
-  </a>
+<div class="header-actions" aria-label="Quick links and display settings">
+  <div class="action-group cv-actions">
+    <a class="action-link" href="/cv_korean.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open CV in Korean">
+      CV (Korean) ↗
+    </a>
 
-  <a class="action-link" href="/cv_english.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open English CV">
-    CV (English) ↗
-  </a>
-  <a class="action-link" href="https://github.com/garden417" target="_blank" rel="noopener noreferrer" aria-label="Open Jeong-won Ju's GitHub profile">
-    GitHub ↗
-  </a>
-  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
-    <span class="theme-icon" aria-hidden="true">☾</span>
-    <span class="theme-text">Dark</span>
-  </button>
+    <a class="action-link" href="/cv_english.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open CV in English">
+      CV (English) ↗
+    </a>
+  </div>
+
+  <div class="action-group site-actions">
+    <a class="action-link" href="https://github.com/garden417" target="_blank" rel="noopener noreferrer" aria-label="Open Jeong-won Ju's GitHub profile">
+      GitHub ↗
+    </a>
+
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+      <span class="theme-icon" aria-hidden="true">☾</span>
+      <span class="theme-text">Dark</span>
+    </button>
+  </div>
 </div>
+
 	<!--
       <a class="action-link" href="https://blog.naver.com/ naver blog" target="_blank" rel="noopener noreferrer" aria-label="Open Name's Naver blog">
         Naver blog ↗
