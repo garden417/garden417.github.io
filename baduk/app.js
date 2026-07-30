@@ -13,16 +13,31 @@ const overlay = document.querySelector("#result-overlay");
 const modeButtons = [...document.querySelectorAll(".mode")];
 const engineButtons = [...document.querySelectorAll(".engine-option")];
 const enginePanel = document.querySelector("#ai-engine-panel");
-const katagoSettings = document.querySelector("#katago-settings");
-const katagoEndpointInput = document.querySelector("#katago-endpoint");
-const katagoTokenInput = document.querySelector("#katago-token");
+const modelSettings = document.querySelector("#model-settings");
+const modelWarning = document.querySelector("#model-warning");
+const modelProgressWrap = document.querySelector("#model-progress-wrap");
+const modelProgress = document.querySelector("#model-progress");
+const modelProgressText = document.querySelector("#model-progress-text");
+const modelDownloadButton = document.querySelector("#model-download");
+const SMALL_MODEL_URL = "./katago-engine/models/katago-small.bin.gz";
+const BROWSER_ENGINE_CONFIG = {
+  "browser-small": { label: "작은 브라우저 모델", size: "약 3.8MB", url: SMALL_MODEL_URL, visits: 24, maxTimeMs: 7000 },
+  "browser-b18": {
+    label: "실전용 b18 모델",
+    size: "약 96MB",
+    parts: Array.from({ length: 6 }, (_, index) => `./katago-engine/models/b18/b18.part${String(index).padStart(2, "0")}`),
+    bytes: 97898094,
+    visits: 24,
+    maxTimeMs: 10000
+  }
+};
 
 let board = emptyBoard();
 let currentPlayer = BLACK;
 let mode = "ai";
-let aiEngine = localStorage.getItem("baduk-ai-engine") === "katago" ? "katago" : "local";
-let katagoEndpoint = localStorage.getItem("baduk-katago-endpoint") || "";
-let katagoToken = sessionStorage.getItem("baduk-katago-token") || "";
+let aiEngine = ["local", "browser-small", "browser-b18"].includes(localStorage.getItem("baduk-ai-engine"))
+  ? localStorage.getItem("baduk-ai-engine")
+  : "local";
 let captures = { [BLACK]: 0, [WHITE]: 0 };
 let history = [];
 let gameMoves = [];
@@ -30,7 +45,11 @@ let positionHistory = [boardHash(board)];
 let consecutivePasses = 0;
 let gameOver = false;
 let aiThinking = false;
-let katagoConnectionError = false;
+let browserEngineModulePromise = null;
+let browserModelLoading = false;
+const readyBrowserModels = new Set();
+const browserModelErrors = new Map();
+const browserModelUrls = new Map();
 let hoverPoint = null;
 let lastMove = null;
 let aiTimer = null;
@@ -402,95 +421,159 @@ function toKataGoCoordinate(row, col) {
   return `${columns[col]}${SIZE - row}`;
 }
 
-function fromKataGoCoordinate(value) {
-  if (typeof value !== "string" || value.toLowerCase() === "pass") return null;
-  const match = value.trim().toUpperCase().match(/^([A-HJ-T])(\d{1,2})$/);
-  if (!match) throw new Error("KataGo가 알 수 없는 좌표를 보냈습니다.");
-  const columns = "ABCDEFGHJKLMNOPQRST";
-  const col = columns.indexOf(match[1]);
-  const row = SIZE - Number(match[2]);
-  if (!inside(row, col)) throw new Error("KataGo 좌표가 바둑판 밖입니다.");
-  return { row, col };
+function getBrowserEngineConfig() {
+  return BROWSER_ENGINE_CONFIG[aiEngine] || null;
 }
 
-function validateKataGoEndpoint(value) {
-  const url = new URL(value);
-  const localHost = ["localhost", "127.0.0.1"].includes(url.hostname);
-  if (url.protocol !== "https:" && !localHost) {
-    throw new Error("공개 사이트에서는 HTTPS 서버 주소가 필요합니다.");
+function resolvedModelUrl(config) {
+  return config.url ? new URL(config.url, window.location.href).href : browserModelUrls.get(aiEngine);
+}
+
+function loadBrowserEngineModule() {
+  if (!browserEngineModulePromise) {
+    browserEngineModulePromise = import("./katago-engine/badukAdapter.js");
   }
-  return url.toString();
+  return browserEngineModulePromise;
 }
 
-function katagoQuery() {
-  return {
-    id: `baduk-${Date.now()}`,
-    moves: gameMoves.map((move) => [...move]),
-    initialStones: [],
-    rules: "chinese",
-    komi: KOMI,
-    boardXSize: SIZE,
-    boardYSize: SIZE,
-    analyzeTurns: [gameMoves.length],
-    maxVisits: 300
-  };
+function setModelProgress(percent, text) {
+  modelProgressWrap.hidden = false;
+  if (Number.isFinite(percent)) {
+    modelProgress.removeAttribute("value");
+    modelProgress.value = Math.max(0, Math.min(100, percent));
+  } else {
+    modelProgress.removeAttribute("value");
+  }
+  modelProgressText.textContent = text;
 }
 
-async function runKataGoTurn() {
-  if (mode !== "ai" || gameOver || currentPlayer !== WHITE) return;
-  if (!katagoEndpoint) {
-    runLocalAiTurn(260, "KataGo 서버가 연결되지 않아 빠른 AI가 대신 두었습니다.");
-    return;
+async function preloadModel(config) {
+  if (config.parts) {
+    const buffers = [];
+    let received = 0;
+    for (let index = 0; index < config.parts.length; index += 1) {
+      const partUrl = new URL(config.parts[index], window.location.href).href;
+      const response = await fetch(partUrl, { cache: "force-cache" });
+      if (!response.ok) throw new Error(`b18 모델 조각 다운로드 실패 (${index + 1}/${config.parts.length})`);
+      const buffer = await response.arrayBuffer();
+      buffers.push(buffer);
+      received += buffer.byteLength;
+      const percent = received / config.bytes * 100;
+      setModelProgress(percent, `${index + 1}/${config.parts.length} · ${(received / 1024 / 1024).toFixed(1)}MB`);
+    }
+    setModelProgress(100, "다운로드 완료");
+    return URL.createObjectURL(new Blob(buffers, { type: "application/gzip" }));
   }
 
-  aiThinking = true;
-  updateUI();
-  showMessage("KataGo 서버에서 다음 수를 분석하고 있습니다.");
-  const controller = new AbortController();
-  const timeout = window.setTimeout(() => controller.abort(), 20000);
+  const response = await fetch(config.url, { cache: "force-cache" });
+  if (!response.ok) throw new Error(`모델 다운로드 실패 (${response.status})`);
+  const total = Number(response.headers.get("Content-Length")) || 0;
+  const reader = response.body?.getReader();
+  if (!reader) {
+    await response.arrayBuffer();
+    setModelProgress(100, "다운로드 완료");
+    return resolvedModelUrl(config);
+  }
+
+  let received = 0;
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    received += value.byteLength;
+    const downloadedMb = (received / 1024 / 1024).toFixed(1);
+    if (total) {
+      const percent = received / total * 100;
+      setModelProgress(percent, `${Math.round(percent)}% · ${downloadedMb}MB`);
+    } else {
+      setModelProgress(NaN, `${downloadedMb}MB 받는 중`);
+    }
+  }
+  setModelProgress(100, "다운로드 완료");
+  return resolvedModelUrl(config);
+}
+
+async function prepareBrowserModel() {
+  const config = getBrowserEngineConfig();
+  if (!config || readyBrowserModels.has(aiEngine)) return true;
+  if (browserModelLoading) return false;
+
+  const targetEngine = aiEngine;
+  browserModelLoading = true;
+  browserModelErrors.delete(targetEngine);
+  modelDownloadButton.disabled = true;
+  modelDownloadButton.textContent = "AI 모델 준비 중…";
+  setEngineStatus(config.label, "다운로드 중");
+  setModelProgress(0, `${config.size} 다운로드 시작`);
 
   try {
-    const headers = { "Content-Type": "application/json" };
-    if (katagoToken) headers.Authorization = `Bearer ${katagoToken}`;
-    const response = await fetch(katagoEndpoint, {
-      method: "POST",
-      headers,
-      body: JSON.stringify(katagoQuery()),
-      signal: controller.signal
+    const modelUrl = await preloadModel(config);
+    browserModelUrls.set(targetEngine, modelUrl);
+    setModelProgress(NaN, "모델을 GPU에 불러오는 중");
+    const engine = await loadBrowserEngineModule();
+    const info = await engine.initializeBrowserKataGo(modelUrl, "webgpu");
+    readyBrowserModels.add(targetEngine);
+    setModelProgress(100, "준비 완료");
+    setEngineStatus(config.label, info.backend || "준비됨", "ready");
+    showMessage(`${config.label} 준비가 완료되었습니다.`);
+    return true;
+  } catch (error) {
+    const reason = error?.message || "브라우저 AI를 준비하지 못했습니다.";
+    browserModelErrors.set(targetEngine, reason);
+    setEngineStatus(config.label, "준비 실패", "error");
+    setModelProgress(0, "다시 시도해 주세요");
+    showMessage(`${reason} 현재 AI를 대신 사용할 수 있습니다.`, true);
+    return false;
+  } finally {
+    browserModelLoading = false;
+    modelDownloadButton.disabled = false;
+    updateEngineUI();
+  }
+}
+
+async function runBrowserAiTurn() {
+  if (mode !== "ai" || gameOver || currentPlayer !== WHITE) return;
+  const config = getBrowserEngineConfig();
+  if (!config) return;
+  aiThinking = true;
+  updateUI();
+  showMessage(`${config.label}이 다음 수를 계산하고 있습니다.`);
+
+  try {
+    if (!readyBrowserModels.has(aiEngine)) {
+      const ready = await prepareBrowserModel();
+      if (!ready) throw new Error("브라우저 모델 준비에 실패했습니다.");
+    }
+    const engine = await loadBrowserEngineModule();
+    const result = await engine.chooseBrowserKataGoMove({
+      board: cloneBoard(board),
+      currentPlayer: WHITE,
+      moves: gameMoves.map((move) => [...move]),
+      modelUrl: resolvedModelUrl(config),
+      backend: "webgpu",
+      visits: config.visits,
+      maxTimeMs: config.maxTimeMs
     });
-    if (!response.ok) throw new Error(`서버 응답 ${response.status}`);
-    const analysis = await response.json();
-    const moveName = analysis.move || analysis.bestMove || analysis.moveInfos?.[0]?.move;
-    if (!moveName) throw new Error("응답에서 추천 수를 찾지 못했습니다.");
     aiThinking = false;
-    if (String(moveName).toLowerCase() === "pass") {
+    if (result.pass) {
       aiPass();
       return;
     }
-    const move = fromKataGoCoordinate(moveName);
-    if (!simulateMove(move.row, move.col, WHITE).legal) {
-      throw new Error("KataGo가 현재 규칙에서 둘 수 없는 수를 보냈습니다.");
+    if (!simulateMove(result.move.row, result.move.col, WHITE).legal) {
+      throw new Error("브라우저 AI가 둘 수 없는 수를 선택했습니다.");
     }
-    playMove(move.row, move.col, WHITE);
-    katagoConnectionError = false;
-    setEngineStatus("KataGo 연결됨", "연결됨", "ready");
+    playMove(result.move.row, result.move.col, WHITE);
+    setEngineStatus(config.label, result.backend || "실행 중", "ready");
   } catch (error) {
     aiThinking = false;
-    const reason = error.name === "AbortError"
-      ? "응답 시간이 초과되었습니다."
-      : error.name === "TypeError"
-        ? "KataGo 서버에 연결하지 못했습니다."
-        : error.message;
-    katagoConnectionError = true;
-    setEngineStatus("KataGo 연결 오류", "대체 실행", "error");
-    runLocalAiTurn(260, `${reason} 빠른 AI가 대신 두었습니다.`);
-  } finally {
-    window.clearTimeout(timeout);
+    const reason = error?.message || "브라우저 AI 실행 오류";
+    browserModelErrors.set(aiEngine, reason);
+    setEngineStatus(config.label, "대체 실행", "error");
+    runLocalAiTurn(260, `${reason} 현재 AI가 대신 두었습니다.`);
   }
 }
 
 function runAiTurn() {
-  if (aiEngine === "katago") runKataGoTurn();
+  if (aiEngine.startsWith("browser-")) runBrowserAiTurn();
   else runLocalAiTurn();
 }
 
@@ -503,16 +586,36 @@ function setEngineStatus(title, badge, state = "") {
 
 function updateEngineUI() {
   enginePanel.hidden = mode !== "ai";
-  katagoSettings.hidden = aiEngine !== "katago";
+  const config = getBrowserEngineConfig();
+  modelSettings.hidden = !config;
   engineButtons.forEach((button) => {
     const active = button.dataset.engine === aiEngine;
     button.classList.toggle("active", active);
     button.setAttribute("aria-checked", String(active));
   });
-  if (aiEngine === "local") setEngineStatus("브라우저 내장", "바로 사용", "ready");
-  else if (katagoConnectionError) setEngineStatus("KataGo 연결 오류", "대체 실행", "error");
-  else if (katagoEndpoint) setEngineStatus("KataGo 외부 서버", "설정됨", "ready");
-  else setEngineStatus("KataGo 외부 서버", "연결 필요");
+  if (!config) {
+    setEngineStatus("현재 AI 버전", "바로 사용", "ready");
+    return;
+  }
+
+  modelWarning.textContent = aiEngine === "browser-small"
+    ? "작은 모델은 바둑 실력이 약합니다. 한 수 계산이 느리고 배터리 사용량이 커질 수 있습니다."
+    : "실전용 b18 모델입니다. 최초 약 96MB를 다운로드하며, 계산 중 기기가 뜨거워지거나 배터리 사용량이 커질 수 있습니다.";
+  if (readyBrowserModels.has(aiEngine)) {
+    modelDownloadButton.textContent = "AI 모델 준비 완료";
+    modelDownloadButton.disabled = true;
+    setEngineStatus(config.label, "준비됨", "ready");
+  } else if (browserModelLoading) {
+    modelDownloadButton.textContent = "AI 모델 준비 중…";
+    modelDownloadButton.disabled = true;
+  } else {
+    modelDownloadButton.textContent = aiEngine === "browser-b18"
+      ? "실전용 AI 모델 다운로드 · 약 96MB"
+      : "작은 AI 모델 준비 · 약 3.8MB";
+    modelDownloadButton.disabled = false;
+    if (browserModelErrors.has(aiEngine)) setEngineStatus(config.label, "다시 시도", "error");
+    else setEngineStatus(config.label, "준비 필요");
+  }
 }
 
 function updateUI() {
@@ -665,32 +768,17 @@ modeButtons.forEach((button) => button.addEventListener("click", () => {
 engineButtons.forEach((button) => button.addEventListener("click", () => {
   aiEngine = button.dataset.engine;
   localStorage.setItem("baduk-ai-engine", aiEngine);
+  modelProgressWrap.hidden = true;
+  modelProgress.value = 0;
+  modelProgressText.textContent = "모델 준비 중";
   updateEngineUI();
-  if (aiEngine === "katago" && !katagoEndpoint) {
-    katagoEndpointInput.focus();
-    showMessage("KataGo를 사용하려면 분석 서버 주소를 입력하세요.");
-  } else {
-    showMessage(aiEngine === "katago" ? "KataGo를 선택했습니다." : "빠른 AI를 선택했습니다.");
-  }
+  const config = getBrowserEngineConfig();
+  showMessage(config
+    ? `${config.label}을 선택했습니다. 대국 전에 AI 모델을 준비해 주세요.`
+    : "현재 AI 버전을 선택했습니다.");
 }));
 
-document.querySelector("#katago-save").addEventListener("click", () => {
-  try {
-    const endpoint = katagoEndpointInput.value.trim();
-    if (!endpoint) throw new Error("분석 서버 주소를 입력하세요.");
-    katagoEndpoint = validateKataGoEndpoint(endpoint);
-    katagoToken = katagoTokenInput.value.trim();
-    katagoConnectionError = false;
-    localStorage.setItem("baduk-katago-endpoint", katagoEndpoint);
-    if (katagoToken) sessionStorage.setItem("baduk-katago-token", katagoToken);
-    else sessionStorage.removeItem("baduk-katago-token");
-    updateEngineUI();
-    showMessage("KataGo 서버 설정을 저장했습니다. 다음 백돌 차례부터 사용합니다.");
-  } catch (error) {
-    setEngineStatus("KataGo 설정 오류", "확인 필요", "error");
-    showMessage(error.message, true);
-  }
-});
+modelDownloadButton.addEventListener("click", prepareBrowserModel);
 
 document.querySelector("#pass-button").addEventListener("click", passTurn);
 document.querySelector("#undo-button").addEventListener("click", undo);
@@ -699,7 +787,5 @@ document.querySelector("#again-button").addEventListener("click", resetGame);
 window.addEventListener("resize", setupCanvas);
 
 canvas.tabIndex = 0;
-katagoEndpointInput.value = katagoEndpoint;
-katagoTokenInput.value = katagoToken;
 setupCanvas();
 updateUI();

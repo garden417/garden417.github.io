@@ -1,0 +1,16 @@
+Browser KataGo integration
+
+The browser inference and search engine bundle is adapted from Web KaTrain:
+https://github.com/Sir-Teo/web-katrain
+Copyright Sir-Teo and contributors, licensed under the MIT License.
+See LICENSE-web-katrain.txt.
+
+The neural-network models originate from the KataGo project:
+https://github.com/lightvector/KataGo
+https://katagotraining.org/
+
+Small model:
+g170-b6c96-s175395328-d26788732
+
+b18 model:
+kata1-b18c384nbt-s9996604416-d4316597426
