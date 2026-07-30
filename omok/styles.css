@@ -79,9 +79,10 @@ canvas:focus-visible {
 h1 {
   margin: 0;
   font-family: "Gowun Batang", serif;
-  font-size: clamp(3.4rem, 6vw, 5.4rem);
+  font-size: clamp(2.8rem, 6vw, 5.4rem);
   line-height: 0.98;
   letter-spacing: -0.08em;
+  white-space: nowrap;
 }
 
 h1 em {
