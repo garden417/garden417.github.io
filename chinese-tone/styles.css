@@ -148,6 +148,68 @@ h1 em { color: var(--green); font-style: normal; }
   line-height: 1.85;
 }
 
+.set-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 9px;
+  color: #82887f;
+  font-size: 0.65rem;
+  font-weight: 800;
+}
+
+.set-heading b {
+  color: var(--coral);
+  font-size: 0.62rem;
+}
+
+.set-selector {
+  display: grid;
+  gap: 7px;
+  margin-bottom: 14px;
+}
+
+.set-button {
+  min-height: 48px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  border: 1px solid #dcddd5;
+  border-radius: 12px;
+  color: #737a71;
+  background: rgba(255, 255, 255, 0.38);
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 150ms ease, background 150ms ease, transform 150ms ease;
+}
+
+.set-button:hover { transform: translateX(2px); border-color: #b9c9c1; }
+.set-button.active {
+  color: var(--green-dark);
+  border-color: #9fbbb0;
+  background: #edf4f0;
+  box-shadow: inset 3px 0 var(--green);
+}
+
+.set-button span b { display: block; font-size: 0.72rem; }
+.set-button span small {
+  display: block;
+  margin-top: 1px;
+  color: #9a9f97;
+  font-size: 0.55rem;
+}
+
+.set-button em {
+  color: #8e958c;
+  font-size: 0.59rem;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.set-button.active em { color: var(--green); }
+
 .progress-block {
   padding: 18px;
   border: 1px solid rgba(55, 100, 81, 0.12);
@@ -324,8 +386,10 @@ h1 em { color: var(--green); font-style: normal; }
   top: 12px;
   left: 12px;
   display: grid;
-  width: 25px;
+  width: auto;
+  min-width: 25px;
   height: 25px;
+  padding: 0 6px;
   place-items: center;
   border-radius: 50%;
   color: #fff;
@@ -358,7 +422,12 @@ h1 em { color: var(--green); font-style: normal; }
   font-size: clamp(4.2rem, 9vw, 6.5rem);
   font-weight: 900;
   line-height: 1.15;
+  white-space: nowrap;
 }
+
+.hanzi.length-2 { font-size: clamp(3.2rem, 7vw, 5.2rem); }
+.hanzi.length-3 { font-size: clamp(2.35rem, 5vw, 3.7rem); }
+.hanzi.length-4 { font-size: clamp(1.85rem, 4vw, 2.85rem); }
 
 .pinyin {
   margin-top: 4px;
@@ -366,6 +435,13 @@ h1 em { color: var(--green); font-style: normal; }
   font-size: 1.28rem;
   font-weight: 900;
   letter-spacing: 0.02em;
+}
+
+.pinyin.length-9,
+.pinyin.length-10,
+.pinyin.length-11,
+.pinyin.length-12 {
+  font-size: 0.96rem;
 }
 
 .tone-name {
@@ -384,6 +460,8 @@ h1 em { color: var(--green); font-style: normal; }
   background: rgba(255,255,255,0.7);
   font-size: 0.76rem;
   font-weight: 800;
+  line-height: 1.4;
+  max-width: 100%;
 }
 
 .pair-divider { display: grid; place-items: center; }
@@ -525,6 +603,13 @@ h1 em { color: var(--green); font-style: normal; }
 
 .status-header .eyebrow { margin-bottom: 5px; }
 .status-header h2 { margin: 0; font-size: 1.75rem; letter-spacing: -.05em; }
+.status-set-label {
+  display: block;
+  margin-top: 4px;
+  color: #969b93;
+  font-size: 0.64rem;
+  font-weight: 700;
+}
 
 .status-close-button {
   display: grid;
@@ -713,18 +798,13 @@ kbd {
     gap: 28px;
     padding-top: 28px;
   }
-  .intro-panel {
-    display: grid;
-    grid-template-columns: 1fr 220px;
-    gap: 8px 26px;
-    align-items: end;
-  }
-  .eyebrow, h1, .intro-copy { grid-column: 1; }
-  .eyebrow { align-self: end; }
+  .intro-panel { display: block; }
   h1 { font-size: min(7.2vw, 3rem); }
   .intro-copy { margin: 10px 0 0; }
-  .progress-block { grid-column: 2; grid-row: 1 / 3; }
-  .legend { grid-column: 2; grid-row: 3; margin-top: 0; }
+  .set-heading { margin-top: 24px; }
+  .set-selector { grid-template-columns: repeat(3, 1fr); }
+  .set-button { min-width: 0; }
+  .legend { margin-top: 12px; }
 }
 
 @media (max-width: 600px) {
@@ -734,6 +814,19 @@ kbd {
   .intro-panel { display: block; }
   h1 { font-size: 2.55rem; }
   .intro-copy { display: none; }
+  .set-heading { margin-top: 18px; }
+  .set-selector { gap: 5px; }
+  .set-button {
+    display: block;
+    min-height: 61px;
+    padding: 9px 7px;
+    text-align: center;
+  }
+  .set-button:hover { transform: none; }
+  .set-button.active { box-shadow: inset 0 3px var(--green); }
+  .set-button span b { font-size: 0.65rem; }
+  .set-button span small { font-size: 0.5rem; }
+  .set-button em { display: block; margin-top: 4px; font-size: 0.54rem; }
   .progress-block { margin-top: 19px; padding: 13px 15px; }
   .legend { display: none; }
   .round-meta { min-height: 25px; }
@@ -743,6 +836,9 @@ kbd {
   .word-pair { grid-template-columns: 1fr 26px 1fr; }
   .word-side { padding: 28px 6px 17px; border-radius: 16px; }
   .hanzi { font-size: clamp(3.7rem, 22vw, 5.1rem); }
+  .hanzi.length-2 { font-size: clamp(2.7rem, 14vw, 4rem); }
+  .hanzi.length-3 { font-size: clamp(2rem, 10vw, 2.9rem); }
+  .hanzi.length-4 { font-size: clamp(1.55rem, 8vw, 2.25rem); }
   .pinyin { font-size: 1.08rem; }
   .tone-name { font-size: .56rem; }
   .memory-tip { margin-top: 12px; padding: 11px 8px; font-size: .62rem; }
