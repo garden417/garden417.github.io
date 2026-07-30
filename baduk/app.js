@@ -251,6 +251,22 @@ function resetGame() {
 }
 
 function legalAiMoves() {
+  const openingPoints = new Set(["3,3", "3,15", "15,3", "15,15", "3,9", "9,3", "9,15", "15,9"]);
+  const urgentLiberties = new Map();
+  const scannedGroups = new Set();
+
+  for (let row = 0; row < SIZE; row += 1) {
+    for (let col = 0; col < SIZE; col += 1) {
+      if (board[row][col] !== WHITE || scannedGroups.has(`${row},${col}`)) continue;
+      const group = groupAt(board, row, col);
+      group.stones.forEach(([r, c]) => scannedGroups.add(`${r},${c}`));
+      if (group.liberties.size === 1) {
+        const liberty = [...group.liberties][0];
+        urgentLiberties.set(liberty, (urgentLiberties.get(liberty) || 0) + group.stones.length);
+      }
+    }
+  }
+
   const moves = [];
   const hasStone = board.some((row) => row.some((cell) => cell !== EMPTY));
   for (let row = 0; row < SIZE; row += 1) {
@@ -265,20 +281,88 @@ function legalAiMoves() {
           }
         }
       }
+      if (history.length < 12 && openingPoints.has(`${row},${col}`)) nearby = true;
       if (!nearby) continue;
       const result = simulateMove(row, col, WHITE);
       if (!result.legal) continue;
-      const liberties = groupAt(result.next, row, col).liberties.size;
+
+      const ownGroup = groupAt(result.next, row, col);
+      const liberties = ownGroup.liberties.size;
+      const adjacentOwn = adjacentGroups(board, row, col, WHITE);
+      const adjacentEnemy = adjacentGroups(board, row, col, BLACK);
+      const pressuredEnemy = adjacentGroups(result.next, row, col, BLACK)
+        .filter((group) => group.liberties.size === 1)
+        .reduce((sum, group) => sum + group.stones.length, 0);
+      const rescueSize = urgentLiberties.get(`${row},${col}`) || 0;
       const centerDistance = Math.hypot(row - 9, col - 9);
-      const starBonus = [3, 9, 15].includes(row) && [3, 9, 15].includes(col) ? 12 : 0;
+      const edgeDistance = Math.min(row, col, SIZE - 1 - row, SIZE - 1 - col);
+      const openingBonus = history.length < 12 && openingPoints.has(`${row},${col}`) ? 150 : 0;
+      const edgeScore = edgeDistance <= 1 ? -90 : edgeDistance === 2 ? 4 : edgeDistance === 3 ? 20 : 0;
+      const selfAtariPenalty = liberties === 1 && result.captured === 0 ? 900 + ownGroup.stones.length * 30 : 0;
+      const connectionBonus = adjacentOwn.length > 1 ? (adjacentOwn.length - 1) * 28 : 0;
+      const cutBonus = adjacentEnemy.length > 1 ? (adjacentEnemy.length - 1) * 24 : 0;
+      const localResponse = lastMove ? Math.max(0, 10 - Math.hypot(row - lastMove.row, col - lastMove.col)) * 4 : 0;
+      const spacingScore = stoneSpacingScore(row, col);
+
       moves.push({
         row, col,
-        score: result.captured * 1000 + liberties * 7 + starBonus - centerDistance * .25 + Math.random() * 9
+        score:
+          result.captured * 1400 +
+          rescueSize * 1100 +
+          pressuredEnemy * 115 +
+          liberties * 11 +
+          connectionBonus +
+          cutBonus +
+          openingBonus +
+          edgeScore +
+          localResponse +
+          spacingScore -
+          centerDistance * .12 -
+          selfAtariPenalty +
+          Math.random() * 7
       });
     }
   }
   moves.sort((a, b) => b.score - a.score);
   return moves;
+}
+
+function adjacentGroups(source, row, col, color) {
+  const groups = [];
+  const seen = new Set();
+  for (const [dr, dc] of NEIGHBORS) {
+    const nr = row + dr;
+    const nc = col + dc;
+    if (!inside(nr, nc) || source[nr][nc] !== color || seen.has(`${nr},${nc}`)) continue;
+    const group = groupAt(source, nr, nc);
+    group.stones.forEach(([r, c]) => seen.add(`${r},${c}`));
+    groups.push(group);
+  }
+  return groups;
+}
+
+function stoneSpacingScore(row, col) {
+  let nearestOwn = Infinity;
+  let nearestEnemy = Infinity;
+  for (let r = 0; r < SIZE; r += 1) {
+    for (let c = 0; c < SIZE; c += 1) {
+      if (board[r][c] === EMPTY) continue;
+      const distance = Math.hypot(row - r, col - c);
+      if (board[r][c] === WHITE) nearestOwn = Math.min(nearestOwn, distance);
+      else nearestEnemy = Math.min(nearestEnemy, distance);
+    }
+  }
+
+  let score = 0;
+  if (history.length < 30) {
+    if (nearestOwn >= 3 && nearestOwn <= 7) score += 32;
+    if (nearestOwn < 2) score -= 22;
+    if (nearestEnemy >= 2 && nearestEnemy <= 5) score += 18;
+  } else {
+    if (nearestEnemy <= 3) score += 16;
+    if (nearestOwn <= 3) score += 8;
+  }
+  return score;
 }
 
 function runAiTurn() {
@@ -288,7 +372,7 @@ function runAiTurn() {
   aiTimer = window.setTimeout(() => {
     const moves = legalAiMoves();
     aiThinking = false;
-    if (!moves.length || (history.length > 30 && Math.random() < .025)) {
+    if (!moves.length || (history.length > 180 && moves[0].score < 4)) {
       aiPass();
       return;
     }
