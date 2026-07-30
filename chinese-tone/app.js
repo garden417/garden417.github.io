@@ -20,6 +20,8 @@ const elements = {
   reset: document.querySelector("#reset-button"),
   restart: document.querySelector("#restart-button"),
   statusButton: document.querySelector("#status-button"),
+  mobileStatusButton: document.querySelector("#mobile-status-button"),
+  mobileProgressText: document.querySelector("#mobile-progress-text"),
   statusClose: document.querySelector("#status-close-button"),
   statusOverlay: document.querySelector("#status-overlay"),
   statusSetLabel: document.querySelector("#status-set-label"),
@@ -207,6 +209,8 @@ function updateStatusCounts() {
   setText("mastered-mini", groups.mastered.length);
   setText("failed-mini", groups.failed.length);
   setText("unseen-mini", groups.unseen.length);
+  elements.mobileProgressText.textContent =
+    `${activeSet.shortTitle} · ${groups.mastered.length}/${pairs.length}`;
   if (!elements.statusOverlay.hidden) renderStatusLists(groups);
 }
 
@@ -305,6 +309,7 @@ elements.retry.addEventListener("click", () => decide("retry"));
 elements.reset.addEventListener("click", startGame);
 elements.restart.addEventListener("click", startGame);
 elements.statusButton.addEventListener("click", openStatus);
+elements.mobileStatusButton.addEventListener("click", openStatus);
 elements.statusClose.addEventListener("click", closeStatus);
 elements.statusOverlay.addEventListener("click", (event) => {
   if (event.target === elements.statusOverlay) closeStatus();

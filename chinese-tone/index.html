@@ -9,7 +9,7 @@
       content="같은 발음, 다른 성조의 중국어 단어를 스와이프로 익히는 학습 게임"
     />
     <title>성조 한 끗 — 중국어 단어 게임</title>
-    <link rel="stylesheet" href="./styles.css?v=3" />
+    <link rel="stylesheet" href="./styles.css?v=4" />
   </head>
   <body>
     <main class="app-shell">
@@ -89,6 +89,10 @@
         </aside>
 
         <section class="game-panel" aria-label="성조 단어 카드">
+          <div class="mobile-toolbar">
+            <span id="mobile-progress-text">1–4급 · 0/200</span>
+            <button id="mobile-status-button" type="button">전체 단어 현황</button>
+          </div>
           <div class="round-meta">
             <span id="round-label">첫 번째 카드</span>
             <span id="retry-badge" class="retry-badge" hidden>다시 만난 카드</span>
@@ -216,6 +220,6 @@
     </div>
 
     <script src="./hsk-pairs-data.js?v=3"></script>
-    <script src="./app.js?v=3"></script>
+    <script src="./app.js?v=4"></script>
   </body>
 </html>
