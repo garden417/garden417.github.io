@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#171511" />
+    <meta
+      name="description"
+      content="따뜻한 나무판 위에서 즐기는 15×15 웹 오목 게임"
+    />
+    <title>오목 한 판</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <section class="intro" aria-labelledby="game-title">
+        <div class="eyebrow">FIVE IN A ROW</div>
+        <h1 id="game-title">오목 <em>한 판</em></h1>
+        <p>먼저 다섯 개를 나란히 놓으면 이깁니다.</p>
+
+        <div class="mode-switch" aria-label="게임 모드">
+          <button class="mode-button active" type="button" data-mode="ai">
+            컴퓨터 대전
+          </button>
+          <button class="mode-button" type="button" data-mode="local">
+            2인 대전
+          </button>
+        </div>
+
+        <div class="score-card">
+          <div class="score-row">
+            <span class="stone-preview black"></span>
+            <div>
+              <small>흑돌</small>
+              <strong id="black-label">나</strong>
+            </div>
+            <b id="black-score">0</b>
+          </div>
+          <div class="score-divider"></div>
+          <div class="score-row">
+            <span class="stone-preview white"></span>
+            <div>
+              <small>백돌</small>
+              <strong id="white-label">컴퓨터</strong>
+            </div>
+            <b id="white-score">0</b>
+          </div>
+        </div>
+
+        <div class="rules-note">
+          <span aria-hidden="true">●</span>
+          흑돌이 먼저 시작합니다
+        </div>
+      </section>
+
+      <section class="play-area" aria-label="오목 게임">
+        <div class="status-bar">
+          <div class="turn-status" aria-live="polite">
+            <span id="turn-stone" class="turn-stone black"></span>
+            <div>
+              <small id="status-kicker">당신의 차례</small>
+              <strong id="status-text">흑돌을 놓아주세요</strong>
+            </div>
+          </div>
+          <div class="controls">
+            <button id="undo-button" class="icon-button" type="button" title="무르기" aria-label="무르기">
+              ↶
+            </button>
+            <button id="reset-button" class="reset-button" type="button">
+              새 게임
+            </button>
+          </div>
+        </div>
+
+        <div class="board-frame">
+          <canvas
+            id="board"
+            width="720"
+            height="720"
+            aria-label="15 곱하기 15 오목판"
+          ></canvas>
+          <div id="result-overlay" class="result-overlay" hidden>
+            <div class="result-card">
+              <span id="result-icon" class="result-icon">●</span>
+              <small>GAME OVER</small>
+              <h2 id="result-title">흑돌 승리!</h2>
+              <p id="result-message">멋진 승부였습니다.</p>
+              <button id="play-again-button" type="button">한 판 더</button>
+            </div>
+          </div>
+        </div>
+
+        <p class="board-hint">교차점을 눌러 돌을 놓으세요</p>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

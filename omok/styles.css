@@ -1,0 +1,493 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap");
+
+:root {
+  color-scheme: dark;
+  --ink: #191712;
+  --cream: #f4efe4;
+  --muted: #a9a295;
+  --gold: #d39b4a;
+  --panel: rgba(39, 36, 30, 0.72);
+  --line: rgba(255, 255, 255, 0.09);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background: #15130f;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--cream);
+  font-family: "Noto Sans KR", system-ui, sans-serif;
+  background:
+    radial-gradient(circle at 12% 18%, rgba(211, 155, 74, 0.09), transparent 27rem),
+    radial-gradient(circle at 82% 80%, rgba(122, 80, 37, 0.1), transparent 34rem),
+    #191713;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.055;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");
+}
+
+button {
+  color: inherit;
+  font: inherit;
+}
+
+button:focus-visible,
+canvas:focus-visible {
+  outline: 3px solid #f1bd6d;
+  outline-offset: 3px;
+}
+
+.game-shell {
+  width: min(1180px, calc(100% - 40px));
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 48px 0;
+  display: grid;
+  grid-template-columns: 310px minmax(0, 720px);
+  justify-content: center;
+  align-items: center;
+  gap: clamp(44px, 7vw, 100px);
+}
+
+.intro {
+  align-self: center;
+}
+
+.eyebrow {
+  margin-bottom: 17px;
+  color: var(--gold);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.34em;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Gowun Batang", serif;
+  font-size: clamp(3.4rem, 6vw, 5.4rem);
+  line-height: 0.98;
+  letter-spacing: -0.08em;
+}
+
+h1 em {
+  color: var(--gold);
+  font-style: normal;
+}
+
+.intro > p {
+  margin: 22px 0 34px;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
+.mode-switch {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.16);
+}
+
+.mode-button {
+  padding: 11px 8px;
+  border: 0;
+  border-radius: 8px;
+  color: #8f897e;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: 160ms ease;
+}
+
+.mode-button:hover {
+  color: var(--cream);
+}
+
+.mode-button.active {
+  color: var(--cream);
+  background: #353129;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.22);
+}
+
+.score-card {
+  margin-top: 16px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  background: var(--panel);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(14px);
+}
+
+.score-row {
+  display: grid;
+  grid-template-columns: 30px 1fr auto;
+  align-items: center;
+  gap: 11px;
+}
+
+.score-row small {
+  display: block;
+  margin-bottom: 1px;
+  color: #8f897e;
+  font-size: 0.66rem;
+}
+
+.score-row strong {
+  font-size: 0.84rem;
+}
+
+.score-row b {
+  color: var(--gold);
+  font-family: "Gowun Batang", serif;
+  font-size: 1.45rem;
+}
+
+.score-divider {
+  height: 1px;
+  margin: 12px 0;
+  background: var(--line);
+}
+
+.stone-preview,
+.turn-stone {
+  display: block;
+  flex: 0 0 auto;
+  border-radius: 50%;
+}
+
+.stone-preview {
+  width: 26px;
+  height: 26px;
+}
+
+.black {
+  background: radial-gradient(circle at 34% 27%, #58544d 0, #201f1c 38%, #050505 78%);
+  box-shadow: inset -2px -3px 5px rgba(0, 0, 0, 0.65), 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.white {
+  background: radial-gradient(circle at 34% 27%, #fff 0, #e5e0d7 45%, #aaa59d 100%);
+  box-shadow: inset -2px -3px 5px rgba(0, 0, 0, 0.15), 0 2px 5px rgba(0, 0, 0, 0.38);
+}
+
+.rules-note {
+  margin-top: 22px;
+  color: #766f64;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.rules-note span {
+  margin-right: 5px;
+  color: var(--gold);
+  font-size: 0.5rem;
+}
+
+.play-area {
+  width: 100%;
+}
+
+.status-bar {
+  min-height: 54px;
+  margin-bottom: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.turn-status {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.turn-stone {
+  width: 34px;
+  height: 34px;
+}
+
+.turn-status small {
+  display: block;
+  color: var(--gold);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.turn-status strong {
+  font-size: 0.88rem;
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+}
+
+.controls button,
+.result-card button {
+  border: 1px solid var(--line);
+  cursor: pointer;
+  transition: transform 150ms ease, background 150ms ease;
+}
+
+.controls button:active,
+.result-card button:active {
+  transform: scale(0.96);
+}
+
+.icon-button {
+  width: 43px;
+  border-radius: 11px;
+  color: #b6afa2;
+  background: #292620;
+  font-size: 1.25rem;
+}
+
+.icon-button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.reset-button {
+  padding: 0 18px;
+  border-radius: 11px;
+  background: #38342c;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.controls button:hover:not(:disabled) {
+  background: #464036;
+}
+
+.board-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: 20px;
+  background: #c48e49;
+  box-shadow:
+    0 32px 80px rgba(0, 0, 0, 0.38),
+    0 4px 9px rgba(0, 0, 0, 0.25);
+}
+
+#board {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+  cursor: crosshair;
+}
+
+.result-overlay {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgba(20, 17, 12, 0.6);
+  backdrop-filter: blur(8px);
+  animation: fade-in 240ms ease both;
+}
+
+.result-overlay[hidden] {
+  display: none;
+}
+
+.result-card {
+  width: min(330px, 90%);
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 22px;
+  text-align: center;
+  background: #25221c;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
+  animation: pop-in 300ms cubic-bezier(0.2, 0.9, 0.2, 1.1) both;
+}
+
+.result-icon {
+  display: block;
+  margin-bottom: 14px;
+  color: var(--gold);
+  font-size: 2.2rem;
+}
+
+.result-card small {
+  color: var(--gold);
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+}
+
+.result-card h2 {
+  margin: 8px 0;
+  font-family: "Gowun Batang", serif;
+  font-size: 2rem;
+}
+
+.result-card p {
+  margin: 0 0 22px;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.result-card button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  color: #221b11;
+  background: var(--gold);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.board-hint {
+  margin: 13px 0 0;
+  color: #6f695f;
+  font-size: 0.68rem;
+  text-align: center;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+}
+
+@keyframes pop-in {
+  from { transform: translateY(10px) scale(0.96); opacity: 0; }
+}
+
+@media (max-width: 900px) {
+  .game-shell {
+    width: min(680px, calc(100% - 28px));
+    padding: 32px 0 46px;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .intro {
+    display: grid;
+    grid-template-columns: 1fr minmax(230px, 0.8fr);
+    column-gap: 24px;
+    align-items: end;
+  }
+
+  .eyebrow,
+  .intro > p,
+  .rules-note {
+    grid-column: 1;
+  }
+
+  h1 {
+    grid-column: 1;
+    font-size: 3.6rem;
+  }
+
+  .intro > p {
+    margin-bottom: 0;
+  }
+
+  .mode-switch,
+  .score-card {
+    grid-column: 2;
+  }
+
+  .mode-switch {
+    grid-row: 1 / 3;
+    align-self: start;
+  }
+
+  .score-card {
+    grid-row: 3 / 6;
+    margin-top: 10px;
+  }
+
+  .rules-note {
+    margin: 12px 0 0;
+    text-align: left;
+  }
+}
+
+@media (max-width: 560px) {
+  .game-shell {
+    width: calc(100% - 20px);
+    padding-top: 25px;
+  }
+
+  .intro {
+    display: block;
+  }
+
+  .eyebrow {
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 3.3rem;
+  }
+
+  .intro > p {
+    margin: 13px 0 21px;
+  }
+
+  .score-card {
+    display: none;
+  }
+
+  .rules-note {
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  .status-bar {
+    min-height: 46px;
+    margin-bottom: 10px;
+  }
+
+  .turn-stone {
+    width: 29px;
+    height: 29px;
+  }
+
+  .turn-status strong {
+    font-size: 0.78rem;
+  }
+
+  .reset-button {
+    padding: 0 13px;
+  }
+
+  .board-frame {
+    border-radius: 13px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
