@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#111814" />
     <meta name="description" content="19×19 웹 바둑 게임" />
     <title>바둑 한 수</title>
-    <link rel="stylesheet" href="./styles.css?v=2" />
+    <link rel="stylesheet" href="./styles.css?v=3" />
   </head>
   <body>
     <main class="shell">
@@ -92,7 +92,10 @@
           </div>
 
           <div class="actions">
-            <button id="pass-button" class="primary-action" type="button">한 수 쉼</button>
+            <button id="recommendation-button" class="primary-action recommendation-action" type="button">
+              AI 추천 수 보기
+            </button>
+            <button id="pass-button" type="button">한 수 쉼</button>
             <button id="undo-button" type="button" disabled>무르기</button>
             <button id="reset-button" type="button">새 대국</button>
           </div>
@@ -120,6 +123,6 @@
       </section>
     </main>
 
-    <script src="./app.js?v=4"></script>
+    <script src="./app.js?v=5"></script>
   </body>
 </html>
