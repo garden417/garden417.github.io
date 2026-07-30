@@ -122,9 +122,9 @@ function firstDifferentTone(pair) {
 }
 
 function memoryTip(pair) {
+  if (pair.tip) return pair.tip;
   const classic = CLASSIC_MEMORY_TIPS[`${pair.a.hanzi}|${pair.b.hanzi}`];
   if (classic) return classic;
-  if (pair.tip) return pair.tip;
 
   const seed = stableNumber(pair.id);
   const [toneA, toneB] = firstDifferentTone(pair);

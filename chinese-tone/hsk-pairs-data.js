@@ -1,4 +1,4 @@
-/* Chinese-to-Korean meanings translated directly with Papago and reviewed by reading. */
+/* Chinese-to-Korean meanings translated directly with Papago. Meaning-linked mnemonics reviewed 2026-07-30. */
 window.HSK_PAIR_SETS = {
   "hsk1-4": {
     "title": "HSK 1–4급",
@@ -25,7 +25,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "…(으)로(써). …을 가지고. …을 근거로.",
           "speech": "以"
         },
-        "tip": "“1. 일. 하나”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yī</strong>; “…(으)로(써). …을 가지고. …을 근거로”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǐ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "하나는 한 획처럼 곧게 <strong>yī</strong>, ‘~로써’는 근거를 깊이 짚었다 꺼내듯 <strong>yǐ</strong>"
       },
       {
         "id": "hsk1-4-002",
@@ -35,7 +35,7 @@ window.HSK_PAIR_SETS = {
           "pinyin": "bā",
           "tones": "1",
           "level": 2,
-          "meaning": "구말(句末)에 쓰여 상의(相議)·제의(提議)·청구(請求)·명령·독촉의 어기(語氣)를 나타냄.",
+          "meaning": "제안·권유를 나타내는 말끝",
           "speech": "吧"
         },
         "b": {
@@ -46,7 +46,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "손잡이",
           "speech": "把"
         },
-        "tip": "“구말(句末)에 쓰여 상의(相議)·제의(提議)·청구(請求)·명령·독촉의 어기(語氣)를 나타냄”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bā</strong>; “손잡이”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bà</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "제안하는 말끝은 길게 이어 <strong>bā</strong>, 손잡이는 아래로 눌러 잡듯 <strong>bà</strong>"
       },
       {
         "id": "hsk1-4-003",
@@ -67,7 +67,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "오직; 단지",
           "speech": "只"
         },
-        "tip": "“가다. 이르다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhī</strong>; “오직; 단지”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǐ</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "‘~의’는 앞뒤 말을 한 줄로 이어 <strong>zhī</strong>, ‘단지’는 범위를 낮게 좁혔다 펴듯 <strong>zhǐ</strong>"
       },
       {
         "id": "hsk1-4-004",
@@ -88,7 +88,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "좋다",
           "speech": "好"
         },
-        "tip": "“울부짖다”의 장면은 기세를 위로 끌어올려 <strong>háo</strong>; “좋다”의 장면은 낮게 품었다가 다시 꺾어 <strong>hǎo</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "울부짖는 소리는 위로 치솟아 <strong>háo</strong>, 좋다는 마음은 고개를 낮췄다 끄덕여 <strong>hǎo</strong>"
       },
       {
         "id": "hsk1-4-005",
@@ -109,7 +109,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "맞다. 옳다.",
           "speech": "是"
         },
-        "tip": "“파견하다. 사람을 보내다”의 장면은 낮게 품었다가 다시 꺾어 <strong>shǐ</strong>; “맞다. 옳다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "사람을 보내려 몸을 낮췄다 출발시키듯 <strong>shǐ</strong>, 맞다는 판결은 아래로 확정해 <strong>shì</strong>"
       },
       {
         "id": "hsk1-4-006",
@@ -130,7 +130,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "곳. 자리. 위치.",
           "speech": "位"
         },
-        "tip": "“~이 되다; ~로서”의 장면은 기세를 위로 끌어올려 <strong>wéi</strong>; “곳. 자리. 위치”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wèi</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "무언가가 되어 가는 기세는 위로 <strong>wéi</strong>, 자리는 표지판을 꽂듯 아래로 <strong>wèi</strong>"
       },
       {
         "id": "hsk1-4-007",
@@ -151,7 +151,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "주다",
           "speech": "给"
         },
-        "tip": "“작은 탁자; 거의”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jī</strong>; “주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "작은 탁자 표면은 반듯하게 <strong>jī</strong>, 줄 때는 품었다 내어 주듯 낮게 꺾어 <strong>jǐ</strong>"
       },
       {
         "id": "hsk1-4-008",
@@ -172,7 +172,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "(인물을, 혹은 인위적으로) 본뜬 형상. 본떠 그린 모양.)",
           "speech": "像"
         },
-        "tip": "“생각하다.)”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎng</strong>; “(인물을, 혹은 인위적으로) 본뜬 형상. 본떠 그린 모양.)”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "생각은 고개를 숙였다 떠올리듯 <strong>xiǎng</strong>, 형상은 도장을 찍어 굳히듯 <strong>xiàng</strong>"
       },
       {
         "id": "hsk1-4-009",
@@ -193,7 +193,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "향",
           "speech": "向"
         },
-        "tip": "“생각하다.)”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎng</strong>; “향”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàng</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "생각은 마음 깊이 품었다 꺼내 <strong>xiǎng</strong>, 방향은 화살표를 단호히 가리켜 <strong>xiàng</strong>"
       },
       {
         "id": "hsk1-4-010",
@@ -214,7 +214,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "찾다. 구하다. 물색하다.",
           "speech": "找"
         },
-        "tip": "“수; 방법”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhāo</strong>; “찾다. 구하다. 물색하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǎo</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "방법은 길게 펼쳐 두고 <strong>zhāo</strong>, 찾을 때는 고개를 낮췄다 들어 <strong>zhǎo</strong>"
       },
       {
         "id": "hsk1-4-011",
@@ -224,7 +224,7 @@ window.HSK_PAIR_SETS = {
           "pinyin": "bā",
           "tones": "1",
           "level": 2,
-          "meaning": "구말(句末)에 쓰여 상의(相議)·제의(提議)·청구(請求)·명령·독촉의 어기(語氣)를 나타냄.",
+          "meaning": "제안·권유를 나타내는 말끝",
           "speech": "吧"
         },
         "b": {
@@ -235,7 +235,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "잡다; ~을/를",
           "speech": "把"
         },
-        "tip": "“구말(句末)에 쓰여 상의(相議)·제의(提議)·청구(請求)·명령·독촉의 어기(語氣)를 나타냄”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bā</strong>; “잡다; ~을/를”의 장면은 낮게 품었다가 다시 꺾어 <strong>bǎ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“제안하는 말끝”은 말끝을 길고 고르게 이어 <strong>bā</strong>, 반면 “잡다”는 손을 오므려 잡았다 다시 펴며 꺾어 <strong>bǎ</strong>."
       },
       {
         "id": "hsk1-4-012",
@@ -256,7 +256,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "찾다. 구하다. 물색하다.",
           "speech": "找"
         },
-        "tip": "“닿다; 붙다”의 장면은 기세를 위로 끌어올려 <strong>zháo</strong>; “찾다. 구하다. 물색하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǎo</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“붙다”는 몸의 기세를 위로 끌어올려 <strong>zháo</strong>; “찾다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>zhǎo</strong>."
       },
       {
         "id": "hsk1-4-013",
@@ -277,7 +277,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "또. 다시. 거듭. [반복 또는 연속을 표시]",
           "speech": "又"
         },
-        "tip": "“원인. 이유. 유래”의 장면은 기세를 위로 끌어올려 <strong>yóu</strong>; “또. 다시. 거듭. [반복 또는 연속을 표시]”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yòu</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "이유는 머릿속에 떠오르듯 <strong>yóu</strong>, ‘또’는 한 번 더 도장을 찍듯 <strong>yòu</strong>"
       },
       {
         "id": "hsk1-4-014",
@@ -287,7 +287,7 @@ window.HSK_PAIR_SETS = {
           "pinyin": "ní",
           "tones": "2",
           "level": 1,
-          "meaning": "의문문(疑問文)의 끝에 써서 의문의 어기(語氣)를 나타냄. [특히 지시 의문문·선택 의문문 또는 반복 의문문에 쓰임]",
+          "meaning": "의문을 나타내는 말끝",
           "speech": "呢"
         },
         "b": {
@@ -298,7 +298,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "너. 자네. 당신.",
           "speech": "你"
         },
-        "tip": "“의문문(疑問文)의 끝에 써서 의문의 어기(語氣)를 나타냄. [특히 지시 의문문·선택 의문문 또는 반복 의문문에 쓰임]”의 장면은 기세를 위로 끌어올려 <strong>ní</strong>; “너. 자네. 당신”의 장면은 낮게 품었다가 다시 꺾어 <strong>nǐ</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "묻는 말끝은 상대에게 올려 <strong>ní</strong>, 너를 볼 땐 고개를 숙였다 들어 <strong>nǐ</strong>"
       },
       {
         "id": "hsk1-4-015",
@@ -308,7 +308,7 @@ window.HSK_PAIR_SETS = {
           "pinyin": "sǐ",
           "tones": "3",
           "level": 4,
-          "meaning": "죽다., 生(1d))",
+          "meaning": "죽다",
           "speech": "死"
         },
         "b": {
@@ -319,7 +319,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "4. 넷.",
           "speech": "四"
         },
-        "tip": "“죽다., 生(1d))”의 장면은 낮게 품었다가 다시 꺾어 <strong>sǐ</strong>; “4. 넷”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>sì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "죽음은 깊이 가라앉았다 마지막 숨처럼 꺾여 <strong>sǐ</strong>, 넷은 네 번째 칸에 도장을 찍어 <strong>sì</strong>"
       },
       {
         "id": "hsk1-4-016",
@@ -340,7 +340,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "신용. 신의. 믿음.",
           "speech": "信"
         },
-        "tip": "“새롭다. 새로운”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xīn</strong>; “신용. 신의. 믿음”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xìn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "새 종이는 반듯하게 펼쳐 <strong>xīn</strong>, 믿음은 약속에 도장을 찍듯 <strong>xìn</strong>"
       },
       {
         "id": "hsk1-4-017",
@@ -358,10 +358,10 @@ window.HSK_PAIR_SETS = {
           "pinyin": "dì",
           "tones": "4",
           "level": 3,
-          "meaning": "지구(地球). 대지.",
+          "meaning": "땅; 대지",
           "speech": "地"
         },
-        "tip": "“택시”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dī</strong>; “지구(地球). 대지”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "택시는 곧은 도로를 달려 <strong>dī</strong>, 대지는 발밑으로 묵직하게 내려 <strong>dì</strong>"
       },
       {
         "id": "hsk1-4-018",
@@ -382,7 +382,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "2. 둘.",
           "speech": "二"
         },
-        "tip": "“같은 종류의 단어 또는 문을 접속함. 단, 명사는 접속할 수 없음”의 장면은 기세를 위로 끌어올려 <strong>ér</strong>; “2. 둘”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>èr</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "‘그리고’는 앞말에서 뒷말로 올라 이어 <strong>ér</strong>, 둘은 두 번째 칸에 딱 내려 <strong>èr</strong>"
       },
       {
         "id": "hsk1-4-019",
@@ -403,7 +403,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "또. 다시. 거듭. [반복 또는 연속을 표시]",
           "speech": "又"
         },
-        "tip": "“가지고 있다. 소유하다. [소유를 나타냄]”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǒu</strong>; “또. 다시. 거듭. [반복 또는 연속을 표시]”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yòu</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "가진 것은 주머니 깊이 넣었다 꺼내 <strong>yǒu</strong>, ‘또’는 같은 자리에 한 번 더 찍어 <strong>yòu</strong>"
       },
       {
         "id": "hsk1-4-020",
@@ -424,7 +424,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "맞다. 옳다.",
           "speech": "是"
         },
-        "tip": "숫자 10은 올라가는 <strong>shí</strong>, 확답은 내려찍는 <strong>shì</strong>"
+        "tip": "열까지 세며 마지막 수를 올려 <strong>shí</strong>, ‘맞다’는 판결에 마침표를 찍어 <strong>shì</strong>"
       },
       {
         "id": "hsk1-4-021",
@@ -445,7 +445,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "자라다; 우두머리",
           "speech": "长"
         },
-        "tip": "“장”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhāng</strong>; “자라다; 우두머리”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǎng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "펼친 종이는 평평하게 <strong>zhāng</strong>, 자랄 때는 몸을 낮췄다 키를 세워 <strong>zhǎng</strong>"
       },
       {
         "id": "hsk1-4-022",
@@ -484,10 +484,10 @@ window.HSK_PAIR_SETS = {
           "pinyin": "dì",
           "tones": "4",
           "level": 3,
-          "meaning": "지구(地球). 대지.",
+          "meaning": "땅; 대지",
           "speech": "地"
         },
-        "tip": "“확실히; 정말”의 장면은 기세를 위로 끌어올려 <strong>dí</strong>; “지구(地球). 대지”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“확실히”는 모습이 눈앞에 떠오르듯 올려 <strong>dí</strong>, 반면 “땅”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>dì</strong>."
       },
       {
         "id": "hsk1-4-024",
@@ -505,10 +505,10 @@ window.HSK_PAIR_SETS = {
           "pinyin": "nǎ",
           "tones": "3",
           "level": 1,
-          "meaning": "어느. 어떤. 어디. [그 뒤에 양사(量詞)나 수량사(數量詞)를 써서, 여러 사람·시간·장소·사물 가운데서 하나를 나타냄]",
+          "meaning": "어느; 어디",
           "speech": "哪"
         },
-        "tip": "“(손으로) 잡다. (손에) 쥐다. 가지다”의 장면은 기세를 위로 끌어올려 <strong>ná</strong>; “어느. 어떤. 어디. [그 뒤에 양사(量詞)나 수량사(數量詞)를 써서, 여러 사람·시간·장소·사물 가운데서 하나를 나타냄]”의 장면은 낮게 품었다가 다시 꺾어 <strong>nǎ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "물건은 손으로 들어 올려 <strong>ná</strong>, 어느 것인지 찾을 땐 시선을 낮췄다 들어 <strong>nǎ</strong>"
       },
       {
         "id": "hsk1-4-025",
@@ -529,7 +529,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "말",
           "speech": "马"
         },
-        "tip": "“마”의 장면은 기세를 위로 끌어올려 <strong>má</strong>; “말”의 장면은 낮게 품었다가 다시 꺾어 <strong>mǎ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "묻는 ‘마?’는 말끝을 올려 <strong>má</strong>, 말은 고개를 낮췄다 들듯 <strong>mǎ</strong>"
       },
       {
         "id": "hsk1-4-026",
@@ -550,7 +550,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "~와; 화목하다",
           "speech": "和"
         },
-        "tip": "“마시다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>hē</strong>; “~와; 화목하다”의 장면은 기세를 위로 끌어올려 <strong>hé</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "마실 때는 잔을 수평으로 기울여 <strong>hē</strong>, ‘~와’는 두 말을 위로 이어 <strong>hé</strong>"
       },
       {
         "id": "hsk1-4-027",
@@ -571,7 +571,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "큰소리로 외치다",
           "speech": "喝"
         },
-        "tip": "“~와; 화목하다”의 장면은 기세를 위로 끌어올려 <strong>hé</strong>; “큰소리로 외치다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hè</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“~와”는 문장의 흐름을 다음 말로 올려 보내 <strong>hé</strong>; “큰소리로 외치다”는 문장을 딱 잘라 끝내며 내려 <strong>hè</strong>."
       },
       {
         "id": "hsk1-4-028",
@@ -592,7 +592,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "번호; 호",
           "speech": "号"
         },
-        "tip": "“좋다”의 장면은 낮게 품었다가 다시 꺾어 <strong>hǎo</strong>; “번호; 호”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hào</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "좋다는 마음은 고개를 낮췄다 끄덕여 <strong>hǎo</strong>, 번호는 명패에 딱 찍어 <strong>hào</strong>"
       },
       {
         "id": "hsk1-4-029",
@@ -613,7 +613,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "손가락.",
           "speech": "指"
         },
-        "tip": "“가다. 이르다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhī</strong>; “손가락”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǐ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“~의”는 앞말과 뒷말을 끊김 없이 이어 <strong>zhī</strong>, 반면 “손가락”은 고개를 숙였다 다시 들며 꺾어 <strong>zhǐ</strong>."
       },
       {
         "id": "hsk1-4-030",
@@ -634,7 +634,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "매. 각. …마다[모두].",
           "speech": "每"
         },
-        "tip": "“없다; 아직 ~않다”의 장면은 기세를 위로 끌어올려 <strong>méi</strong>; “매. 각. …마다[모두]”의 장면은 낮게 품었다가 다시 꺾어 <strong>měi</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“없다”는 문장의 흐름을 다음 말로 올려 보내 <strong>méi</strong>; “매”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>měi</strong>."
       },
       {
         "id": "hsk1-4-031",
@@ -655,7 +655,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "저것. 그것. 저것들. [말하는 당사자로부터 멀리 떨어진 곳에 있는 사람·사물을 가리킴]",
           "speech": "那"
         },
-        "tip": "“(손으로) 잡다. (손에) 쥐다. 가지다”의 장면은 기세를 위로 끌어올려 <strong>ná</strong>; “저것. 그것. 저것들. [말하는 당사자로부터 멀리 떨어진 곳에 있는 사람·사물을 가리킴]”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>nà</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“잡다”는 손잡이를 위로 들어 올리듯 <strong>ná</strong>. 이어서 “저것”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>nà</strong>."
       },
       {
         "id": "hsk1-4-032",
@@ -676,7 +676,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "가지고 있다. 소유하다. [소유를 나타냄]",
           "speech": "有"
         },
-        "tip": "“원인. 이유. 유래”의 장면은 기세를 위로 끌어올려 <strong>yóu</strong>; “가지고 있다. 소유하다. [소유를 나타냄]”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǒu</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“이유”는 머릿속에 생각이 떠오르듯 올려 <strong>yóu</strong>, 반면 “가지고 있다”는 뜻을 속으로 한번 접었다 다시 펴며 꺾어 <strong>yǒu</strong>."
       },
       {
         "id": "hsk1-4-033",
@@ -697,7 +697,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "얼굴",
           "speech": "脸"
         },
-        "tip": "“마저도”의 장면은 기세를 위로 끌어올려 <strong>lián</strong>; “얼굴”의 장면은 낮게 품었다가 다시 꺾어 <strong>liǎn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“마저도”는 모습이 눈앞에 떠오르듯 올려 <strong>lián</strong>; “얼굴”은 고개를 숙였다 다시 들며 꺾어 <strong>liǎn</strong>."
       },
       {
         "id": "hsk1-4-034",
@@ -718,7 +718,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "교환하다. 바꾸다.",
           "speech": "换"
         },
-        "tip": "“돌려주다; 갚다”의 장면은 기세를 위로 끌어올려 <strong>huán</strong>; “교환하다. 바꾸다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>huàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“돌려주다”는 상대 손으로 들어 올려 건네듯 <strong>huán</strong>. 이어서 “교환하다”는 영수증에 도장을 찍듯 내려 <strong>huàn</strong>."
       },
       {
         "id": "hsk1-4-035",
@@ -739,7 +739,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "웃다.",
           "speech": "笑"
         },
-        "tip": "“(체적·면적·용량·소리 따위가) 작다. (수량이) 적다. (정도가) 얕다. (나이가) 어리다. (힘·강도 따위가) 약하다. (장소·도량 따위가) 좁다.)”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎo</strong>; “웃다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiào</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“작다”는 속으로 눌렀다 다시 드러내듯 꺾어 <strong>xiǎo</strong>, 반면 “웃다”는 동작을 단호하게 마치며 내려 <strong>xiào</strong>."
       },
       {
         "id": "hsk1-4-036",
@@ -757,10 +757,10 @@ window.HSK_PAIR_SETS = {
           "pinyin": "dì",
           "tones": "4",
           "level": 3,
-          "meaning": "지구(地球). 대지.",
+          "meaning": "땅; 대지",
           "speech": "地"
         },
-        "tip": "“낮다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dī</strong>; “지구(地球). 대지”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dì</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“낮다”는 그 상태를 한결같고 오래 유지해 <strong>dī</strong>; “땅”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>dì</strong>."
       },
       {
         "id": "hsk1-4-037",
@@ -770,7 +770,7 @@ window.HSK_PAIR_SETS = {
           "pinyin": "tái",
           "tones": "2",
           "level": 4,
-          "meaning": "타이저우(台州). [저장(浙江)성에 있는 시 이름]",
+          "meaning": "대; 받침대",
           "speech": "台"
         },
         "b": {
@@ -781,7 +781,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "지나치게. 몹시. 너무.",
           "speech": "太"
         },
-        "tip": "“타이저우(台州). [저장(浙江)성에 있는 시 이름]”의 장면은 기세를 위로 끌어올려 <strong>tái</strong>; “지나치게. 몹시. 너무”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tài</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“대”는 모습이 눈앞에 떠오르듯 올려 <strong>tái</strong>. 이어서 “지나치게”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>tài</strong>."
       },
       {
         "id": "hsk1-4-038",
@@ -802,7 +802,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "떠나다.",
           "speech": "去"
         },
-        "tip": "“가지다. 찾다. 찾아 가지다. 받다”의 장면은 낮게 품었다가 다시 꺾어 <strong>qǔ</strong>; “떠나다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>qù</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“가지다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>qǔ</strong>, 반면 “떠나다”는 동작을 단호하게 마치며 내려 <strong>qù</strong>."
       },
       {
         "id": "hsk1-4-039",
@@ -812,7 +812,7 @@ window.HSK_PAIR_SETS = {
           "pinyin": "nǎ",
           "tones": "3",
           "level": 1,
-          "meaning": "어느. 어떤. 어디. [그 뒤에 양사(量詞)나 수량사(數量詞)를 써서, 여러 사람·시간·장소·사물 가운데서 하나를 나타냄]",
+          "meaning": "어느; 어디",
           "speech": "哪"
         },
         "b": {
@@ -823,7 +823,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "저것. 그것. 저것들. [말하는 당사자로부터 멀리 떨어진 곳에 있는 사람·사물을 가리킴]",
           "speech": "那"
         },
-        "tip": "“어느. 어떤. 어디. [그 뒤에 양사(量詞)나 수량사(數量詞)를 써서, 여러 사람·시간·장소·사물 가운데서 하나를 나타냄]”의 장면은 낮게 품었다가 다시 꺾어 <strong>nǎ</strong>; “저것. 그것. 저것들. [말하는 당사자로부터 멀리 떨어진 곳에 있는 사람·사물을 가리킴]”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>nà</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“어느”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>nǎ</strong>; “저것”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>nà</strong>."
       },
       {
         "id": "hsk1-4-040",
@@ -844,7 +844,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "가장. 제일. 으뜸으로. 더없이. 대단히. 매우.",
           "speech": "最"
         },
-        "tip": "“입의 통칭. 부리. 주둥이”의 장면은 낮게 품었다가 다시 꺾어 <strong>zuǐ</strong>; “가장. 제일. 으뜸으로. 더없이. 대단히. 매우”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zuì</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“입의 통칭”은 고개를 숙였다 다시 들며 꺾어 <strong>zuǐ</strong>. 이어서 “가장”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>zuì</strong>."
       },
       {
         "id": "hsk1-4-041",
@@ -854,7 +854,7 @@ window.HSK_PAIR_SETS = {
           "pinyin": "jiāo",
           "tones": "1",
           "level": 4,
-          "meaning": "넘기다. 건네다. 내다. 제출하다. 바치다. 주다., 给, 缴)",
+          "meaning": "건네다; 사귀다",
           "speech": "交"
         },
         "b": {
@@ -865,7 +865,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "외치다. 고함치다. 소리지르다. 소리치다. 부르짖다.",
           "speech": "叫"
         },
-        "tip": "“넘기다. 건네다. 내다. 제출하다. 바치다. 주다., 给, 缴)”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiāo</strong>; “외치다. 고함치다. 소리지르다. 소리치다. 부르짖다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiào</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“건네다”는 두 손을 수평으로 곧게 내밀어 <strong>jiāo</strong>, 반면 “외치다”는 문장을 딱 잘라 끝내며 내려 <strong>jiào</strong>."
       },
       {
         "id": "hsk1-4-042",
@@ -886,7 +886,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "파견하다. 사람을 보내다.",
           "speech": "使"
         },
-        "tip": "“십. 열”의 장면은 기세를 위로 끌어올려 <strong>shí</strong>; “파견하다. 사람을 보내다”의 장면은 낮게 품었다가 다시 꺾어 <strong>shǐ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“십”은 차례를 한 칸 위로 올리며 <strong>shí</strong>; “시키다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>shǐ</strong>."
       },
       {
         "id": "hsk1-4-043",
@@ -907,7 +907,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "5. 다섯. 다섯째.",
           "speech": "五"
         },
-        "tip": "“무”의 장면은 기세를 위로 끌어올려 <strong>wú</strong>; “5. 다섯. 다섯째”의 장면은 낮게 품었다가 다시 꺾어 <strong>wǔ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“무”는 모습이 눈앞에 떠오르듯 올려 <strong>wú</strong>. 이어서 “다섯”은 수를 낮게 짚었다 다시 세어 올리며 <strong>wǔ</strong>."
       },
       {
         "id": "hsk1-4-044",
@@ -928,7 +928,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "먹이를 주다; 여보세요",
           "speech": "喂"
         },
-        "tip": "“~이 되다; ~로서”의 장면은 기세를 위로 끌어올려 <strong>wéi</strong>; “먹이를 주다; 여보세요”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wèi</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“되다”는 문장의 흐름을 다음 말로 올려 보내 <strong>wéi</strong>, 반면 “먹이를 주다”는 상대 손에 확실히 내려놓듯 내려 <strong>wèi</strong>."
       },
       {
         "id": "hsk1-4-045",
@@ -949,7 +949,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "외치다. 고함치다. 소리지르다. 소리치다. 부르짖다.",
           "speech": "叫"
         },
-        "tip": "“발”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎo</strong>; “외치다. 고함치다. 소리지르다. 소리치다. 부르짖다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiào</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“발”은 고개를 숙였다 다시 들며 꺾어 <strong>jiǎo</strong>; “외치다”는 문장을 딱 잘라 끝내며 내려 <strong>jiào</strong>."
       },
       {
         "id": "hsk1-4-046",
@@ -970,7 +970,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "거짓; 가짜",
           "speech": "假"
         },
-        "tip": "“집”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiā</strong>; “거짓; 가짜”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎ</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“집”은 지평선을 따라 넓고 반듯하게 펼쳐 <strong>jiā</strong>. 이어서 “거짓”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jiǎ</strong>."
       },
       {
         "id": "hsk1-4-047",
@@ -991,7 +991,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "~와; 주다",
           "speech": "与"
         },
-        "tip": "“물고기”의 장면은 기세를 위로 끌어올려 <strong>yú</strong>; “~와; 주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǔ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“물고기”는 고개를 번쩍 들어 올리듯 <strong>yú</strong>, 반면 “~와”는 뜻을 속으로 한번 접었다 다시 펴며 꺾어 <strong>yǔ</strong>."
       },
       {
         "id": "hsk1-4-048",
@@ -1012,7 +1012,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "외치다. 고함치다. 소리지르다. 소리치다. 부르짖다.",
           "speech": "叫"
         },
-        "tip": "“가르치다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiāo</strong>; “외치다. 고함치다. 소리지르다. 소리치다. 부르짖다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiào</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“가르치다”는 동작을 멈추지 않고 곧게 이어 <strong>jiāo</strong>; “외치다”는 문장을 딱 잘라 끝내며 내려 <strong>jiào</strong>."
       },
       {
         "id": "hsk1-4-049",
@@ -1030,10 +1030,10 @@ window.HSK_PAIR_SETS = {
           "pinyin": "dì",
           "tones": "4",
           "level": 3,
-          "meaning": "지구(地球). 대지.",
+          "meaning": "땅; 대지",
           "speech": "地"
         },
-        "tip": "“바닥”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǐ</strong>; “지구(地球). 대지”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“바닥”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>dǐ</strong>. 이어서 “땅”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>dì</strong>."
       },
       {
         "id": "hsk1-4-050",
@@ -1054,7 +1054,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "시험",
           "speech": "试"
         },
-        "tip": "“파견하다. 사람을 보내다”의 장면은 낮게 품었다가 다시 꺾어 <strong>shǐ</strong>; “시험”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“시키다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>shǐ</strong>, 반면 “시험”은 판단에 마침표를 찍듯 내려 <strong>shì</strong>."
       },
       {
         "id": "hsk1-4-051",
@@ -1075,7 +1075,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "만",
           "speech": "万"
         },
-        "tip": "“놀다. 놀이하다. 장난하다”의 장면은 기세를 위로 끌어올려 <strong>wán</strong>; “만”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wàn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“놀다”는 몸의 기세를 위로 끌어올려 <strong>wán</strong>; “만”은 마지막 수에 도장을 찍듯 내려 <strong>wàn</strong>."
       },
       {
         "id": "hsk1-4-052",
@@ -1096,7 +1096,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "휴가",
           "speech": "假"
         },
-        "tip": "“집”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiā</strong>; “휴가”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jià</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“집”은 지평선을 따라 넓고 반듯하게 펼쳐 <strong>jiā</strong>. 이어서 “휴가”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jià</strong>."
       },
       {
         "id": "hsk1-4-053",
@@ -1117,7 +1117,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "만",
           "speech": "万"
         },
-        "tip": "“완전하다. 완벽하다”의 장면은 기세를 위로 끌어올려 <strong>wán</strong>; “만”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wàn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“완전하다”는 몸의 기세를 위로 끌어올려 <strong>wán</strong>, 반면 “만”은 마지막 수에 도장을 찍듯 내려 <strong>wàn</strong>."
       },
       {
         "id": "hsk1-4-054",
@@ -1138,7 +1138,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "확실히; 정말",
           "speech": "的"
         },
-        "tip": "“낮다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dī</strong>; “확실히; 정말”의 장면은 기세를 위로 끌어올려 <strong>dí</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“낮다”는 그 상태를 한결같고 오래 유지해 <strong>dī</strong>; “확실히”는 모습이 눈앞에 떠오르듯 올려 <strong>dí</strong>."
       },
       {
         "id": "hsk1-4-055",
@@ -1159,7 +1159,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "6",
           "speech": "六"
         },
-        "tip": "“남김”의 장면은 기세를 위로 끌어올려 <strong>liú</strong>; “6”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>liù</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“남김”은 모습이 눈앞에 떠오르듯 올려 <strong>liú</strong>. 이어서 “6”는 마지막 수에 도장을 찍듯 내려 <strong>liù</strong>."
       },
       {
         "id": "hsk1-4-056",
@@ -1180,7 +1180,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "바닥",
           "speech": "底"
         },
-        "tip": "“택시”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dī</strong>; “바닥”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǐ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“택시”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>dī</strong>, 반면 “바닥”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>dǐ</strong>."
       },
       {
         "id": "hsk1-4-057",
@@ -1201,7 +1201,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "섞다",
           "speech": "和"
         },
-        "tip": "“불”의 장면은 낮게 품었다가 다시 꺾어 <strong>huǒ</strong>; “섞다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>huò</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“불”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>huǒ</strong>; “섞다”는 동작을 단호하게 마치며 내려 <strong>huò</strong>."
       },
       {
         "id": "hsk1-4-058",
@@ -1222,7 +1222,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "과녁; 목표",
           "speech": "的"
         },
-        "tip": "“낮다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dī</strong>; “과녁; 목표”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“낮다”는 그 상태를 한결같고 오래 유지해 <strong>dī</strong>. 이어서 “과녁”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>dì</strong>."
       },
       {
         "id": "hsk1-4-059",
@@ -1243,7 +1243,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "쓰다",
           "speech": "写"
         },
-        "tip": "“신발”의 장면은 기세를 위로 끌어올려 <strong>xié</strong>; “쓰다”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiě</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“신발”은 턱을 들어 상대를 바라보듯 올려 <strong>xié</strong>, 반면 “쓰다”는 속으로 한번 되짚었다 꺼내듯 꺾어 <strong>xiě</strong>."
       },
       {
         "id": "hsk1-4-060",
@@ -1264,7 +1264,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "하다; 줄기",
           "speech": "干"
         },
-        "tip": "“감히”의 장면은 낮게 품었다가 다시 꺾어 <strong>gǎn</strong>; “하다; 줄기”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>gàn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“감히”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>gǎn</strong>; “하다”는 동작을 단호하게 마치며 내려 <strong>gàn</strong>."
       },
       {
         "id": "hsk1-4-061",
@@ -1285,7 +1285,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "~을 위하여; 때문에",
           "speech": "为"
         },
-        "tip": "“여보세요”의 장면은 기세를 위로 끌어올려 <strong>wéi</strong>; “~을 위하여; 때문에”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wèi</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“여보세요”는 모습이 눈앞에 떠오르듯 올려 <strong>wéi</strong>. 이어서 “~을 위하여”는 문장 관계를 딱 끊어 아래로 내려 <strong>wèi</strong>."
       },
       {
         "id": "hsk1-4-062",
@@ -1306,7 +1306,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "손잡이",
           "speech": "把"
         },
-        "tip": "“8”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bā</strong>; “손잡이”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bà</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“8”는 한 줄로 반듯하게 세며 <strong>bā</strong>, 반면 “손잡이”는 손잡이를 아래로 단번에 당기듯 내려 <strong>bà</strong>."
       },
       {
         "id": "hsk1-4-063",
@@ -1327,7 +1327,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "약",
           "speech": "药"
         },
-        "tip": "“요구하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yāo</strong>; “약”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yào</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“요구하다”는 동작을 멈추지 않고 곧게 이어 <strong>yāo</strong>; “약”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>yào</strong>."
       },
       {
         "id": "hsk1-4-064",
@@ -1348,7 +1348,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "곳. 자리. 위치.",
           "speech": "位"
         },
-        "tip": "“여보세요”의 장면은 기세를 위로 끌어올려 <strong>wéi</strong>; “곳. 자리. 위치”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wèi</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“여보세요”는 모습이 눈앞에 떠오르듯 올려 <strong>wéi</strong>. 이어서 “자리”는 그 자리에 표지판을 꽂듯 내려 <strong>wèi</strong>."
       },
       {
         "id": "hsk1-4-065",
@@ -1369,7 +1369,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "참여하다",
           "speech": "与"
         },
-        "tip": "“물고기”의 장면은 기세를 위로 끌어올려 <strong>yú</strong>; “참여하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yù</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“물고기”는 고개를 번쩍 들어 올리듯 <strong>yú</strong>, 반면 “참여하다”는 동작을 단호하게 마치며 내려 <strong>yù</strong>."
       },
       {
         "id": "hsk1-4-066",
@@ -1390,7 +1390,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "바닥",
           "speech": "底"
         },
-        "tip": "“확실히; 정말”의 장면은 기세를 위로 끌어올려 <strong>dí</strong>; “바닥”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǐ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“확실히”는 모습이 눈앞에 떠오르듯 올려 <strong>dí</strong>; “바닥”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>dǐ</strong>."
       },
       {
         "id": "hsk1-4-067",
@@ -1411,7 +1411,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "시험",
           "speech": "试"
         },
-        "tip": "“십. 열”의 장면은 기세를 위로 끌어올려 <strong>shí</strong>; “시험”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“십”은 차례를 한 칸 위로 올리며 <strong>shí</strong>. 이어서 “시험”은 판단에 마침표를 찍듯 내려 <strong>shì</strong>."
       },
       {
         "id": "hsk1-4-068",
@@ -1432,7 +1432,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "배",
           "speech": "船"
         },
-        "tip": "“(구멍을) 뚫다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>chuān</strong>; “배”의 장면은 기세를 위로 끌어올려 <strong>chuán</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“뚫다”는 동작을 멈추지 않고 곧게 이어 <strong>chuān</strong>, 반면 “배”는 모습이 눈앞에 떠오르듯 올려 <strong>chuán</strong>."
       },
       {
         "id": "hsk1-4-069",
@@ -1453,7 +1453,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "멀다",
           "speech": "远"
         },
-        "tip": "“원”의 장면은 기세를 위로 끌어올려 <strong>yuán</strong>; “멀다”의 장면은 낮게 품었다가 다시 꺾어 <strong>yuǎn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“원”은 모습이 눈앞에 떠오르듯 올려 <strong>yuán</strong>; “멀다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>yuǎn</strong>."
       },
       {
         "id": "hsk1-4-070",
@@ -1474,7 +1474,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "주다",
           "speech": "给"
         },
-        "tip": "“극”의 장면은 기세를 위로 끌어올려 <strong>jí</strong>; “주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“극”은 모습이 눈앞에 떠오르듯 올려 <strong>jí</strong>. 이어서 “주다”는 품에 안았다 다시 내어 주듯 꺾어 <strong>jǐ</strong>."
       },
       {
         "id": "hsk1-4-071",
@@ -1495,7 +1495,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "돌이켜보다",
           "speech": "省"
         },
-        "tip": "“행”의 장면은 기세를 위로 끌어올려 <strong>xíng</strong>; “돌이켜보다”의 장면은 낮게 품었다가 다시 꺾어 <strong>xǐng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“행”은 모습이 눈앞에 떠오르듯 올려 <strong>xíng</strong>, 반면 “돌이켜보다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>xǐng</strong>."
       },
       {
         "id": "hsk1-4-072",
@@ -1516,7 +1516,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "주",
           "speech": "住"
         },
-        "tip": "“돼지”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhū</strong>; “주”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhù</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“돼지”는 등을 길고 반듯하게 펴 <strong>zhū</strong>; “주”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>zhù</strong>."
       },
       {
         "id": "hsk1-4-073",
@@ -1537,7 +1537,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "바로",
           "speech": "就"
         },
-        "tip": "“오래”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǔ</strong>; “바로”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiù</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“오래”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jiǔ</strong>. 이어서 “바로”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jiù</strong>."
       },
       {
         "id": "hsk1-4-074",
@@ -1558,7 +1558,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "깨",
           "speech": "醒"
         },
-        "tip": "“행”의 장면은 기세를 위로 끌어올려 <strong>xíng</strong>; “깨”의 장면은 낮게 품었다가 다시 꺾어 <strong>xǐng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“행”은 모습이 눈앞에 떠오르듯 올려 <strong>xíng</strong>, 반면 “깨”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>xǐng</strong>."
       },
       {
         "id": "hsk1-4-075",
@@ -1579,7 +1579,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "밝음",
           "speech": "亮"
         },
-        "tip": "“양”의 장면은 낮게 품었다가 다시 꺾어 <strong>liǎng</strong>; “밝음”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>liàng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“양”은 몸을 낮췄다 힘차게 뛰어오르듯 꺾어 <strong>liǎng</strong>; “밝음”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>liàng</strong>."
       },
       {
         "id": "hsk1-4-076",
@@ -1600,7 +1600,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "괜찮다",
           "speech": "挺"
         },
-        "tip": "“듣다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tīng</strong>; “괜찮다”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǐng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“듣다”는 목소리를 길고 고르게 이어 <strong>tīng</strong>. 이어서 “괜찮다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>tǐng</strong>."
       },
       {
         "id": "hsk1-4-077",
@@ -1621,7 +1621,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "쉼표",
           "speech": "读"
         },
-        "tip": "“모두”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dōu</strong>; “쉼표”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dòu</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“모두”는 앞말과 뒷말을 끊김 없이 이어 <strong>dōu</strong>, 반면 “쉼표”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>dòu</strong>."
       },
       {
         "id": "hsk1-4-078",
@@ -1642,7 +1642,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "충분하다",
           "speech": "够"
         },
-        "tip": "“개”의 장면은 낮게 품었다가 다시 꺾어 <strong>gǒu</strong>; “충분하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>gòu</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“개”는 몸을 낮췄다 힘차게 뛰어오르듯 꺾어 <strong>gǒu</strong>; “충분하다”는 동작을 단호하게 마치며 내려 <strong>gòu</strong>."
       },
       {
         "id": "hsk1-4-079",
@@ -1663,7 +1663,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "과녁; 목표",
           "speech": "的"
         },
-        "tip": "“바닥”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǐ</strong>; “과녁; 목표”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“바닥”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>dǐ</strong>. 이어서 “과녁”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>dì</strong>."
       },
       {
         "id": "hsk1-4-080",
@@ -1684,7 +1684,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "단",
           "speech": "段"
         },
-        "tip": "“짧다. [공간적·시간적 거리의 짧음을 말함]”의 장면은 낮게 품었다가 다시 꺾어 <strong>duǎn</strong>; “단”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>duàn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“짧다”는 속으로 눌렀다 다시 드러내듯 꺾어 <strong>duǎn</strong>, 반면 “단”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>duàn</strong>."
       },
       {
         "id": "hsk1-4-081",
@@ -1705,7 +1705,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "극",
           "speech": "极"
         },
-        "tip": "“작은 탁자; 거의”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jī</strong>; “극”의 장면은 기세를 위로 끌어올려 <strong>jí</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“작은 탁자”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>jī</strong>; “극”은 모습이 눈앞에 떠오르듯 올려 <strong>jí</strong>."
       },
       {
         "id": "hsk1-4-082",
@@ -1726,7 +1726,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "도착하다. 도달하다. …에 이르다[미치다]. (시간·기간·날짜가) 되다.",
           "speech": "到"
         },
-        "tip": "“칼”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dāo</strong>; “도착하다. 도달하다. …에 이르다[미치다]. (시간·기간·날짜가) 되다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dào</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“칼”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>dāo</strong>. 이어서 “도착하다”는 동작을 단호하게 마치며 내려 <strong>dào</strong>."
       },
       {
         "id": "hsk1-4-083",
@@ -1736,7 +1736,7 @@ window.HSK_PAIR_SETS = {
           "pinyin": "jiāo",
           "tones": "1",
           "level": 4,
-          "meaning": "넘기다. 건네다. 내다. 제출하다. 바치다. 주다., 给, 缴)",
+          "meaning": "건네다; 사귀다",
           "speech": "交"
         },
         "b": {
@@ -1747,7 +1747,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "발",
           "speech": "脚"
         },
-        "tip": "“넘기다. 건네다. 내다. 제출하다. 바치다. 주다., 给, 缴)”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiāo</strong>; “발”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎo</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“건네다”는 두 손을 수평으로 곧게 내밀어 <strong>jiāo</strong>, 반면 “발”은 고개를 숙였다 다시 들며 꺾어 <strong>jiǎo</strong>."
       },
       {
         "id": "hsk1-4-084",
@@ -1768,7 +1768,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "될 것",
           "speech": "会"
         },
-        "tip": "“후이쭈. 회족”의 장면은 기세를 위로 끌어올려 <strong>huí</strong>; “될 것”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>huì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“후이쭈”는 모습이 눈앞에 떠오르듯 올려 <strong>huí</strong>; “될 것”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>huì</strong>."
       },
       {
         "id": "hsk1-4-085",
@@ -1789,7 +1789,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "주다",
           "speech": "请"
         },
-        "tip": "“가볍다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qīng</strong>; “주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>qǐng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“가볍다”는 그 상태를 한결같고 오래 유지해 <strong>qīng</strong>. 이어서 “주다”는 품에 안았다 다시 내어 주듯 꺾어 <strong>qǐng</strong>."
       },
       {
         "id": "hsk1-4-086",
@@ -1810,7 +1810,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "몇; 얼마나",
           "speech": "几"
         },
-        "tip": "“극”의 장면은 기세를 위로 끌어올려 <strong>jí</strong>; “몇; 얼마나”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐ</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“극”은 모습이 눈앞에 떠오르듯 올려 <strong>jí</strong>, 반면 “몇”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jǐ</strong>."
       },
       {
         "id": "hsk1-4-087",
@@ -1852,7 +1852,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "포옹",
           "speech": "抱"
         },
-        "tip": "“가방”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bāo</strong>; “포옹”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bào</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“가방”은 지평선을 따라 넓고 반듯하게 펼쳐 <strong>bāo</strong>. 이어서 “포옹”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>bào</strong>."
       },
       {
         "id": "hsk1-4-089",
@@ -1873,7 +1873,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "발",
           "speech": "脚"
         },
-        "tip": "“가르치다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiāo</strong>; “발”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎo</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“가르치다”는 동작을 멈추지 않고 곧게 이어 <strong>jiāo</strong>, 반면 “발”은 고개를 숙였다 다시 들며 꺾어 <strong>jiǎo</strong>."
       },
       {
         "id": "hsk1-4-090",
@@ -1894,7 +1894,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "빌리다",
           "speech": "借"
         },
-        "tip": "“가까이 가다. 접근하다. 접촉하다. 접하다. 닿다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiē</strong>; “빌리다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiè</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“가까이 가다”는 동작을 멈추지 않고 곧게 이어 <strong>jiē</strong>; “빌리다”는 상대 손에 확실히 내려놓듯 내려 <strong>jiè</strong>."
       },
       {
         "id": "hsk1-4-091",
@@ -1915,7 +1915,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "손가락.",
           "speech": "指"
         },
-        "tip": "“마리·개(양사)”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhī</strong>; “손가락”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǐ</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“마리·개”는 등을 길고 반듯하게 펴 <strong>zhī</strong>. 이어서 “손가락”은 고개를 숙였다 다시 들며 꺾어 <strong>zhǐ</strong>."
       },
       {
         "id": "hsk1-4-092",
@@ -1936,7 +1936,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "잡다; ~을/를",
           "speech": "把"
         },
-        "tip": "“8”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bā</strong>; “잡다; ~을/를”의 장면은 낮게 품었다가 다시 꺾어 <strong>bǎ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“8”는 한 줄로 반듯하게 세며 <strong>bā</strong>, 반면 “잡다”는 손을 오므려 잡았다 다시 펴며 꺾어 <strong>bǎ</strong>."
       },
       {
         "id": "hsk1-4-093",
@@ -1957,7 +1957,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "요리",
           "speech": "菜"
         },
-        "tip": "“비로소”의 장면은 기세를 위로 끌어올려 <strong>cái</strong>; “요리”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>cài</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“비로소”는 고개를 번쩍 들어 올리듯 <strong>cái</strong>; “요리”는 한입 삼키며 끝을 아래로 내려 <strong>cài</strong>."
       },
       {
         "id": "hsk1-4-094",
@@ -1978,7 +1978,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "등",
           "speech": "等"
         },
-        "tip": "“등”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dēng</strong>; “등”의 장면은 낮게 품었다가 다시 꺾어 <strong>děng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“등”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>dēng</strong>. 이어서 “등”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>děng</strong>."
       },
       {
         "id": "hsk1-4-095",
@@ -1999,7 +1999,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "돈",
           "speech": "钱"
         },
-        "tip": "“천”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qiān</strong>; “돈”의 장면은 기세를 위로 끌어올려 <strong>qián</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“천”은 한 줄로 반듯하게 세며 <strong>qiān</strong>, 반면 “돈”은 흥정 가격을 한 단계 올리며 <strong>qián</strong>."
       },
       {
         "id": "hsk1-4-096",
@@ -2009,7 +2009,7 @@ window.HSK_PAIR_SETS = {
           "pinyin": "jiāo",
           "tones": "1",
           "level": 4,
-          "meaning": "넘기다. 건네다. 내다. 제출하다. 바치다. 주다., 给, 缴)",
+          "meaning": "건네다; 사귀다",
           "speech": "交"
         },
         "b": {
@@ -2020,7 +2020,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "가르침; 종교",
           "speech": "教"
         },
-        "tip": "“넘기다. 건네다. 내다. 제출하다. 바치다. 주다., 给, 缴)”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiāo</strong>; “가르침; 종교”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiào</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“건네다”는 두 손을 수평으로 곧게 내밀어 <strong>jiāo</strong>; “가르침”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jiào</strong>."
       },
       {
         "id": "hsk1-4-097",
@@ -2062,7 +2062,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "(아래로) 떨어지다. 떨어뜨리다.",
           "speech": "掉"
         },
-        "tip": "“새”의 장면은 낮게 품었다가 다시 꺾어 <strong>diǎo</strong>; “(아래로) 떨어지다. 떨어뜨리다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>diào</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“새”는 몸을 낮췄다 힘차게 뛰어오르듯 꺾어 <strong>diǎo</strong>, 반면 “떨어지다”는 힘이 아래로 뚝 떨어지듯 내려 <strong>diào</strong>."
       },
       {
         "id": "hsk1-4-099",
@@ -2083,7 +2083,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "가르침; 종교",
           "speech": "教"
         },
-        "tip": "“발”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎo</strong>; “가르침; 종교”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiào</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“발”은 고개를 숙였다 다시 들며 꺾어 <strong>jiǎo</strong>; “가르침”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jiào</strong>."
       },
       {
         "id": "hsk1-4-100",
@@ -2104,7 +2104,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "생각하다.)",
           "speech": "想"
         },
-        "tip": "“향”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiāng</strong>; “생각하다.)”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“향”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>xiāng</strong>. 이어서 “생각하다”는 고개를 숙여 곰곰이 생각했다 들어 <strong>xiǎng</strong>."
       },
       {
         "id": "hsk1-4-101",
@@ -2125,7 +2125,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "장",
           "speech": "场"
         },
-        "tip": "“길다; 길이”의 장면은 기세를 위로 끌어올려 <strong>cháng</strong>; “장”의 장면은 낮게 품었다가 다시 꺾어 <strong>chǎng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“길다”는 그 기운이 점점 커지듯 올려 <strong>cháng</strong>, 반면 “장”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>chǎng</strong>."
       },
       {
         "id": "hsk1-4-102",
@@ -2146,7 +2146,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "읽다",
           "speech": "读"
         },
-        "tip": "“수도”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dū</strong>; “읽다”의 장면은 기세를 위로 끌어올려 <strong>dú</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“수도”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>dū</strong>; “읽다”는 말끝을 상대에게 건네듯 올려 <strong>dú</strong>."
       },
       {
         "id": "hsk1-4-103",
@@ -2188,7 +2188,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "어렵다",
           "speech": "难"
         },
-        "tip": "“남”의 장면은 기세를 위로 끌어올려 <strong>nán</strong>; “어렵다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>nàn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“남”은 모습이 눈앞에 떠오르듯 올려 <strong>nán</strong>, 반면 “어렵다”는 그 상태를 확정하듯 힘주어 내려 <strong>nàn</strong>."
       },
       {
         "id": "hsk1-4-105",
@@ -2209,7 +2209,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "(인물을, 혹은 인위적으로) 본뜬 형상. 본떠 그린 모양.)",
           "speech": "像"
         },
-        "tip": "“향”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiāng</strong>; “(인물을, 혹은 인위적으로) 본뜬 형상. 본떠 그린 모양.)”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“향”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>xiāng</strong>; “형상”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>xiàng</strong>."
       },
       {
         "id": "hsk1-4-106",
@@ -2230,7 +2230,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "좋아하다",
           "speech": "好"
         },
-        "tip": "“울부짖다”의 장면은 기세를 위로 끌어올려 <strong>háo</strong>; “좋아하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hào</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“울부짖다”는 말끝을 상대에게 건네듯 올려 <strong>háo</strong>. 이어서 “좋아하다”는 동작을 단호하게 마치며 내려 <strong>hào</strong>."
       },
       {
         "id": "hsk1-4-107",
@@ -2251,7 +2251,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "향",
           "speech": "向"
         },
-        "tip": "“향”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiāng</strong>; “향”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“향”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>xiāng</strong>, 반면 “향하다”는 동작을 단호하게 마치며 내려 <strong>xiàng</strong>."
       },
       {
         "id": "hsk1-4-108",
@@ -2272,7 +2272,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "(인물을, 혹은 인위적으로) 본뜬 형상. 본떠 그린 모양.)",
           "speech": "像"
         },
-        "tip": "“울림”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎng</strong>; “(인물을, 혹은 인위적으로) 본뜬 형상. 본떠 그린 모양.)”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàng</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“울림”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>xiǎng</strong>; “형상”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>xiàng</strong>."
       },
       {
         "id": "hsk1-4-109",
@@ -2293,7 +2293,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "향",
           "speech": "向"
         },
-        "tip": "“울림”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎng</strong>; “향”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“울림”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>xiǎng</strong>. 이어서 “향하다”는 동작을 단호하게 마치며 내려 <strong>xiàng</strong>."
       },
       {
         "id": "hsk1-4-110",
@@ -2314,7 +2314,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "반",
           "speech": "半"
         },
-        "tip": "“반”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bān</strong>; “반”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“반”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>bān</strong>, 반면 “반”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>bàn</strong>."
       },
       {
         "id": "hsk1-4-111",
@@ -2335,7 +2335,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "외치다. 고함치다. 소리지르다. 소리치다. 부르짖다.",
           "speech": "叫"
         },
-        "tip": "“모서리”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎo</strong>; “외치다. 고함치다. 소리지르다. 소리치다. 부르짖다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiào</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“모서리”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jiǎo</strong>; “외치다”는 문장을 딱 잘라 끝내며 내려 <strong>jiào</strong>."
       },
       {
         "id": "hsk1-4-112",
@@ -2356,7 +2356,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "멀리하다",
           "speech": "远"
         },
-        "tip": "“원”의 장면은 기세를 위로 끌어올려 <strong>yuán</strong>; “멀리하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yuàn</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“원”은 모습이 눈앞에 떠오르듯 올려 <strong>yuán</strong>. 이어서 “멀리하다”는 동작을 단호하게 마치며 내려 <strong>yuàn</strong>."
       },
       {
         "id": "hsk1-4-113",
@@ -2377,7 +2377,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "다리",
           "speech": "腿"
         },
-        "tip": "“밀어주다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tuī</strong>; “다리”의 장면은 낮게 품었다가 다시 꺾어 <strong>tuǐ</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“밀어주다”는 두 손을 수평으로 곧게 내밀어 <strong>tuī</strong>, 반면 “다리”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>tuǐ</strong>."
       },
       {
         "id": "hsk1-4-114",
@@ -2398,7 +2398,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "느리다.",
           "speech": "慢"
         },
-        "tip": "“가득”의 장면은 낮게 품었다가 다시 꺾어 <strong>mǎn</strong>; “느리다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>màn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“가득”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>mǎn</strong>; “느리다”는 그 상태를 확정하듯 힘주어 내려 <strong>màn</strong>."
       },
       {
         "id": "hsk1-4-115",
@@ -2419,7 +2419,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "피",
           "speech": "血"
         },
-        "tip": "“눈”의 장면은 낮게 품었다가 다시 꺾어 <strong>xuě</strong>; “피”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xuè</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“눈”은 낮게 내려앉았다 다시 걷히듯 꺾어 <strong>xuě</strong>. 이어서 “피”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>xuè</strong>."
       },
       {
         "id": "hsk1-4-116",
@@ -2440,7 +2440,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "바로",
           "speech": "就"
         },
-        "tip": "“9”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǔ</strong>; “바로”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiù</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“9”는 수를 낮게 짚었다 다시 세어 올리며 <strong>jiǔ</strong>, 반면 “바로”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jiù</strong>."
       },
       {
         "id": "hsk1-4-117",
@@ -2461,7 +2461,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "세탁",
           "speech": "洗"
         },
-        "tip": "“서”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xī</strong>; “세탁”의 장면은 낮게 품었다가 다시 꺾어 <strong>xǐ</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“서”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>xī</strong>; “세탁”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>xǐ</strong>."
       },
       {
         "id": "hsk1-4-118",
@@ -2482,7 +2482,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "강",
           "speech": "河"
         },
-        "tip": "“마시다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>hē</strong>; “강”의 장면은 기세를 위로 끌어올려 <strong>hé</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“마시다”는 상 위에 길게 펼쳐 놓고 <strong>hē</strong>. 이어서 “강”은 물방울이 솟구치듯 올려 <strong>hé</strong>."
       },
       {
         "id": "hsk1-4-119",
@@ -2503,7 +2503,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "큰소리로 외치다",
           "speech": "喝"
         },
-        "tip": "“강”의 장면은 기세를 위로 끌어올려 <strong>hé</strong>; “큰소리로 외치다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hè</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“강”은 물방울이 솟구치듯 올려 <strong>hé</strong>, 반면 “큰소리로 외치다”는 문장을 딱 잘라 끝내며 내려 <strong>hè</strong>."
       },
       {
         "id": "hsk1-4-120",
@@ -2524,7 +2524,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "기병; 탄 말",
           "speech": "骑"
         },
-        "tip": "“주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐ</strong>; “기병; 탄 말”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“주다”는 품에 안았다 다시 내어 주듯 꺾어 <strong>jǐ</strong>; “기병”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jì</strong>."
       },
       {
         "id": "hsk1-4-121",
@@ -2545,7 +2545,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "끊다",
           "speech": "断"
         },
-        "tip": "“짧다. [공간적·시간적 거리의 짧음을 말함]”의 장면은 낮게 품었다가 다시 꺾어 <strong>duǎn</strong>; “끊다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>duàn</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“짧다”는 속으로 눌렀다 다시 드러내듯 꺾어 <strong>duǎn</strong>. 이어서 “끊다”는 동작을 단호하게 마치며 내려 <strong>duàn</strong>."
       },
       {
         "id": "hsk1-4-122",
@@ -2566,7 +2566,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "쓰다",
           "speech": "写"
         },
-        "tip": "“머리”의 장면은 기세를 위로 끌어올려 <strong>xié</strong>; “쓰다”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiě</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“머리”는 턱을 들어 상대를 바라보듯 올려 <strong>xié</strong>, 반면 “쓰다”는 속으로 한번 되짚었다 꺼내듯 꺾어 <strong>xiě</strong>."
       },
       {
         "id": "hsk1-4-123",
@@ -2587,7 +2587,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "구",
           "speech": "旧"
         },
-        "tip": "“오래”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǔ</strong>; “구”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiù</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“오래”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jiǔ</strong>; “구”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jiù</strong>."
       },
       {
         "id": "hsk1-4-124",
@@ -2608,7 +2608,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "불",
           "speech": "火"
         },
-        "tip": "“반죽하다”의 장면은 기세를 위로 끌어올려 <strong>huó</strong>; “불”의 장면은 낮게 품었다가 다시 꺾어 <strong>huǒ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“반죽하다”는 바닥에서 마지막으로 솟듯 올려 <strong>huó</strong>. 이어서 “불”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>huǒ</strong>."
       },
       {
         "id": "hsk1-4-125",
@@ -2629,7 +2629,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "비로소",
           "speech": "才"
         },
-        "tip": "“추측하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>cāi</strong>; “비로소”의 장면은 기세를 위로 끌어올려 <strong>cái</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“추측하다”는 생각의 선을 흔들림 없이 이어 <strong>cāi</strong>, 반면 “비로소”는 고개를 번쩍 들어 올리듯 <strong>cái</strong>."
       },
       {
         "id": "hsk1-4-126",
@@ -2650,7 +2650,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "기병; 탄 말",
           "speech": "骑"
         },
-        "tip": "“작은 탁자; 거의”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jī</strong>; “기병; 탄 말”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jì</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“작은 탁자”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>jī</strong>; “기병”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jì</strong>."
       },
       {
         "id": "hsk1-4-127",
@@ -2671,7 +2671,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "원컨대",
           "speech": "祝"
         },
-        "tip": "“돼지”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhū</strong>; “원컨대”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhù</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“돼지”는 등을 길고 반듯하게 펴 <strong>zhū</strong>. 이어서 “원컨대”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>zhù</strong>."
       },
       {
         "id": "hsk1-4-128",
@@ -2692,7 +2692,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "화답하다",
           "speech": "和"
         },
-        "tip": "“마시다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>hē</strong>; “화답하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hè</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“마시다”는 상 위에 길게 펼쳐 놓고 <strong>hē</strong>, 반면 “화답하다”는 동작을 단호하게 마치며 내려 <strong>hè</strong>."
       },
       {
         "id": "hsk1-4-129",
@@ -2713,7 +2713,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "반",
           "speech": "半"
         },
-        "tip": "“운반하다. 옮기다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bān</strong>; “반”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“운반하다”는 동작을 멈추지 않고 곧게 이어 <strong>bān</strong>; “반”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>bàn</strong>."
       },
       {
         "id": "hsk1-4-130",
@@ -2731,10 +2731,10 @@ window.HSK_PAIR_SETS = {
           "pinyin": "jì",
           "tones": "4",
           "level": 4,
-          "meaning": "寄",
+          "meaning": "부치다; 맡기다",
           "speech": "寄"
         },
-        "tip": "“주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐ</strong>; “寄”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jì</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“주다”는 품에 안았다 다시 내어 주듯 꺾어 <strong>jǐ</strong>. 이어서 “부치다”는 동작을 단호하게 마치며 내려 <strong>jì</strong>."
       },
       {
         "id": "hsk1-4-131",
@@ -2755,7 +2755,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "기병; 탄 말",
           "speech": "骑"
         },
-        "tip": "“몇; 얼마나”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐ</strong>; “기병; 탄 말”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“몇”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jǐ</strong>, 반면 “기병”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jì</strong>."
       },
       {
         "id": "hsk1-4-132",
@@ -2776,7 +2776,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "안",
           "speech": "里"
         },
-        "tip": "“떨어짐”의 장면은 기세를 위로 끌어올려 <strong>lí</strong>; “안”의 장면은 낮게 품었다가 다시 꺾어 <strong>lǐ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“떨어짐”은 바닥에서 마지막으로 솟듯 올려 <strong>lí</strong>; “안”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>lǐ</strong>."
       },
       {
         "id": "hsk1-4-133",
@@ -2797,7 +2797,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "나쁘다; 부족하다",
           "speech": "差"
         },
-        "tip": "“차”의 장면은 기세를 위로 끌어올려 <strong>chá</strong>; “나쁘다; 부족하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>chà</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“차”는 향이 코끝으로 피어오르듯 올려 <strong>chá</strong>. 이어서 “나쁘다”는 그 상태를 확정하듯 힘주어 내려 <strong>chà</strong>."
       },
       {
         "id": "hsk1-4-134",
@@ -2815,10 +2815,10 @@ window.HSK_PAIR_SETS = {
           "pinyin": "jì",
           "tones": "4",
           "level": 4,
-          "meaning": "寄",
+          "meaning": "부치다; 맡기다",
           "speech": "寄"
         },
-        "tip": "“작은 탁자; 거의”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jī</strong>; “寄”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“작은 탁자”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>jī</strong>, 반면 “부치다”는 동작을 단호하게 마치며 내려 <strong>jì</strong>."
       },
       {
         "id": "hsk1-4-135",
@@ -2836,10 +2836,10 @@ window.HSK_PAIR_SETS = {
           "pinyin": "jì",
           "tones": "4",
           "level": 4,
-          "meaning": "寄",
+          "meaning": "부치다; 맡기다",
           "speech": "寄"
         },
-        "tip": "“몇; 얼마나”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐ</strong>; “寄”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jì</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“몇”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jǐ</strong>; “부치다”는 동작을 단호하게 마치며 내려 <strong>jì</strong>."
       },
       {
         "id": "hsk1-4-136",
@@ -2860,7 +2860,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "매운 맛.",
           "speech": "辣"
         },
-        "tip": "“끌다. 당기다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>lā</strong>; “매운 맛”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>là</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“끌다”는 동작을 멈추지 않고 곧게 이어 <strong>lā</strong>. 이어서 “매운 맛”은 한입 삼키며 끝을 아래로 내려 <strong>là</strong>."
       },
       {
         "id": "hsk1-4-137",
@@ -2881,7 +2881,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "그릇",
           "speech": "碗"
         },
-        "tip": "“놀다. 놀이하다. 장난하다”의 장면은 기세를 위로 끌어올려 <strong>wán</strong>; “그릇”의 장면은 낮게 품었다가 다시 꺾어 <strong>wǎn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“놀다”는 몸의 기세를 위로 끌어올려 <strong>wán</strong>, 반면 “그릇”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>wǎn</strong>."
       },
       {
         "id": "hsk1-4-138",
@@ -2902,7 +2902,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "감히",
           "speech": "敢"
         },
-        "tip": "“마르다; 관계하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>gān</strong>; “감히”의 장면은 낮게 품었다가 다시 꺾어 <strong>gǎn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“마르다”는 동작을 멈추지 않고 곧게 이어 <strong>gān</strong>; “감히”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>gǎn</strong>."
       },
       {
         "id": "hsk1-4-139",
@@ -2923,7 +2923,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "쪽; 페이지",
           "speech": "页"
         },
-        "tip": "“도”의 장면은 낮게 품었다가 다시 꺾어 <strong>yě</strong>; “쪽; 페이지”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yè</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“도”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>yě</strong>. 이어서 “쪽”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>yè</strong>."
       },
       {
         "id": "hsk1-4-140",
@@ -2944,7 +2944,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "그릇",
           "speech": "碗"
         },
-        "tip": "“완전하다. 완벽하다”의 장면은 기세를 위로 끌어올려 <strong>wán</strong>; “그릇”의 장면은 낮게 품었다가 다시 꺾어 <strong>wǎn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“완전하다”는 몸의 기세를 위로 끌어올려 <strong>wán</strong>, 반면 “그릇”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>wǎn</strong>."
       },
       {
         "id": "hsk1-4-141",
@@ -2954,7 +2954,7 @@ window.HSK_PAIR_SETS = {
           "pinyin": "jiāo",
           "tones": "1",
           "level": 4,
-          "meaning": "넘기다. 건네다. 내다. 제출하다. 바치다. 주다., 给, 缴)",
+          "meaning": "건네다; 사귀다",
           "speech": "交"
         },
         "b": {
@@ -2965,7 +2965,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "모서리",
           "speech": "角"
         },
-        "tip": "“넘기다. 건네다. 내다. 제출하다. 바치다. 주다., 给, 缴)”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiāo</strong>; “모서리”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎo</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“건네다”는 두 손을 수평으로 곧게 내밀어 <strong>jiāo</strong>; “모서리”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jiǎo</strong>."
       },
       {
         "id": "hsk1-4-142",
@@ -2986,7 +2986,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "모서리",
           "speech": "角"
         },
-        "tip": "“가르치다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiāo</strong>; “모서리”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎo</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“가르치다”는 동작을 멈추지 않고 곧게 이어 <strong>jiāo</strong>. 이어서 “모서리”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jiǎo</strong>."
       },
       {
         "id": "hsk1-4-143",
@@ -3007,7 +3007,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "억",
           "speech": "亿"
         },
-        "tip": "“1. 일. 하나”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yī</strong>; “억”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“하나”는 한 줄로 반듯하게 세며 <strong>yī</strong>, 반면 “억”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>yì</strong>."
       },
       {
         "id": "hsk1-4-144",
@@ -3028,7 +3028,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "마르다. 여위다.",
           "speech": "瘦"
         },
-        "tip": "“(물건을) 거두어들이다. 거두다. 건사하다. 간수하다. 간직하다. 보존하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shōu</strong>; “마르다. 여위다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shòu</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“거두어들이다”는 동작을 멈추지 않고 곧게 이어 <strong>shōu</strong>; “마르다”는 동작을 단호하게 마치며 내려 <strong>shòu</strong>."
       },
       {
         "id": "hsk1-4-145",
@@ -3049,7 +3049,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "나무",
           "speech": "树"
         },
-        "tip": "“패”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shū</strong>; “나무”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shù</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“패”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>shū</strong>. 이어서 “나무”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>shù</strong>."
       },
       {
         "id": "hsk1-4-146",
@@ -3070,7 +3070,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "멀다",
           "speech": "远"
         },
-        "tip": "“원”의 장면은 기세를 위로 끌어올려 <strong>yuán</strong>; “멀다”의 장면은 낮게 품었다가 다시 꺾어 <strong>yuǎn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“원”은 모습이 눈앞에 떠오르듯 올려 <strong>yuán</strong>, 반면 “멀다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>yuǎn</strong>."
       },
       {
         "id": "hsk1-4-147",
@@ -3091,7 +3091,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "백",
           "speech": "百"
         },
-        "tip": "“백”의 장면은 기세를 위로 끌어올려 <strong>bái</strong>; “백”의 장면은 낮게 품었다가 다시 꺾어 <strong>bǎi</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“백”은 차례를 한 칸 위로 올리며 <strong>bái</strong>; “백”은 수를 낮게 짚었다 다시 세어 올리며 <strong>bǎi</strong>."
       },
       {
         "id": "hsk1-4-148",
@@ -3112,7 +3112,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "가르침; 종교",
           "speech": "教"
         },
-        "tip": "“모서리”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎo</strong>; “가르침; 종교”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiào</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“모서리”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jiǎo</strong>. 이어서 “가르침”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jiào</strong>."
       },
       {
         "id": "hsk1-4-149",
@@ -3133,7 +3133,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "요리",
           "speech": "菜"
         },
-        "tip": "“추측하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>cāi</strong>; “요리”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>cài</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“추측하다”는 생각의 선을 흔들림 없이 이어 <strong>cāi</strong>, 반면 “요리”는 한입 삼키며 끝을 아래로 내려 <strong>cài</strong>."
       },
       {
         "id": "hsk1-4-150",
@@ -3154,7 +3154,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "억",
           "speech": "亿"
         },
-        "tip": "“…(으)로(써). …을 가지고. …을 근거로”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǐ</strong>; “억”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“~로써”는 뜻을 속으로 한번 접었다 다시 펴며 꺾어 <strong>yǐ</strong>; “억”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>yì</strong>."
       },
       {
         "id": "hsk1-4-151",
@@ -3175,7 +3175,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "사기 치다",
           "speech": "骗"
         },
-        "tip": "“편”의 장면은 흔들리지 않게 길게 펼쳐 <strong>piān</strong>; “사기 치다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>piàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“편”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>piān</strong>. 이어서 “사기 치다”는 동작을 단호하게 마치며 내려 <strong>piàn</strong>."
       },
       {
         "id": "hsk1-4-152",
@@ -3196,7 +3196,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "고",
           "speech": "苦"
         },
-        "tip": "“울다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>kū</strong>; “고”의 장면은 낮게 품었다가 다시 꺾어 <strong>kǔ</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“울다”는 동작을 멈추지 않고 곧게 이어 <strong>kū</strong>, 반면 “고”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>kǔ</strong>."
       },
       {
         "id": "hsk1-4-153",
@@ -3217,7 +3217,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "구",
           "speech": "旧"
         },
-        "tip": "“9”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǔ</strong>; “구”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiù</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“9”는 수를 낮게 짚었다 다시 세어 올리며 <strong>jiǔ</strong>; “구”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jiù</strong>."
       },
       {
         "id": "hsk1-4-154",
@@ -3238,7 +3238,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "차",
           "speech": "茶"
         },
-        "tip": "“차이”의 장면은 흔들리지 않게 길게 펼쳐 <strong>chā</strong>; “차”의 장면은 기세를 위로 끌어올려 <strong>chá</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“차이”는 상 위에 길게 펼쳐 놓고 <strong>chā</strong>. 이어서 “차”는 향이 코끝으로 피어오르듯 올려 <strong>chá</strong>."
       },
       {
         "id": "hsk1-4-155",
@@ -3259,7 +3259,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "지나치게. 몹시. 너무.",
           "speech": "太"
         },
-        "tip": "“들어 올리다”의 장면은 기세를 위로 끌어올려 <strong>tái</strong>; “지나치게. 몹시. 너무”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tài</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“들어 올리다”는 몸의 기세를 위로 끌어올려 <strong>tái</strong>, 반면 “지나치게”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>tài</strong>."
       },
       {
         "id": "hsk1-4-156",
@@ -3280,7 +3280,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "만",
           "speech": "万"
         },
-        "tip": "“그릇”의 장면은 낮게 품었다가 다시 꺾어 <strong>wǎn</strong>; “만”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“그릇”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>wǎn</strong>; “만”은 마지막 수에 도장을 찍듯 내려 <strong>wàn</strong>."
       },
       {
         "id": "hsk1-4-157",
@@ -3301,7 +3301,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "위",
           "speech": "上"
         },
-        "tip": "“세차게 흐르는 물”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shāng</strong>; “위”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shàng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“세차게 흐르는 물”은 잔잔한 수면을 길게 가르며 <strong>shāng</strong>. 이어서 “위”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>shàng</strong>."
       },
       {
         "id": "hsk1-4-158",
@@ -3322,7 +3322,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "타다",
           "speech": "骑"
         },
-        "tip": "“7”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qī</strong>; “타다”의 장면은 기세를 위로 끌어올려 <strong>qí</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“7”는 한 줄로 반듯하게 세며 <strong>qī</strong>, 반면 “타다”는 몸의 기세를 위로 끌어올려 <strong>qí</strong>."
       },
       {
         "id": "hsk1-4-159",
@@ -3343,7 +3343,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "멍청하다",
           "speech": "笨"
         },
-        "tip": "“책”의 장면은 낮게 품었다가 다시 꺾어 <strong>běn</strong>; “멍청하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bèn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“책”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>běn</strong>; “멍청하다”는 동작을 단호하게 마치며 내려 <strong>bèn</strong>."
       },
       {
         "id": "hsk1-4-160",
@@ -3364,7 +3364,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "눕다",
           "speech": "躺"
         },
-        "tip": "“설탕”의 장면은 기세를 위로 끌어올려 <strong>táng</strong>; “눕다”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǎng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“설탕”은 향이 코끝으로 피어오르듯 올려 <strong>táng</strong>. 이어서 “눕다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>tǎng</strong>."
       },
       {
         "id": "hsk1-4-161",
@@ -3385,7 +3385,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "딱딱하다",
           "speech": "硬"
         },
-        "tip": "“이기다”의 장면은 기세를 위로 끌어올려 <strong>yíng</strong>; “딱딱하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yìng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“이기다”는 몸의 기세를 위로 끌어올려 <strong>yíng</strong>, 반면 “딱딱하다”는 동작을 단호하게 마치며 내려 <strong>yìng</strong>."
       },
       {
         "id": "hsk1-4-162",
@@ -3406,7 +3406,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "성",
           "speech": "姓"
         },
-        "tip": "“행”의 장면은 기세를 위로 끌어올려 <strong>xíng</strong>; “성”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xìng</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“행”은 모습이 눈앞에 떠오르듯 올려 <strong>xíng</strong>; “성”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>xìng</strong>."
       },
       {
         "id": "hsk1-4-163",
@@ -3427,7 +3427,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "눕다",
           "speech": "躺"
         },
-        "tip": "“국; 탕”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tāng</strong>; “눕다”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǎng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“국”은 상 위에 길게 펼쳐 놓고 <strong>tāng</strong>. 이어서 “눕다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>tǎng</strong>."
       },
       {
         "id": "hsk1-4-164",
@@ -3448,7 +3448,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "기병; 탄 말",
           "speech": "骑"
         },
-        "tip": "“극”의 장면은 기세를 위로 끌어올려 <strong>jí</strong>; “기병; 탄 말”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“극”은 모습이 눈앞에 떠오르듯 올려 <strong>jí</strong>, 반면 “기병”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jì</strong>."
       },
       {
         "id": "hsk1-4-165",
@@ -3458,7 +3458,7 @@ window.HSK_PAIR_SETS = {
           "pinyin": "suān",
           "tones": "1",
           "level": 4,
-          "meaning": "시(時)",
+          "meaning": "시다; 산성이다",
           "speech": "酸"
         },
         "b": {
@@ -3469,7 +3469,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "계산하다",
           "speech": "算"
         },
-        "tip": "“시(時)”의 장면은 흔들리지 않게 길게 펼쳐 <strong>suān</strong>; “계산하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>suàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“시다”는 상 위에 길게 펼쳐 놓고 <strong>suān</strong>; “계산하다”는 판단에 마침표를 찍듯 내려 <strong>suàn</strong>."
       },
       {
         "id": "hsk1-4-166",
@@ -3490,7 +3490,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "설탕",
           "speech": "糖"
         },
-        "tip": "뜨거운 국은 평평한 <strong>tāng</strong>, 달콤함은 올라가는 <strong>táng</strong>"
+        "tip": "국물 표면은 잔잔하고 평평하게 <strong>tāng</strong>, 설탕의 단맛은 입안에서 올라오듯 <strong>táng</strong>"
       },
       {
         "id": "hsk1-4-167",
@@ -3511,7 +3511,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "울림",
           "speech": "响"
         },
-        "tip": "“향”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiāng</strong>; “울림”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎng</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“향”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>xiāng</strong>, 반면 “울림”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>xiǎng</strong>."
       },
       {
         "id": "hsk1-4-168",
@@ -3532,7 +3532,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "멀리하다",
           "speech": "远"
         },
-        "tip": "“원”의 장면은 기세를 위로 끌어올려 <strong>yuán</strong>; “멀리하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yuàn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“원”은 모습이 눈앞에 떠오르듯 올려 <strong>yuán</strong>; “멀리하다”는 동작을 단호하게 마치며 내려 <strong>yuàn</strong>."
       },
       {
         "id": "hsk1-4-169",
@@ -3553,7 +3553,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "화답하다",
           "speech": "和"
         },
-        "tip": "“강”의 장면은 기세를 위로 끌어올려 <strong>hé</strong>; “화답하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hè</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“강”은 물방울이 솟구치듯 올려 <strong>hé</strong>. 이어서 “화답하다”는 동작을 단호하게 마치며 내려 <strong>hè</strong>."
       },
       {
         "id": "hsk1-4-170",
@@ -3574,7 +3574,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "남은",
           "speech": "剩"
         },
-        "tip": "“절약하다; 성”의 장면은 낮게 품었다가 다시 꺾어 <strong>shěng</strong>; “남은”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shèng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“절약하다”는 속으로 눌렀다 다시 드러내듯 꺾어 <strong>shěng</strong>, 반면 “남은”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>shèng</strong>."
       },
       {
         "id": "hsk1-4-171",
@@ -3595,7 +3595,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "제목",
           "speech": "题"
         },
-        "tip": "“차다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tī</strong>; “제목”의 장면은 기세를 위로 끌어올려 <strong>tí</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“차다”는 상 위에 길게 펼쳐 놓고 <strong>tī</strong>; “제목”은 모습이 눈앞에 떠오르듯 올려 <strong>tí</strong>."
       },
       {
         "id": "hsk1-4-172",
@@ -3616,7 +3616,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "눕다",
           "speech": "躺"
         },
-        "tip": "“물을 헤치며 걷다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tāng</strong>; “눕다”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǎng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“물을 헤치며 걷다”는 잔잔한 수면을 길게 가르며 <strong>tāng</strong>. 이어서 “눕다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>tǎng</strong>."
       },
       {
         "id": "hsk1-4-173",
@@ -3637,7 +3637,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "사랑",
           "speech": "爱"
         },
-        "tip": "“키가 작다”의 장면은 낮게 품었다가 다시 꺾어 <strong>ǎi</strong>; “사랑”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>ài</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“키가 작다”는 속으로 눌렀다 다시 드러내듯 꺾어 <strong>ǎi</strong>, 반면 “사랑”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>ài</strong>."
       },
       {
         "id": "hsk1-4-174",
@@ -3658,7 +3658,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "회의",
           "speech": "会议"
         },
-        "tip": "“회상”의 장면은 기세를 위로 끌어올려 <strong>huí yì</strong>; “회의”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>huì yì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“회상”은 모습이 눈앞에 떠오르듯 올려 <strong>huí yì</strong>; “회의”는 문장 관계를 딱 끊어 아래로 내려 <strong>huì yì</strong>."
       },
       {
         "id": "hsk1-4-175",
@@ -3679,7 +3679,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "설탕",
           "speech": "糖"
         },
-        "tip": "“물을 헤치며 걷다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tāng</strong>; “설탕”의 장면은 기세를 위로 끌어올려 <strong>táng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“물을 헤치며 걷다”는 잔잔한 수면을 길게 가르며 <strong>tāng</strong>. 이어서 “설탕”은 향이 코끝으로 피어오르듯 올려 <strong>táng</strong>."
       },
       {
         "id": "hsk1-4-176",
@@ -3700,7 +3700,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "번; 차례",
           "speech": "趟"
         },
-        "tip": "“눕다”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǎng</strong>; “번; 차례”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tàng</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“눕다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>tǎng</strong>, 반면 “번”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>tàng</strong>."
       },
       {
         "id": "hsk1-4-177",
@@ -3721,7 +3721,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "경험하다",
           "speech": "经历"
         },
-        "tip": "“사장님”의 장면은 낮게 품었다가 다시 꺾어 <strong>jīng lǐ</strong>; “경험하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jīng lì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“사장님”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jīng lǐ</strong>; “경험하다”는 동작을 단호하게 마치며 내려 <strong>jīng lì</strong>."
       },
       {
         "id": "hsk1-4-178",
@@ -3742,7 +3742,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "번; 차례",
           "speech": "趟"
         },
-        "tip": "“설탕”의 장면은 기세를 위로 끌어올려 <strong>táng</strong>; “번; 차례”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tàng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“설탕”은 향이 코끝으로 피어오르듯 올려 <strong>táng</strong>. 이어서 “번”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>tàng</strong>."
       },
       {
         "id": "hsk1-4-179",
@@ -3763,7 +3763,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "송이",
           "speech": "朵"
         },
-        "tip": "“많다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>duō</strong>; “송이”의 장면은 낮게 품었다가 다시 꺾어 <strong>duǒ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“많다”는 그 상태를 한결같고 오래 유지해 <strong>duō</strong>, 반면 “송이”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>duǒ</strong>."
       },
       {
         "id": "hsk1-4-180",
@@ -3784,7 +3784,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "성",
           "speech": "姓"
         },
-        "tip": "“돌이켜보다”의 장면은 낮게 품었다가 다시 꺾어 <strong>xǐng</strong>; “성”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xìng</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“돌이켜보다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>xǐng</strong>; “성”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>xìng</strong>."
       },
       {
         "id": "hsk1-4-181",
@@ -3805,7 +3805,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "성",
           "speech": "姓"
         },
-        "tip": "“깨”의 장면은 낮게 품었다가 다시 꺾어 <strong>xǐng</strong>; “성”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xìng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“깨”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>xǐng</strong>. 이어서 “성”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>xìng</strong>."
       },
       {
         "id": "hsk1-4-182",
@@ -3826,7 +3826,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "번; 차례",
           "speech": "趟"
         },
-        "tip": "“국; 탕”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tāng</strong>; “번; 차례”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tàng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“국”은 상 위에 길게 펼쳐 놓고 <strong>tāng</strong>, 반면 “번”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>tàng</strong>."
       },
       {
         "id": "hsk1-4-183",
@@ -3847,7 +3847,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "걸려 있다",
           "speech": "挂"
         },
-        "tip": "“긁다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>guā</strong>; “걸려 있다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>guà</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“긁다”는 동작을 멈추지 않고 곧게 이어 <strong>guā</strong>; “걸려 있다”는 문장 관계를 딱 끊어 아래로 내려 <strong>guà</strong>."
       },
       {
         "id": "hsk1-4-184",
@@ -3868,7 +3868,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "장",
           "speech": "场"
         },
-        "tip": "“맛”의 장면은 기세를 위로 끌어올려 <strong>cháng</strong>; “장”의 장면은 낮게 품었다가 다시 꺾어 <strong>chǎng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“맛”은 향이 코끝으로 피어오르듯 올려 <strong>cháng</strong>. 이어서 “장”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>chǎng</strong>."
       },
       {
         "id": "hsk1-4-185",
@@ -3889,7 +3889,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "세기",
           "speech": "世纪"
         },
-        "tip": "“실제”의 장면은 기세를 위로 끌어올려 <strong>shí jì</strong>; “세기”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì jì</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“실제”는 모습이 눈앞에 떠오르듯 올려 <strong>shí jì</strong>, 반면 “세기”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>shì jì</strong>."
       },
       {
         "id": "hsk1-4-186",
@@ -3910,7 +3910,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "둘러보다",
           "speech": "逛"
         },
-        "tip": "“빛”의 장면은 흔들리지 않게 길게 펼쳐 <strong>guāng</strong>; “둘러보다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>guàng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“빛”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>guāng</strong>; “둘러보다”는 마지막 수에 도장을 찍듯 내려 <strong>guàng</strong>."
       },
       {
         "id": "hsk1-4-187",
@@ -3952,7 +3952,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "다리",
           "speech": "桥"
         },
-        "tip": "“치다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qiāo</strong>; “다리”의 장면은 기세를 위로 끌어올려 <strong>qiáo</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“치다”는 동작을 멈추지 않고 곧게 이어 <strong>qiāo</strong>, 반면 “다리”는 모습이 눈앞에 떠오르듯 올려 <strong>qiáo</strong>."
       },
       {
         "id": "hsk1-4-189",
@@ -3973,7 +3973,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "연습하다",
           "speech": "练习"
         },
-        "tip": "“연락하다”의 장면은 기세를 위로 끌어올려 <strong>lián xì</strong>; “연습하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>liàn xí</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“연락하다”는 몸의 기세를 위로 끌어올려 <strong>lián xì</strong>; “연습하다”는 동작을 단호하게 마치며 내려 <strong>liàn xí</strong>."
       },
       {
         "id": "hsk1-4-190",
@@ -3994,7 +3994,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "포옹",
           "speech": "抱"
         },
-        "tip": "“부르다”의 장면은 낮게 품었다가 다시 꺾어 <strong>bǎo</strong>; “포옹”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bào</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“부르다”는 속으로 한번 되짚었다 꺼내듯 꺾어 <strong>bǎo</strong>. 이어서 “포옹”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>bào</strong>."
       },
       {
         "id": "hsk1-4-191",
@@ -4015,7 +4015,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "우산",
           "speech": "伞"
         },
-        "tip": "“3”의 장면은 흔들리지 않게 길게 펼쳐 <strong>sān</strong>; “우산”의 장면은 낮게 품었다가 다시 꺾어 <strong>sǎn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“3”는 한 줄로 반듯하게 세며 <strong>sān</strong>, 반면 “우산”은 깊숙이 내려다봤다 시선을 들며 꺾어 <strong>sǎn</strong>."
       },
       {
         "id": "hsk1-4-192",
@@ -4036,7 +4036,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "알다",
           "speech": "懂"
         },
-        "tip": "“겨울”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dōng</strong>; “알다”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǒng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“겨울”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>dōng</strong>; “알다”는 고개를 숙여 곰곰이 생각했다 들어 <strong>dǒng</strong>."
       },
       {
         "id": "hsk1-4-193",
@@ -4057,7 +4057,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "눈",
           "speech": "眼睛"
         },
-        "tip": "“안경”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yǎn jìng</strong>; “눈”의 장면은 짧고 가볍게 덧붙여 <strong>yǎn jing</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“안경”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>yǎn jìng</strong>. 이어서 “눈”은 공기 중에 살짝 흩어 <strong>yǎn jing</strong>."
       },
       {
         "id": "hsk1-4-194",
@@ -4078,7 +4078,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "설령",
           "speech": "即使"
         },
-        "tip": "“제때”의 장면은 기세를 위로 끌어올려 <strong>jí shí</strong>; “설령”의 장면은 낮게 품었다가 다시 꺾어 <strong>jí shǐ</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“제때”는 모습이 눈앞에 떠오르듯 올려 <strong>jí shí</strong>, 반면 “설령”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jí shǐ</strong>."
       },
       {
         "id": "hsk1-4-195",
@@ -4099,7 +4099,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "주의하다",
           "speech": "注意"
         },
-        "tip": "“아이디어”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǔ yi</strong>; “주의하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhù yì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“아이디어”는 고개를 숙였다 다시 들며 꺾어 <strong>zhǔ yi</strong>; “주의하다”는 판단에 마침표를 찍듯 내려 <strong>zhù yì</strong>."
       },
       {
         "id": "hsk1-4-196",
@@ -4120,7 +4120,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "짜다",
           "speech": "咸"
         },
-        "tip": "“먼저”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiān</strong>; “짜다”의 장면은 기세를 위로 끌어올려 <strong>xián</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“먼저”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>xiān</strong>. 이어서 “짜다”는 몸의 기세를 위로 끌어올려 <strong>xián</strong>."
       },
       {
         "id": "hsk1-4-197",
@@ -4141,7 +4141,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "게으르다",
           "speech": "懒"
         },
-        "tip": "“파랑”의 장면은 기세를 위로 끌어올려 <strong>lán</strong>; “게으르다”의 장면은 낮게 품었다가 다시 꺾어 <strong>lǎn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“파랑”은 모습이 눈앞에 떠오르듯 올려 <strong>lán</strong>, 반면 “게으르다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>lǎn</strong>."
       },
       {
         "id": "hsk1-4-198",
@@ -4162,7 +4162,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "도시",
           "speech": "城市"
         },
-        "tip": "“성실하다”의 장면은 기세를 위로 끌어올려 <strong>chéng shí</strong>; “도시”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>chéng shì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“성실하다”는 몸의 기세를 위로 끌어올려 <strong>chéng shí</strong>; “도시”는 그 자리에 표지판을 꽂듯 내려 <strong>chéng shì</strong>."
       },
       {
         "id": "hsk1-4-199",
@@ -4183,7 +4183,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "주다",
           "speech": "请"
         },
-        "tip": "“맑다”의 장면은 기세를 위로 끌어올려 <strong>qíng</strong>; “주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>qǐng</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“맑다”는 하늘로 피어오르듯 올려 <strong>qíng</strong>. 이어서 “주다”는 품에 안았다 다시 내어 주듯 꺾어 <strong>qǐng</strong>."
       },
       {
         "id": "hsk1-4-200",
@@ -4204,7 +4204,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "맑다",
           "speech": "晴"
         },
-        "tip": "“가볍다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qīng</strong>; “맑다”의 장면은 기세를 위로 끌어올려 <strong>qíng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“가볍다”는 그 상태를 한결같고 오래 유지해 <strong>qīng</strong>, 반면 “맑다”는 하늘로 피어오르듯 올려 <strong>qíng</strong>."
       }
     ]
   },
@@ -4233,7 +4233,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "그러다",
           "speech": "搞"
         },
-        "tip": "“높다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>gāo</strong>; “그러다”의 장면은 낮게 품었다가 다시 꺾어 <strong>gǎo</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“높다”는 위로 뻗은 선을 길게 유지해 <strong>gāo</strong>. 이어서 “그러다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>gǎo</strong>."
       },
       {
         "id": "hsk5-002",
@@ -4254,7 +4254,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "무겁다; 중요하다",
           "speech": "重"
         },
-        "tip": "“종류; 씨앗”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǒng</strong>; “무겁다; 중요하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhòng</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“종류”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>zhǒng</strong>, 반면 “무겁다”는 그 상태를 확정하듯 힘주어 내려 <strong>zhòng</strong>."
       },
       {
         "id": "hsk5-003",
@@ -4275,7 +4275,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "오직; 단지",
           "speech": "只"
         },
-        "tip": "“손가락”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhī</strong>; “오직; 단지”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǐ</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“손가락”은 시선을 수평으로 길게 두고 <strong>zhī</strong>; “단지”는 뜻을 속으로 한번 접었다 다시 펴며 꺾어 <strong>zhǐ</strong>."
       },
       {
         "id": "hsk5-004",
@@ -4296,7 +4296,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "항",
           "speech": "项"
         },
-        "tip": "“생각하다.)”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎng</strong>; “항”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“생각하다”는 고개를 숙여 곰곰이 생각했다 들어 <strong>xiǎng</strong>. 이어서 “항”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>xiàng</strong>."
       },
       {
         "id": "hsk5-005",
@@ -4317,7 +4317,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "놓다",
           "speech": "放"
         },
-        "tip": "“방”의 장면은 흔들리지 않게 길게 펼쳐 <strong>fāng</strong>; “놓다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>fàng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“방”은 지평선을 따라 넓고 반듯하게 펼쳐 <strong>fāng</strong>, 반면 “놓다”는 동작을 단호하게 마치며 내려 <strong>fàng</strong>."
       },
       {
         "id": "hsk5-006",
@@ -4338,7 +4338,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "파",
           "speech": "派"
         },
-        "tip": "“찰칵”의 장면은 흔들리지 않게 길게 펼쳐 <strong>pāi</strong>; “파”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>pài</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“찰칵”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>pāi</strong>; “파”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>pài</strong>."
       },
       {
         "id": "hsk5-007",
@@ -4359,7 +4359,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "매다; 묶다",
           "speech": "系"
         },
-        "tip": "“주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐ</strong>; “매다; 묶다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jì</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“주다”는 품에 안았다 다시 내어 주듯 꺾어 <strong>jǐ</strong>. 이어서 “매다”는 동작을 단호하게 마치며 내려 <strong>jì</strong>."
       },
       {
         "id": "hsk5-008",
@@ -4380,7 +4380,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "닿다; 붙다",
           "speech": "着"
         },
-        "tip": "“아침”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhāo</strong>; “닿다; 붙다”의 장면은 기세를 위로 끌어올려 <strong>zháo</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“아침”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>zhāo</strong>, 반면 “붙다”는 몸의 기세를 위로 끌어올려 <strong>zháo</strong>."
       },
       {
         "id": "hsk5-009",
@@ -4401,7 +4401,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "곧",
           "speech": "直"
         },
-        "tip": "“가다. 이르다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhī</strong>; “곧”의 장면은 기세를 위로 끌어올려 <strong>zhí</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“~의”는 앞말과 뒷말을 끊김 없이 이어 <strong>zhī</strong>; “곧”은 모습이 눈앞에 떠오르듯 올려 <strong>zhí</strong>."
       },
       {
         "id": "hsk5-010",
@@ -4422,7 +4422,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "원망",
           "speech": "恨"
         },
-        "tip": "“매우”의 장면은 낮게 품었다가 다시 꺾어 <strong>hěn</strong>; “원망”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hèn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“매우”는 뜻을 속으로 한번 접었다 다시 펴며 꺾어 <strong>hěn</strong>. 이어서 “원망”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>hèn</strong>."
       },
       {
         "id": "hsk5-011",
@@ -4443,7 +4443,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "벨트",
           "speech": "带"
         },
-        "tip": "“멍”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dāi</strong>; “벨트”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dài</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“멍”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>dāi</strong>, 반면 “벨트”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>dài</strong>."
       },
       {
         "id": "hsk5-012",
@@ -4464,7 +4464,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "바보",
           "speech": "傻"
         },
-        "tip": "“죽이다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shā</strong>; “바보”의 장면은 낮게 품었다가 다시 꺾어 <strong>shǎ</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“죽이다”는 바닥선을 따라 길게 눕혀 <strong>shā</strong>; “바보”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>shǎ</strong>."
       },
       {
         "id": "hsk5-013",
@@ -4485,7 +4485,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "심다",
           "speech": "种"
         },
-        "tip": "“시”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhōng</strong>; “심다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhòng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“시”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>zhōng</strong>. 이어서 “심다”는 동작을 단호하게 마치며 내려 <strong>zhòng</strong>."
       },
       {
         "id": "hsk5-014",
@@ -4506,7 +4506,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "밤",
           "speech": "夜"
         },
-        "tip": "“도”의 장면은 낮게 품었다가 다시 꺾어 <strong>yě</strong>; “밤”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yè</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“도”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>yě</strong>, 반면 “밤”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>yè</strong>."
       },
       {
         "id": "hsk5-015",
@@ -4527,7 +4527,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "피",
           "speech": "被"
         },
-        "tip": "“외우다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bēi</strong>; “피”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bèi</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“외우다”는 동작을 멈추지 않고 곧게 이어 <strong>bēi</strong>; “피”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>bèi</strong>."
       },
       {
         "id": "hsk5-016",
@@ -4548,7 +4548,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "절",
           "speech": "节"
         },
-        "tip": "“가까이 가다. 접근하다. 접촉하다. 접하다. 닿다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiē</strong>; “절”의 장면은 기세를 위로 끌어올려 <strong>jié</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“가까이 가다”는 동작을 멈추지 않고 곧게 이어 <strong>jiē</strong>. 이어서 “절”은 모습이 눈앞에 떠오르듯 올려 <strong>jié</strong>."
       },
       {
         "id": "hsk5-017",
@@ -4569,7 +4569,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "돌진",
           "speech": "冲"
         },
-        "tip": "“다시; 겹치다”의 장면은 기세를 위로 끌어올려 <strong>chóng</strong>; “돌진”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>chòng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“다시”는 모습이 눈앞에 떠오르듯 올려 <strong>chóng</strong>, 반면 “돌진”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>chòng</strong>."
       },
       {
         "id": "hsk5-018",
@@ -4590,7 +4590,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "깜짝",
           "speech": "吓"
         },
-        "tip": "“~와; 화목하다”의 장면은 기세를 위로 끌어올려 <strong>hé</strong>; “깜짝”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hè</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“~와”는 문장의 흐름을 다음 말로 올려 보내 <strong>hé</strong>; “깜짝”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>hè</strong>."
       },
       {
         "id": "hsk5-019",
@@ -4611,7 +4611,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "탑",
           "speech": "塔"
         },
-        "tip": "“그녀”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tā</strong>; “탑”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǎ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“그녀”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>tā</strong>. 이어서 “탑”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>tǎ</strong>."
       },
       {
         "id": "hsk5-020",
@@ -4632,7 +4632,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "들어가다",
           "speech": "进"
         },
-        "tip": "“팽팽한”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐn</strong>; “들어가다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jìn</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“팽팽한”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jǐn</strong>, 반면 “들어가다”는 동작을 단호하게 마치며 내려 <strong>jìn</strong>."
       },
       {
         "id": "hsk5-021",
@@ -4653,7 +4653,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "유형",
           "speech": "类"
         },
-        "tip": "“묶다; 쌓이다”의 장면은 기세를 위로 끌어올려 <strong>léi</strong>; “유형”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>lèi</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“묶다”는 몸의 기세를 위로 끌어올려 <strong>léi</strong>; “유형”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>lèi</strong>."
       },
       {
         "id": "hsk5-022",
@@ -4674,7 +4674,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "빚",
           "speech": "欠"
         },
-        "tip": "“돈”의 장면은 기세를 위로 끌어올려 <strong>qián</strong>; “빚”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>qiàn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“돈”은 흥정 가격을 한 단계 올리며 <strong>qián</strong>. 이어서 “빚”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>qiàn</strong>."
       },
       {
         "id": "hsk5-023",
@@ -4692,10 +4692,10 @@ window.HSK_PAIR_SETS = {
           "pinyin": "dì",
           "tones": "4",
           "level": 3,
-          "meaning": "지구(地球). 대지.",
+          "meaning": "땅; 대지",
           "speech": "地"
         },
-        "tip": "“방울”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dī</strong>; “지구(地球). 대지”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“방울”은 지평선을 따라 넓고 반듯하게 펼쳐 <strong>dī</strong>, 반면 “땅”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>dì</strong>."
       },
       {
         "id": "hsk5-024",
@@ -4716,7 +4716,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "구하다",
           "speech": "救"
         },
-        "tip": "“오래”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǔ</strong>; “구하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiù</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“오래”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jiǔ</strong>; “구하다”는 동작을 단호하게 마치며 내려 <strong>jiù</strong>."
       },
       {
         "id": "hsk5-025",
@@ -4737,7 +4737,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "털",
           "speech": "毛"
         },
-        "tip": "“고양이”의 장면은 흔들리지 않게 길게 펼쳐 <strong>māo</strong>; “털”의 장면은 기세를 위로 끌어올려 <strong>máo</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“고양이”는 등을 길고 반듯하게 펴 <strong>māo</strong>. 이어서 “털”은 모습이 눈앞에 떠오르듯 올려 <strong>máo</strong>."
       },
       {
         "id": "hsk5-026",
@@ -4758,7 +4758,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "맞다. 옳다.",
           "speech": "是"
         },
-        "tip": "“시”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shī</strong>; “맞다. 옳다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“시”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>shī</strong>, 반면 “맞다”는 문장 관계를 딱 끊어 아래로 내려 <strong>shì</strong>."
       },
       {
         "id": "hsk5-027",
@@ -4779,7 +4779,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "계통; 연결",
           "speech": "系"
         },
-        "tip": "“서”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xī</strong>; “계통; 연결”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“서”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>xī</strong>; “계통”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>xì</strong>."
       },
       {
         "id": "hsk5-028",
@@ -4800,7 +4800,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "염",
           "speech": "念"
         },
-        "tip": "“년”의 장면은 기세를 위로 끌어올려 <strong>nián</strong>; “염”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>niàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“년”은 모습이 눈앞에 떠오르듯 올려 <strong>nián</strong>. 이어서 “염”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>niàn</strong>."
       },
       {
         "id": "hsk5-029",
@@ -4821,7 +4821,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "사기 치다",
           "speech": "骗"
         },
-        "tip": "“영화 한 편”의 장면은 흔들리지 않게 길게 펼쳐 <strong>piān</strong>; “사기 치다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>piàn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“영화 한 편”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>piān</strong>, 반면 “사기 치다”는 동작을 단호하게 마치며 내려 <strong>piàn</strong>."
       },
       {
         "id": "hsk5-030",
@@ -4842,7 +4842,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "도착하다. 도달하다. …에 이르다[미치다]. (시간·기간·날짜가) 되다.",
           "speech": "到"
         },
-        "tip": "“섬”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǎo</strong>; “도착하다. 도달하다. …에 이르다[미치다]. (시간·기간·날짜가) 되다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dào</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“섬”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>dǎo</strong>; “도착하다”는 동작을 단호하게 마치며 내려 <strong>dào</strong>."
       },
       {
         "id": "hsk5-031",
@@ -4863,7 +4863,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "골목",
           "speech": "弄"
         },
-        "tip": "“용”의 장면은 기세를 위로 끌어올려 <strong>lóng</strong>; “골목”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>lòng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“용”은 모습이 눈앞에 떠오르듯 올려 <strong>lóng</strong>. 이어서 “골목”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>lòng</strong>."
       },
       {
         "id": "hsk5-032",
@@ -4884,7 +4884,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "조각; 장",
           "speech": "片"
         },
-        "tip": "“편”의 장면은 흔들리지 않게 길게 펼쳐 <strong>piān</strong>; “조각; 장”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>piàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“편”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>piān</strong>, 반면 “조각”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>piàn</strong>."
       },
       {
         "id": "hsk5-033",
@@ -4905,7 +4905,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "며머",
           "speech": "嫁"
         },
-        "tip": "“집”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiā</strong>; “며머”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jià</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“집”은 지평선을 따라 넓고 반듯하게 펼쳐 <strong>jiā</strong>; “며머”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jià</strong>."
       },
       {
         "id": "hsk5-034",
@@ -4926,7 +4926,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "욕하다",
           "speech": "骂"
         },
-        "tip": "“마”의 장면은 기세를 위로 끌어올려 <strong>má</strong>; “욕하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>mà</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“마”는 모습이 눈앞에 떠오르듯 올려 <strong>má</strong>. 이어서 “욕하다”는 동작을 단호하게 마치며 내려 <strong>mà</strong>."
       },
       {
         "id": "hsk5-035",
@@ -4947,7 +4947,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "제",
           "speech": "除"
         },
-        "tip": "“출”의 장면은 흔들리지 않게 길게 펼쳐 <strong>chū</strong>; “제”의 장면은 기세를 위로 끌어올려 <strong>chú</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“출”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>chū</strong>, 반면 “제”는 모습이 눈앞에 떠오르듯 올려 <strong>chú</strong>."
       },
       {
         "id": "hsk5-036",
@@ -4968,7 +4968,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "피곤하다",
           "speech": "累"
         },
-        "tip": "“천둥”의 장면은 기세를 위로 끌어올려 <strong>léi</strong>; “피곤하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>lèi</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“천둥”은 차례를 한 칸 위로 올리며 <strong>léi</strong>; “피곤하다”는 그 상태를 확정하듯 힘주어 내려 <strong>lèi</strong>."
       },
       {
         "id": "hsk5-037",
@@ -4989,7 +4989,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "세트",
           "speech": "套"
         },
-        "tip": "“도망”의 장면은 기세를 위로 끌어올려 <strong>táo</strong>; “세트”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tào</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“도망”은 모습이 눈앞에 떠오르듯 올려 <strong>táo</strong>. 이어서 “세트”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>tào</strong>."
       },
       {
         "id": "hsk5-038",
@@ -5010,7 +5010,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "빼앗다",
           "speech": "抢"
         },
-        "tip": "“총”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qiāng</strong>; “빼앗다”의 장면은 낮게 품었다가 다시 꺾어 <strong>qiǎng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“총”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>qiāng</strong>, 반면 “빼앗다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>qiǎng</strong>."
       },
       {
         "id": "hsk5-039",
@@ -5031,7 +5031,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "놓다",
           "speech": "摆"
         },
-        "tip": "“백”의 장면은 기세를 위로 끌어올려 <strong>bái</strong>; “놓다”의 장면은 낮게 품었다가 다시 꺾어 <strong>bǎi</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“백”은 차례를 한 칸 위로 올리며 <strong>bái</strong>; “놓다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>bǎi</strong>."
       },
       {
         "id": "hsk5-040",
@@ -5052,7 +5052,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "주다",
           "speech": "请"
         },
-        "tip": "“파랑”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qīng</strong>; “주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>qǐng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“파랑”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>qīng</strong>. 이어서 “주다”는 품에 안았다 다시 내어 주듯 꺾어 <strong>qǐng</strong>."
       },
       {
         "id": "hsk5-041",
@@ -5073,7 +5073,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "주",
           "speech": "住"
         },
-        "tip": "“끓이다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǔ</strong>; “주”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhù</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“끓이다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>zhǔ</strong>, 반면 “주”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>zhù</strong>."
       },
       {
         "id": "hsk5-042",
@@ -5094,7 +5094,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "후이쭈. 회족.",
           "speech": "回"
         },
-        "tip": "“재”의 장면은 흔들리지 않게 길게 펼쳐 <strong>huī</strong>; “후이쭈. 회족”의 장면은 기세를 위로 끌어올려 <strong>huí</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“재”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>huī</strong>; “후이쭈”는 모습이 눈앞에 떠오르듯 올려 <strong>huí</strong>."
       },
       {
         "id": "hsk5-043",
@@ -5115,7 +5115,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "위",
           "speech": "胃"
         },
-        "tip": "“~이 되다; ~로서”의 장면은 기세를 위로 끌어올려 <strong>wéi</strong>; “위”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wèi</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“되다”는 문장의 흐름을 다음 말로 올려 보내 <strong>wéi</strong>. 이어서 “위”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>wèi</strong>."
       },
       {
         "id": "hsk5-044",
@@ -5136,7 +5136,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "동굴",
           "speech": "洞"
         },
-        "tip": "“알다”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǒng</strong>; “동굴”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dòng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“알다”는 고개를 숙여 곰곰이 생각했다 들어 <strong>dǒng</strong>, 반면 “동굴”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>dòng</strong>."
       },
       {
         "id": "hsk5-045",
@@ -5157,7 +5157,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "묻다",
           "speech": "问"
         },
-        "tip": "“들으니”의 장면은 기세를 위로 끌어올려 <strong>wén</strong>; “묻다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wèn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“들으니”는 모습이 눈앞에 떠오르듯 올려 <strong>wén</strong>; “묻다”는 대답을 재촉하듯 단호하게 내려 <strong>wèn</strong>."
       },
       {
         "id": "hsk5-046",
@@ -5178,7 +5178,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "제",
           "speech": "提"
         },
-        "tip": "“차다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tī</strong>; “제”의 장면은 기세를 위로 끌어올려 <strong>tí</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“차다”는 상 위에 길게 펼쳐 놓고 <strong>tī</strong>. 이어서 “제”는 모습이 눈앞에 떠오르듯 올려 <strong>tí</strong>."
       },
       {
         "id": "hsk5-047",
@@ -5199,7 +5199,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "막다",
           "speech": "挡"
         },
-        "tip": "“당”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dāng</strong>; “막다”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǎng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“당”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>dāng</strong>, 반면 “막다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>dǎng</strong>."
       },
       {
         "id": "hsk5-048",
@@ -5220,7 +5220,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "물다",
           "speech": "咬"
         },
-        "tip": "“요구하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yāo</strong>; “물다”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǎo</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“요구하다”는 동작을 멈추지 않고 곧게 이어 <strong>yāo</strong>; “물다”는 물속으로 잠겼다 떠오르듯 꺾어 <strong>yǎo</strong>."
       },
       {
         "id": "hsk5-049",
@@ -5241,7 +5241,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "부딪힘",
           "speech": "撞"
         },
-        "tip": "“담다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhuāng</strong>; “부딪힘”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhuàng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“담다”는 동작을 멈추지 않고 곧게 이어 <strong>zhuāng</strong>. 이어서 “부딪힘”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>zhuàng</strong>."
       },
       {
         "id": "hsk5-050",
@@ -5262,7 +5262,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "벽",
           "speech": "墙"
         },
-        "tip": "“부딪치다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qiāng</strong>; “벽”의 장면은 기세를 위로 끌어올려 <strong>qiáng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“부딪치다”는 동작을 멈추지 않고 곧게 이어 <strong>qiāng</strong>, 반면 “벽”은 모습이 눈앞에 떠오르듯 올려 <strong>qiáng</strong>."
       },
       {
         "id": "hsk5-051",
@@ -5283,7 +5283,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "맞다",
           "speech": "对"
         },
-        "tip": "“더미”의 장면은 흔들리지 않게 길게 펼쳐 <strong>duī</strong>; “맞다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>duì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“더미”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>duī</strong>; “맞다”는 문장 관계를 딱 끊어 아래로 내려 <strong>duì</strong>."
       },
       {
         "id": "hsk5-052",
@@ -5304,7 +5304,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "가라앉다; 물에 잠기다",
           "speech": "没"
         },
-        "tip": "“만지다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>mō</strong>; “가라앉다; 물에 잠기다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>mò</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“만지다”는 한 줄로 반듯하게 세며 <strong>mō</strong>. 이어서 “가라앉다”는 힘이 아래로 뚝 떨어지듯 내려 <strong>mò</strong>."
       },
       {
         "id": "hsk5-053",
@@ -5325,7 +5325,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "베다",
           "speech": "砍"
         },
-        "tip": "“보다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>kān</strong>; “베다”의 장면은 낮게 품었다가 다시 꺾어 <strong>kǎn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“보다”는 동작을 멈추지 않고 곧게 이어 <strong>kān</strong>, 반면 “베다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>kǎn</strong>."
       },
       {
         "id": "hsk5-054",
@@ -5346,7 +5346,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "거꾸로",
           "speech": "倒"
         },
-        "tip": "“칼”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dāo</strong>; “거꾸로”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǎo</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“칼”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>dāo</strong>; “거꾸로”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>dǎo</strong>."
       },
       {
         "id": "hsk5-055",
@@ -5367,7 +5367,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "사랑",
           "speech": "爱"
         },
-        "tip": "“아이고; 응”의 장면은 흔들리지 않게 길게 펼쳐 <strong>āi</strong>; “사랑”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>ài</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“아이고”는 시선을 수평으로 길게 두고 <strong>āi</strong>. 이어서 “사랑”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>ài</strong>."
       },
       {
         "id": "hsk5-056",
@@ -5388,7 +5388,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "권; 시험지",
           "speech": "卷"
         },
-        "tip": "“가두다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>juān</strong>; “권; 시험지”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>juàn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“가두다”는 동작을 멈추지 않고 곧게 이어 <strong>juān</strong>, 반면 “권”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>juàn</strong>."
       },
       {
         "id": "hsk5-057",
@@ -5409,7 +5409,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "취하다",
           "speech": "醉"
         },
-        "tip": "“입의 통칭. 부리. 주둥이”의 장면은 낮게 품었다가 다시 꺾어 <strong>zuǐ</strong>; “취하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zuì</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“입의 통칭”은 고개를 숙였다 다시 들며 꺾어 <strong>zuǐ</strong>; “취하다”는 동작을 단호하게 마치며 내려 <strong>zuì</strong>."
       },
       {
         "id": "hsk5-058",
@@ -5430,7 +5430,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "퇴",
           "speech": "退"
         },
-        "tip": "“밀어주다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tuī</strong>; “퇴”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tuì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“밀어주다”는 두 손을 수평으로 곧게 내밀어 <strong>tuī</strong>. 이어서 “퇴”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>tuì</strong>."
       },
       {
         "id": "hsk5-059",
@@ -5451,7 +5451,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "밟다",
           "speech": "踩"
         },
-        "tip": "“비로소”의 장면은 기세를 위로 끌어올려 <strong>cái</strong>; “밟다”의 장면은 낮게 품었다가 다시 꺾어 <strong>cǎi</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“비로소”는 고개를 번쩍 들어 올리듯 <strong>cái</strong>, 반면 “밟다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>cǎi</strong>."
       },
       {
         "id": "hsk5-060",
@@ -5472,7 +5472,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "현",
           "speech": "县"
         },
-        "tip": "“먼저”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiān</strong>; “현”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“먼저”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>xiān</strong>; “현”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>xiàn</strong>."
       },
       {
         "id": "hsk5-061",
@@ -5493,7 +5493,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "떠나다.",
           "speech": "去"
         },
-        "tip": "“아내하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>qǔ</strong>; “떠나다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>qù</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“아내하다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>qǔ</strong>. 이어서 “떠나다”는 동작을 단호하게 마치며 내려 <strong>qù</strong>."
       },
       {
         "id": "hsk5-062",
@@ -5514,7 +5514,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "하",
           "speech": "下"
         },
-        "tip": "“헛”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiā</strong>; “하”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xià</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“헛”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>xiā</strong>, 반면 “하”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>xià</strong>."
       },
       {
         "id": "hsk5-063",
@@ -5535,7 +5535,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "세",
           "speech": "税"
         },
-        "tip": "“물”의 장면은 낮게 품었다가 다시 꺾어 <strong>shuǐ</strong>; “세”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shuì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“물”은 물속으로 잠겼다 떠오르듯 꺾어 <strong>shuǐ</strong>; “세”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>shuì</strong>."
       },
       {
         "id": "hsk5-064",
@@ -5556,7 +5556,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "약",
           "speech": "药"
         },
-        "tip": "“흔들다”의 장면은 기세를 위로 끌어올려 <strong>yáo</strong>; “약”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yào</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“흔들다”는 몸의 기세를 위로 끌어올려 <strong>yáo</strong>. 이어서 “약”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>yào</strong>."
       },
       {
         "id": "hsk5-065",
@@ -5577,7 +5577,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "나쁘다; 부족하다",
           "speech": "差"
         },
-        "tip": "“꽂다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>chā</strong>; “나쁘다; 부족하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>chà</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“꽂다”는 동작을 멈추지 않고 곧게 이어 <strong>chā</strong>, 반면 “나쁘다”는 그 상태를 확정하듯 힘주어 내려 <strong>chà</strong>."
       },
       {
         "id": "hsk5-066",
@@ -5598,7 +5598,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "썩음",
           "speech": "烂"
         },
-        "tip": "“파랑”의 장면은 기세를 위로 끌어올려 <strong>lán</strong>; “썩음”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>làn</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“파랑”은 모습이 눈앞에 떠오르듯 올려 <strong>lán</strong>; “썩음”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>làn</strong>."
       },
       {
         "id": "hsk5-067",
@@ -5619,7 +5619,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "붓다; 팽창하다",
           "speech": "涨"
         },
-        "tip": "“자라다; 우두머리”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǎng</strong>; “붓다; 팽창하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhàng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“자라다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>zhǎng</strong>. 이어서 “붓다”는 동작을 단호하게 마치며 내려 <strong>zhàng</strong>."
       },
       {
         "id": "hsk5-068",
@@ -5640,7 +5640,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "현실",
           "speech": "现实"
         },
-        "tip": "“표시”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎn shì</strong>; “현실”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàn shí</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“표시”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>xiǎn shì</strong>, 반면 “현실”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>xiàn shí</strong>."
       },
       {
         "id": "hsk5-069",
@@ -5661,7 +5661,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "원하다; 필요하다",
           "speech": "要"
         },
-        "tip": "“허리”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yāo</strong>; “원하다; 필요하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yào</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“허리”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>yāo</strong>; “원하다”는 동작을 단호하게 마치며 내려 <strong>yào</strong>."
       },
       {
         "id": "hsk5-070",
@@ -5682,7 +5682,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "절약하다; 성",
           "speech": "省"
         },
-        "tip": "“오르다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shēng</strong>; “절약하다; 성”의 장면은 낮게 품었다가 다시 꺾어 <strong>shěng</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“오르다”는 위로 뻗은 선을 길게 유지해 <strong>shēng</strong>. 이어서 “절약하다”는 속으로 눌렀다 다시 드러내듯 꺾어 <strong>shěng</strong>."
       },
       {
         "id": "hsk5-071",
@@ -5703,7 +5703,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "오르다",
           "speech": "涨"
         },
-        "tip": "“장”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhāng</strong>; “오르다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǎng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“펼치다”는 동작을 멈추지 않고 곧게 이어 <strong>zhāng</strong>, 반면 “오르다”는 몸을 낮췄다 힘껏 일어나며 꺾어 <strong>zhǎng</strong>."
       },
       {
         "id": "hsk5-072",
@@ -5724,7 +5724,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "볶다",
           "speech": "炒"
         },
-        "tip": "“~을 향하다; 왕조”의 장면은 기세를 위로 끌어올려 <strong>cháo</strong>; “볶다”의 장면은 낮게 품었다가 다시 꺾어 <strong>chǎo</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“~을 향하다”는 문장의 흐름을 다음 말로 올려 보내 <strong>cháo</strong>; “볶다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>chǎo</strong>."
       },
       {
         "id": "hsk5-073",
@@ -5745,7 +5745,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "건",
           "speech": "件"
         },
-        "tip": "“줍다”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎn</strong>; “건”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“줍다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>jiǎn</strong>. 이어서 “건”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jiàn</strong>."
       },
       {
         "id": "hsk5-074",
@@ -5766,7 +5766,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "일치하다",
           "speech": "一致"
         },
-        "tip": "“줄곧”의 장면은 기세를 위로 끌어올려 <strong>yī zhí</strong>; “일치하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yī zhì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“줄곧”은 모습이 눈앞에 떠오르듯 올려 <strong>yī zhí</strong>, 반면 “일치하다”는 동작을 단호하게 마치며 내려 <strong>yī zhì</strong>."
       },
       {
         "id": "hsk5-075",
@@ -5787,7 +5787,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "폐",
           "speech": "肺"
         },
-        "tip": "“아님”의 장면은 흔들리지 않게 길게 펼쳐 <strong>fēi</strong>; “폐”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>fèi</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“아님”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>fēi</strong>; “폐”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>fèi</strong>."
       },
       {
         "id": "hsk5-076",
@@ -5808,7 +5808,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "이슬",
           "speech": "露"
         },
-        "tip": "“층”의 장면은 기세를 위로 끌어올려 <strong>lóu</strong>; “이슬”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>lòu</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“층”은 계단을 한 층 오르듯 올려 <strong>lóu</strong>. 이어서 “이슬”은 땅으로 세차게 떨어지듯 내려 <strong>lòu</strong>."
       },
       {
         "id": "hsk5-077",
@@ -5829,7 +5829,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "부",
           "speech": "富"
         },
-        "tip": "“폭”의 장면은 기세를 위로 끌어올려 <strong>fú</strong>; “부”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>fù</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“폭”은 모습이 눈앞에 떠오르듯 올려 <strong>fú</strong>, 반면 “부”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>fù</strong>."
       },
       {
         "id": "hsk5-078",
@@ -5850,7 +5850,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "안개",
           "speech": "雾"
         },
-        "tip": "“5. 다섯. 다섯째”의 장면은 낮게 품었다가 다시 꺾어 <strong>wǔ</strong>; “안개”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wù</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“다섯”은 수를 낮게 짚었다 다시 세어 올리며 <strong>wǔ</strong>; “안개”는 땅으로 세차게 떨어지듯 내려 <strong>wù</strong>."
       },
       {
         "id": "hsk5-079",
@@ -5871,7 +5871,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "시간",
           "speech": "小时"
         },
-        "tip": "“사라지다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiāo shī</strong>; “시간”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎo shí</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“사라지다”는 바닥선을 따라 길게 눕혀 <strong>xiāo shī</strong>. 이어서 “시간”은 수를 낮게 짚었다 다시 세어 올리며 <strong>xiǎo shí</strong>."
       },
       {
         "id": "hsk5-080",
@@ -5892,7 +5892,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "건너다",
           "speech": "过"
         },
-        "tip": "“냄비”의 장면은 흔들리지 않게 길게 펼쳐 <strong>guō</strong>; “건너다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>guò</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“냄비”는 잔잔한 수면을 길게 가르며 <strong>guō</strong>, 반면 “건너다”는 동작을 단호하게 마치며 내려 <strong>guò</strong>."
       },
       {
         "id": "hsk5-081",
@@ -5913,7 +5913,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "얇은",
           "speech": "薄"
         },
-        "tip": "“가방”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bāo</strong>; “얇은”의 장면은 기세를 위로 끌어올려 <strong>báo</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“가방”은 지평선을 따라 넓고 반듯하게 펼쳐 <strong>bāo</strong>; “얇은”은 모습이 눈앞에 떠오르듯 올려 <strong>báo</strong>."
       },
       {
         "id": "hsk5-082",
@@ -5934,7 +5934,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "진",
           "speech": "阵"
         },
-        "tip": "“정말”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhēn</strong>; “진”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhèn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“정말”은 목소리를 길고 고르게 이어 <strong>zhēn</strong>. 이어서 “진”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>zhèn</strong>."
       },
       {
         "id": "hsk5-083",
@@ -5955,7 +5955,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "최고",
           "speech": "顶"
         },
-        "tip": "“정”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dīng</strong>; “최고”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǐng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“정”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>dīng</strong>, 반면 “최고”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>dǐng</strong>."
       },
       {
         "id": "hsk5-084",
@@ -5976,7 +5976,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "가로막다",
           "speech": "阻止"
         },
-        "tip": "“조직”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zǔ zhī</strong>; “가로막다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zǔ zhǐ</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“조직”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>zǔ zhī</strong>; “가로막다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>zǔ zhǐ</strong>."
       },
       {
         "id": "hsk5-085",
@@ -5997,7 +5997,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "우리; 축사",
           "speech": "圈"
         },
-        "tip": "“말다”의 장면은 낮게 품었다가 다시 꺾어 <strong>juǎn</strong>; “우리; 축사”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>juàn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“말다”는 속으로 한번 되짚었다 꺼내듯 꺾어 <strong>juǎn</strong>. 이어서 “우리”는 고개를 단호하게 끄덕이며 내려 <strong>juàn</strong>."
       },
       {
         "id": "hsk5-086",
@@ -6018,7 +6018,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "지도",
           "speech": "指导"
         },
-        "tip": "“알다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhī dào</strong>; “지도”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǐ dǎo</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“알다”는 생각의 선을 흔들림 없이 이어 <strong>zhī dào</strong>, 반면 “지도”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>zhǐ dǎo</strong>."
       },
       {
         "id": "hsk5-087",
@@ -6039,7 +6039,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "냄새를 맡다",
           "speech": "臭"
         },
-        "tip": "“수”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiū</strong>; “냄새를 맡다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiù</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“수”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>xiū</strong>; “냄새를 맡다”는 동작을 단호하게 마치며 내려 <strong>xiù</strong>."
       },
       {
         "id": "hsk5-088",
@@ -6060,7 +6060,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "놀다. 놀이하다. 장난하다.",
           "speech": "玩"
         },
-        "tip": "“굽이”의 장면은 흔들리지 않게 길게 펼쳐 <strong>wān</strong>; “놀다. 놀이하다. 장난하다”의 장면은 기세를 위로 끌어올려 <strong>wán</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“굽이”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>wān</strong>. 이어서 “놀다”는 몸의 기세를 위로 끌어올려 <strong>wán</strong>."
       },
       {
         "id": "hsk5-089",
@@ -6081,7 +6081,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "얼어 있다",
           "speech": "冻"
         },
-        "tip": "“동”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dōng</strong>; “얼어 있다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dòng</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“동”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>dōng</strong>, 반면 “얼어 있다”는 문장 관계를 딱 끊어 아래로 내려 <strong>dòng</strong>."
       },
       {
         "id": "hsk5-090",
@@ -6102,7 +6102,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "멈추다",
           "speech": "顿"
         },
-        "tip": "“쪼그리고 앉다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dūn</strong>; “멈추다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dùn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“쪼그리고 앉다”는 동작을 멈추지 않고 곧게 이어 <strong>dūn</strong>; “멈추다”는 동작을 단호하게 마치며 내려 <strong>dùn</strong>."
       },
       {
         "id": "hsk5-091",
@@ -6123,7 +6123,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "휴가",
           "speech": "假"
         },
-        "tip": "“갑”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎ</strong>; “휴가”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jià</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“갑”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jiǎ</strong>. 이어서 “휴가”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jià</strong>."
       },
       {
         "id": "hsk5-092",
@@ -6144,7 +6144,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "될 것",
           "speech": "会"
         },
-        "tip": "“휘”의 장면은 흔들리지 않게 길게 펼쳐 <strong>huī</strong>; “될 것”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>huì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“휘”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>huī</strong>, 반면 “될 것”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>huì</strong>."
       },
       {
         "id": "hsk5-093",
@@ -6165,7 +6165,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "멋지다",
           "speech": "帅"
         },
-        "tip": "“떨어지다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shuāi</strong>; “멋지다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shuài</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“떨어지다”는 바닥선을 따라 길게 눕혀 <strong>shuāi</strong>; “멋지다”는 동작을 단호하게 마치며 내려 <strong>shuài</strong>."
       },
       {
         "id": "hsk5-094",
@@ -6186,7 +6186,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "알",
           "speech": "粒"
         },
-        "tip": "“떨어짐”의 장면은 기세를 위로 끌어올려 <strong>lí</strong>; “알”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>lì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“떨어짐”은 바닥에서 마지막으로 솟듯 올려 <strong>lí</strong>. 이어서 “알”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>lì</strong>."
       },
       {
         "id": "hsk5-095",
@@ -6207,7 +6207,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "표",
           "speech": "票"
         },
-        "tip": "“날리다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>piāo</strong>; “표”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>piào</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“날리다”는 동작을 멈추지 않고 곧게 이어 <strong>piāo</strong>, 반면 “표”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>piào</strong>."
       },
       {
         "id": "hsk5-096",
@@ -6225,10 +6225,10 @@ window.HSK_PAIR_SETS = {
           "pinyin": "sǐ",
           "tones": "3",
           "level": 4,
-          "meaning": "죽다., 生(1d))",
+          "meaning": "죽다",
           "speech": "死"
         },
-        "tip": "“찢다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>sī</strong>; “죽다., 生(1d))”의 장면은 낮게 품었다가 다시 꺾어 <strong>sǐ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“찢다”는 동작을 멈추지 않고 곧게 이어 <strong>sī</strong>; “죽다”는 깊이 가라앉았다 한번 들썩이듯 꺾어 <strong>sǐ</strong>."
       },
       {
         "id": "hsk5-097",
@@ -6249,7 +6249,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "외",
           "speech": "外"
         },
-        "tip": "“일그러침”의 장면은 흔들리지 않게 길게 펼쳐 <strong>wāi</strong>; “외”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wài</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“일그러침”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>wāi</strong>. 이어서 “외”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>wài</strong>."
       },
       {
         "id": "hsk5-098",
@@ -6270,7 +6270,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "권고하다",
           "speech": "劝"
         },
-        "tip": "“원; 고리”의 장면은 흔들리지 않게 길게 펼쳐 <strong>quān</strong>; “권고하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>quàn</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“원”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>quān</strong>, 반면 “권고하다”는 동작을 단호하게 마치며 내려 <strong>quàn</strong>."
       },
       {
         "id": "hsk5-099",
@@ -6291,7 +6291,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "바르다",
           "speech": "正"
         },
-        "tip": "“눈을 뜨다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhēng</strong>; “바르다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhèng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“눈을 뜨다”는 시선을 수평으로 길게 두고 <strong>zhēng</strong>; “바르다”는 동작을 단호하게 마치며 내려 <strong>zhèng</strong>."
       },
       {
         "id": "hsk5-100",
@@ -6312,7 +6312,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "다루다; 하다",
           "speech": "弄"
         },
-        "tip": "“진한”의 장면은 기세를 위로 끌어올려 <strong>nóng</strong>; “다루다; 하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>nòng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“진한”은 모습이 눈앞에 떠오르듯 올려 <strong>nóng</strong>. 이어서 “다루다”는 동작을 단호하게 마치며 내려 <strong>nòng</strong>."
       },
       {
         "id": "hsk5-101",
@@ -6333,7 +6333,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "매력",
           "speech": "魅力"
         },
-        "tip": "“아름답다”의 장면은 낮게 품었다가 다시 꺾어 <strong>měi lì</strong>; “매력”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>mèi lì</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“아름답다”는 속으로 눌렀다 다시 드러내듯 꺾어 <strong>měi lì</strong>, 반면 “매력”은 감정을 단호하게 쏟아내며 내려 <strong>mèi lì</strong>."
       },
       {
         "id": "hsk5-102",
@@ -6354,7 +6354,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "장난",
           "speech": "逗"
         },
-        "tip": "“모두”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dōu</strong>; “장난”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dòu</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“모두”는 앞말과 뒷말을 끊김 없이 이어 <strong>dōu</strong>; “장난”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>dòu</strong>."
       },
       {
         "id": "hsk5-103",
@@ -6375,7 +6375,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "동료",
           "speech": "同事"
         },
-        "tip": "“동시에”의 장면은 기세를 위로 끌어올려 <strong>tóng shí</strong>; “동료”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tóng shì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“동시에”는 모습이 눈앞에 떠오르듯 올려 <strong>tóng shí</strong>. 이어서 “동료”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>tóng shì</strong>."
       },
       {
         "id": "hsk5-104",
@@ -6396,7 +6396,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "아아; 한숨",
           "speech": "唉"
         },
-        "tip": "“키가 작다”의 장면은 낮게 품었다가 다시 꺾어 <strong>ǎi</strong>; “아아; 한숨”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>ài</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“키가 작다”는 속으로 눌렀다 다시 드러내듯 꺾어 <strong>ǎi</strong>, 반면 “아아”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>ài</strong>."
       },
       {
         "id": "hsk5-105",
@@ -6417,7 +6417,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "어지럽다",
           "speech": "晕"
         },
-        "tip": "“구름”의 장면은 기세를 위로 끌어올려 <strong>yún</strong>; “어지럽다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yùn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“구름”은 하늘로 피어오르듯 올려 <strong>yún</strong>; “어지럽다”는 동작을 단호하게 마치며 내려 <strong>yùn</strong>."
       },
       {
         "id": "hsk5-106",
@@ -6438,7 +6438,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "뜨겁다",
           "speech": "烫"
         },
-        "tip": "“눕다”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǎng</strong>; “뜨겁다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tàng</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“눕다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>tǎng</strong>. 이어서 “뜨겁다”는 땅으로 세차게 떨어지듯 내려 <strong>tàng</strong>."
       },
       {
         "id": "hsk5-107",
@@ -6459,7 +6459,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "땀",
           "speech": "汗"
         },
-        "tip": "“소리치다”의 장면은 낮게 품었다가 다시 꺾어 <strong>hǎn</strong>; “땀”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hàn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“소리치다”는 속으로 한번 되짚었다 꺼내듯 꺾어 <strong>hǎn</strong>, 반면 “땀”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>hàn</strong>."
       },
       {
         "id": "hsk5-108",
@@ -6480,7 +6480,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "임무",
           "speech": "任务"
         },
-        "tip": "“인물”의 장면은 기세를 위로 끌어올려 <strong>rén wù</strong>; “임무”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>rèn wu</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“인물”은 물방울이 솟구치듯 올려 <strong>rén wù</strong>; “임무”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>rèn wu</strong>."
       },
       {
         "id": "hsk5-109",
@@ -6501,7 +6501,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "은",
           "speech": "银"
         },
-        "tip": "“음”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yīn</strong>; “은”의 장면은 기세를 위로 끌어올려 <strong>yín</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“음”은 목소리를 길고 고르게 이어 <strong>yīn</strong>. 이어서 “은”은 모습이 눈앞에 떠오르듯 올려 <strong>yín</strong>."
       },
       {
         "id": "hsk5-110",
@@ -6522,7 +6522,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "쌍",
           "speech": "匹"
         },
-        "tip": "“도매”의 장면은 흔들리지 않게 길게 펼쳐 <strong>pī</strong>; “쌍”의 장면은 낮게 품었다가 다시 꺾어 <strong>pǐ</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“도매”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>pī</strong>, 반면 “쌍”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>pǐ</strong>."
       },
       {
         "id": "hsk5-111",
@@ -6543,7 +6543,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "냄새나다",
           "speech": "臭"
         },
-        "tip": "“추하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>chǒu</strong>; “냄새나다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>chòu</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“추하다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>chǒu</strong>; “냄새나다”는 동작을 단호하게 마치며 내려 <strong>chòu</strong>."
       },
       {
         "id": "hsk5-112",
@@ -6564,7 +6564,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "통일",
           "speech": "统一"
         },
-        "tip": "“동의하다”의 장면은 기세를 위로 끌어올려 <strong>tóng yì</strong>; “통일”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǒng yī</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“동의하다”는 말끝을 상대에게 건네듯 올려 <strong>tóng yì</strong>. 이어서 “통일”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>tǒng yī</strong>."
       },
       {
         "id": "hsk5-113",
@@ -6585,7 +6585,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "봐",
           "speech": "瞧"
         },
-        "tip": "“치다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qiāo</strong>; “봐”의 장면은 기세를 위로 끌어올려 <strong>qiáo</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“치다”는 동작을 멈추지 않고 곧게 이어 <strong>qiāo</strong>, 반면 “봐”는 모습이 눈앞에 떠오르듯 올려 <strong>qiáo</strong>."
       },
       {
         "id": "hsk5-114",
@@ -6606,7 +6606,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "글자",
           "speech": "字"
         },
-        "tip": "“보라”의 장면은 낮게 품었다가 다시 꺾어 <strong>zǐ</strong>; “글자”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“보라”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>zǐ</strong>; “글자”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>zì</strong>."
       },
       {
         "id": "hsk5-115",
@@ -6627,7 +6627,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "얕다",
           "speech": "浅"
         },
-        "tip": "“천”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qiān</strong>; “얕다”의 장면은 낮게 품었다가 다시 꺾어 <strong>qiǎn</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“천”은 한 줄로 반듯하게 세며 <strong>qiān</strong>. 이어서 “얕다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>qiǎn</strong>."
       },
       {
         "id": "hsk5-116",
@@ -6648,7 +6648,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "좌석",
           "speech": "座位"
         },
-        "tip": "“소행”의 장면은 기세를 위로 끌어올려 <strong>zuò wéi</strong>; “좌석”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zuò wèi</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“소행”은 모습이 눈앞에 떠오르듯 올려 <strong>zuò wéi</strong>, 반면 “좌석”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>zuò wèi</strong>."
       },
       {
         "id": "hsk5-117",
@@ -6669,7 +6669,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "쓰다",
           "speech": "写"
         },
-        "tip": "“휴”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiē</strong>; “쓰다”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiě</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“휴”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>xiē</strong>; “쓰다”는 속으로 한번 되짚었다 꺼내듯 꺾어 <strong>xiě</strong>."
       },
       {
         "id": "hsk5-118",
@@ -6690,7 +6690,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "알려 주다",
           "speech": "告诉"
         },
-        "tip": "“고속”의 장면은 흔들리지 않게 길게 펼쳐 <strong>gāo sù</strong>; “알려 주다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>gào su</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“고속”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>gāo sù</strong>. 이어서 “알려 주다”는 상대 손에 확실히 내려놓듯 내려 <strong>gào su</strong>."
       },
       {
         "id": "hsk5-119",
@@ -6711,7 +6711,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "실천하다",
           "speech": "实践"
         },
-        "tip": "“시간”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shí jiān</strong>; “실천하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shí jiàn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“시간”은 한 줄로 반듯하게 세며 <strong>shí jiān</strong>, 반면 “실천하다”는 마지막 수에 도장을 찍듯 내려 <strong>shí jiàn</strong>."
       },
       {
         "id": "hsk5-120",
@@ -6732,7 +6732,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "기력",
           "speech": "精力"
         },
-        "tip": "“사장님”의 장면은 낮게 품었다가 다시 꺾어 <strong>jīng lǐ</strong>; “기력”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jīng lì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“사장님”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jīng lǐ</strong>; “기력”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jīng lì</strong>."
       },
       {
         "id": "hsk5-121",
@@ -6753,7 +6753,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "사물",
           "speech": "事物"
         },
-        "tip": "“음식”의 장면은 기세를 위로 끌어올려 <strong>shí wù</strong>; “사물”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì wù</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“음식”은 향이 코끝으로 피어오르듯 올려 <strong>shí wù</strong>. 이어서 “사물”은 빗방울이 아래로 떨어지듯 내려 <strong>shì wù</strong>."
       },
       {
         "id": "hsk5-122",
@@ -6774,7 +6774,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "통치하다",
           "speech": "统治"
         },
-        "tip": "“알리다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tōng zhī</strong>; “통치하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǒng zhì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“알리다”는 목소리를 길고 고르게 이어 <strong>tōng zhī</strong>, 반면 “통치하다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>tǒng zhì</strong>."
       },
       {
         "id": "hsk5-123",
@@ -6795,7 +6795,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "지혜",
           "speech": "智慧"
         },
-        "tip": "“지휘하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǐ huī</strong>; “지혜”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhì huì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“지휘하다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>zhǐ huī</strong>; “지혜”는 판단에 마침표를 찍듯 내려 <strong>zhì huì</strong>."
       },
       {
         "id": "hsk5-124",
@@ -6816,7 +6816,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "미리",
           "speech": "事先"
         },
-        "tip": "“실현하다”의 장면은 기세를 위로 끌어올려 <strong>shí xiàn</strong>; “미리”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì xiān</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“실현하다”는 몸의 기세를 위로 끌어올려 <strong>shí xiàn</strong>. 이어서 “미리”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>shì xiān</strong>."
       },
       {
         "id": "hsk5-125",
@@ -6837,7 +6837,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "망설이다",
           "speech": "犹豫"
         },
-        "tip": "“때문에”의 장면은 기세를 위로 끌어올려 <strong>yóu yú</strong>; “망설이다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yóu yù</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“때문에”는 계단을 한 층 오르듯 올려 <strong>yóu yú</strong>, 반면 “망설이다”는 동작을 단호하게 마치며 내려 <strong>yóu yù</strong>."
       },
       {
         "id": "hsk5-126",
@@ -6858,7 +6858,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "외치다. 고함치다. 소리지르다. 소리치다. 부르짖다.",
           "speech": "叫"
         },
-        "tip": "“뿌리다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiāo</strong>; “외치다. 고함치다. 소리지르다. 소리치다. 부르짖다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiào</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“뿌리다”는 동작을 멈추지 않고 곧게 이어 <strong>jiāo</strong>; “외치다”는 문장을 딱 잘라 끝내며 내려 <strong>jiào</strong>."
       },
       {
         "id": "hsk5-127",
@@ -6879,7 +6879,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "디자인",
           "speech": "设计"
         },
-        "tip": "“사격”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shè jī</strong>; “디자인”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shè jì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“사격”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>shè jī</strong>. 이어서 “디자인”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>shè jì</strong>."
       },
       {
         "id": "hsk5-128",
@@ -6900,7 +6900,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "성실함",
           "speech": "老实"
         },
-        "tip": "“선생님”의 장면은 흔들리지 않게 길게 펼쳐 <strong>lǎo shī</strong>; “성실함”의 장면은 짧고 가볍게 덧붙여 <strong>lǎo shi</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“선생님”은 시선을 수평으로 길게 두고 <strong>lǎo shī</strong>, 반면 “성실함”은 눈앞에 가볍게 띄워 <strong>lǎo shi</strong>."
       },
       {
         "id": "hsk5-129",
@@ -6921,7 +6921,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "이",
           "speech": "这"
         },
-        "tip": "“꺾임 획”의 장면은 기세를 위로 끌어올려 <strong>zhé</strong>; “이”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhè</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“꺾임 획”은 모습이 눈앞에 떠오르듯 올려 <strong>zhé</strong>; “이”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>zhè</strong>."
       },
       {
         "id": "hsk5-130",
@@ -6942,7 +6942,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "건네주다",
           "speech": "递"
         },
-        "tip": "“택시”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dī</strong>; “건네주다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“택시”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>dī</strong>. 이어서 “건네주다”는 상대 손에 확실히 내려놓듯 내려 <strong>dì</strong>."
       },
       {
         "id": "hsk5-131",
@@ -6963,7 +6963,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "을; 둘째 천간",
           "speech": "乙"
         },
-        "tip": "“1. 일. 하나”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yī</strong>; “을; 둘째 천간”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǐ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“하나”는 한 줄로 반듯하게 세며 <strong>yī</strong>, 반면 “을”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>yǐ</strong>."
       },
       {
         "id": "hsk5-132",
@@ -6984,7 +6984,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "극히",
           "speech": "极其"
         },
-        "tip": "“기계”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jī qì</strong>; “극히”의 장면은 기세를 위로 끌어올려 <strong>jí qí</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“기계”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>jī qì</strong>; “극히”는 모습이 눈앞에 떠오르듯 올려 <strong>jí qí</strong>."
       },
       {
         "id": "hsk5-133",
@@ -7005,7 +7005,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "안",
           "speech": "里"
         },
-        "tip": "“배”의 장면은 기세를 위로 끌어올려 <strong>lí</strong>; “안”의 장면은 낮게 품었다가 다시 꺾어 <strong>lǐ</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“배”는 모습이 눈앞에 떠오르듯 올려 <strong>lí</strong>. 이어서 “안”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>lǐ</strong>."
       },
       {
         "id": "hsk5-134",
@@ -7026,7 +7026,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "시끄럽다",
           "speech": "吵"
         },
-        "tip": "“베끼다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>chāo</strong>; “시끄럽다”의 장면은 낮게 품었다가 다시 꺾어 <strong>chǎo</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“베끼다”는 동작을 멈추지 않고 곧게 이어 <strong>chāo</strong>, 반면 “시끄럽다”는 속으로 눌렀다 다시 드러내듯 꺾어 <strong>chǎo</strong>."
       },
       {
         "id": "hsk5-135",
@@ -7047,7 +7047,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "자발적",
           "speech": "自愿"
         },
-        "tip": "“자원”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zī yuán</strong>; “자발적”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zì yuàn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“자원”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>zī yuán</strong>; “자발적”은 고개를 단호하게 끄덕이며 내려 <strong>zì yuàn</strong>."
       },
       {
         "id": "hsk5-136",
@@ -7068,7 +7068,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "낚시",
           "speech": "钓"
         },
-        "tip": "“새”의 장면은 낮게 품었다가 다시 꺾어 <strong>diǎo</strong>; “낚시”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>diào</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“새”는 몸을 낮췄다 힘차게 뛰어오르듯 꺾어 <strong>diǎo</strong>. 이어서 “낚시”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>diào</strong>."
       },
       {
         "id": "hsk5-137",
@@ -7089,7 +7089,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "캐럿",
           "speech": "克"
         },
-        "tip": "“목마름”의 장면은 낮게 품었다가 다시 꺾어 <strong>kě</strong>; “캐럿”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>kè</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“목마름”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>kě</strong>, 반면 “캐럿”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>kè</strong>."
       },
       {
         "id": "hsk5-138",
@@ -7110,7 +7110,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "알다",
           "speech": "认识"
         },
-        "tip": "“인사”의 장면은 기세를 위로 끌어올려 <strong>rén shì</strong>; “알다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>rèn shi</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“인사”는 모습이 눈앞에 떠오르듯 올려 <strong>rén shì</strong>; “알다”는 판단에 마침표를 찍듯 내려 <strong>rèn shi</strong>."
       },
       {
         "id": "hsk5-139",
@@ -7131,7 +7131,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "사용하다",
           "speech": "使用"
         },
-        "tip": "“실용적”의 장면은 기세를 위로 끌어올려 <strong>shí yòng</strong>; “사용하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>shǐ yòng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“실용적”은 모습이 눈앞에 떠오르듯 올려 <strong>shí yòng</strong>. 이어서 “사용하다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>shǐ yòng</strong>."
       },
       {
         "id": "hsk5-140",
@@ -7152,7 +7152,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "웃음거리",
           "speech": "笑话"
         },
-        "tip": "“소화”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiāo huà</strong>; “웃음거리”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiào hua</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“소화”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>xiāo huà</strong>, 반면 “웃음거리”는 그 자리에 표지판을 꽂듯 내려 <strong>xiào hua</strong>."
       },
       {
         "id": "hsk5-141",
@@ -7173,7 +7173,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "세우다",
           "speech": "建立"
         },
-        "tip": "“이력서”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎn lì</strong>; “세우다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiàn lì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“이력서”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jiǎn lì</strong>; “세우다”는 정점에서 아래로 힘주어 내려 <strong>jiàn lì</strong>."
       },
       {
         "id": "hsk5-142",
@@ -7194,7 +7194,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "게으르다",
           "speech": "懒"
         },
-        "tip": "“막다”의 장면은 기세를 위로 끌어올려 <strong>lán</strong>; “게으르다”의 장면은 낮게 품었다가 다시 꺾어 <strong>lǎn</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“막다”는 몸의 기세를 위로 끌어올려 <strong>lán</strong>. 이어서 “게으르다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>lǎn</strong>."
       },
       {
         "id": "hsk5-143",
@@ -7215,7 +7215,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "배경",
           "speech": "背景"
         },
-        "tip": "“베이징”의 장면은 낮게 품었다가 다시 꺾어 <strong>Běi jīng</strong>; “배경”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bèi jǐng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“베이징”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>Běi jīng</strong>, 반면 “배경”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>bèi jǐng</strong>."
       },
       {
         "id": "hsk5-144",
@@ -7236,7 +7236,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "돌아가시다.",
           "speech": "去世"
         },
-        "tip": "“추세”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qū shì</strong>; “돌아가시다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>qù shì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“추세”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>qū shì</strong>; “돌아가시다”는 한입 삼키며 끝을 아래로 내려 <strong>qù shì</strong>."
       },
       {
         "id": "hsk5-145",
@@ -7257,7 +7257,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "나이",
           "speech": "年纪"
         },
-        "tip": "“학년”의 장면은 기세를 위로 끌어올려 <strong>nián jí</strong>; “나이”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>nián jì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“학년”은 모습이 눈앞에 떠오르듯 올려 <strong>nián jí</strong>. 이어서 “나이”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>nián jì</strong>."
       },
       {
         "id": "hsk5-146",
@@ -7278,7 +7278,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "간호사",
           "speech": "护士"
         },
-        "tip": "“무시하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>hū shì</strong>; “간호사”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hù shi</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“무시하다”는 동작을 멈추지 않고 곧게 이어 <strong>hū shì</strong>, 반면 “간호사”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>hù shi</strong>."
       },
       {
         "id": "hsk5-147",
@@ -7299,7 +7299,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "양",
           "speech": "让"
         },
-        "tip": "“외치다”의 장면은 낮게 품었다가 다시 꺾어 <strong>rǎng</strong>; “양”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>ràng</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“외치다”는 속으로 한번 되짚었다 꺼내듯 꺾어 <strong>rǎng</strong>; “양”은 발굽을 바닥에 힘주어 내리듯 내려 <strong>ràng</strong>."
       },
       {
         "id": "hsk5-148",
@@ -7320,7 +7320,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "해석하다",
           "speech": "解释"
         },
-        "tip": "“탄탄함”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiē shi</strong>; “해석하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiě shì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“탄탄함”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>jiē shi</strong>. 이어서 “해석하다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>jiě shì</strong>."
       },
       {
         "id": "hsk5-149",
@@ -7341,7 +7341,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "좁은",
           "speech": "窄"
         },
-        "tip": "“따다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhāi</strong>; “좁은”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǎi</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“따다”는 동작을 멈추지 않고 곧게 이어 <strong>zhāi</strong>, 반면 “좁은”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>zhǎi</strong>."
       },
       {
         "id": "hsk5-150",
@@ -7362,7 +7362,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "각자",
           "speech": "各自"
         },
-        "tip": "“비둘기”의 장면은 흔들리지 않게 길게 펼쳐 <strong>gē zi</strong>; “각자”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>gè zì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“비둘기”는 잔잔한 수면을 길게 가르며 <strong>gē zi</strong>; “각자”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>gè zì</strong>."
       },
       {
         "id": "hsk5-151",
@@ -7383,7 +7383,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "무술",
           "speech": "武术"
         },
-        "tip": "“셀 수 없이 많다”의 장면은 기세를 위로 끌어올려 <strong>wú shù</strong>; “무술”의 장면은 낮게 품었다가 다시 꺾어 <strong>wǔ shù</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“셀 수 없이 많다”는 그 기운이 점점 커지듯 올려 <strong>wú shù</strong>. 이어서 “무술”은 몸을 낮췄다 다시 움직이며 꺾어 <strong>wǔ shù</strong>."
       },
       {
         "id": "hsk5-152",
@@ -7404,7 +7404,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "이불",
           "speech": "被子"
         },
-        "tip": "“컵”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bēi zi</strong>; “이불”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bèi zi</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“컵”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>bēi zi</strong>, 반면 “이불”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>bèi zi</strong>."
       },
       {
         "id": "hsk5-153",
@@ -7425,7 +7425,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "섣달그믐",
           "speech": "除夕"
         },
-        "tip": "“참석하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>chū xí</strong>; “섣달그믐”의 장면은 기세를 위로 끌어올려 <strong>Chú xī</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“참석하다”는 동작을 멈추지 않고 곧게 이어 <strong>chū xí</strong>; “섣달그믐”은 모습이 눈앞에 떠오르듯 올려 <strong>Chú xī</strong>."
       },
       {
         "id": "hsk5-154",
@@ -7446,7 +7446,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "국제",
           "speech": "国际"
         },
-        "tip": "“국적”의 장면은 기세를 위로 끌어올려 <strong>guó jí</strong>; “국제”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>guó jì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“국적”은 향이 코끝으로 피어오르듯 올려 <strong>guó jí</strong>. 이어서 “국제”는 한입 삼키며 끝을 아래로 내려 <strong>guó jì</strong>."
       },
       {
         "id": "hsk5-155",
@@ -7467,7 +7467,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "축복",
           "speech": "祝福"
         },
-        "tip": "“당부”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǔ fù</strong>; “축복”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhù fú</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“당부”는 속으로 한번 되짚었다 꺼내듯 꺾어 <strong>zhǔ fù</strong>, 반면 “축복”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>zhù fú</strong>."
       }
     ]
   },
@@ -7496,7 +7496,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "말",
           "speech": "马"
         },
-        "tip": "“음”의 장면은 기세를 위로 끌어올려 <strong>má</strong>; “말”의 장면은 낮게 품었다가 다시 꺾어 <strong>mǎ</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“음”은 말끝을 상대에게 건네듯 올려 <strong>má</strong>, 반면 “말(동물)”은 속으로 한번 되짚었다 꺼내듯 꺾어 <strong>mǎ</strong>."
       },
       {
         "id": "hsk6-002",
@@ -7517,7 +7517,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "세다",
           "speech": "数"
         },
-        "tip": "“책”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shū</strong>; “세다”의 장면은 낮게 품었다가 다시 꺾어 <strong>shǔ</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“책”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>shū</strong>; “세다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>shǔ</strong>."
       },
       {
         "id": "hsk6-003",
@@ -7538,7 +7538,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "배고프다",
           "speech": "饿"
         },
-        "tip": "“오”의 장면은 기세를 위로 끌어올려 <strong>é</strong>; “배고프다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>è</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“오”는 모습이 눈앞에 떠오르듯 올려 <strong>é</strong>. 이어서 “배고프다”는 한입 삼키며 끝을 아래로 내려 <strong>è</strong>."
       },
       {
         "id": "hsk6-004",
@@ -7559,7 +7559,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "무슨",
           "speech": "啥"
         },
-        "tip": "“죽이다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shā</strong>; “무슨”의 장면은 기세를 위로 끌어올려 <strong>shá</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“죽이다”는 바닥선을 따라 길게 눕혀 <strong>shā</strong>, 반면 “무슨”은 모습이 눈앞에 떠오르듯 올려 <strong>shá</strong>."
       },
       {
         "id": "hsk6-005",
@@ -7580,7 +7580,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "당",
           "speech": "党"
         },
-        "tip": "“당”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dāng</strong>; “당”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǎng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“당”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>dāng</strong>; “당”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>dǎng</strong>."
       },
       {
         "id": "hsk6-006",
@@ -7601,7 +7601,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "아직; 여전히",
           "speech": "还"
         },
-        "tip": "“안녕”의 장면은 흔들리지 않게 길게 펼쳐 <strong>hāi</strong>; “아직; 여전히”의 장면은 기세를 위로 끌어올려 <strong>hái</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“안녕”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>hāi</strong>. 이어서 “아직”은 문장의 흐름을 다음 말로 올려 보내 <strong>hái</strong>."
       },
       {
         "id": "hsk6-007",
@@ -7622,7 +7622,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "조",
           "speech": "组"
         },
-        "tip": "“임대”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zū</strong>; “조”의 장면은 낮게 품었다가 다시 꺾어 <strong>zǔ</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“임대”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>zū</strong>, 반면 “조”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>zǔ</strong>."
       },
       {
         "id": "hsk6-008",
@@ -7643,7 +7643,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "크다",
           "speech": "大"
         },
-        "tip": "“짝”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dā</strong>; “크다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dà</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“짝”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>dā</strong>; “크다”는 그 상태를 확정하듯 힘주어 내려 <strong>dà</strong>."
       },
       {
         "id": "hsk6-009",
@@ -7664,7 +7664,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "사건",
           "speech": "事件"
         },
-        "tip": "“시간”의 장면은 기세를 위로 끌어올려 <strong>shí jiān</strong>; “사건”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì jiàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“시간”은 차례를 한 칸 위로 올리며 <strong>shí jiān</strong>. 이어서 “사건”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>shì jiàn</strong>."
       },
       {
         "id": "hsk6-010",
@@ -7685,7 +7685,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "매. 각. …마다[모두].",
           "speech": "每"
         },
-        "tip": "“장”의 장면은 기세를 위로 끌어올려 <strong>méi</strong>; “매. 각. …마다[모두]”의 장면은 낮게 품었다가 다시 꺾어 <strong>měi</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“장”은 모습이 눈앞에 떠오르듯 올려 <strong>méi</strong>, 반면 “매”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>měi</strong>."
       },
       {
         "id": "hsk6-011",
@@ -7706,7 +7706,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "부",
           "speech": "副"
         },
-        "tip": "“폭”의 장면은 기세를 위로 끌어올려 <strong>fú</strong>; “부”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>fù</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“폭”은 모습이 눈앞에 떠오르듯 올려 <strong>fú</strong>; “부”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>fù</strong>."
       },
       {
         "id": "hsk6-012",
@@ -7727,7 +7727,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "단",
           "speech": "段"
         },
-        "tip": "“끝”의 장면은 흔들리지 않게 길게 펼쳐 <strong>duān</strong>; “단”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>duàn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“끝”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>duān</strong>. 이어서 “단”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>duàn</strong>."
       },
       {
         "id": "hsk6-013",
@@ -7748,7 +7748,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "차",
           "speech": "次"
         },
-        "tip": "“찌르다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>cī</strong>; “차”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>cì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“찌르다”는 동작을 멈추지 않고 곧게 이어 <strong>cī</strong>, 반면 “차”는 한입 삼키며 끝을 아래로 내려 <strong>cì</strong>."
       },
       {
         "id": "hsk6-014",
@@ -7769,7 +7769,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "수; 숫자",
           "speech": "数"
         },
-        "tip": "“패”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shū</strong>; “수; 숫자”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shù</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“패”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>shū</strong>; “수”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>shù</strong>."
       },
       {
         "id": "hsk6-015",
@@ -7790,7 +7790,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "이",
           "speech": "这"
         },
-        "tip": "“접다; 할인하다”의 장면은 기세를 위로 끌어올려 <strong>zhé</strong>; “이”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhè</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“접다”는 몸의 기세를 위로 끌어올려 <strong>zhé</strong>. 이어서 “이”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>zhè</strong>."
       },
       {
         "id": "hsk6-016",
@@ -7811,7 +7811,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "또한",
           "speech": "亦"
         },
-        "tip": "“1. 일. 하나”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yī</strong>; “또한”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“하나”는 한 줄로 반듯하게 세며 <strong>yī</strong>, 반면 “또한”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>yì</strong>."
       },
       {
         "id": "hsk6-017",
@@ -7832,7 +7832,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "꿈",
           "speech": "梦"
         },
-        "tip": "“몽”의 장면은 기세를 위로 끌어올려 <strong>méng</strong>; “꿈”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>mèng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“몽”은 모습이 눈앞에 떠오르듯 올려 <strong>méng</strong>; “꿈”은 판단에 마침표를 찍듯 내려 <strong>mèng</strong>."
       },
       {
         "id": "hsk6-018",
@@ -7853,7 +7853,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "매운 맛.",
           "speech": "辣"
         },
-        "tip": "“라”의 장면은 흔들리지 않게 길게 펼쳐 <strong>lā</strong>; “매운 맛”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>là</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“라”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>lā</strong>. 이어서 “매운 맛”은 한입 삼키며 끝을 아래로 내려 <strong>là</strong>."
       },
       {
         "id": "hsk6-019",
@@ -7874,7 +7874,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "기둥",
           "speech": "栋"
         },
-        "tip": "“알다”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǒng</strong>; “기둥”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dòng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“알다”는 고개를 숙여 곰곰이 생각했다 들어 <strong>dǒng</strong>, 반면 “기둥”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>dòng</strong>."
       },
       {
         "id": "hsk6-020",
@@ -7895,7 +7895,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "가라앉다; 물에 잠기다",
           "speech": "没"
         },
-        "tip": "“막”의 장면은 기세를 위로 끌어올려 <strong>mó</strong>; “가라앉다; 물에 잠기다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>mò</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“막”은 모습이 눈앞에 떠오르듯 올려 <strong>mó</strong>; “가라앉다”는 힘이 아래로 뚝 떨어지듯 내려 <strong>mò</strong>."
       },
       {
         "id": "hsk6-021",
@@ -7916,7 +7916,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "알다",
           "speech": "认识"
         },
-        "tip": "“인사”의 장면은 기세를 위로 끌어올려 <strong>rén shì</strong>; “알다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>rèn shi</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“인사”는 모습이 눈앞에 떠오르듯 올려 <strong>rén shì</strong>. 이어서 “알다”는 판단에 마침표를 찍듯 내려 <strong>rèn shi</strong>."
       },
       {
         "id": "hsk6-022",
@@ -7937,7 +7937,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "동지",
           "speech": "同志"
         },
-        "tip": "“알리다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tōng zhī</strong>; “동지”의 장면은 기세를 위로 끌어올려 <strong>tóng zhì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“알리다”는 목소리를 길고 고르게 이어 <strong>tōng zhī</strong>, 반면 “동지”는 모습이 눈앞에 떠오르듯 올려 <strong>tóng zhì</strong>."
       },
       {
         "id": "hsk6-023",
@@ -7958,7 +7958,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "최고",
           "speech": "顶"
         },
-        "tip": "“노려봄”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dīng</strong>; “최고”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǐng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“노려봄”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>dīng</strong>; “최고”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>dǐng</strong>."
       },
       {
         "id": "hsk6-024",
@@ -7979,7 +7979,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "나",
           "speech": "我"
         },
-        "tip": "“지붕”의 장면은 흔들리지 않게 길게 펼쳐 <strong>wō</strong>; “나”의 장면은 낮게 품었다가 다시 꺾어 <strong>wǒ</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“지붕”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>wō</strong>. 이어서 “나”는 고개를 숙였다 다시 들며 꺾어 <strong>wǒ</strong>."
       },
       {
         "id": "hsk6-025",
@@ -8000,7 +8000,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "빌리다",
           "speech": "借"
         },
-        "tip": "“다들”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiē</strong>; “빌리다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiè</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“다들”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>jiē</strong>, 반면 “빌리다”는 상대 손에 확실히 내려놓듯 내려 <strong>jiè</strong>."
       },
       {
         "id": "hsk6-026",
@@ -8021,7 +8021,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "개",
           "speech": "个"
         },
-        "tip": "“할”의 장면은 흔들리지 않게 길게 펼쳐 <strong>gē</strong>; “개”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>gè</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“할”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>gē</strong>; “개”는 발굽을 바닥에 힘주어 내리듯 내려 <strong>gè</strong>."
       },
       {
         "id": "hsk6-027",
@@ -8042,7 +8042,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "깨다",
           "speech": "砸"
         },
-        "tip": "“묶다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zā</strong>; “깨다”의 장면은 기세를 위로 끌어올려 <strong>zá</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“묶다”는 동작을 멈추지 않고 곧게 이어 <strong>zā</strong>. 이어서 “깨다”는 몸의 기세를 위로 끌어올려 <strong>zá</strong>."
       },
       {
         "id": "hsk6-028",
@@ -8063,7 +8063,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "생명",
           "speech": "生命"
         },
-        "tip": "“성명”의 장면은 기세를 위로 끌어올려 <strong>shēng míng</strong>; “생명”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shēng mìng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“성명”은 모습이 눈앞에 떠오르듯 올려 <strong>shēng míng</strong>, 반면 “생명”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>shēng mìng</strong>."
       },
       {
         "id": "hsk6-029",
@@ -8084,7 +8084,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "사실",
           "speech": "事实"
         },
-        "tip": "“실시하다”의 장면은 기세를 위로 끌어올려 <strong>shí shī</strong>; “사실”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì shí</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“실시하다”는 몸의 기세를 위로 끌어올려 <strong>shí shī</strong>; “사실”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>shì shí</strong>."
       },
       {
         "id": "hsk6-030",
@@ -8105,7 +8105,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "노",
           "speech": "老"
         },
-        "tip": "“건지다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>lāo</strong>; “노”의 장면은 낮게 품었다가 다시 꺾어 <strong>lǎo</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“건지다”는 동작을 멈추지 않고 곧게 이어 <strong>lāo</strong>. 이어서 “노”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>lǎo</strong>."
       },
       {
         "id": "hsk6-031",
@@ -8126,7 +8126,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "~와; 화목하다",
           "speech": "和"
         },
-        "tip": "“허”의 장면은 흔들리지 않게 길게 펼쳐 <strong>hē</strong>; “~와; 화목하다”의 장면은 기세를 위로 끌어올려 <strong>hé</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“허”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>hē</strong>, 반면 “~와”는 문장의 흐름을 다음 말로 올려 보내 <strong>hé</strong>."
       },
       {
         "id": "hsk6-032",
@@ -8147,7 +8147,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "꼬치",
           "speech": "串"
         },
-        "tip": "“(구멍을) 뚫다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>chuān</strong>; “꼬치”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>chuàn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“뚫다”는 동작을 멈추지 않고 곧게 이어 <strong>chuān</strong>; “꼬치”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>chuàn</strong>."
       },
       {
         "id": "hsk6-033",
@@ -8168,7 +8168,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "받침",
           "speech": "垫"
         },
-        "tip": "“포인트”의 장면은 낮게 품었다가 다시 꺾어 <strong>diǎn</strong>; “받침”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>diàn</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“포인트”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>diǎn</strong>. 이어서 “받침”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>diàn</strong>."
       },
       {
         "id": "hsk6-034",
@@ -8189,7 +8189,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "세트",
           "speech": "套"
         },
-        "tip": "“포”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tāo</strong>; “세트”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tào</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“포”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>tāo</strong>, 반면 “세트”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>tào</strong>."
       },
       {
         "id": "hsk6-035",
@@ -8210,7 +8210,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "변",
           "speech": "便"
         },
-        "tip": "“납작하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>biǎn</strong>; “변”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>biàn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“납작하다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>biǎn</strong>; “변”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>biàn</strong>."
       },
       {
         "id": "hsk6-036",
@@ -8231,7 +8231,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "개",
           "speech": "犬"
         },
-        "tip": "“원; 고리”의 장면은 흔들리지 않게 길게 펼쳐 <strong>quān</strong>; “개”의 장면은 낮게 품었다가 다시 꺾어 <strong>quǎn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“원”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>quān</strong>. 이어서 “개”는 몸을 낮췄다 힘차게 뛰어오르듯 꺾어 <strong>quǎn</strong>."
       },
       {
         "id": "hsk6-037",
@@ -8252,7 +8252,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "의식",
           "speech": "意识"
         },
-        "tip": "“의식”의 장면은 기세를 위로 끌어올려 <strong>yí shì</strong>; “의식”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yì shí</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“의식”은 모습이 눈앞에 떠오르듯 올려 <strong>yí shì</strong>, 반면 “의식”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>yì shí</strong>."
       },
       {
         "id": "hsk6-038",
@@ -8273,7 +8273,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "조각; 장",
           "speech": "片"
         },
-        "tip": "“작은 배”의 장면은 흔들리지 않게 길게 펼쳐 <strong>piān</strong>; “조각; 장”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>piàn</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“작은 배”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>piān</strong>; “조각”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>piàn</strong>."
       },
       {
         "id": "hsk6-039",
@@ -8294,7 +8294,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "통",
           "speech": "罐"
         },
-        "tip": "“관”의 장면은 흔들리지 않게 길게 펼쳐 <strong>guān</strong>; “통”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>guàn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“관”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>guān</strong>. 이어서 “통”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>guàn</strong>."
       },
       {
         "id": "hsk6-040",
@@ -8315,7 +8315,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "정식",
           "speech": "正式"
         },
-        "tip": "“확인됨”의 장면은 기세를 위로 끌어올려 <strong>zhèng shí</strong>; “정식”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhèng shì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“확인됨”은 모습이 눈앞에 떠오르듯 올려 <strong>zhèng shí</strong>, 반면 “정식”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>zhèng shì</strong>."
       },
       {
         "id": "hsk6-041",
@@ -8336,7 +8336,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "놀리다",
           "speech": "耍"
         },
-        "tip": "“쓰다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shuā</strong>; “놀리다”의 장면은 낮게 품었다가 다시 꺾어 <strong>shuǎ</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“쓰다”는 목소리를 길고 고르게 이어 <strong>shuā</strong>; “놀리다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>shuǎ</strong>."
       },
       {
         "id": "hsk6-042",
@@ -8357,7 +8357,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "싫음",
           "speech": "嫌"
         },
-        "tip": "“먼저”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiān</strong>; “싫음”의 장면은 기세를 위로 끌어올려 <strong>xián</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“먼저”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>xiān</strong>. 이어서 “싫음”은 모습이 눈앞에 떠오르듯 올려 <strong>xián</strong>."
       },
       {
         "id": "hsk6-043",
@@ -8378,7 +8378,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "달리다",
           "speech": "迈"
         },
-        "tip": "“사다”의 장면은 낮게 품었다가 다시 꺾어 <strong>mǎi</strong>; “달리다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>mài</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“사다”는 값을 낮춰 흥정했다 다시 올리며 <strong>mǎi</strong>, 반면 “달리다”는 동작을 단호하게 마치며 내려 <strong>mài</strong>."
       },
       {
         "id": "hsk6-044",
@@ -8399,7 +8399,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "디자인",
           "speech": "设计"
         },
-        "tip": "“관련”의 장면은 기세를 위로 끌어올려 <strong>shè jí</strong>; “디자인”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shè jì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“관련”은 모습이 눈앞에 떠오르듯 올려 <strong>shè jí</strong>; “디자인”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>shè jì</strong>."
       },
       {
         "id": "hsk6-045",
@@ -8420,7 +8420,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "시험",
           "speech": "试验"
         },
-        "tip": "“실험하다”의 장면은 기세를 위로 끌어올려 <strong>shí yàn</strong>; “시험”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì yàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“실험하다”는 몸의 기세를 위로 끌어올려 <strong>shí yàn</strong>. 이어서 “시험”은 판단에 마침표를 찍듯 내려 <strong>shì yàn</strong>."
       },
       {
         "id": "hsk6-046",
@@ -8441,7 +8441,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "6",
           "speech": "六"
         },
-        "tip": "“저수”의 장면은 흔들리지 않게 길게 펼쳐 <strong>liū</strong>; “6”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>liù</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“저수”는 동작을 멈추지 않고 곧게 이어 <strong>liū</strong>, 반면 “6”는 마지막 수에 도장을 찍듯 내려 <strong>liù</strong>."
       },
       {
         "id": "hsk6-047",
@@ -8462,7 +8462,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "때리다",
           "speech": "揍"
         },
-        "tip": "“가다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zǒu</strong>; “때리다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zòu</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“가다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>zǒu</strong>; “때리다”는 동작을 단호하게 마치며 내려 <strong>zòu</strong>."
       },
       {
         "id": "hsk6-048",
@@ -8483,7 +8483,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "치유",
           "speech": "愈"
         },
-        "tip": "“~와; 주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǔ</strong>; “치유”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yù</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“~와”는 뜻을 속으로 한번 접었다 다시 펴며 꺾어 <strong>yǔ</strong>. 이어서 “치유”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>yù</strong>."
       },
       {
         "id": "hsk6-049",
@@ -8504,7 +8504,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "채(건물 양사)",
           "speech": "幢"
         },
-        "tip": "“담다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhuāng</strong>; “채(건물 양사)”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhuàng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“담다”는 동작을 멈추지 않고 곧게 이어 <strong>zhuāng</strong>, 반면 “채”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>zhuàng</strong>."
       },
       {
         "id": "hsk6-050",
@@ -8525,7 +8525,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "날개",
           "speech": "翼"
         },
-        "tip": "“…(으)로(써). …을 가지고. …을 근거로”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǐ</strong>; “날개”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“~로써”는 뜻을 속으로 한번 접었다 다시 펴며 꺾어 <strong>yǐ</strong>; “날개”는 발굽을 바닥에 힘주어 내리듯 내려 <strong>yì</strong>."
       },
       {
         "id": "hsk6-051",
@@ -8546,7 +8546,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "찢다",
           "speech": "破"
         },
-        "tip": "“꽤”의 장면은 흔들리지 않게 길게 펼쳐 <strong>pō</strong>; “찢다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>pò</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“꽤”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>pō</strong>. 이어서 “찢다”는 동작을 단호하게 마치며 내려 <strong>pò</strong>."
       },
       {
         "id": "hsk6-052",
@@ -8567,7 +8567,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "매달다",
           "speech": "吊"
         },
-        "tip": "“새”의 장면은 낮게 품었다가 다시 꺾어 <strong>diǎo</strong>; “매달다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>diào</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“새”는 몸을 낮췄다 힘차게 뛰어오르듯 꺾어 <strong>diǎo</strong>, 반면 “매달다”는 한입 삼키며 끝을 아래로 내려 <strong>diào</strong>."
       },
       {
         "id": "hsk6-053",
@@ -8588,7 +8588,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "두껍다",
           "speech": "厚"
         },
-        "tip": "“울부짖다”의 장면은 낮게 품었다가 다시 꺾어 <strong>hǒu</strong>; “두껍다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hòu</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“울부짖다”는 속으로 한번 되짚었다 꺼내듯 꺾어 <strong>hǒu</strong>; “두껍다”는 그 상태를 확정하듯 힘주어 내려 <strong>hòu</strong>."
       },
       {
         "id": "hsk6-054",
@@ -8609,7 +8609,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "당기다",
           "speech": "拽"
         },
-        "tip": "“도”의 장면은 낮게 품었다가 다시 꺾어 <strong>yě</strong>; “당기다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yè</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“도”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>yě</strong>. 이어서 “당기다”는 동작을 단호하게 마치며 내려 <strong>yè</strong>."
       },
       {
         "id": "hsk6-055",
@@ -8630,7 +8630,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "현금",
           "speech": "现金"
         },
-        "tip": "“선진”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiān jìn</strong>; “현금”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàn jīn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“선진”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>xiān jìn</strong>, 반면 “현금”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>xiàn jīn</strong>."
       },
       {
         "id": "hsk6-056",
@@ -8651,7 +8651,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "하지 말다",
           "speech": "别"
         },
-        "tip": "“참다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>biē</strong>; “하지 말다”의 장면은 기세를 위로 끌어올려 <strong>bié</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“참다”는 동작을 멈추지 않고 곧게 이어 <strong>biē</strong>; “하지 말다”는 말끝을 상대에게 건네듯 올려 <strong>bié</strong>."
       },
       {
         "id": "hsk6-057",
@@ -8672,7 +8672,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "맞다. 옳다.",
           "speech": "是"
         },
-        "tip": "“줍다”의 장면은 기세를 위로 끌어올려 <strong>shí</strong>; “맞다. 옳다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“줍다”는 몸의 기세를 위로 끌어올려 <strong>shí</strong>. 이어서 “맞다”는 문장 관계를 딱 끊어 아래로 내려 <strong>shì</strong>."
       },
       {
         "id": "hsk6-058",
@@ -8693,7 +8693,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "노려보다",
           "speech": "瞪"
         },
-        "tip": "“등”의 장면은 낮게 품었다가 다시 꺾어 <strong>děng</strong>; “노려보다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dèng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“등”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>děng</strong>, 반면 “노려보다”는 동작을 단호하게 마치며 내려 <strong>dèng</strong>."
       },
       {
         "id": "hsk6-059",
@@ -8714,7 +8714,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "있다",
           "speech": "在"
         },
-        "tip": "“도살하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zǎi</strong>; “있다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zài</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“도살하다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>zǎi</strong>; “있다”는 문장 관계를 딱 끊어 아래로 내려 <strong>zài</strong>."
       },
       {
         "id": "hsk6-060",
@@ -8735,7 +8735,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "팔",
           "speech": "臂"
         },
-        "tip": "“보다”의 장면은 낮게 품었다가 다시 꺾어 <strong>bǐ</strong>; “팔”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bì</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“보다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>bǐ</strong>. 이어서 “팔”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>bì</strong>."
       },
       {
         "id": "hsk6-061",
@@ -8756,7 +8756,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "달래다",
           "speech": "哄"
         },
-        "tip": "“붉은”의 장면은 기세를 위로 끌어올려 <strong>hóng</strong>; “달래다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hòng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“붉은”은 모습이 눈앞에 떠오르듯 올려 <strong>hóng</strong>, 반면 “달래다”는 동작을 단호하게 마치며 내려 <strong>hòng</strong>."
       },
       {
         "id": "hsk6-062",
@@ -8777,7 +8777,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "만",
           "speech": "万"
         },
-        "tip": "“원”의 장면은 기세를 위로 끌어올려 <strong>wán</strong>; “만”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wàn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“원”은 모습이 눈앞에 떠오르듯 올려 <strong>wán</strong>; “만”은 마지막 수에 도장을 찍듯 내려 <strong>wàn</strong>."
       },
       {
         "id": "hsk6-063",
@@ -8795,10 +8795,10 @@ window.HSK_PAIR_SETS = {
           "pinyin": "wù",
           "tones": "4",
           "level": 6,
-          "meaning": "勿",
+          "meaning": "~하지 마라",
           "speech": "勿"
         },
-        "tip": "“5. 다섯. 다섯째”의 장면은 낮게 품었다가 다시 꺾어 <strong>wǔ</strong>; “勿”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wù</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“다섯”은 수를 낮게 짚었다 다시 세어 올리며 <strong>wǔ</strong>. 이어서 “~하지 마라”는 문장 관계를 딱 끊어 아래로 내려 <strong>wù</strong>."
       },
       {
         "id": "hsk6-064",
@@ -8819,7 +8819,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "오직; 단지",
           "speech": "只"
         },
-        "tip": "“가지”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhī</strong>; “오직; 단지”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǐ</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“가지”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>zhī</strong>, 반면 “단지”는 뜻을 속으로 한번 접었다 다시 펴며 꺾어 <strong>zhǐ</strong>."
       },
       {
         "id": "hsk6-065",
@@ -8840,7 +8840,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "사랑",
           "speech": "爱"
         },
-        "tip": "“견디다; 고생하다”의 장면은 기세를 위로 끌어올려 <strong>ái</strong>; “사랑”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>ài</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“견디다”는 몸의 기세를 위로 끌어올려 <strong>ái</strong>; “사랑”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>ài</strong>."
       },
       {
         "id": "hsk6-066",
@@ -8861,7 +8861,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "억제",
           "speech": "抑制"
         },
-        "tip": "“줄곧”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yī zhí</strong>; “억제”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yì zhì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“줄곧”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>yī zhí</strong>. 이어서 “억제”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>yì zhì</strong>."
       },
       {
         "id": "hsk6-067",
@@ -8882,7 +8882,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "치켜들다",
           "speech": "翘"
         },
-        "tip": "“다리”의 장면은 기세를 위로 끌어올려 <strong>qiáo</strong>; “치켜들다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>qiào</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“다리”는 모습이 눈앞에 떠오르듯 올려 <strong>qiáo</strong>, 반면 “치켜들다”는 동작을 단호하게 마치며 내려 <strong>qiào</strong>."
       },
       {
         "id": "hsk6-068",
@@ -8903,7 +8903,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "여러분",
           "speech": "大家"
         },
-        "tip": "“싸우다”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǎ jià</strong>; “여러분”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dà jiā</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“싸우다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>dǎ jià</strong>; “여러분”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>dà jiā</strong>."
       },
       {
         "id": "hsk6-069",
@@ -8924,7 +8924,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "쉼표",
           "speech": "读"
         },
-        "tip": "“투구”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dōu</strong>; “쉼표”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dòu</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“투구”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>dōu</strong>. 이어서 “쉼표”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>dòu</strong>."
       },
       {
         "id": "hsk6-070",
@@ -8945,7 +8945,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "알고 있다",
           "speech": "清楚"
         },
-        "tip": "“제거”의 장면은 기세를 위로 끌어올려 <strong>qīng chú</strong>; “알고 있다”의 장면은 짧고 가볍게 덧붙여 <strong>qīng chu</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“제거”는 모습이 눈앞에 떠오르듯 올려 <strong>qīng chú</strong>, 반면 “알고 있다”는 문장 끝에 짧게 붙여 <strong>qīng chu</strong>."
       },
       {
         "id": "hsk6-071",
@@ -8966,7 +8966,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "가로",
           "speech": "横"
         },
-        "tip": "“흥”의 장면은 흔들리지 않게 길게 펼쳐 <strong>hēng</strong>; “가로”의 장면은 기세를 위로 끌어올려 <strong>héng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“흥”은 목소리를 길고 고르게 이어 <strong>hēng</strong>; “가로”는 모습이 눈앞에 떠오르듯 올려 <strong>héng</strong>."
       },
       {
         "id": "hsk6-072",
@@ -8987,7 +8987,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "이래",
           "speech": "以来"
         },
-        "tip": "“의존”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yī lài</strong>; “이래”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǐ lái</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“의존”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>yī lài</strong>. 이어서 “이래”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>yǐ lái</strong>."
       },
       {
         "id": "hsk6-073",
@@ -9008,7 +9008,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "일",
           "speech": "事务"
         },
-        "tip": "“음식”의 장면은 기세를 위로 끌어올려 <strong>shí wù</strong>; “일”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì wù</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“음식”은 향이 코끝으로 피어오르듯 올려 <strong>shí wù</strong>, 반면 “일”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>shì wù</strong>."
       },
       {
         "id": "hsk6-074",
@@ -9029,7 +9029,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "편의",
           "speech": "以便"
         },
-        "tip": "“한쪽”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yī biān</strong>; “편의”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǐ biàn</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“한쪽”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>yī biān</strong>; “편의”는 뜻을 속으로 한번 접었다 다시 펴며 꺾어 <strong>yǐ biàn</strong>."
       },
       {
         "id": "hsk6-075",
@@ -9050,7 +9050,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "세기",
           "speech": "世纪"
         },
-        "tip": "“때”의 장면은 기세를 위로 끌어올려 <strong>shí jī</strong>; “세기”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì jì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“때”는 모습이 눈앞에 떠오르듯 올려 <strong>shí jī</strong>. 이어서 “세기”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>shì jì</strong>."
       },
       {
         "id": "hsk6-076",
@@ -9071,7 +9071,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "해제",
           "speech": "解除"
         },
-        "tip": "“접하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiē chù</strong>; “해제”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiě chú</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“접하다”는 동작을 멈추지 않고 곧게 이어 <strong>jiē chù</strong>, 반면 “해제”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jiě chú</strong>."
       },
       {
         "id": "hsk6-077",
@@ -9092,7 +9092,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "가리키다",
           "speech": "指示"
         },
-        "tip": "“지식”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhī shi</strong>; “가리키다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǐ shì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“지식”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>zhī shi</strong>; “가리키다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>zhǐ shì</strong>."
       },
       {
         "id": "hsk6-078",
@@ -9113,7 +9113,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "어때",
           "speech": "咋"
         },
-        "tip": "“찌르다; 주둔하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhā</strong>; “어때”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhà</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“찌르다”는 동작을 멈추지 않고 곧게 이어 <strong>zhā</strong>. 이어서 “어때”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>zhà</strong>."
       },
       {
         "id": "hsk6-079",
@@ -9134,7 +9134,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "손잡이",
           "speech": "把"
         },
-        "tip": "“벗다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bā</strong>; “손잡이”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bà</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“벗다”는 동작을 멈추지 않고 곧게 이어 <strong>bā</strong>, 반면 “손잡이”는 손잡이를 아래로 단번에 당기듯 내려 <strong>bà</strong>."
       },
       {
         "id": "hsk6-080",
@@ -9155,7 +9155,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "직업",
           "speech": "事业"
         },
-        "tip": "“실업”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shī yè</strong>; “직업”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì yè</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“실업”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>shī yè</strong>; “직업”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>shì yè</strong>."
       },
       {
         "id": "hsk6-081",
@@ -9176,7 +9176,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "정부",
           "speech": "政府"
         },
-        "tip": "“정복”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhēng fú</strong>; “정부”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhèng fǔ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“정복”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>zhēng fú</strong>. 이어서 “정부”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>zhèng fǔ</strong>."
       },
       {
         "id": "hsk6-082",
@@ -9197,7 +9197,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "아아; 한숨",
           "speech": "唉"
         },
-        "tip": "“가까이 대다; 차례로”의 장면은 흔들리지 않게 길게 펼쳐 <strong>āi</strong>; “아아; 한숨”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>ài</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“가까이 대다”는 동작을 멈추지 않고 곧게 이어 <strong>āi</strong>, 반면 “아아”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>ài</strong>."
       },
       {
         "id": "hsk6-083",
@@ -9218,7 +9218,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "계통; 연결",
           "speech": "系"
         },
-        "tip": "“시내”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xī</strong>; “계통; 연결”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xì</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“시내”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>xī</strong>; “계통”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>xì</strong>."
       },
       {
         "id": "hsk6-084",
@@ -9239,7 +9239,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "거리",
           "speech": "巷"
         },
-        "tip": "“생각하다.)”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎng</strong>; “거리”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“생각하다”는 고개를 숙여 곰곰이 생각했다 들어 <strong>xiǎng</strong>. 이어서 “거리”는 그 자리에 표지판을 꽂듯 내려 <strong>xiàng</strong>."
       },
       {
         "id": "hsk6-085",
@@ -9260,7 +9260,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "기기",
           "speech": "仪器"
         },
-        "tip": "“함께”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yī qǐ</strong>; “기기”의 장면은 기세를 위로 끌어올려 <strong>yí qì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“함께”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>yī qǐ</strong>, 반면 “기기”는 모습이 눈앞에 떠오르듯 올려 <strong>yí qì</strong>."
       },
       {
         "id": "hsk6-086",
@@ -9281,7 +9281,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "성",
           "speech": "盛"
         },
-        "tip": "“오르다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shēng</strong>; “성”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shèng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“오르다”는 위로 뻗은 선을 길게 유지해 <strong>shēng</strong>; “성”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>shèng</strong>."
       },
       {
         "id": "hsk6-087",
@@ -9302,7 +9302,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "승리하다",
           "speech": "胜利"
         },
-        "tip": "“생리”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shēng lǐ</strong>; “승리하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shèng lì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“생리”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>shēng lǐ</strong>. 이어서 “승리하다”는 동작을 단호하게 마치며 내려 <strong>shèng lì</strong>."
       },
       {
         "id": "hsk6-088",
@@ -9323,7 +9323,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "주",
           "speech": "住"
         },
-        "tip": "“주식”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhū</strong>; “주”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhù</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“주식”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>zhū</strong>, 반면 “주”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>zhù</strong>."
       },
       {
         "id": "hsk6-089",
@@ -9344,7 +9344,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "보고하다",
           "speech": "汇报"
         },
-        "tip": "“보답”의 장면은 기세를 위로 끌어올려 <strong>huí bào</strong>; “보고하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>huì bào</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“보답”은 모습이 눈앞에 떠오르듯 올려 <strong>huí bào</strong>; “보고하다”는 문장을 딱 잘라 끝내며 내려 <strong>huì bào</strong>."
       },
       {
         "id": "hsk6-090",
@@ -9365,7 +9365,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "시선",
           "speech": "视线"
         },
-        "tip": "“실현하다”의 장면은 기세를 위로 끌어올려 <strong>shí xiàn</strong>; “시선”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì xiàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“실현하다”는 몸의 기세를 위로 끌어올려 <strong>shí xiàn</strong>. 이어서 “시선”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>shì xiàn</strong>."
       },
       {
         "id": "hsk6-091",
@@ -9386,7 +9386,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "바닥",
           "speech": "铺"
         },
-        "tip": "“툭”의 장면은 흔들리지 않게 길게 펼쳐 <strong>pū</strong>; “바닥”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>pù</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“툭”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>pū</strong>, 반면 “바닥”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>pù</strong>."
       },
       {
         "id": "hsk6-092",
@@ -9407,7 +9407,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "뛰어나다; 고개를 들다",
           "speech": "翘"
         },
-        "tip": "“치다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qiāo</strong>; “뛰어나다; 고개를 들다”의 장면은 기세를 위로 끌어올려 <strong>qiáo</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“치다”는 동작을 멈추지 않고 곧게 이어 <strong>qiāo</strong>; “뛰어나다”는 몸의 기세를 위로 끌어올려 <strong>qiáo</strong>."
       },
       {
         "id": "hsk6-093",
@@ -9428,7 +9428,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "세력",
           "speech": "势力"
         },
-        "tip": "“실력”의 장면은 기세를 위로 끌어올려 <strong>shí lì</strong>; “세력”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì li</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“실력”은 모습이 눈앞에 떠오르듯 올려 <strong>shí lì</strong>. 이어서 “세력”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>shì li</strong>."
       },
       {
         "id": "hsk6-094",
@@ -9449,7 +9449,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "핥다",
           "speech": "舔"
         },
-        "tip": "“달다”의 장면은 기세를 위로 끌어올려 <strong>tián</strong>; “핥다”의 장면은 낮게 품었다가 다시 꺾어 <strong>tiǎn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“달다”는 향이 코끝으로 피어오르듯 올려 <strong>tián</strong>, 반면 “핥다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>tiǎn</strong>."
       },
       {
         "id": "hsk6-095",
@@ -9470,7 +9470,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "등급",
           "speech": "等级"
         },
-        "tip": "“등록하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dēng jì</strong>; “등급”의 장면은 낮게 품었다가 다시 꺾어 <strong>děng jí</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“등록하다”는 동작을 멈추지 않고 곧게 이어 <strong>dēng jì</strong>; “등급”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>děng jí</strong>."
       },
       {
         "id": "hsk6-096",
@@ -9491,7 +9491,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "돌파하다",
           "speech": "闯"
         },
-        "tip": "“깃발; 장막”의 장면은 기세를 위로 끌어올려 <strong>chuáng</strong>; “돌파하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>chuǎng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“깃발”은 모습이 눈앞에 떠오르듯 올려 <strong>chuáng</strong>. 이어서 “돌파하다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>chuǎng</strong>."
       },
       {
         "id": "hsk6-097",
@@ -9512,7 +9512,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "정형",
           "speech": "情形"
         },
-        "tip": "“맑음”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qīng xǐng</strong>; “정형”의 장면은 기세를 위로 끌어올려 <strong>qíng xing</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“맑음”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>qīng xǐng</strong>, 반면 “정형”은 모습이 눈앞에 떠오르듯 올려 <strong>qíng xing</strong>."
       },
       {
         "id": "hsk6-098",
@@ -9533,7 +9533,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "의지",
           "speech": "意志"
         },
-        "tip": "“일치하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yī zhì</strong>; “의지”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yì zhì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“일치하다”는 동작을 멈추지 않고 곧게 이어 <strong>yī zhì</strong>; “의지”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>yì zhì</strong>."
       },
       {
         "id": "hsk6-099",
@@ -9554,7 +9554,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "잡다; ~을/를",
           "speech": "把"
         },
-        "tip": "“혹”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bā</strong>; “잡다; ~을/를”의 장면은 낮게 품었다가 다시 꺾어 <strong>bǎ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“혹”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>bā</strong>. 이어서 “잡다”는 손을 오므려 잡았다 다시 펴며 꺾어 <strong>bǎ</strong>."
       },
       {
         "id": "hsk6-100",
@@ -9575,7 +9575,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "공급",
           "speech": "供给"
         },
-        "tip": "“공격”의 장면은 흔들리지 않게 길게 펼쳐 <strong>gōng jī</strong>; “공급”의 장면은 낮게 품었다가 다시 꺾어 <strong>gōng jǐ</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“공격”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>gōng jī</strong>, 반면 “공급”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>gōng jǐ</strong>."
       },
       {
         "id": "hsk6-101",
@@ -9596,7 +9596,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "헌신",
           "speech": "奉献"
         },
-        "tip": "“위험”의 장면은 흔들리지 않게 길게 펼쳐 <strong>fēng xiǎn</strong>; “헌신”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>fèng xiàn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“위험”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>fēng xiǎn</strong>; “헌신”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>fèng xiàn</strong>."
       },
       {
         "id": "hsk6-102",
@@ -9617,7 +9617,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "캐럿",
           "speech": "克"
         },
-        "tip": "“돌다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>kē</strong>; “캐럿”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>kè</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“돌다”는 동작을 멈추지 않고 곧게 이어 <strong>kē</strong>. 이어서 “캐럿”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>kè</strong>."
       },
       {
         "id": "hsk6-103",
@@ -9638,7 +9638,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "쓰레기",
           "speech": "屑"
         },
-        "tip": "“쓰다”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiě</strong>; “쓰레기”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiè</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“쓰다”는 속으로 한번 되짚었다 꺼내듯 꺾어 <strong>xiě</strong>, 반면 “쓰레기”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>xiè</strong>."
       },
       {
         "id": "hsk6-104",
@@ -9659,7 +9659,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "사물",
           "speech": "事物"
         },
-        "tip": "“실수하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shī wù</strong>; “사물”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì wù</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“실수하다”는 동작을 멈추지 않고 곧게 이어 <strong>shī wù</strong>; “사물”은 빗방울이 아래로 떨어지듯 내려 <strong>shì wù</strong>."
       },
       {
         "id": "hsk6-105",
@@ -9680,7 +9680,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "방안",
           "speech": "办法"
         },
-        "tip": "“수여”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bān fā</strong>; “방안”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bàn fǎ</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“수여”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>bān fā</strong>. 이어서 “방안”은 그 자리에 표지판을 꽂듯 내려 <strong>bàn fǎ</strong>."
       },
       {
         "id": "hsk6-106",
@@ -9701,7 +9701,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "알코올",
           "speech": "酒精"
         },
-        "tip": "“도대체”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiū jìng</strong>; “알코올”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǔ jīng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“도대체”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>jiū jìng</strong>, 반면 “알코올”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>jiǔ jīng</strong>."
       },
       {
         "id": "hsk6-107",
@@ -9722,7 +9722,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "탑",
           "speech": "塔"
         },
-        "tip": "“무너짐”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tā</strong>; “탑”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǎ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“무너짐”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>tā</strong>; “탑”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>tǎ</strong>."
       },
       {
         "id": "hsk6-108",
@@ -9743,7 +9743,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "놓아주다",
           "speech": "放手"
         },
-        "tip": "“수비”의 장면은 기세를 위로 끌어올려 <strong>fáng shǒu</strong>; “놓아주다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>fàng shǒu</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“수비”는 물방울이 솟구치듯 올려 <strong>fáng shǒu</strong>. 이어서 “놓아주다”는 상대 손에 확실히 내려놓듯 내려 <strong>fàng shǒu</strong>."
       },
       {
         "id": "hsk6-109",
@@ -9764,7 +9764,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "감안하여",
           "speech": "鉴于"
         },
-        "tip": "“감옥”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiān yù</strong>; “감안하여”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiàn yú</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“감옥”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>jiān yù</strong>, 반면 “감안하여”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jiàn yú</strong>."
       },
       {
         "id": "hsk6-110",
@@ -9785,7 +9785,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "제정",
           "speech": "制定"
         },
-        "tip": "“지정하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǐ dìng</strong>; “제정”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhì dìng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“지정하다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>zhǐ dìng</strong>; “제정”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>zhì dìng</strong>."
       },
       {
         "id": "hsk6-111",
@@ -9806,7 +9806,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "(아래로) 떨어지다. 떨어뜨리다.",
           "speech": "掉"
         },
-        "tip": "“물다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>diāo</strong>; “(아래로) 떨어지다. 떨어뜨리다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>diào</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“물다”는 잔잔한 수면을 길게 가르며 <strong>diāo</strong>. 이어서 “떨어지다”는 힘이 아래로 뚝 떨어지듯 내려 <strong>diào</strong>."
       },
       {
         "id": "hsk6-112",
@@ -9827,7 +9827,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "감정",
           "speech": "鉴定"
         },
-        "tip": "“확고함”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiān dìng</strong>; “감정”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiàn dìng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“확고함”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>jiān dìng</strong>, 반면 “감정”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jiàn dìng</strong>."
       },
       {
         "id": "hsk6-113",
@@ -9848,7 +9848,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "차별적 시선",
           "speech": "歧视"
         },
-        "tip": "“사실”의 장면은 기세를 위로 끌어올려 <strong>qí shí</strong>; “차별적 시선”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>qí shì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“사실”은 모습이 눈앞에 떠오르듯 올려 <strong>qí shí</strong>; “차별적 시선”은 한입 삼키며 끝을 아래로 내려 <strong>qí shì</strong>."
       },
       {
         "id": "hsk6-114",
@@ -9869,7 +9869,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "쪼개다",
           "speech": "劈"
         },
-        "tip": "“도매”의 장면은 흔들리지 않게 길게 펼쳐 <strong>pī</strong>; “쪼개다”의 장면은 낮게 품었다가 다시 꺾어 <strong>pǐ</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“도매”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>pī</strong>. 이어서 “쪼개다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>pǐ</strong>."
       },
       {
         "id": "hsk6-115",
@@ -9890,7 +9890,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "껴안다",
           "speech": "搂"
         },
-        "tip": "“층”의 장면은 기세를 위로 끌어올려 <strong>lóu</strong>; “껴안다”의 장면은 낮게 품었다가 다시 꺾어 <strong>lǒu</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“층”은 계단을 한 층 오르듯 올려 <strong>lóu</strong>, 반면 “껴안다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>lǒu</strong>."
       },
       {
         "id": "hsk6-116",
@@ -9911,7 +9911,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "예언",
           "speech": "预言"
         },
-        "tip": "“언어”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǔ yán</strong>; “예언”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yù yán</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“언어”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>yǔ yán</strong>; “예언”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>yù yán</strong>."
       },
       {
         "id": "hsk6-117",
@@ -9932,7 +9932,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "배치",
           "speech": "布置"
         },
-        "tip": "“그뿐만이 아니다”의 장면은 낮게 품었다가 다시 꺾어 <strong>bù zhǐ</strong>; “배치”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bù zhì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“그뿐만이 아니다”는 수를 낮게 짚었다 다시 세어 올리며 <strong>bù zhǐ</strong>. 이어서 “배치”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>bù zhì</strong>."
       },
       {
         "id": "hsk6-118",
@@ -9953,7 +9953,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "완화",
           "speech": "缓解"
         },
-        "tip": "“고리”의 장면은 기세를 위로 끌어올려 <strong>huán jié</strong>; “완화”의 장면은 낮게 품었다가 다시 꺾어 <strong>huǎn jiě</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“고리”는 모습이 눈앞에 떠오르듯 올려 <strong>huán jié</strong>, 반면 “완화”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>huǎn jiě</strong>."
       },
       {
         "id": "hsk6-119",
@@ -9974,7 +9974,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "주다",
           "speech": "请"
         },
-        "tip": "“수소”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qīng</strong>; “주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>qǐng</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“수소”는 등을 길고 반듯하게 펴 <strong>qīng</strong>; “주다”는 품에 안았다 다시 내어 주듯 꺾어 <strong>qǐng</strong>."
       },
       {
         "id": "hsk6-120",
@@ -9995,7 +9995,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "시장",
           "speech": "市场"
         },
-        "tip": "“자주”의 장면은 기세를 위로 끌어올려 <strong>shí cháng</strong>; “시장”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì chǎng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“자주”는 모습이 눈앞에 떠오르듯 올려 <strong>shí cháng</strong>. 이어서 “시장”은 영수증에 도장을 찍듯 내려 <strong>shì chǎng</strong>."
       },
       {
         "id": "hsk6-121",
@@ -10016,7 +10016,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "건",
           "speech": "件"
         },
-        "tip": "“줍다”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎn</strong>; “건”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“줍다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>jiǎn</strong>, 반면 “건”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jiàn</strong>."
       },
       {
         "id": "hsk6-122",
@@ -10037,7 +10037,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "줄거리",
           "speech": "情节"
         },
-        "tip": "“청결”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qīng jié</strong>; “줄거리”의 장면은 기세를 위로 끌어올려 <strong>qíng jié</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“청결”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>qīng jié</strong>; “줄거리”는 계단을 한 층 오르듯 올려 <strong>qíng jié</strong>."
       },
       {
         "id": "hsk6-123",
@@ -10058,7 +10058,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "중점",
           "speech": "重点"
         },
-        "tip": "“종착점”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhōng diǎn</strong>; “중점”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhòng diǎn</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“종착점”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>zhōng diǎn</strong>. 이어서 “중점”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>zhòng diǎn</strong>."
       },
       {
         "id": "hsk6-124",
@@ -10079,7 +10079,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "가볍게 오르다",
           "speech": "拾"
         },
-        "tip": "“부러지다”의 장면은 기세를 위로 끌어올려 <strong>shé</strong>; “가볍게 오르다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shè</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“부러지다”는 몸의 기세를 위로 끌어올려 <strong>shé</strong>, 반면 “가볍게 오르다”는 정점에서 아래로 힘주어 내려 <strong>shè</strong>."
       },
       {
         "id": "hsk6-125",
@@ -10100,7 +10100,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "노력",
           "speech": "努力"
         },
-        "tip": "“하인”의 장면은 기세를 위로 끌어올려 <strong>nú lì</strong>; “노력”의 장면은 낮게 품었다가 다시 꺾어 <strong>nǔ lì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“하인”은 모습이 눈앞에 떠오르듯 올려 <strong>nú lì</strong>; “노력”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>nǔ lì</strong>."
       },
       {
         "id": "hsk6-126",
@@ -10121,7 +10121,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "물질",
           "speech": "物质"
         },
-        "tip": "“무식하다”의 장면은 기세를 위로 끌어올려 <strong>wú zhī</strong>; “물질”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wù zhì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“무식하다”는 몸의 기세를 위로 끌어올려 <strong>wú zhī</strong>. 이어서 “물질”은 빗방울이 아래로 떨어지듯 내려 <strong>wù zhì</strong>."
       },
       {
         "id": "hsk6-127",
@@ -10142,7 +10142,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "망치",
           "speech": "锤"
         },
-        "tip": "“불”의 장면은 흔들리지 않게 길게 펼쳐 <strong>chuī</strong>; “망치”의 장면은 기세를 위로 끌어올려 <strong>chuí</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“불”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>chuī</strong>, 반면 “망치”는 모습이 눈앞에 떠오르듯 올려 <strong>chuí</strong>."
       },
       {
         "id": "hsk6-128",
@@ -10163,7 +10163,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "부탁하다",
           "speech": "拜托"
         },
-        "tip": "“벗어남”의 장면은 낮게 품었다가 다시 꺾어 <strong>bǎi tuō</strong>; “부탁하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bài tuō</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“벗어남”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>bǎi tuō</strong>; “부탁하다”는 동작을 단호하게 마치며 내려 <strong>bài tuō</strong>."
       },
       {
         "id": "hsk6-129",
@@ -10184,7 +10184,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "속박하다",
           "speech": "束缚"
         },
-        "tip": "“편안하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shū fu</strong>; “속박하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shù fù</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“편안하다”는 그 상태를 한결같고 오래 유지해 <strong>shū fu</strong>. 이어서 “속박하다”는 동작을 단호하게 마치며 내려 <strong>shù fù</strong>."
       },
       {
         "id": "hsk6-130",
@@ -10205,7 +10205,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "예상",
           "speech": "预期"
         },
-        "tip": "“어조”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǔ qì</strong>; “예상”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yù qī</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“어조”는 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>yǔ qì</strong>, 반면 “예상”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>yù qī</strong>."
       },
       {
         "id": "hsk6-131",
@@ -10226,7 +10226,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "명명",
           "speech": "命名"
         },
-        "tip": "“분명히”의 장면은 기세를 위로 끌어올려 <strong>míng míng</strong>; “명명”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>mìng míng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“분명히”는 모습이 눈앞에 떠오르듯 올려 <strong>míng míng</strong>; “명명”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>mìng míng</strong>."
       },
       {
         "id": "hsk6-132",
@@ -10247,7 +10247,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "기여하다",
           "speech": "给予"
         },
-        "tip": "“기회”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jī yù</strong>; “기여하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐ yǔ</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“기회”는 생각의 선을 흔들림 없이 이어 <strong>jī yù</strong>. 이어서 “기여하다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>jǐ yǔ</strong>."
       },
       {
         "id": "hsk6-133",
@@ -10268,7 +10268,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "주소",
           "speech": "地址"
         },
-        "tip": "“저항하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǐ zhì</strong>; “주소”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dì zhǐ</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“저항하다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>dǐ zhì</strong>, 반면 “주소”는 발굽을 바닥에 힘주어 내리듯 내려 <strong>dì zhǐ</strong>."
       },
       {
         "id": "hsk6-134",
@@ -10289,7 +10289,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "관례",
           "speech": "惯例"
         },
-        "tip": "“관리하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>guǎn lǐ</strong>; “관례”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>guàn lì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“관리하다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>guǎn lǐ</strong>; “관례”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>guàn lì</strong>."
       },
       {
         "id": "hsk6-135",
@@ -10310,7 +10310,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "쌍",
           "speech": "匹"
         },
-        "tip": "“내리치다; 가르다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>pī</strong>; “쌍”의 장면은 낮게 품었다가 다시 꺾어 <strong>pǐ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“내리치다”는 동작을 멈추지 않고 곧게 이어 <strong>pī</strong>. 이어서 “쌍”은 찬찬히 내려다봤다 다시 바라보며 꺾어 <strong>pǐ</strong>."
       },
       {
         "id": "hsk6-136",
@@ -10331,7 +10331,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "꺾임 획",
           "speech": "乙"
         },
-        "tip": "“뒤집다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhē</strong>; “꺾임 획”의 장면은 기세를 위로 끌어올려 <strong>zhé</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“뒤집다”는 지평선을 따라 넓고 반듯하게 펼쳐 <strong>zhē</strong>, 반면 “꺾임 획”은 모습이 눈앞에 떠오르듯 올려 <strong>zhé</strong>."
       },
       {
         "id": "hsk6-137",
@@ -10352,7 +10352,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "현",
           "speech": "县"
         },
-        "tip": "“현”의 장면은 기세를 위로 끌어올려 <strong>xián</strong>; “현”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàn</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“현”은 모습이 눈앞에 떠오르듯 올려 <strong>xián</strong>; “현”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>xiàn</strong>."
       },
       {
         "id": "hsk6-138",
@@ -10373,7 +10373,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "수호하다",
           "speech": "保卫"
         },
-        "tip": "“둘러싸기”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bāo wéi</strong>; “수호하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>bǎo wèi</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“둘러싸기”는 한 줄로 반듯하게 세며 <strong>bāo wéi</strong>. 이어서 “수호하다”는 몸을 낮췄다 다시 움직이며 꺾어 <strong>bǎo wèi</strong>."
       },
       {
         "id": "hsk6-139",
@@ -10394,7 +10394,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "정의",
           "speech": "正义"
         },
-        "tip": "“논쟁”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhēng yì</strong>; “정의”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhèng yì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“논쟁”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>zhēng yì</strong>, 반면 “정의”는 문장 관계를 딱 끊어 아래로 내려 <strong>zhèng yì</strong>."
       },
       {
         "id": "hsk6-140",
@@ -10415,7 +10415,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "이슬",
           "speech": "露"
         },
-        "tip": "“끌어당기다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>lōu</strong>; “이슬”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>lòu</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“끌어당기다”는 동작을 멈추지 않고 곧게 이어 <strong>lōu</strong>; “이슬”은 땅으로 세차게 떨어지듯 내려 <strong>lòu</strong>."
       },
       {
         "id": "hsk6-141",
@@ -10436,7 +10436,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "뿐만 아니다",
           "speech": "不仅"
         },
-        "tip": "“참지 못하고”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bù jīn</strong>; “뿐만 아니다”의 장면은 낮게 품었다가 다시 꺾어 <strong>bù jǐn</strong> — 뜻이 성조의 길을 직접 탄다!"
+        "tip": "“참지 못하고”는 윤곽을 눈으로 길고 반듯하게 따라 <strong>bù jīn</strong>. 이어서 “뿐만 아니다”는 수를 낮게 짚었다 다시 세어 올리며 <strong>bù jǐn</strong>."
       },
       {
         "id": "hsk6-142",
@@ -10457,7 +10457,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "분기",
           "speech": "季度"
         },
-        "tip": "“질투하다”의 장면은 기세를 위로 끌어올려 <strong>jí dù</strong>; “분기”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jì dù</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+        "tip": "“질투하다”는 몸의 기세를 위로 끌어올려 <strong>jí dù</strong>, 반면 “분기”는 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>jì dù</strong>."
       },
       {
         "id": "hsk6-143",
@@ -10478,7 +10478,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "때문에",
           "speech": "由于"
         },
-        "tip": "“우울해하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yōu yù</strong>; “때문에”의 장면은 기세를 위로 끌어올려 <strong>yóu yú</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+        "tip": "“우울해하다”는 동작을 멈추지 않고 곧게 이어 <strong>yōu yù</strong>; “때문에”는 계단을 한 층 오르듯 올려 <strong>yóu yú</strong>."
       },
       {
         "id": "hsk6-144",
@@ -10499,7 +10499,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "인상",
           "speech": "印象"
         },
-        "tip": "“음향”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yīn xiǎng</strong>; “인상”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yìn xiàng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+        "tip": "“음향”은 윤곽을 눈으로 길고 반듯하게 따라 <strong>yīn xiǎng</strong>. 이어서 “인상”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>yìn xiàng</strong>."
       },
       {
         "id": "hsk6-145",
@@ -10520,7 +10520,7 @@ window.HSK_PAIR_SETS = {
           "meaning": "멍",
           "speech": "愣"
         },
-        "tip": "“춥다”의 장면은 낮게 품었다가 다시 꺾어 <strong>lěng</strong>; “멍”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>lèng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+        "tip": "“춥다”는 낮게 내려앉았다 다시 걷히듯 꺾어 <strong>lěng</strong>, 반면 “멍”은 손에 든 것을 바닥에 탁 내려놓듯 내려 <strong>lèng</strong>."
       }
     ]
   }
