@@ -38,18 +38,23 @@
                 <strong>빠른 AI</strong>
                 <small>현재 내장 버전</small>
               </button>
-              <button class="engine-option" type="button" data-engine="katago" role="radio" aria-checked="false">
-                <strong>KataGo</strong>
-                <small>외부 모델 서버</small>
+              <button class="engine-option" type="button" data-engine="browser-small" role="radio" aria-checked="false">
+                <strong>작은 브라우저 모델</strong>
+                <small>약 3.8MB · 연습용</small>
+              </button>
+              <button class="engine-option" type="button" data-engine="browser-b18" role="radio" aria-checked="false">
+                <strong>실전용 b18</strong>
+                <small>약 96MB · 강한 모델</small>
               </button>
             </div>
-            <div id="katago-settings" class="katago-settings" hidden>
-              <label for="katago-endpoint">분석 서버 주소</label>
-              <input id="katago-endpoint" type="url" inputmode="url" autocomplete="url" placeholder="https://example.com/analyze" />
-              <label for="katago-token">접속 토큰 <span>(선택)</span></label>
-              <input id="katago-token" type="password" autocomplete="off" placeholder="Bearer token" />
-              <button id="katago-save" type="button">연결 설정 저장</button>
-              <p>KataGo 분석 엔진을 HTTP로 연결해 주는 별도 서버가 필요합니다.</p>
+            <div id="model-settings" class="model-settings" hidden>
+              <p id="model-warning" class="model-warning"></p>
+              <div id="model-progress-wrap" class="model-progress-wrap" hidden>
+                <progress id="model-progress" max="100" value="0"></progress>
+                <span id="model-progress-text">모델 준비 중</span>
+              </div>
+              <button id="model-download" type="button">AI 모델 준비하기</button>
+              <small>모델 계산은 이 기기의 WebGPU 또는 WASM에서 실행됩니다.</small>
             </div>
           </section>
 
@@ -115,6 +120,6 @@
       </section>
     </main>
 
-    <script src="./app.js?v=3"></script>
+    <script src="./app.js?v=4"></script>
   </body>
 </html>
