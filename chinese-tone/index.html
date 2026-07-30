@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f2ea" />
+    <meta
+      name="description"
+      content="같은 발음, 다른 성조의 중국어 단어를 스와이프로 익히는 학습 게임"
+    />
+    <title>성조 한 끗 — 중국어 단어 게임</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="./" aria-label="처음부터 시작">
+          <span class="brand-mark">声</span>
+          <span>
+            <b>성조 한 끗</b>
+            <small>TONE PAIRS</small>
+          </span>
+        </a>
+        <button id="reset-button" class="quiet-button" type="button" title="학습 초기화">
+          처음부터
+        </button>
+      </header>
+
+      <section class="study-layout" aria-labelledby="page-title">
+        <aside class="intro-panel">
+          <p class="eyebrow">오늘의 성조 훈련</p>
+          <h1 id="page-title">소리는 닮고,<br /><em>뜻은 다르게.</em></h1>
+          <p class="intro-copy">
+            같은 음절도 성조가 달라지면 전혀 다른 말이 돼요.
+            두 단어를 소리 내어 읽고 기억해 보세요.
+          </p>
+
+          <div class="progress-block">
+            <div class="progress-copy">
+              <span>학습 진도</span>
+              <strong><b id="mastered-count">0</b> / <span id="total-count">12</span></strong>
+            </div>
+            <div
+              class="progress-track"
+              role="progressbar"
+              aria-label="학습 진도"
+              aria-valuemin="0"
+              aria-valuemax="12"
+              aria-valuenow="0"
+            >
+              <span id="progress-fill"></span>
+            </div>
+          </div>
+
+          <div class="legend" aria-label="조작 방법">
+            <div><span class="legend-arrow left">←</span><b>외웠어요</b><small>다음 단어로</small></div>
+            <div><span class="legend-arrow right">→</span><b>다시 볼래요</b><small>나중에 재등장</small></div>
+          </div>
+        </aside>
+
+        <section class="game-panel" aria-label="성조 단어 카드">
+          <div class="round-meta">
+            <span id="round-label">첫 번째 카드</span>
+            <span id="retry-badge" class="retry-badge" hidden>다시 만난 카드</span>
+          </div>
+
+          <div id="card-stage" class="card-stage">
+            <div class="swipe-cue cue-left" aria-hidden="true">기억 완료</div>
+            <div class="swipe-cue cue-right" aria-hidden="true">다시 보기</div>
+
+            <article id="word-card" class="word-card" tabindex="0" aria-live="polite">
+              <div class="card-topline">
+                <span id="syllable-label">MA · 성조 비교</span>
+                <span class="drag-hint">끌어서 선택</span>
+              </div>
+
+              <div class="word-pair">
+                <section class="word-side warm">
+                  <div class="tone-number" id="tone-number-a">3</div>
+                  <button class="sound-button" type="button" data-sound="a" aria-label="첫 번째 단어 발음 듣기">
+                    <span aria-hidden="true">♪</span>
+                  </button>
+                  <div class="hanzi" id="hanzi-a">买</div>
+                  <div class="pinyin" id="pinyin-a">mǎi</div>
+                  <div class="tone-name" id="tone-name-a">3성 · 낮게 꺾기</div>
+                  <div class="meaning" id="meaning-a">사다</div>
+                </section>
+
+                <div class="pair-divider"><span>VS</span></div>
+
+                <section class="word-side cool">
+                  <div class="tone-number" id="tone-number-b">4</div>
+                  <button class="sound-button" type="button" data-sound="b" aria-label="두 번째 단어 발음 듣기">
+                    <span aria-hidden="true">♪</span>
+                  </button>
+                  <div class="hanzi" id="hanzi-b">卖</div>
+                  <div class="pinyin" id="pinyin-b">mài</div>
+                  <div class="tone-name" id="tone-name-b">4성 · 강하게 내리기</div>
+                  <div class="meaning" id="meaning-b">팔다</div>
+                </section>
+              </div>
+
+              <p class="memory-tip" id="memory-tip">
+                <b>기억 한 끗</b> 살 때는 낮게 <strong>mǎi</strong>, 팔 때는 단호하게 <strong>mài</strong>
+              </p>
+            </article>
+          </div>
+
+          <div class="decision-row">
+            <button id="known-button" class="decision-button known" type="button">
+              <span class="button-arrow">←</span>
+              <span><small>외웠다면</small><b>기억했어요</b></span>
+            </button>
+            <button id="retry-button" class="decision-button retry" type="button">
+              <span><small>헷갈린다면</small><b>다시 볼래요</b></span>
+              <span class="button-arrow">→</span>
+            </button>
+          </div>
+          <p class="keyboard-hint"><kbd>←</kbd> 기억 완료 · <kbd>→</kbd> 다시 보기</p>
+        </section>
+      </section>
+    </main>
+
+    <div id="completion-overlay" class="completion-overlay" hidden>
+      <div class="completion-card">
+        <div class="seal">好</div>
+        <p class="eyebrow">오늘의 학습 완료</p>
+        <h2>모든 성조를<br />기억했어요!</h2>
+        <p><b id="completion-total">12</b>개 단어쌍을 모두 익혔습니다.</p>
+        <div class="completion-stats">
+          <span><small>다시 본 카드</small><b id="retry-count">0</b></span>
+          <span><small>총 선택 횟수</small><b id="attempt-count">12</b></span>
+        </div>
+        <button id="restart-button" type="button">한 번 더 연습하기</button>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
