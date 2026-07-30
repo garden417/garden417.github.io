@@ -9,7 +9,7 @@
       content="같은 발음, 다른 성조의 중국어 단어를 스와이프로 익히는 학습 게임"
     />
     <title>성조 한 끗 — 중국어 단어 게임</title>
-    <link rel="stylesheet" href="./styles.css?v=4" />
+    <link rel="stylesheet" href="./styles.css?v=5" />
   </head>
   <body>
     <main class="app-shell">
@@ -95,7 +95,12 @@
           </div>
           <div class="round-meta">
             <span id="round-label">첫 번째 카드</span>
-            <span id="retry-badge" class="retry-badge" hidden>다시 만난 카드</span>
+            <div class="round-actions">
+              <span id="retry-badge" class="retry-badge" hidden>다시 만난 카드</span>
+              <button id="undo-button" class="undo-button" type="button" disabled>
+                ↶ 이전 단어
+              </button>
+            </div>
           </div>
 
           <div id="card-stage" class="card-stage">
@@ -133,7 +138,8 @@
               </div>
 
               <p class="memory-tip" id="memory-tip">
-                <b>기억 한 끗</b> 살 때는 낮게 <strong>mǎi</strong>, 팔 때는 단호하게 <strong>mài</strong>
+                <span class="memory-clause">살 때는 값을 낮게 흥정하듯 <strong>mǎi</strong></span>
+                <span class="memory-clause">팔 때는 가격을 단호하게 제시하며 <strong>mài</strong></span>
               </p>
             </article>
           </div>
@@ -148,7 +154,9 @@
               <span class="button-arrow">→</span>
             </button>
           </div>
-          <p class="keyboard-hint"><kbd>←</kbd> 기억 완료 · <kbd>→</kbd> 다시 보기</p>
+          <p class="keyboard-hint">
+            <kbd>←</kbd> 기억 완료 · <kbd>→</kbd> 다시 보기 · <kbd>↑</kbd> 이전
+          </p>
         </section>
       </section>
 
@@ -218,11 +226,14 @@
           <span><small>다시 본 카드</small><b id="retry-count">0</b></span>
           <span><small>총 선택 횟수</small><b id="attempt-count">200</b></span>
         </div>
+        <button id="completion-undo-button" class="completion-undo-button" type="button">
+          ↶ 마지막 선택 취소
+        </button>
         <button id="restart-button" type="button">한 번 더 연습하기</button>
       </div>
     </div>
 
-    <script src="./hsk-pairs-data.js?v=5"></script>
-    <script src="./app.js?v=8"></script>
+    <script src="./hsk-pairs-data.js?v=6"></script>
+    <script src="./app.js?v=9"></script>
   </body>
 </html>

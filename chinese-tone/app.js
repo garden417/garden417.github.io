@@ -13,7 +13,9 @@ const elements = {
   fill: document.querySelector("#progress-fill"),
   round: document.querySelector("#round-label"),
   retryBadge: document.querySelector("#retry-badge"),
+  undo: document.querySelector("#undo-button"),
   overlay: document.querySelector("#completion-overlay"),
+  completionUndo: document.querySelector("#completion-undo-button"),
   completionTitle: document.querySelector("#completion-title"),
   known: document.querySelector("#known-button"),
   retry: document.querySelector("#retry-button"),
@@ -54,7 +56,8 @@ function createSession() {
     failedIds: new Set(),
     seenIds: new Set(),
     attempts: 0,
-    retries: 0
+    retries: 0,
+    history: []
   };
 }
 
@@ -214,8 +217,12 @@ function renderCard() {
     setText(`tone-number-${side}`, word.tones);
     setText(`meaning-${side}`, word.meaning);
   });
-  document.querySelector("#memory-tip").innerHTML =
-    `<b>기억 한 끗</b> ${memoryTip(pair)}`;
+  const clauses = pair.tipA && pair.tipB
+    ? [pair.tipA, pair.tipB]
+    : [memoryTip(pair)];
+  document.querySelector("#memory-tip").innerHTML = clauses
+    .map((clause) => `<span class="memory-clause">${clause}</span>`)
+    .join("");
 
   const progress = (session.mastered.size / pairs.length) * 100;
   elements.mastered.textContent = session.mastered.size;
@@ -225,6 +232,7 @@ function renderCard() {
     `${activeSet.shortTitle} · ${session.attempts + 1}번째 카드 · ` +
     `남은 단어쌍 ${pairs.length - session.mastered.size}`;
   elements.retryBadge.hidden = !session.failedIds.has(pair.id);
+  elements.undo.disabled = session.history.length === 0;
   updateStatusCounts();
 
   elements.card.style.transform = "";
@@ -237,6 +245,15 @@ function renderCard() {
 function decide(result) {
   if (animating || !currentPair()) return;
   animating = true;
+  session.history.push({
+    queue: [...session.queue],
+    mastered: new Set(session.mastered),
+    failedIds: new Set(session.failedIds),
+    seenIds: new Set(session.seenIds),
+    attempts: session.attempts,
+    retries: session.retries
+  });
+  if (session.history.length > 50) session.history.shift();
   const pair = session.queue.shift();
   session.attempts += 1;
   session.seenIds.add(pair.id);
@@ -262,6 +279,22 @@ function decide(result) {
   }, 350);
 }
 
+function undoDecision() {
+  if (animating || !session.history.length) return;
+  const previous = session.history.pop();
+  session.queue = [...previous.queue];
+  session.mastered = new Set(previous.mastered);
+  session.failedIds = new Set(previous.failedIds);
+  session.seenIds = new Set(previous.seenIds);
+  session.attempts = previous.attempts;
+  session.retries = previous.retries;
+  elements.overlay.hidden = true;
+  elements.statusOverlay.hidden = true;
+  updateSetChrome();
+  updateStatusCounts();
+  renderCard();
+}
+
 function finishGame() {
   elements.mastered.textContent = pairs.length;
   elements.fill.style.width = "100%";
@@ -269,6 +302,7 @@ function finishGame() {
   setText("retry-count", session.retries);
   setText("attempt-count", session.attempts);
   updateSetButtons();
+  elements.completionUndo.disabled = session.history.length === 0;
   elements.overlay.hidden = false;
   elements.restart.focus();
 }
@@ -385,6 +419,8 @@ elements.setButtons.forEach((button) => {
 });
 elements.known.addEventListener("click", () => decide("known"));
 elements.retry.addEventListener("click", () => decide("retry"));
+elements.undo.addEventListener("click", undoDecision);
+elements.completionUndo.addEventListener("click", undoDecision);
 elements.reset.addEventListener("click", startGame);
 elements.restart.addEventListener("click", startGame);
 elements.statusButton.addEventListener("click", openStatus);
@@ -400,8 +436,14 @@ window.addEventListener("keydown", (event) => {
     return;
   }
   if (!elements.overlay.hidden || event.target.matches("button")) return;
+  if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "z") {
+    event.preventDefault();
+    undoDecision();
+    return;
+  }
   if (event.key === "ArrowLeft") decide("known");
   if (event.key === "ArrowRight") decide("retry");
+  if (event.key === "ArrowUp") undoDecision();
 });
 
 startGame();

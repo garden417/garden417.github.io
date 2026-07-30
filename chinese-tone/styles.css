@@ -325,6 +325,28 @@ h1 em { color: var(--green); font-style: normal; }
   background: #f9ddd6;
 }
 
+.round-actions {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.undo-button {
+  padding: 5px 9px;
+  border: 1px solid rgba(55, 100, 81, 0.22);
+  border-radius: 999px;
+  color: var(--green);
+  background: rgba(255, 255, 255, 0.74);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 800;
+}
+
+.undo-button:disabled {
+  opacity: 0.38;
+  cursor: default;
+}
+
 .card-stage {
   position: relative;
   perspective: 1200px;
@@ -477,6 +499,8 @@ h1 em { color: var(--green); font-style: normal; }
 }
 
 .memory-tip {
+  display: grid;
+  gap: 4px;
   margin: 18px 2px 0;
   padding: 14px 16px;
   border-radius: 13px;
@@ -487,7 +511,7 @@ h1 em { color: var(--green); font-style: normal; }
   text-align: center;
 }
 
-.memory-tip b { margin-right: 7px; color: var(--coral); }
+.memory-clause { display: block; }
 .memory-tip strong { color: var(--green); }
 
 .swipe-cue {
@@ -771,6 +795,18 @@ kbd {
   cursor: pointer;
   font-size: .8rem;
   font-weight: 800;
+}
+
+.completion-card .completion-undo-button {
+  margin-bottom: 9px;
+  color: var(--green);
+  border: 1px solid rgba(55, 100, 81, 0.25);
+  background: #f4f8f5;
+}
+
+.completion-card button:disabled {
+  opacity: 0.42;
+  cursor: default;
 }
 
 @keyframes fly-left {
