@@ -1,6 +1,6 @@
 "use strict";
 
-const SIZE = 15;
+const SIZE = 19;
 const EMPTY = 0;
 const BLACK = 1;
 const WHITE = 2;
@@ -122,7 +122,8 @@ function drawGrid(pad, gap) {
 }
 
 function drawStars(pad, gap) {
-  const stars = [[3, 3], [3, 11], [7, 7], [11, 3], [11, 11]];
+  const starLines = [3, Math.floor(SIZE / 2), SIZE - 4];
+  const stars = starLines.flatMap((row) => starLines.map((col) => [row, col]));
   ctx.fillStyle = "rgba(48, 27, 10, 0.84)";
   stars.forEach(([row, col]) => {
     ctx.beginPath();
@@ -347,19 +348,20 @@ function evaluateCell(row, col, player) {
 }
 
 function chooseAiMove() {
+  const center = Math.floor(SIZE / 2);
   const candidates = [];
   for (let row = 0; row < SIZE; row += 1) {
     for (let col = 0; col < SIZE; col += 1) {
       if (board[row][col] !== EMPTY || !hasNearbyStone(row, col)) continue;
       const attack = evaluateCell(row, col, WHITE);
       const defense = evaluateCell(row, col, BLACK);
-      const centerBias = 12 - Math.hypot(row - 7, col - 7);
+      const centerBias = 12 - Math.hypot(row - center, col - center);
       const jitter = Math.random() * 4;
       candidates.push({ row, col, score: attack * 1.08 + defense + centerBias + jitter });
     }
   }
   candidates.sort((a, b) => b.score - a.score);
-  return candidates[0] || { row: 7, col: 7 };
+  return candidates[0] || { row: center, col: center };
 }
 
 function hasNearbyStone(row, col) {
