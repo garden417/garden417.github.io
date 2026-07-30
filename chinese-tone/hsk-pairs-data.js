@@ -1,2 +1,10527 @@
-/* HSK 2.0 level data derived from complete-hsk-vocabulary (MIT). */
-window.HSK_PAIR_SETS = {"hsk1-4":{"title":"HSK 1–4급","shortTitle":"1–4급","subtitle":"기초·중급 필수","accent":"green","pairs":[{"id":"hsk1-4-001","syllable":"YI","a":{"hanzi":"一","pinyin":"yī","tones":"1","level":1,"meaning":"하나","speech":"一"},"b":{"hanzi":"以","pinyin":"yǐ","tones":"3","level":4,"meaning":"사용하다","speech":"以"}},{"id":"hsk1-4-002","syllable":"BA","a":{"hanzi":"吧","pinyin":"bā","tones":"1","level":2,"meaning":"바","speech":"吧"},"b":{"hanzi":"把","pinyin":"bà","tones":"4","level":3,"meaning":"손잡이; 잡다","speech":"把"}},{"id":"hsk1-4-003","syllable":"ZHI","a":{"hanzi":"之","pinyin":"zhī","tones":"1","level":4,"meaning":"그; ~의","speech":"之"},"b":{"hanzi":"只","pinyin":"zhǐ","tones":"3","level":3,"meaning":"오직, 단지","speech":"只"}},{"id":"hsk1-4-004","syllable":"HAO","a":{"hanzi":"号","pinyin":"háo","tones":"2","level":2,"meaning":"울부짖다","speech":"号"},"b":{"hanzi":"好","pinyin":"hǎo","tones":"3","level":1,"meaning":"좋다","speech":"好"}},{"id":"hsk1-4-005","syllable":"SHI","a":{"hanzi":"使","pinyin":"shǐ","tones":"3","level":3,"meaning":"만들다, 시키다","speech":"使"},"b":{"hanzi":"是","pinyin":"shì","tones":"4","level":1,"meaning":"~이다","speech":"是"}},{"id":"hsk1-4-006","syllable":"WEI","a":{"hanzi":"为","pinyin":"wéi","tones":"2","level":2,"meaning":"~로서, ~처럼","speech":"为"},"b":{"hanzi":"位","pinyin":"wèi","tones":"4","level":3,"meaning":"위치, 자리","speech":"位"}},{"id":"hsk1-4-007","syllable":"JI","a":{"hanzi":"几","pinyin":"jī","tones":"1","level":1,"meaning":"거의","speech":"几"},"b":{"hanzi":"给","pinyin":"jǐ","tones":"3","level":2,"meaning":"공급하다","speech":"给"}},{"id":"hsk1-4-008","syllable":"XIANG","a":{"hanzi":"想","pinyin":"xiǎng","tones":"3","level":1,"meaning":"생각하다","speech":"想"},"b":{"hanzi":"像","pinyin":"xiàng","tones":"4","level":3,"meaning":"닮음","speech":"像"}},{"id":"hsk1-4-009","syllable":"XIANG","a":{"hanzi":"想","pinyin":"xiǎng","tones":"3","level":1,"meaning":"생각하다","speech":"想"},"b":{"hanzi":"向","pinyin":"xiàng","tones":"4","level":2,"meaning":"방향","speech":"向"}},{"id":"hsk1-4-010","syllable":"ZHAO","a":{"hanzi":"着","pinyin":"zhāo","tones":"1","level":2,"meaning":"이동","speech":"着"},"b":{"hanzi":"找","pinyin":"zhǎo","tones":"3","level":2,"meaning":"찾아보세요","speech":"找"}},{"id":"hsk1-4-011","syllable":"BA","a":{"hanzi":"吧","pinyin":"bā","tones":"1","level":2,"meaning":"바","speech":"吧"},"b":{"hanzi":"把","pinyin":"bǎ","tones":"3","level":3,"meaning":"보류; 파악하다","speech":"把"}},{"id":"hsk1-4-012","syllable":"ZHAO","a":{"hanzi":"着","pinyin":"zháo","tones":"2","level":2,"meaning":"닿다, 만지다","speech":"着"},"b":{"hanzi":"找","pinyin":"zhǎo","tones":"3","level":2,"meaning":"찾아보세요","speech":"找"}},{"id":"hsk1-4-013","syllable":"YOU","a":{"hanzi":"由","pinyin":"yóu","tones":"2","level":4,"meaning":"팔로우","speech":"由"},"b":{"hanzi":"又","pinyin":"yòu","tones":"4","level":3,"meaning":"다시","speech":"又"}},{"id":"hsk1-4-014","syllable":"NI","a":{"hanzi":"呢","pinyin":"ní","tones":"2","level":1,"meaning":"모직 소재","speech":"呢"},"b":{"hanzi":"你","pinyin":"nǐ","tones":"3","level":1,"meaning":"당신","speech":"你"}},{"id":"hsk1-4-015","syllable":"SI","a":{"hanzi":"死","pinyin":"sǐ","tones":"3","level":4,"meaning":"다이","speech":"死"},"b":{"hanzi":"四","pinyin":"sì","tones":"4","level":1,"meaning":"4","speech":"四"}},{"id":"hsk1-4-016","syllable":"XIN","a":{"hanzi":"新","pinyin":"xīn","tones":"1","level":2,"meaning":"신규","speech":"新"},"b":{"hanzi":"信","pinyin":"xìn","tones":"4","level":3,"meaning":"편지","speech":"信"}},{"id":"hsk1-4-017","syllable":"DI","a":{"hanzi":"的","pinyin":"dī","tones":"1","level":1,"meaning":"택시; 택시","speech":"的"},"b":{"hanzi":"地","pinyin":"dì","tones":"4","level":3,"meaning":"지구","speech":"地"}},{"id":"hsk1-4-018","syllable":"ER","a":{"hanzi":"而","pinyin":"ér","tones":"2","level":4,"meaning":"및","speech":"而"},"b":{"hanzi":"二","pinyin":"èr","tones":"4","level":1,"meaning":"두","speech":"二"}},{"id":"hsk1-4-019","syllable":"YOU","a":{"hanzi":"有","pinyin":"yǒu","tones":"3","level":1,"meaning":"가지고 있다; 있다","speech":"有"},"b":{"hanzi":"又","pinyin":"yòu","tones":"4","level":3,"meaning":"다시","speech":"又"}},{"id":"hsk1-4-020","syllable":"SHI","a":{"hanzi":"十","pinyin":"shí","tones":"2","level":1,"meaning":"10","speech":"十"},"b":{"hanzi":"是","pinyin":"shì","tones":"4","level":1,"meaning":"~이다","speech":"是"}},{"id":"hsk1-4-021","syllable":"ZHANG","a":{"hanzi":"张","pinyin":"zhāng","tones":"1","level":2,"meaning":"열어주세요","speech":"张"},"b":{"hanzi":"长","pinyin":"zhǎng","tones":"3","level":2,"meaning":"주임","speech":"长"}},{"id":"hsk1-4-022","syllable":"MAI","a":{"hanzi":"买","pinyin":"mǎi","tones":"3","level":1,"meaning":"구매","speech":"买"},"b":{"hanzi":"卖","pinyin":"mài","tones":"4","level":2,"meaning":"판매","speech":"卖"}},{"id":"hsk1-4-023","syllable":"DI","a":{"hanzi":"的","pinyin":"dí","tones":"2","level":1,"meaning":"정말로 그리고 정말로","speech":"的"},"b":{"hanzi":"地","pinyin":"dì","tones":"4","level":3,"meaning":"지구","speech":"地"}},{"id":"hsk1-4-024","syllable":"NA","a":{"hanzi":"拿","pinyin":"ná","tones":"2","level":3,"meaning":"보류","speech":"拿"},"b":{"hanzi":"哪","pinyin":"nǎ","tones":"3","level":1,"meaning":"어떻게","speech":"哪"}},{"id":"hsk1-4-025","syllable":"MA","a":{"hanzi":"吗","pinyin":"má","tones":"2","level":1,"meaning":"무엇?, 뭐?","speech":"吗"},"b":{"hanzi":"马","pinyin":"mǎ","tones":"3","level":3,"meaning":"말","speech":"马"}},{"id":"hsk1-4-026","syllable":"HE","a":{"hanzi":"喝","pinyin":"hē","tones":"1","level":1,"meaning":"음료","speech":"喝"},"b":{"hanzi":"和","pinyin":"hé","tones":"2","level":1,"meaning":"조화로운","speech":"和"}},{"id":"hsk1-4-027","syllable":"HE","a":{"hanzi":"和","pinyin":"hé","tones":"2","level":1,"meaning":"조화로운","speech":"和"},"b":{"hanzi":"喝","pinyin":"hè","tones":"4","level":1,"meaning":"소리치다","speech":"喝"}},{"id":"hsk1-4-028","syllable":"HAO","a":{"hanzi":"好","pinyin":"hǎo","tones":"3","level":1,"meaning":"좋다","speech":"好"},"b":{"hanzi":"号","pinyin":"hào","tones":"4","level":2,"meaning":"서수","speech":"号"}},{"id":"hsk1-4-029","syllable":"ZHI","a":{"hanzi":"之","pinyin":"zhī","tones":"1","level":4,"meaning":"그; ~의","speech":"之"},"b":{"hanzi":"指","pinyin":"zhǐ","tones":"3","level":4,"meaning":"손가락","speech":"指"}},{"id":"hsk1-4-030","syllable":"MEI","a":{"hanzi":"没","pinyin":"méi","tones":"2","level":1,"meaning":"아직 없습니다; 아니","speech":"没"},"b":{"hanzi":"每","pinyin":"měi","tones":"3","level":2,"meaning":"각각","speech":"每"}},{"id":"hsk1-4-031","syllable":"NA","a":{"hanzi":"拿","pinyin":"ná","tones":"2","level":3,"meaning":"보류","speech":"拿"},"b":{"hanzi":"那","pinyin":"nà","tones":"4","level":1,"meaning":"저것; 그만큼; 그","speech":"那"}},{"id":"hsk1-4-032","syllable":"YOU","a":{"hanzi":"由","pinyin":"yóu","tones":"2","level":4,"meaning":"팔로우","speech":"由"},"b":{"hanzi":"有","pinyin":"yǒu","tones":"3","level":1,"meaning":"가지고 있다; 있다","speech":"有"}},{"id":"hsk1-4-033","syllable":"LIAN","a":{"hanzi":"连","pinyin":"lián","tones":"2","level":4,"meaning":"링크","speech":"连"},"b":{"hanzi":"脸","pinyin":"liǎn","tones":"3","level":3,"meaning":"얼굴","speech":"脸"}},{"id":"hsk1-4-034","syllable":"HUAN","a":{"hanzi":"还","pinyin":"huán","tones":"2","level":2,"meaning":"갚아주세요","speech":"还"},"b":{"hanzi":"换","pinyin":"huàn","tones":"4","level":3,"meaning":"교환","speech":"换"}},{"id":"hsk1-4-035","syllable":"XIAO","a":{"hanzi":"小","pinyin":"xiǎo","tones":"3","level":1,"meaning":"작은","speech":"小"},"b":{"hanzi":"笑","pinyin":"xiào","tones":"4","level":2,"meaning":"웃음; 미소 짓다","speech":"笑"}},{"id":"hsk1-4-036","syllable":"DI","a":{"hanzi":"低","pinyin":"dī","tones":"1","level":3,"meaning":"낮음","speech":"低"},"b":{"hanzi":"地","pinyin":"dì","tones":"4","level":3,"meaning":"지구","speech":"地"}},{"id":"hsk1-4-037","syllable":"TAI","a":{"hanzi":"台","pinyin":"tái","tones":"2","level":4,"meaning":"태풍","speech":"台"},"b":{"hanzi":"太","pinyin":"tài","tones":"4","level":1,"meaning":"최고","speech":"太"}},{"id":"hsk1-4-038","syllable":"QU","a":{"hanzi":"取","pinyin":"qǔ","tones":"3","level":4,"meaning":"취","speech":"取"},"b":{"hanzi":"去","pinyin":"qù","tones":"4","level":1,"meaning":"이동","speech":"去"}},{"id":"hsk1-4-039","syllable":"NA","a":{"hanzi":"哪","pinyin":"nǎ","tones":"3","level":1,"meaning":"어떻게","speech":"哪"},"b":{"hanzi":"那","pinyin":"nà","tones":"4","level":1,"meaning":"저것; 그만큼; 그","speech":"那"}},{"id":"hsk1-4-040","syllable":"ZUI","a":{"hanzi":"嘴","pinyin":"zuǐ","tones":"3","level":4,"meaning":"입","speech":"嘴"},"b":{"hanzi":"最","pinyin":"zuì","tones":"4","level":2,"meaning":"대부분","speech":"最"}},{"id":"hsk1-4-041","syllable":"JIAO","a":{"hanzi":"交","pinyin":"jiāo","tones":"1","level":4,"meaning":"인계","speech":"交"},"b":{"hanzi":"叫","pinyin":"jiào","tones":"4","level":1,"meaning":"소리치다","speech":"叫"}},{"id":"hsk1-4-042","syllable":"SHI","a":{"hanzi":"十","pinyin":"shí","tones":"2","level":1,"meaning":"10","speech":"十"},"b":{"hanzi":"使","pinyin":"shǐ","tones":"3","level":3,"meaning":"만들다, 시키다","speech":"使"}},{"id":"hsk1-4-043","syllable":"WU","a":{"hanzi":"无","pinyin":"wú","tones":"2","level":4,"meaning":"가지지 않음","speech":"无"},"b":{"hanzi":"五","pinyin":"wǔ","tones":"3","level":1,"meaning":"다섯","speech":"五"}},{"id":"hsk1-4-044","syllable":"WEI","a":{"hanzi":"为","pinyin":"wéi","tones":"2","level":2,"meaning":"~로서, ~처럼","speech":"为"},"b":{"hanzi":"喂","pinyin":"wèi","tones":"4","level":1,"meaning":"피드","speech":"喂"}},{"id":"hsk1-4-045","syllable":"JIAO","a":{"hanzi":"脚","pinyin":"jiǎo","tones":"3","level":3,"meaning":"발","speech":"脚"},"b":{"hanzi":"叫","pinyin":"jiào","tones":"4","level":1,"meaning":"소리치다","speech":"叫"}},{"id":"hsk1-4-046","syllable":"JIA","a":{"hanzi":"家","pinyin":"jiā","tones":"1","level":1,"meaning":"집","speech":"家"},"b":{"hanzi":"假","pinyin":"jiǎ","tones":"3","level":4,"meaning":"빌려","speech":"假"}},{"id":"hsk1-4-047","syllable":"YU","a":{"hanzi":"鱼","pinyin":"yú","tones":"2","level":2,"meaning":"물고기","speech":"鱼"},"b":{"hanzi":"与","pinyin":"yǔ","tones":"3","level":4,"meaning":"및","speech":"与"}},{"id":"hsk1-4-048","syllable":"JIAO","a":{"hanzi":"教","pinyin":"jiāo","tones":"1","level":3,"meaning":"가르쳐","speech":"教"},"b":{"hanzi":"叫","pinyin":"jiào","tones":"4","level":1,"meaning":"소리치다","speech":"叫"}},{"id":"hsk1-4-049","syllable":"DI","a":{"hanzi":"底","pinyin":"dǐ","tones":"3","level":4,"meaning":"배경","speech":"底"},"b":{"hanzi":"地","pinyin":"dì","tones":"4","level":3,"meaning":"지구","speech":"地"}},{"id":"hsk1-4-050","syllable":"SHI","a":{"hanzi":"使","pinyin":"shǐ","tones":"3","level":3,"meaning":"만들다, 시키다","speech":"使"},"b":{"hanzi":"试","pinyin":"shì","tones":"4","level":4,"meaning":"테스트","speech":"试"}},{"id":"hsk1-4-051","syllable":"WAN","a":{"hanzi":"玩","pinyin":"wán","tones":"2","level":2,"meaning":"재생","speech":"玩"},"b":{"hanzi":"万","pinyin":"wàn","tones":"4","level":3,"meaning":"만","speech":"万"}},{"id":"hsk1-4-052","syllable":"JIA","a":{"hanzi":"家","pinyin":"jiā","tones":"1","level":1,"meaning":"집","speech":"家"},"b":{"hanzi":"假","pinyin":"jià","tones":"4","level":4,"meaning":"휴가","speech":"假"}},{"id":"hsk1-4-053","syllable":"WAN","a":{"hanzi":"完","pinyin":"wán","tones":"2","level":2,"meaning":"완료","speech":"完"},"b":{"hanzi":"万","pinyin":"wàn","tones":"4","level":3,"meaning":"만","speech":"万"}},{"id":"hsk1-4-054","syllable":"DI","a":{"hanzi":"低","pinyin":"dī","tones":"1","level":3,"meaning":"낮음","speech":"低"},"b":{"hanzi":"的","pinyin":"dí","tones":"2","level":1,"meaning":"정말로 그리고 정말로","speech":"的"}},{"id":"hsk1-4-055","syllable":"LIU","a":{"hanzi":"留","pinyin":"liú","tones":"2","level":4,"meaning":"떠나다","speech":"留"},"b":{"hanzi":"六","pinyin":"liù","tones":"4","level":1,"meaning":"6","speech":"六"}},{"id":"hsk1-4-056","syllable":"DI","a":{"hanzi":"的","pinyin":"dī","tones":"1","level":1,"meaning":"택시; 택시","speech":"的"},"b":{"hanzi":"底","pinyin":"dǐ","tones":"3","level":4,"meaning":"배경","speech":"底"}},{"id":"hsk1-4-057","syllable":"HUO","a":{"hanzi":"火","pinyin":"huǒ","tones":"3","level":4,"meaning":"불","speech":"火"},"b":{"hanzi":"和","pinyin":"huò","tones":"4","level":1,"meaning":"함께 섞으세요","speech":"和"}},{"id":"hsk1-4-058","syllable":"DI","a":{"hanzi":"低","pinyin":"dī","tones":"1","level":3,"meaning":"낮음","speech":"低"},"b":{"hanzi":"的","pinyin":"dì","tones":"4","level":1,"meaning":"과녁의 눈; 목표","speech":"的"}},{"id":"hsk1-4-059","syllable":"XIE","a":{"hanzi":"鞋","pinyin":"xié","tones":"2","level":3,"meaning":"신발","speech":"鞋"},"b":{"hanzi":"写","pinyin":"xiě","tones":"3","level":1,"meaning":"쓰기","speech":"写"}},{"id":"hsk1-4-060","syllable":"GAN","a":{"hanzi":"敢","pinyin":"gǎn","tones":"3","level":3,"meaning":"감히","speech":"敢"},"b":{"hanzi":"干","pinyin":"gàn","tones":"4","level":4,"meaning":"나무 줄기","speech":"干"}},{"id":"hsk1-4-061","syllable":"WEI","a":{"hanzi":"喂","pinyin":"wéi","tones":"2","level":1,"meaning":"안녕하세요","speech":"喂"},"b":{"hanzi":"为","pinyin":"wèi","tones":"4","level":2,"meaning":"때문에","speech":"为"}},{"id":"hsk1-4-062","syllable":"BA","a":{"hanzi":"八","pinyin":"bā","tones":"1","level":1,"meaning":"8; 8","speech":"八"},"b":{"hanzi":"把","pinyin":"bà","tones":"4","level":3,"meaning":"손잡이; 잡다","speech":"把"}},{"id":"hsk1-4-063","syllable":"YAO","a":{"hanzi":"要","pinyin":"yāo","tones":"1","level":2,"meaning":"요구하다; 강요하다","speech":"要"},"b":{"hanzi":"药","pinyin":"yào","tones":"4","level":2,"meaning":"약","speech":"药"}},{"id":"hsk1-4-064","syllable":"WEI","a":{"hanzi":"喂","pinyin":"wéi","tones":"2","level":1,"meaning":"안녕하세요","speech":"喂"},"b":{"hanzi":"位","pinyin":"wèi","tones":"4","level":3,"meaning":"위치, 자리","speech":"位"}},{"id":"hsk1-4-065","syllable":"YU","a":{"hanzi":"鱼","pinyin":"yú","tones":"2","level":2,"meaning":"물고기","speech":"鱼"},"b":{"hanzi":"与","pinyin":"yù","tones":"4","level":4,"meaning":"참여하다","speech":"与"}},{"id":"hsk1-4-066","syllable":"DI","a":{"hanzi":"的","pinyin":"dí","tones":"2","level":1,"meaning":"정말로 그리고 정말로","speech":"的"},"b":{"hanzi":"底","pinyin":"dǐ","tones":"3","level":4,"meaning":"배경","speech":"底"}},{"id":"hsk1-4-067","syllable":"SHI","a":{"hanzi":"十","pinyin":"shí","tones":"2","level":1,"meaning":"10","speech":"十"},"b":{"hanzi":"试","pinyin":"shì","tones":"4","level":4,"meaning":"테스트","speech":"试"}},{"id":"hsk1-4-068","syllable":"CHUAN","a":{"hanzi":"穿","pinyin":"chuān","tones":"1","level":2,"meaning":"착용","speech":"穿"},"b":{"hanzi":"船","pinyin":"chuán","tones":"2","level":2,"meaning":"보트","speech":"船"}},{"id":"hsk1-4-069","syllable":"YUAN","a":{"hanzi":"元","pinyin":"yuán","tones":"2","level":2,"meaning":"통화 단위","speech":"元"},"b":{"hanzi":"远","pinyin":"yuǎn","tones":"3","level":2,"meaning":"멀리","speech":"远"}},{"id":"hsk1-4-070","syllable":"JI","a":{"hanzi":"极","pinyin":"jí","tones":"2","level":3,"meaning":"매우","speech":"极"},"b":{"hanzi":"给","pinyin":"jǐ","tones":"3","level":2,"meaning":"공급하다","speech":"给"}},{"id":"hsk1-4-071","syllable":"XING","a":{"hanzi":"行","pinyin":"xíng","tones":"2","level":4,"meaning":"도보","speech":"行"},"b":{"hanzi":"省","pinyin":"xǐng","tones":"3","level":4,"meaning":"세밀히 조사하다","speech":"省"}},{"id":"hsk1-4-072","syllable":"ZHU","a":{"hanzi":"猪","pinyin":"zhū","tones":"1","level":4,"meaning":"돼지","speech":"猪"},"b":{"hanzi":"住","pinyin":"zhù","tones":"4","level":1,"meaning":"라이브","speech":"住"}},{"id":"hsk1-4-073","syllable":"JIU","a":{"hanzi":"久","pinyin":"jiǔ","tones":"3","level":3,"meaning":"시간","speech":"久"},"b":{"hanzi":"就","pinyin":"jiù","tones":"4","level":2,"meaning":"그 경우; 그럼","speech":"就"}},{"id":"hsk1-4-074","syllable":"XING","a":{"hanzi":"行","pinyin":"xíng","tones":"2","level":4,"meaning":"도보","speech":"行"},"b":{"hanzi":"醒","pinyin":"xǐng","tones":"3","level":4,"meaning":"일어나","speech":"醒"}},{"id":"hsk1-4-075","syllable":"LIANG","a":{"hanzi":"两","pinyin":"liǎng","tones":"3","level":2,"meaning":"두","speech":"两"},"b":{"hanzi":"亮","pinyin":"liàng","tones":"4","level":4,"meaning":"밝다","speech":"亮"}},{"id":"hsk1-4-076","syllable":"TING","a":{"hanzi":"听","pinyin":"tīng","tones":"1","level":1,"meaning":"듣다; 듣다","speech":"听"},"b":{"hanzi":"挺","pinyin":"tǐng","tones":"3","level":4,"meaning":"직진","speech":"挺"}},{"id":"hsk1-4-077","syllable":"DOU","a":{"hanzi":"都","pinyin":"dōu","tones":"1","level":1,"meaning":"전체; 둘 다; 완전히","speech":"都"},"b":{"hanzi":"读","pinyin":"dòu","tones":"4","level":1,"meaning":"쉼표","speech":"读"}},{"id":"hsk1-4-078","syllable":"GOU","a":{"hanzi":"狗","pinyin":"gǒu","tones":"3","level":1,"meaning":"개","speech":"狗"},"b":{"hanzi":"够","pinyin":"gòu","tones":"4","level":4,"meaning":"충분하다","speech":"够"}},{"id":"hsk1-4-079","syllable":"DI","a":{"hanzi":"底","pinyin":"dǐ","tones":"3","level":4,"meaning":"배경","speech":"底"},"b":{"hanzi":"的","pinyin":"dì","tones":"4","level":1,"meaning":"과녁의 눈; 목표","speech":"的"}},{"id":"hsk1-4-080","syllable":"DUAN","a":{"hanzi":"短","pinyin":"duǎn","tones":"3","level":3,"meaning":"짧음","speech":"短"},"b":{"hanzi":"段","pinyin":"duàn","tones":"4","level":3,"meaning":"문단","speech":"段"}},{"id":"hsk1-4-081","syllable":"JI","a":{"hanzi":"几","pinyin":"jī","tones":"1","level":1,"meaning":"거의","speech":"几"},"b":{"hanzi":"极","pinyin":"jí","tones":"2","level":3,"meaning":"매우","speech":"极"}},{"id":"hsk1-4-082","syllable":"DAO","a":{"hanzi":"刀","pinyin":"dāo","tones":"1","level":4,"meaning":"칼","speech":"刀"},"b":{"hanzi":"到","pinyin":"dào","tones":"4","level":2,"meaning":"도달; 도착하다","speech":"到"}},{"id":"hsk1-4-083","syllable":"JIAO","a":{"hanzi":"交","pinyin":"jiāo","tones":"1","level":4,"meaning":"인계","speech":"交"},"b":{"hanzi":"脚","pinyin":"jiǎo","tones":"3","level":3,"meaning":"발","speech":"脚"}},{"id":"hsk1-4-084","syllable":"HUI","a":{"hanzi":"回","pinyin":"huí","tones":"2","level":1,"meaning":"곡선","speech":"回"},"b":{"hanzi":"会","pinyin":"huì","tones":"4","level":1,"meaning":"할 수 있습니다. 기술을 갖다; 방법을 알기 위해","speech":"会"}},{"id":"hsk1-4-085","syllable":"QING","a":{"hanzi":"轻","pinyin":"qīng","tones":"1","level":4,"meaning":"빛","speech":"轻"},"b":{"hanzi":"请","pinyin":"qǐng","tones":"3","level":1,"meaning":"질문","speech":"请"}},{"id":"hsk1-4-086","syllable":"JI","a":{"hanzi":"极","pinyin":"jí","tones":"2","level":3,"meaning":"매우","speech":"极"},"b":{"hanzi":"几","pinyin":"jǐ","tones":"3","level":1,"meaning":"얼마나","speech":"几"}},{"id":"hsk1-4-087","syllable":"SHU","a":{"hanzi":"书","pinyin":"shū","tones":"1","level":1,"meaning":"책","speech":"书"},"b":{"hanzi":"树","pinyin":"shù","tones":"4","level":3,"meaning":"나무","speech":"树"}},{"id":"hsk1-4-088","syllable":"BAO","a":{"hanzi":"包","pinyin":"bāo","tones":"1","level":3,"meaning":"표지","speech":"包"},"b":{"hanzi":"抱","pinyin":"bào","tones":"4","level":4,"meaning":"보류","speech":"抱"}},{"id":"hsk1-4-089","syllable":"JIAO","a":{"hanzi":"教","pinyin":"jiāo","tones":"1","level":3,"meaning":"가르쳐","speech":"教"},"b":{"hanzi":"脚","pinyin":"jiǎo","tones":"3","level":3,"meaning":"발","speech":"脚"}},{"id":"hsk1-4-090","syllable":"JIE","a":{"hanzi":"接","pinyin":"jiē","tones":"1","level":3,"meaning":"수신","speech":"接"},"b":{"hanzi":"借","pinyin":"jiè","tones":"4","level":3,"meaning":"대출","speech":"借"}},{"id":"hsk1-4-091","syllable":"ZHI","a":{"hanzi":"只","pinyin":"zhī","tones":"1","level":3,"meaning":"익기 시작한 곡물","speech":"只"},"b":{"hanzi":"指","pinyin":"zhǐ","tones":"3","level":4,"meaning":"손가락","speech":"指"}},{"id":"hsk1-4-092","syllable":"BA","a":{"hanzi":"八","pinyin":"bā","tones":"1","level":1,"meaning":"8; 8","speech":"八"},"b":{"hanzi":"把","pinyin":"bǎ","tones":"3","level":3,"meaning":"보류; 파악하다","speech":"把"}},{"id":"hsk1-4-093","syllable":"CAI","a":{"hanzi":"才","pinyin":"cái","tones":"2","level":3,"meaning":"능력; 재능","speech":"才"},"b":{"hanzi":"菜","pinyin":"cài","tones":"4","level":1,"meaning":"접시","speech":"菜"}},{"id":"hsk1-4-094","syllable":"DENG","a":{"hanzi":"灯","pinyin":"dēng","tones":"1","level":3,"meaning":"램프","speech":"灯"},"b":{"hanzi":"等","pinyin":"děng","tones":"3","level":4,"meaning":"클래스","speech":"等"}},{"id":"hsk1-4-095","syllable":"QIAN","a":{"hanzi":"千","pinyin":"qiān","tones":"1","level":2,"meaning":"천","speech":"千"},"b":{"hanzi":"钱","pinyin":"qián","tones":"2","level":1,"meaning":"코인","speech":"钱"}},{"id":"hsk1-4-096","syllable":"JIAO","a":{"hanzi":"交","pinyin":"jiāo","tones":"1","level":4,"meaning":"인계","speech":"交"},"b":{"hanzi":"教","pinyin":"jiào","tones":"4","level":3,"meaning":"종교","speech":"教"}},{"id":"hsk1-4-097","syllable":"HUA","a":{"hanzi":"花","pinyin":"huā","tones":"1","level":3,"meaning":"꽃","speech":"花"},"b":{"hanzi":"画","pinyin":"huà","tones":"4","level":3,"meaning":"그리기; 그림을 그리다","speech":"画"}},{"id":"hsk1-4-098","syllable":"DIAO","a":{"hanzi":"鸟","pinyin":"diǎo","tones":"3","level":3,"meaning":"성기","speech":"鸟"},"b":{"hanzi":"掉","pinyin":"diào","tones":"4","level":4,"meaning":"가을","speech":"掉"}},{"id":"hsk1-4-099","syllable":"JIAO","a":{"hanzi":"脚","pinyin":"jiǎo","tones":"3","level":3,"meaning":"발","speech":"脚"},"b":{"hanzi":"教","pinyin":"jiào","tones":"4","level":3,"meaning":"종교","speech":"教"}},{"id":"hsk1-4-100","syllable":"XIANG","a":{"hanzi":"香","pinyin":"xiāng","tones":"1","level":4,"meaning":"향기로운","speech":"香"},"b":{"hanzi":"想","pinyin":"xiǎng","tones":"3","level":1,"meaning":"생각하다","speech":"想"}},{"id":"hsk1-4-101","syllable":"CHANG","a":{"hanzi":"长","pinyin":"cháng","tones":"2","level":2,"meaning":"길이","speech":"长"},"b":{"hanzi":"场","pinyin":"chǎng","tones":"3","level":4,"meaning":"특정한 목적으로 사용되는 큰 장소","speech":"场"}},{"id":"hsk1-4-102","syllable":"DU","a":{"hanzi":"都","pinyin":"dū","tones":"1","level":1,"meaning":"수도","speech":"都"},"b":{"hanzi":"读","pinyin":"dú","tones":"2","level":1,"meaning":"읽기; 큰 소리로 읽기","speech":"读"}},{"id":"hsk1-4-103","syllable":"DONG","a":{"hanzi":"东","pinyin":"dōng","tones":"1","level":3,"meaning":"동쪽","speech":"东"},"b":{"hanzi":"懂","pinyin":"dǒng","tones":"3","level":2,"meaning":"이해하다","speech":"懂"}},{"id":"hsk1-4-104","syllable":"NAN","a":{"hanzi":"南","pinyin":"nán","tones":"2","level":3,"meaning":"남쪽","speech":"南"},"b":{"hanzi":"难","pinyin":"nàn","tones":"4","level":3,"meaning":"재해","speech":"难"}},{"id":"hsk1-4-105","syllable":"XIANG","a":{"hanzi":"香","pinyin":"xiāng","tones":"1","level":4,"meaning":"향기로운","speech":"香"},"b":{"hanzi":"像","pinyin":"xiàng","tones":"4","level":3,"meaning":"닮음","speech":"像"}},{"id":"hsk1-4-106","syllable":"HAO","a":{"hanzi":"号","pinyin":"háo","tones":"2","level":2,"meaning":"울부짖다","speech":"号"},"b":{"hanzi":"好","pinyin":"hào","tones":"4","level":1,"meaning":"좋아하다; 경향이 있다; 경향이 있다","speech":"好"}},{"id":"hsk1-4-107","syllable":"XIANG","a":{"hanzi":"香","pinyin":"xiāng","tones":"1","level":4,"meaning":"향기로운","speech":"香"},"b":{"hanzi":"向","pinyin":"xiàng","tones":"4","level":2,"meaning":"방향","speech":"向"}},{"id":"hsk1-4-108","syllable":"XIANG","a":{"hanzi":"响","pinyin":"xiǎng","tones":"3","level":4,"meaning":"에코","speech":"响"},"b":{"hanzi":"像","pinyin":"xiàng","tones":"4","level":3,"meaning":"닮음","speech":"像"}},{"id":"hsk1-4-109","syllable":"XIANG","a":{"hanzi":"响","pinyin":"xiǎng","tones":"3","level":4,"meaning":"에코","speech":"响"},"b":{"hanzi":"向","pinyin":"xiàng","tones":"4","level":2,"meaning":"방향","speech":"向"}},{"id":"hsk1-4-110","syllable":"BAN","a":{"hanzi":"班","pinyin":"bān","tones":"1","level":3,"meaning":"팀; 수업; 등급","speech":"班"},"b":{"hanzi":"半","pinyin":"bàn","tones":"4","level":3,"meaning":"반","speech":"半"}},{"id":"hsk1-4-111","syllable":"JIAO","a":{"hanzi":"角","pinyin":"jiǎo","tones":"3","level":3,"meaning":"각도","speech":"角"},"b":{"hanzi":"叫","pinyin":"jiào","tones":"4","level":1,"meaning":"소리치다","speech":"叫"}},{"id":"hsk1-4-112","syllable":"YUAN","a":{"hanzi":"元","pinyin":"yuán","tones":"2","level":2,"meaning":"통화 단위","speech":"元"},"b":{"hanzi":"远","pinyin":"yuàn","tones":"4","level":2,"meaning":"자신과 거리를 두다","speech":"远"}},{"id":"hsk1-4-113","syllable":"TUI","a":{"hanzi":"推","pinyin":"tuī","tones":"1","level":4,"meaning":"푸시","speech":"推"},"b":{"hanzi":"腿","pinyin":"tuǐ","tones":"3","level":3,"meaning":"엉덩이뼈","speech":"腿"}},{"id":"hsk1-4-114","syllable":"MAN","a":{"hanzi":"满","pinyin":"mǎn","tones":"3","level":4,"meaning":"채우기","speech":"满"},"b":{"hanzi":"慢","pinyin":"màn","tones":"4","level":2,"meaning":"느림","speech":"慢"}},{"id":"hsk1-4-115","syllable":"XUE","a":{"hanzi":"雪","pinyin":"xuě","tones":"3","level":2,"meaning":"눈","speech":"雪"},"b":{"hanzi":"血","pinyin":"xuè","tones":"4","level":4,"meaning":"피","speech":"血"}},{"id":"hsk1-4-116","syllable":"JIU","a":{"hanzi":"九","pinyin":"jiǔ","tones":"3","level":1,"meaning":"9","speech":"九"},"b":{"hanzi":"就","pinyin":"jiù","tones":"4","level":2,"meaning":"그 경우; 그럼","speech":"就"}},{"id":"hsk1-4-117","syllable":"XI","a":{"hanzi":"西","pinyin":"xī","tones":"1","level":3,"meaning":"서쪽","speech":"西"},"b":{"hanzi":"洗","pinyin":"xǐ","tones":"3","level":2,"meaning":"세탁; 목욕하다","speech":"洗"}},{"id":"hsk1-4-118","syllable":"HE","a":{"hanzi":"喝","pinyin":"hē","tones":"1","level":1,"meaning":"음료","speech":"喝"},"b":{"hanzi":"河","pinyin":"hé","tones":"2","level":3,"meaning":"강","speech":"河"}},{"id":"hsk1-4-119","syllable":"HE","a":{"hanzi":"河","pinyin":"hé","tones":"2","level":3,"meaning":"강","speech":"河"},"b":{"hanzi":"喝","pinyin":"hè","tones":"4","level":1,"meaning":"소리치다","speech":"喝"}},{"id":"hsk1-4-120","syllable":"JI","a":{"hanzi":"给","pinyin":"jǐ","tones":"3","level":2,"meaning":"공급하다","speech":"给"},"b":{"hanzi":"骑","pinyin":"jì","tones":"4","level":3,"meaning":"안장말","speech":"骑"}},{"id":"hsk1-4-121","syllable":"DUAN","a":{"hanzi":"短","pinyin":"duǎn","tones":"3","level":3,"meaning":"짧음","speech":"短"},"b":{"hanzi":"断","pinyin":"duàn","tones":"4","level":4,"meaning":"휴식","speech":"断"}},{"id":"hsk1-4-122","syllable":"XIE","a":{"hanzi":"页","pinyin":"xié","tones":"2","level":4,"meaning":"머리","speech":"页"},"b":{"hanzi":"写","pinyin":"xiě","tones":"3","level":1,"meaning":"쓰기","speech":"写"}},{"id":"hsk1-4-123","syllable":"JIU","a":{"hanzi":"久","pinyin":"jiǔ","tones":"3","level":3,"meaning":"시간","speech":"久"},"b":{"hanzi":"旧","pinyin":"jiù","tones":"4","level":3,"meaning":"오래된","speech":"旧"}},{"id":"hsk1-4-124","syllable":"HUO","a":{"hanzi":"和","pinyin":"huó","tones":"2","level":1,"meaning":"분말 물질을 물과 결합하다","speech":"和"},"b":{"hanzi":"火","pinyin":"huǒ","tones":"3","level":4,"meaning":"불","speech":"火"}},{"id":"hsk1-4-125","syllable":"CAI","a":{"hanzi":"猜","pinyin":"cāi","tones":"1","level":4,"meaning":"추측해 보세요","speech":"猜"},"b":{"hanzi":"才","pinyin":"cái","tones":"2","level":3,"meaning":"능력; 재능","speech":"才"}},{"id":"hsk1-4-126","syllable":"JI","a":{"hanzi":"几","pinyin":"jī","tones":"1","level":1,"meaning":"거의","speech":"几"},"b":{"hanzi":"骑","pinyin":"jì","tones":"4","level":3,"meaning":"안장말","speech":"骑"}},{"id":"hsk1-4-127","syllable":"ZHU","a":{"hanzi":"猪","pinyin":"zhū","tones":"1","level":4,"meaning":"돼지","speech":"猪"},"b":{"hanzi":"祝","pinyin":"zhù","tones":"4","level":3,"meaning":"기도하세요","speech":"祝"}},{"id":"hsk1-4-128","syllable":"HE","a":{"hanzi":"喝","pinyin":"hē","tones":"1","level":1,"meaning":"음료","speech":"喝"},"b":{"hanzi":"和","pinyin":"hè","tones":"4","level":1,"meaning":"동일한 운율을 사용하여 답례시를 작성","speech":"和"}},{"id":"hsk1-4-129","syllable":"BAN","a":{"hanzi":"搬","pinyin":"bān","tones":"1","level":3,"meaning":"이동","speech":"搬"},"b":{"hanzi":"半","pinyin":"bàn","tones":"4","level":3,"meaning":"반","speech":"半"}},{"id":"hsk1-4-130","syllable":"JI","a":{"hanzi":"给","pinyin":"jǐ","tones":"3","level":2,"meaning":"공급하다","speech":"给"},"b":{"hanzi":"寄","pinyin":"jì","tones":"4","level":4,"meaning":"보내기","speech":"寄"}},{"id":"hsk1-4-131","syllable":"JI","a":{"hanzi":"几","pinyin":"jǐ","tones":"3","level":1,"meaning":"얼마나","speech":"几"},"b":{"hanzi":"骑","pinyin":"jì","tones":"4","level":3,"meaning":"안장말","speech":"骑"}},{"id":"hsk1-4-132","syllable":"LI","a":{"hanzi":"离","pinyin":"lí","tones":"2","level":2,"meaning":"떠나다","speech":"离"},"b":{"hanzi":"里","pinyin":"lǐ","tones":"3","level":1,"meaning":"li, 고대 길이 측정 단위, 약. 500m","speech":"里"}},{"id":"hsk1-4-133","syllable":"CHA","a":{"hanzi":"茶","pinyin":"chá","tones":"2","level":1,"meaning":"차","speech":"茶"},"b":{"hanzi":"差","pinyin":"chà","tones":"4","level":3,"meaning":"다름","speech":"差"}},{"id":"hsk1-4-134","syllable":"JI","a":{"hanzi":"几","pinyin":"jī","tones":"1","level":1,"meaning":"거의","speech":"几"},"b":{"hanzi":"寄","pinyin":"jì","tones":"4","level":4,"meaning":"보내기","speech":"寄"}},{"id":"hsk1-4-135","syllable":"JI","a":{"hanzi":"几","pinyin":"jǐ","tones":"3","level":1,"meaning":"얼마나","speech":"几"},"b":{"hanzi":"寄","pinyin":"jì","tones":"4","level":4,"meaning":"보내기","speech":"寄"}},{"id":"hsk1-4-136","syllable":"LA","a":{"hanzi":"拉","pinyin":"lā","tones":"1","level":4,"meaning":"당겨","speech":"拉"},"b":{"hanzi":"辣","pinyin":"là","tones":"4","level":4,"meaning":"핫","speech":"辣"}},{"id":"hsk1-4-137","syllable":"WAN","a":{"hanzi":"玩","pinyin":"wán","tones":"2","level":2,"meaning":"재생","speech":"玩"},"b":{"hanzi":"碗","pinyin":"wǎn","tones":"3","level":3,"meaning":"그릇","speech":"碗"}},{"id":"hsk1-4-138","syllable":"GAN","a":{"hanzi":"干","pinyin":"gān","tones":"1","level":4,"meaning":"~과 관련이 있다; 걱정하다","speech":"干"},"b":{"hanzi":"敢","pinyin":"gǎn","tones":"3","level":3,"meaning":"감히","speech":"敢"}},{"id":"hsk1-4-139","syllable":"YE","a":{"hanzi":"也","pinyin":"yě","tones":"3","level":2,"meaning":"또한; 둘 다 ... 그리고 ...","speech":"也"},"b":{"hanzi":"页","pinyin":"yè","tones":"4","level":4,"meaning":"페이지","speech":"页"}},{"id":"hsk1-4-140","syllable":"WAN","a":{"hanzi":"完","pinyin":"wán","tones":"2","level":2,"meaning":"완료","speech":"完"},"b":{"hanzi":"碗","pinyin":"wǎn","tones":"3","level":3,"meaning":"그릇","speech":"碗"}},{"id":"hsk1-4-141","syllable":"JIAO","a":{"hanzi":"交","pinyin":"jiāo","tones":"1","level":4,"meaning":"인계","speech":"交"},"b":{"hanzi":"角","pinyin":"jiǎo","tones":"3","level":3,"meaning":"각도","speech":"角"}},{"id":"hsk1-4-142","syllable":"JIAO","a":{"hanzi":"教","pinyin":"jiāo","tones":"1","level":3,"meaning":"가르쳐","speech":"教"},"b":{"hanzi":"角","pinyin":"jiǎo","tones":"3","level":3,"meaning":"각도","speech":"角"}},{"id":"hsk1-4-143","syllable":"YI","a":{"hanzi":"一","pinyin":"yī","tones":"1","level":1,"meaning":"하나","speech":"一"},"b":{"hanzi":"亿","pinyin":"yì","tones":"4","level":4,"meaning":"1억","speech":"亿"}},{"id":"hsk1-4-144","syllable":"SHOU","a":{"hanzi":"收","pinyin":"shōu","tones":"1","level":4,"meaning":"수신","speech":"收"},"b":{"hanzi":"瘦","pinyin":"shòu","tones":"4","level":3,"meaning":"얇음","speech":"瘦"}},{"id":"hsk1-4-145","syllable":"SHU","a":{"hanzi":"输","pinyin":"shū","tones":"1","level":4,"meaning":"패배; 구타당하다","speech":"输"},"b":{"hanzi":"树","pinyin":"shù","tones":"4","level":3,"meaning":"나무","speech":"树"}},{"id":"hsk1-4-146","syllable":"YUAN","a":{"hanzi":"圆","pinyin":"yuán","tones":"2","level":4,"meaning":"원","speech":"圆"},"b":{"hanzi":"远","pinyin":"yuǎn","tones":"3","level":2,"meaning":"멀리","speech":"远"}},{"id":"hsk1-4-147","syllable":"BAI","a":{"hanzi":"白","pinyin":"bái","tones":"2","level":2,"meaning":"흰색","speech":"白"},"b":{"hanzi":"百","pinyin":"bǎi","tones":"3","level":2,"meaning":"백","speech":"百"}},{"id":"hsk1-4-148","syllable":"JIAO","a":{"hanzi":"角","pinyin":"jiǎo","tones":"3","level":3,"meaning":"각도","speech":"角"},"b":{"hanzi":"教","pinyin":"jiào","tones":"4","level":3,"meaning":"종교","speech":"教"}},{"id":"hsk1-4-149","syllable":"CAI","a":{"hanzi":"猜","pinyin":"cāi","tones":"1","level":4,"meaning":"추측해 보세요","speech":"猜"},"b":{"hanzi":"菜","pinyin":"cài","tones":"4","level":1,"meaning":"접시","speech":"菜"}},{"id":"hsk1-4-150","syllable":"YI","a":{"hanzi":"以","pinyin":"yǐ","tones":"3","level":4,"meaning":"사용하다","speech":"以"},"b":{"hanzi":"亿","pinyin":"yì","tones":"4","level":4,"meaning":"1억","speech":"亿"}},{"id":"hsk1-4-151","syllable":"PIAN","a":{"hanzi":"篇","pinyin":"piān","tones":"1","level":4,"meaning":"시트","speech":"篇"},"b":{"hanzi":"骗","pinyin":"piàn","tones":"4","level":4,"meaning":"치트","speech":"骗"}},{"id":"hsk1-4-152","syllable":"KU","a":{"hanzi":"哭","pinyin":"kū","tones":"1","level":3,"meaning":"울다; 울다","speech":"哭"},"b":{"hanzi":"苦","pinyin":"kǔ","tones":"3","level":4,"meaning":"쓴맛","speech":"苦"}},{"id":"hsk1-4-153","syllable":"JIU","a":{"hanzi":"九","pinyin":"jiǔ","tones":"3","level":1,"meaning":"9","speech":"九"},"b":{"hanzi":"旧","pinyin":"jiù","tones":"4","level":3,"meaning":"오래된","speech":"旧"}},{"id":"hsk1-4-154","syllable":"CHA","a":{"hanzi":"差","pinyin":"chā","tones":"1","level":3,"meaning":"차이; 불일치","speech":"差"},"b":{"hanzi":"茶","pinyin":"chá","tones":"2","level":1,"meaning":"차","speech":"茶"}},{"id":"hsk1-4-155","syllable":"TAI","a":{"hanzi":"抬","pinyin":"tái","tones":"2","level":4,"meaning":"리프트","speech":"抬"},"b":{"hanzi":"太","pinyin":"tài","tones":"4","level":1,"meaning":"최고","speech":"太"}},{"id":"hsk1-4-156","syllable":"WAN","a":{"hanzi":"碗","pinyin":"wǎn","tones":"3","level":3,"meaning":"그릇","speech":"碗"},"b":{"hanzi":"万","pinyin":"wàn","tones":"4","level":3,"meaning":"만","speech":"万"}},{"id":"hsk1-4-157","syllable":"SHANG","a":{"hanzi":"汤","pinyin":"shāng","tones":"1","level":4,"meaning":"돌진 전류","speech":"汤"},"b":{"hanzi":"上","pinyin":"shàng","tones":"4","level":1,"meaning":"위; 높은; 위에; 이전","speech":"上"}},{"id":"hsk1-4-158","syllable":"QI","a":{"hanzi":"七","pinyin":"qī","tones":"1","level":1,"meaning":"일곱","speech":"七"},"b":{"hanzi":"骑","pinyin":"qí","tones":"2","level":3,"meaning":"걸어서 앉아","speech":"骑"}},{"id":"hsk1-4-159","syllable":"BEN","a":{"hanzi":"本","pinyin":"běn","tones":"3","level":1,"meaning":"루트","speech":"本"},"b":{"hanzi":"笨","pinyin":"bèn","tones":"4","level":4,"meaning":"바보","speech":"笨"}},{"id":"hsk1-4-160","syllable":"TANG","a":{"hanzi":"糖","pinyin":"táng","tones":"2","level":3,"meaning":"설탕","speech":"糖"},"b":{"hanzi":"躺","pinyin":"tǎng","tones":"3","level":4,"meaning":"기대다","speech":"躺"}},{"id":"hsk1-4-161","syllable":"YING","a":{"hanzi":"赢","pinyin":"yíng","tones":"2","level":4,"meaning":"비트","speech":"赢"},"b":{"hanzi":"硬","pinyin":"yìng","tones":"4","level":4,"meaning":"하드; 뻣뻣한; 고체","speech":"硬"}},{"id":"hsk1-4-162","syllable":"XING","a":{"hanzi":"行","pinyin":"xíng","tones":"2","level":4,"meaning":"도보","speech":"行"},"b":{"hanzi":"姓","pinyin":"xìng","tones":"4","level":2,"meaning":"성","speech":"姓"}},{"id":"hsk1-4-163","syllable":"TANG","a":{"hanzi":"汤","pinyin":"tāng","tones":"1","level":4,"meaning":"수프","speech":"汤"},"b":{"hanzi":"躺","pinyin":"tǎng","tones":"3","level":4,"meaning":"기대다","speech":"躺"}},{"id":"hsk1-4-164","syllable":"JI","a":{"hanzi":"极","pinyin":"jí","tones":"2","level":3,"meaning":"매우","speech":"极"},"b":{"hanzi":"骑","pinyin":"jì","tones":"4","level":3,"meaning":"안장말","speech":"骑"}},{"id":"hsk1-4-165","syllable":"SUAN","a":{"hanzi":"酸","pinyin":"suān","tones":"1","level":4,"meaning":"신맛","speech":"酸"},"b":{"hanzi":"算","pinyin":"suàn","tones":"4","level":4,"meaning":"다음으로 간주","speech":"算"}},{"id":"hsk1-4-166","syllable":"TANG","a":{"hanzi":"汤","pinyin":"tāng","tones":"1","level":4,"meaning":"수프","speech":"汤"},"b":{"hanzi":"糖","pinyin":"táng","tones":"2","level":3,"meaning":"설탕","speech":"糖"}},{"id":"hsk1-4-167","syllable":"XIANG","a":{"hanzi":"香","pinyin":"xiāng","tones":"1","level":4,"meaning":"향기로운","speech":"香"},"b":{"hanzi":"响","pinyin":"xiǎng","tones":"3","level":4,"meaning":"에코","speech":"响"}},{"id":"hsk1-4-168","syllable":"YUAN","a":{"hanzi":"圆","pinyin":"yuán","tones":"2","level":4,"meaning":"원","speech":"圆"},"b":{"hanzi":"远","pinyin":"yuàn","tones":"4","level":2,"meaning":"자신과 거리를 두다","speech":"远"}},{"id":"hsk1-4-169","syllable":"HE","a":{"hanzi":"河","pinyin":"hé","tones":"2","level":3,"meaning":"강","speech":"河"},"b":{"hanzi":"和","pinyin":"hè","tones":"4","level":1,"meaning":"동일한 운율을 사용하여 답례시를 작성","speech":"和"}},{"id":"hsk1-4-170","syllable":"SHENG","a":{"hanzi":"省","pinyin":"shěng","tones":"3","level":4,"meaning":"저장; 절약하다; 검소하다","speech":"省"},"b":{"hanzi":"剩","pinyin":"shèng","tones":"4","level":4,"meaning":"남아있음","speech":"剩"}},{"id":"hsk1-4-171","syllable":"TI","a":{"hanzi":"踢","pinyin":"tī","tones":"1","level":2,"meaning":"킥","speech":"踢"},"b":{"hanzi":"题","pinyin":"tí","tones":"2","level":2,"meaning":"주제","speech":"题"}},{"id":"hsk1-4-172","syllable":"TANG","a":{"hanzi":"趟","pinyin":"tāng","tones":"1","level":4,"meaning":"웨이드","speech":"趟"},"b":{"hanzi":"躺","pinyin":"tǎng","tones":"3","level":4,"meaning":"기대다","speech":"躺"}},{"id":"hsk1-4-173","syllable":"AI","a":{"hanzi":"矮","pinyin":"ǎi","tones":"3","level":3,"meaning":"낮음","speech":"矮"},"b":{"hanzi":"爱","pinyin":"ài","tones":"4","level":1,"meaning":"사랑; 좋아하다; 좋아하다","speech":"爱"}},{"id":"hsk1-4-174","syllable":"HUI YI","a":{"hanzi":"回忆","pinyin":"huí yì","tones":"2·4","level":4,"meaning":"회상","speech":"回忆"},"b":{"hanzi":"会议","pinyin":"huì yì","tones":"4·4","level":3,"meaning":"회의","speech":"会议"}},{"id":"hsk1-4-175","syllable":"TANG","a":{"hanzi":"趟","pinyin":"tāng","tones":"1","level":4,"meaning":"웨이드","speech":"趟"},"b":{"hanzi":"糖","pinyin":"táng","tones":"2","level":3,"meaning":"설탕","speech":"糖"}},{"id":"hsk1-4-176","syllable":"TANG","a":{"hanzi":"躺","pinyin":"tǎng","tones":"3","level":4,"meaning":"기대다","speech":"躺"},"b":{"hanzi":"趟","pinyin":"tàng","tones":"4","level":4,"meaning":"시간","speech":"趟"}},{"id":"hsk1-4-177","syllable":"JING LI","a":{"hanzi":"经理","pinyin":"jīng lǐ","tones":"1·3","level":3,"meaning":"관리자","speech":"经理"},"b":{"hanzi":"经历","pinyin":"jīng lì","tones":"1·4","level":4,"meaning":"경험","speech":"经历"}},{"id":"hsk1-4-178","syllable":"TANG","a":{"hanzi":"糖","pinyin":"táng","tones":"2","level":3,"meaning":"설탕","speech":"糖"},"b":{"hanzi":"趟","pinyin":"tàng","tones":"4","level":4,"meaning":"시간","speech":"趟"}},{"id":"hsk1-4-179","syllable":"DUO","a":{"hanzi":"多","pinyin":"duō","tones":"1","level":1,"meaning":"다수; 많이","speech":"多"},"b":{"hanzi":"朵","pinyin":"duǒ","tones":"3","level":4,"meaning":"꽃","speech":"朵"}},{"id":"hsk1-4-180","syllable":"XING","a":{"hanzi":"省","pinyin":"xǐng","tones":"3","level":4,"meaning":"세밀히 조사하다","speech":"省"},"b":{"hanzi":"姓","pinyin":"xìng","tones":"4","level":2,"meaning":"성","speech":"姓"}},{"id":"hsk1-4-181","syllable":"XING","a":{"hanzi":"醒","pinyin":"xǐng","tones":"3","level":4,"meaning":"일어나","speech":"醒"},"b":{"hanzi":"姓","pinyin":"xìng","tones":"4","level":2,"meaning":"성","speech":"姓"}},{"id":"hsk1-4-182","syllable":"TANG","a":{"hanzi":"汤","pinyin":"tāng","tones":"1","level":4,"meaning":"수프","speech":"汤"},"b":{"hanzi":"趟","pinyin":"tàng","tones":"4","level":4,"meaning":"시간","speech":"趟"}},{"id":"hsk1-4-183","syllable":"GUA","a":{"hanzi":"刮","pinyin":"guā","tones":"1","level":3,"meaning":"타격","speech":"刮"},"b":{"hanzi":"挂","pinyin":"guà","tones":"4","level":4,"meaning":"정지 또는 일시중단","speech":"挂"}},{"id":"hsk1-4-184","syllable":"CHANG","a":{"hanzi":"尝","pinyin":"cháng","tones":"2","level":4,"meaning":"맛; 시도하다","speech":"尝"},"b":{"hanzi":"场","pinyin":"chǎng","tones":"3","level":4,"meaning":"특정한 목적으로 사용되는 큰 장소","speech":"场"}},{"id":"hsk1-4-185","syllable":"SHI JI","a":{"hanzi":"实际","pinyin":"shí jì","tones":"2·4","level":4,"meaning":"현실","speech":"实际"},"b":{"hanzi":"世纪","pinyin":"shì jì","tones":"4·4","level":4,"meaning":"세기","speech":"世纪"}},{"id":"hsk1-4-186","syllable":"GUANG","a":{"hanzi":"光","pinyin":"guāng","tones":"1","level":4,"meaning":"빛; 레이","speech":"光"},"b":{"hanzi":"逛","pinyin":"guàng","tones":"4","level":4,"meaning":"산책","speech":"逛"}},{"id":"hsk1-4-187","syllable":"BAO","a":{"hanzi":"包","pinyin":"bāo","tones":"1","level":3,"meaning":"표지","speech":"包"},"b":{"hanzi":"饱","pinyin":"bǎo","tones":"3","level":3,"meaning":"배불리 먹다","speech":"饱"}},{"id":"hsk1-4-188","syllable":"QIAO","a":{"hanzi":"敲","pinyin":"qiāo","tones":"1","level":4,"meaning":"히트","speech":"敲"},"b":{"hanzi":"桥","pinyin":"qiáo","tones":"2","level":4,"meaning":"브리지","speech":"桥"}},{"id":"hsk1-4-189","syllable":"LIAN XI","a":{"hanzi":"联系","pinyin":"lián xì","tones":"2·4","level":4,"meaning":"연결","speech":"联系"},"b":{"hanzi":"练习","pinyin":"liàn xí","tones":"4·2","level":3,"meaning":"연습","speech":"练习"}},{"id":"hsk1-4-190","syllable":"BAO","a":{"hanzi":"饱","pinyin":"bǎo","tones":"3","level":3,"meaning":"배불리 먹다","speech":"饱"},"b":{"hanzi":"抱","pinyin":"bào","tones":"4","level":4,"meaning":"보류","speech":"抱"}},{"id":"hsk1-4-191","syllable":"SAN","a":{"hanzi":"三","pinyin":"sān","tones":"1","level":1,"meaning":"세","speech":"三"},"b":{"hanzi":"伞","pinyin":"sǎn","tones":"3","level":3,"meaning":"다마스크 실크","speech":"伞"}},{"id":"hsk1-4-192","syllable":"DONG","a":{"hanzi":"冬","pinyin":"dōng","tones":"1","level":3,"meaning":"북을 치는 모습","speech":"冬"},"b":{"hanzi":"懂","pinyin":"dǒng","tones":"3","level":2,"meaning":"이해하다","speech":"懂"}},{"id":"hsk1-4-193","syllable":"YAN JING","a":{"hanzi":"眼镜","pinyin":"yǎn jìng","tones":"3·4","level":3,"meaning":"안경","speech":"眼镜"},"b":{"hanzi":"眼睛","pinyin":"yǎn jing","tones":"3·5","level":2,"meaning":"눈","speech":"眼睛"}},{"id":"hsk1-4-194","syllable":"JI SHI","a":{"hanzi":"及时","pinyin":"jí shí","tones":"2·2","level":4,"meaning":"적시; 적절한 시간에","speech":"及时"},"b":{"hanzi":"即使","pinyin":"jí shǐ","tones":"2·3","level":4,"meaning":"심지어; ~ 일지라도","speech":"即使"}},{"id":"hsk1-4-195","syllable":"ZHU YI","a":{"hanzi":"主意","pinyin":"zhǔ yi","tones":"3·5","level":4,"meaning":"계획","speech":"主意"},"b":{"hanzi":"注意","pinyin":"zhù yì","tones":"4·4","level":3,"meaning":"참고하세요; 주의를 기울이다","speech":"注意"}},{"id":"hsk1-4-196","syllable":"XIAN","a":{"hanzi":"先","pinyin":"xiān","tones":"1","level":3,"meaning":"초기","speech":"先"},"b":{"hanzi":"咸","pinyin":"xián","tones":"2","level":4,"meaning":"소금에 절인","speech":"咸"}},{"id":"hsk1-4-197","syllable":"LAN","a":{"hanzi":"蓝","pinyin":"lán","tones":"2","level":3,"meaning":"파란색","speech":"蓝"},"b":{"hanzi":"懒","pinyin":"lǎn","tones":"3","level":4,"meaning":"게으른","speech":"懒"}},{"id":"hsk1-4-198","syllable":"CHENG SHI","a":{"hanzi":"诚实","pinyin":"chéng shí","tones":"2·2","level":4,"meaning":"정직함","speech":"诚实"},"b":{"hanzi":"城市","pinyin":"chéng shì","tones":"2·4","level":3,"meaning":"도시; 마을","speech":"城市"}},{"id":"hsk1-4-199","syllable":"QING","a":{"hanzi":"晴","pinyin":"qíng","tones":"2","level":2,"meaning":"지우기","speech":"晴"},"b":{"hanzi":"请","pinyin":"qǐng","tones":"3","level":1,"meaning":"질문","speech":"请"}},{"id":"hsk1-4-200","syllable":"QING","a":{"hanzi":"轻","pinyin":"qīng","tones":"1","level":4,"meaning":"빛","speech":"轻"},"b":{"hanzi":"晴","pinyin":"qíng","tones":"2","level":2,"meaning":"지우기","speech":"晴"}}]},"hsk5":{"title":"HSK 5급","shortTitle":"5급","subtitle":"고급 어휘 확장","accent":"amber","pairs":[{"id":"hsk5-001","syllable":"GAO","a":{"hanzi":"高","pinyin":"gāo","tones":"1","level":2,"meaning":"높다","speech":"高"},"b":{"hanzi":"搞","pinyin":"gǎo","tones":"3","level":5,"meaning":"하다","speech":"搞"}},{"id":"hsk5-002","syllable":"ZHONG","a":{"hanzi":"种","pinyin":"zhǒng","tones":"3","level":3,"meaning":"씨앗, 종자","speech":"种"},"b":{"hanzi":"重","pinyin":"zhòng","tones":"4","level":5,"meaning":"무겁다","speech":"重"}},{"id":"hsk5-003","syllable":"ZHI","a":{"hanzi":"支","pinyin":"zhī","tones":"1","level":5,"meaning":"지지하다, 받치다","speech":"支"},"b":{"hanzi":"只","pinyin":"zhǐ","tones":"3","level":3,"meaning":"오직, 단지","speech":"只"}},{"id":"hsk5-004","syllable":"XIANG","a":{"hanzi":"想","pinyin":"xiǎng","tones":"3","level":1,"meaning":"생각하다","speech":"想"},"b":{"hanzi":"项","pinyin":"xiàng","tones":"4","level":5,"meaning":"목뒤","speech":"项"}},{"id":"hsk5-005","syllable":"FANG","a":{"hanzi":"方","pinyin":"fāng","tones":"1","level":5,"meaning":"광장","speech":"方"},"b":{"hanzi":"放","pinyin":"fàng","tones":"4","level":3,"meaning":"놓다, 두다","speech":"放"}},{"id":"hsk5-006","syllable":"PAI","a":{"hanzi":"拍","pinyin":"pāi","tones":"1","level":5,"meaning":"가볍게 두드리다","speech":"拍"},"b":{"hanzi":"派","pinyin":"pài","tones":"4","level":5,"meaning":"파벌","speech":"派"}},{"id":"hsk5-007","syllable":"JI","a":{"hanzi":"给","pinyin":"jǐ","tones":"3","level":2,"meaning":"공급하다","speech":"给"},"b":{"hanzi":"系","pinyin":"jì","tones":"4","level":5,"meaning":"묶다","speech":"系"}},{"id":"hsk5-008","syllable":"ZHAO","a":{"hanzi":"朝","pinyin":"zhāo","tones":"1","level":5,"meaning":"아침","speech":"朝"},"b":{"hanzi":"着","pinyin":"zháo","tones":"2","level":2,"meaning":"닿다, 만지다","speech":"着"}},{"id":"hsk5-009","syllable":"ZHI","a":{"hanzi":"之","pinyin":"zhī","tones":"1","level":4,"meaning":"그; ~의","speech":"之"},"b":{"hanzi":"直","pinyin":"zhí","tones":"2","level":5,"meaning":"직진","speech":"直"}},{"id":"hsk5-010","syllable":"HEN","a":{"hanzi":"很","pinyin":"hěn","tones":"3","level":1,"meaning":"아주","speech":"很"},"b":{"hanzi":"恨","pinyin":"hèn","tones":"4","level":5,"meaning":"증오","speech":"恨"}},{"id":"hsk5-011","syllable":"DAI","a":{"hanzi":"呆","pinyin":"dāi","tones":"1","level":5,"meaning":"바보같아","speech":"呆"},"b":{"hanzi":"带","pinyin":"dài","tones":"4","level":3,"meaning":"밴드","speech":"带"}},{"id":"hsk5-012","syllable":"SHA","a":{"hanzi":"杀","pinyin":"shā","tones":"1","level":5,"meaning":"죽이기","speech":"杀"},"b":{"hanzi":"傻","pinyin":"shǎ","tones":"3","level":5,"meaning":"바보같아","speech":"傻"}},{"id":"hsk5-013","syllable":"ZHONG","a":{"hanzi":"钟","pinyin":"zhōng","tones":"1","level":5,"meaning":"시계","speech":"钟"},"b":{"hanzi":"种","pinyin":"zhòng","tones":"4","level":3,"meaning":"식물","speech":"种"}},{"id":"hsk5-014","syllable":"YE","a":{"hanzi":"也","pinyin":"yě","tones":"3","level":2,"meaning":"또한; 둘 다 ... 그리고 ...","speech":"也"},"b":{"hanzi":"夜","pinyin":"yè","tones":"4","level":5,"meaning":"밤","speech":"夜"}},{"id":"hsk5-015","syllable":"BEI","a":{"hanzi":"背","pinyin":"bēi","tones":"1","level":5,"meaning":"부담스러워","speech":"背"},"b":{"hanzi":"被","pinyin":"bèi","tones":"4","level":3,"meaning":"이불","speech":"被"}},{"id":"hsk5-016","syllable":"JIE","a":{"hanzi":"接","pinyin":"jiē","tones":"1","level":3,"meaning":"수신","speech":"接"},"b":{"hanzi":"节","pinyin":"jié","tones":"2","level":5,"meaning":"관절; 노드","speech":"节"}},{"id":"hsk5-017","syllable":"CHONG","a":{"hanzi":"重","pinyin":"chóng","tones":"2","level":5,"meaning":"반복","speech":"重"},"b":{"hanzi":"冲","pinyin":"chòng","tones":"4","level":5,"meaning":"강력함","speech":"冲"}},{"id":"hsk5-018","syllable":"HE","a":{"hanzi":"和","pinyin":"hé","tones":"2","level":1,"meaning":"조화로운","speech":"和"},"b":{"hanzi":"吓","pinyin":"hè","tones":"4","level":5,"meaning":"무서워","speech":"吓"}},{"id":"hsk5-019","syllable":"TA","a":{"hanzi":"她","pinyin":"tā","tones":"1","level":1,"meaning":"그녀","speech":"她"},"b":{"hanzi":"塔","pinyin":"tǎ","tones":"3","level":5,"meaning":"탑","speech":"塔"}},{"id":"hsk5-020","syllable":"JIN","a":{"hanzi":"紧","pinyin":"jǐn","tones":"3","level":5,"meaning":"빡빡","speech":"紧"},"b":{"hanzi":"进","pinyin":"jìn","tones":"4","level":2,"meaning":"앞으로 이동","speech":"进"}},{"id":"hsk5-021","syllable":"LEI","a":{"hanzi":"累","pinyin":"léi","tones":"2","level":2,"meaning":"로프","speech":"累"},"b":{"hanzi":"类","pinyin":"lèi","tones":"4","level":5,"meaning":"종류","speech":"类"}},{"id":"hsk5-022","syllable":"QIAN","a":{"hanzi":"钱","pinyin":"qián","tones":"2","level":1,"meaning":"코인","speech":"钱"},"b":{"hanzi":"欠","pinyin":"qiàn","tones":"4","level":5,"meaning":"빚","speech":"欠"}},{"id":"hsk5-023","syllable":"DI","a":{"hanzi":"滴","pinyin":"dī","tones":"1","level":5,"meaning":"한 방울","speech":"滴"},"b":{"hanzi":"地","pinyin":"dì","tones":"4","level":3,"meaning":"지구","speech":"地"}},{"id":"hsk5-024","syllable":"JIU","a":{"hanzi":"久","pinyin":"jiǔ","tones":"3","level":3,"meaning":"시간","speech":"久"},"b":{"hanzi":"救","pinyin":"jiù","tones":"4","level":5,"meaning":"저장","speech":"救"}},{"id":"hsk5-025","syllable":"MAO","a":{"hanzi":"猫","pinyin":"māo","tones":"1","level":1,"meaning":"고양이","speech":"猫"},"b":{"hanzi":"毛","pinyin":"máo","tones":"2","level":5,"meaning":"머리카락","speech":"毛"}},{"id":"hsk5-026","syllable":"SHI","a":{"hanzi":"诗","pinyin":"shī","tones":"1","level":5,"meaning":"시","speech":"诗"},"b":{"hanzi":"是","pinyin":"shì","tones":"4","level":1,"meaning":"~이다","speech":"是"}},{"id":"hsk5-027","syllable":"XI","a":{"hanzi":"西","pinyin":"xī","tones":"1","level":3,"meaning":"서쪽","speech":"西"},"b":{"hanzi":"系","pinyin":"xì","tones":"4","level":5,"meaning":"연결","speech":"系"}},{"id":"hsk5-028","syllable":"NIAN","a":{"hanzi":"年","pinyin":"nián","tones":"2","level":1,"meaning":"곡물","speech":"年"},"b":{"hanzi":"念","pinyin":"niàn","tones":"4","level":5,"meaning":"읽기","speech":"念"}},{"id":"hsk5-029","syllable":"PIAN","a":{"hanzi":"片","pinyin":"piān","tones":"1","level":5,"meaning":"디스크","speech":"片"},"b":{"hanzi":"骗","pinyin":"piàn","tones":"4","level":4,"meaning":"치트","speech":"骗"}},{"id":"hsk5-030","syllable":"DAO","a":{"hanzi":"岛","pinyin":"dǎo","tones":"3","level":5,"meaning":"섬","speech":"岛"},"b":{"hanzi":"到","pinyin":"dào","tones":"4","level":2,"meaning":"도달; 도착하다","speech":"到"}},{"id":"hsk5-031","syllable":"LONG","a":{"hanzi":"龙","pinyin":"lóng","tones":"2","level":5,"meaning":"드래곤","speech":"龙"},"b":{"hanzi":"弄","pinyin":"lòng","tones":"4","level":4,"meaning":"레인","speech":"弄"}},{"id":"hsk5-032","syllable":"PIAN","a":{"hanzi":"篇","pinyin":"piān","tones":"1","level":4,"meaning":"시트","speech":"篇"},"b":{"hanzi":"片","pinyin":"piàn","tones":"4","level":5,"meaning":"얇은 조각","speech":"片"}},{"id":"hsk5-033","syllable":"JIA","a":{"hanzi":"家","pinyin":"jiā","tones":"1","level":1,"meaning":"집","speech":"家"},"b":{"hanzi":"嫁","pinyin":"jià","tones":"4","level":5,"meaning":"결혼하다","speech":"嫁"}},{"id":"hsk5-034","syllable":"MA","a":{"hanzi":"吗","pinyin":"má","tones":"2","level":1,"meaning":"무엇?, 뭐?","speech":"吗"},"b":{"hanzi":"骂","pinyin":"mà","tones":"4","level":5,"meaning":"꾸짖다","speech":"骂"}},{"id":"hsk5-035","syllable":"CHU","a":{"hanzi":"出","pinyin":"chū","tones":"1","level":2,"meaning":"나가다","speech":"出"},"b":{"hanzi":"除","pinyin":"chú","tones":"2","level":5,"meaning":"제거","speech":"除"}},{"id":"hsk5-036","syllable":"LEI","a":{"hanzi":"雷","pinyin":"léi","tones":"2","level":5,"meaning":"천둥","speech":"雷"},"b":{"hanzi":"累","pinyin":"lèi","tones":"4","level":2,"meaning":"피곤함","speech":"累"}},{"id":"hsk5-037","syllable":"TAO","a":{"hanzi":"逃","pinyin":"táo","tones":"2","level":5,"meaning":"탈출","speech":"逃"},"b":{"hanzi":"套","pinyin":"tào","tones":"4","level":5,"meaning":"표지","speech":"套"}},{"id":"hsk5-038","syllable":"QIANG","a":{"hanzi":"枪","pinyin":"qiāng","tones":"1","level":5,"meaning":"소총","speech":"枪"},"b":{"hanzi":"抢","pinyin":"qiǎng","tones":"3","level":5,"meaning":"싸움","speech":"抢"}},{"id":"hsk5-039","syllable":"BAI","a":{"hanzi":"白","pinyin":"bái","tones":"2","level":2,"meaning":"흰색","speech":"白"},"b":{"hanzi":"摆","pinyin":"bǎi","tones":"3","level":5,"meaning":"정렬","speech":"摆"}},{"id":"hsk5-040","syllable":"QING","a":{"hanzi":"青","pinyin":"qīng","tones":"1","level":5,"meaning":"녹색","speech":"青"},"b":{"hanzi":"请","pinyin":"qǐng","tones":"3","level":1,"meaning":"질문","speech":"请"}},{"id":"hsk5-041","syllable":"ZHU","a":{"hanzi":"煮","pinyin":"zhǔ","tones":"3","level":5,"meaning":"요리사","speech":"煮"},"b":{"hanzi":"住","pinyin":"zhù","tones":"4","level":1,"meaning":"라이브","speech":"住"}},{"id":"hsk5-042","syllable":"HUI","a":{"hanzi":"灰","pinyin":"huī","tones":"1","level":5,"meaning":"재","speech":"灰"},"b":{"hanzi":"回","pinyin":"huí","tones":"2","level":1,"meaning":"곡선","speech":"回"}},{"id":"hsk5-043","syllable":"WEI","a":{"hanzi":"为","pinyin":"wéi","tones":"2","level":2,"meaning":"~로서, ~처럼","speech":"为"},"b":{"hanzi":"胃","pinyin":"wèi","tones":"4","level":5,"meaning":"위","speech":"胃"}},{"id":"hsk5-044","syllable":"DONG","a":{"hanzi":"懂","pinyin":"dǒng","tones":"3","level":2,"meaning":"이해하다","speech":"懂"},"b":{"hanzi":"洞","pinyin":"dòng","tones":"4","level":5,"meaning":"동굴","speech":"洞"}},{"id":"hsk5-045","syllable":"WEN","a":{"hanzi":"闻","pinyin":"wén","tones":"2","level":5,"meaning":"듣다","speech":"闻"},"b":{"hanzi":"问","pinyin":"wèn","tones":"4","level":2,"meaning":"질문; 문의하다","speech":"问"}},{"id":"hsk5-046","syllable":"TI","a":{"hanzi":"踢","pinyin":"tī","tones":"1","level":2,"meaning":"킥","speech":"踢"},"b":{"hanzi":"提","pinyin":"tí","tones":"2","level":5,"meaning":"나르다","speech":"提"}},{"id":"hsk5-047","syllable":"DANG","a":{"hanzi":"当","pinyin":"dāng","tones":"1","level":4,"meaning":"~이다","speech":"当"},"b":{"hanzi":"挡","pinyin":"dǎng","tones":"3","level":5,"meaning":"저항하다","speech":"挡"}},{"id":"hsk5-048","syllable":"YAO","a":{"hanzi":"要","pinyin":"yāo","tones":"1","level":2,"meaning":"요구하다; 강요하다","speech":"要"},"b":{"hanzi":"咬","pinyin":"yǎo","tones":"3","level":5,"meaning":"물어","speech":"咬"}},{"id":"hsk5-049","syllable":"ZHUANG","a":{"hanzi":"装","pinyin":"zhuāng","tones":"1","level":5,"meaning":"장식","speech":"装"},"b":{"hanzi":"撞","pinyin":"zhuàng","tones":"4","level":4,"meaning":"노크하다","speech":"撞"}},{"id":"hsk5-050","syllable":"QIANG","a":{"hanzi":"抢","pinyin":"qiāng","tones":"1","level":5,"meaning":"두드리다","speech":"抢"},"b":{"hanzi":"墙","pinyin":"qiáng","tones":"2","level":4,"meaning":"벽","speech":"墙"}},{"id":"hsk5-051","syllable":"DUI","a":{"hanzi":"堆","pinyin":"duī","tones":"1","level":5,"meaning":"쌓여","speech":"堆"},"b":{"hanzi":"对","pinyin":"duì","tones":"4","level":4,"meaning":"맞습니다; 맞다","speech":"对"}},{"id":"hsk5-052","syllable":"MO","a":{"hanzi":"摸","pinyin":"mō","tones":"1","level":5,"meaning":"손으로 느껴보세요","speech":"摸"},"b":{"hanzi":"没","pinyin":"mò","tones":"4","level":1,"meaning":"익사함","speech":"没"}},{"id":"hsk5-053","syllable":"KAN","a":{"hanzi":"看","pinyin":"kān","tones":"1","level":1,"meaning":"돌봐주세요","speech":"看"},"b":{"hanzi":"砍","pinyin":"kǎn","tones":"3","level":5,"meaning":"찹","speech":"砍"}},{"id":"hsk5-054","syllable":"DAO","a":{"hanzi":"刀","pinyin":"dāo","tones":"1","level":4,"meaning":"칼","speech":"刀"},"b":{"hanzi":"倒","pinyin":"dǎo","tones":"3","level":5,"meaning":"떨어짐; 무너지다; 수평으로 누워","speech":"倒"}},{"id":"hsk5-055","syllable":"AI","a":{"hanzi":"唉","pinyin":"āi","tones":"1","level":5,"meaning":"한숨","speech":"唉"},"b":{"hanzi":"爱","pinyin":"ài","tones":"4","level":1,"meaning":"사랑; 좋아하다; 좋아하다","speech":"爱"}},{"id":"hsk5-056","syllable":"JUAN","a":{"hanzi":"圈","pinyin":"juān","tones":"1","level":5,"meaning":"제한","speech":"圈"},"b":{"hanzi":"卷","pinyin":"juàn","tones":"4","level":5,"meaning":"스크롤","speech":"卷"}},{"id":"hsk5-057","syllable":"ZUI","a":{"hanzi":"嘴","pinyin":"zuǐ","tones":"3","level":4,"meaning":"입","speech":"嘴"},"b":{"hanzi":"醉","pinyin":"zuì","tones":"4","level":5,"meaning":"술에 취함","speech":"醉"}},{"id":"hsk5-058","syllable":"TUI","a":{"hanzi":"推","pinyin":"tuī","tones":"1","level":4,"meaning":"푸시","speech":"推"},"b":{"hanzi":"退","pinyin":"tuì","tones":"4","level":5,"meaning":"후퇴; 철수하다","speech":"退"}},{"id":"hsk5-059","syllable":"CAI","a":{"hanzi":"才","pinyin":"cái","tones":"2","level":3,"meaning":"능력; 재능","speech":"才"},"b":{"hanzi":"踩","pinyin":"cǎi","tones":"3","level":5,"meaning":"밟아","speech":"踩"}},{"id":"hsk5-060","syllable":"XIAN","a":{"hanzi":"先","pinyin":"xiān","tones":"1","level":3,"meaning":"초기","speech":"先"},"b":{"hanzi":"县","pinyin":"xiàn","tones":"4","level":5,"meaning":"카운티","speech":"县"}},{"id":"hsk5-061","syllable":"QU","a":{"hanzi":"娶","pinyin":"qǔ","tones":"3","level":5,"meaning":"아내를 데려가세요","speech":"娶"},"b":{"hanzi":"去","pinyin":"qù","tones":"4","level":1,"meaning":"이동","speech":"去"}},{"id":"hsk5-062","syllable":"XIA","a":{"hanzi":"瞎","pinyin":"xiā","tones":"1","level":5,"meaning":"맹인","speech":"瞎"},"b":{"hanzi":"下","pinyin":"xià","tones":"4","level":1,"meaning":"다운","speech":"下"}},{"id":"hsk5-063","syllable":"SHUI","a":{"hanzi":"水","pinyin":"shuǐ","tones":"3","level":1,"meaning":"물","speech":"水"},"b":{"hanzi":"税","pinyin":"shuì","tones":"4","level":5,"meaning":"세금","speech":"税"}},{"id":"hsk5-064","syllable":"YAO","a":{"hanzi":"摇","pinyin":"yáo","tones":"2","level":5,"meaning":"흔들어","speech":"摇"},"b":{"hanzi":"药","pinyin":"yào","tones":"4","level":2,"meaning":"약","speech":"药"}},{"id":"hsk5-065","syllable":"CHA","a":{"hanzi":"插","pinyin":"chā","tones":"1","level":5,"meaning":"삽입","speech":"插"},"b":{"hanzi":"差","pinyin":"chà","tones":"4","level":3,"meaning":"다름","speech":"差"}},{"id":"hsk5-066","syllable":"LAN","a":{"hanzi":"蓝","pinyin":"lán","tones":"2","level":3,"meaning":"파란색","speech":"蓝"},"b":{"hanzi":"烂","pinyin":"làn","tones":"4","level":5,"meaning":"소프트; 흐릿한","speech":"烂"}},{"id":"hsk5-067","syllable":"ZHANG","a":{"hanzi":"长","pinyin":"zhǎng","tones":"3","level":2,"meaning":"주임","speech":"长"},"b":{"hanzi":"涨","pinyin":"zhàng","tones":"4","level":5,"meaning":"팽창","speech":"涨"}},{"id":"hsk5-068","syllable":"XIAN SHI","a":{"hanzi":"显示","pinyin":"xiǎn shì","tones":"3·4","level":5,"meaning":"표시","speech":"显示"},"b":{"hanzi":"现实","pinyin":"xiàn shí","tones":"4·2","level":5,"meaning":"현실","speech":"现实"}},{"id":"hsk5-069","syllable":"YAO","a":{"hanzi":"腰","pinyin":"yāo","tones":"1","level":5,"meaning":"허리","speech":"腰"},"b":{"hanzi":"要","pinyin":"yào","tones":"4","level":2,"meaning":"원함; 필요하다; 부탁하다","speech":"要"}},{"id":"hsk5-070","syllable":"SHENG","a":{"hanzi":"升","pinyin":"shēng","tones":"1","level":5,"meaning":"상승","speech":"升"},"b":{"hanzi":"省","pinyin":"shěng","tones":"3","level":4,"meaning":"저장; 절약하다; 검소하다","speech":"省"}},{"id":"hsk5-071","syllable":"ZHANG","a":{"hanzi":"张","pinyin":"zhāng","tones":"1","level":2,"meaning":"열어주세요","speech":"张"},"b":{"hanzi":"涨","pinyin":"zhǎng","tones":"3","level":5,"meaning":"상승","speech":"涨"}},{"id":"hsk5-072","syllable":"CHAO","a":{"hanzi":"朝","pinyin":"cháo","tones":"2","level":5,"meaning":"황실 또는 왕실","speech":"朝"},"b":{"hanzi":"炒","pinyin":"chǎo","tones":"3","level":5,"meaning":"소테","speech":"炒"}},{"id":"hsk5-073","syllable":"JIAN","a":{"hanzi":"捡","pinyin":"jiǎn","tones":"3","level":5,"meaning":"데리러","speech":"捡"},"b":{"hanzi":"件","pinyin":"jiàn","tones":"4","level":2,"meaning":"항목","speech":"件"}},{"id":"hsk5-074","syllable":"YI ZHI","a":{"hanzi":"一直","pinyin":"yī zhí","tones":"1·2","level":3,"meaning":"직진","speech":"一直"},"b":{"hanzi":"一致","pinyin":"yī zhì","tones":"1·4","level":5,"meaning":"만장일치","speech":"一致"}},{"id":"hsk5-075","syllable":"FEI","a":{"hanzi":"非","pinyin":"fēi","tones":"1","level":5,"meaning":"아님; 아니","speech":"非"},"b":{"hanzi":"肺","pinyin":"fèi","tones":"4","level":5,"meaning":"폐","speech":"肺"}},{"id":"hsk5-076","syllable":"LOU","a":{"hanzi":"楼","pinyin":"lóu","tones":"2","level":3,"meaning":"1층 이상의 집","speech":"楼"},"b":{"hanzi":"露","pinyin":"lòu","tones":"4","level":5,"meaning":"표시","speech":"露"}},{"id":"hsk5-077","syllable":"FU","a":{"hanzi":"幅","pinyin":"fú","tones":"2","level":5,"meaning":"너비","speech":"幅"},"b":{"hanzi":"富","pinyin":"fù","tones":"4","level":4,"meaning":"부자","speech":"富"}},{"id":"hsk5-078","syllable":"WU","a":{"hanzi":"五","pinyin":"wǔ","tones":"3","level":1,"meaning":"다섯","speech":"五"},"b":{"hanzi":"雾","pinyin":"wù","tones":"4","level":5,"meaning":"안개","speech":"雾"}},{"id":"hsk5-079","syllable":"XIAO SHI","a":{"hanzi":"消失","pinyin":"xiāo shī","tones":"1·1","level":5,"meaning":"사라진다; 사라지다","speech":"消失"},"b":{"hanzi":"小时","pinyin":"xiǎo shí","tones":"3·2","level":2,"meaning":"시간","speech":"小时"}},{"id":"hsk5-080","syllable":"GUO","a":{"hanzi":"锅","pinyin":"guō","tones":"1","level":5,"meaning":"냄비; 팬; 웍; 가마솥","speech":"锅"},"b":{"hanzi":"过","pinyin":"guò","tones":"4","level":4,"meaning":"십자가","speech":"过"}},{"id":"hsk5-081","syllable":"BAO","a":{"hanzi":"包","pinyin":"bāo","tones":"1","level":3,"meaning":"표지","speech":"包"},"b":{"hanzi":"薄","pinyin":"báo","tones":"2","level":5,"meaning":"얇음","speech":"薄"}},{"id":"hsk5-082","syllable":"ZHEN","a":{"hanzi":"真","pinyin":"zhēn","tones":"1","level":2,"meaning":"정말","speech":"真"},"b":{"hanzi":"阵","pinyin":"zhèn","tones":"4","level":5,"meaning":"부대 배치","speech":"阵"}},{"id":"hsk5-083","syllable":"DING","a":{"hanzi":"丁","pinyin":"dīng","tones":"1","level":5,"meaning":"남성 성인","speech":"丁"},"b":{"hanzi":"顶","pinyin":"dǐng","tones":"3","level":5,"meaning":"정점","speech":"顶"}},{"id":"hsk5-084","syllable":"ZU ZHI","a":{"hanzi":"组织","pinyin":"zǔ zhī","tones":"3·1","level":4,"meaning":"정리","speech":"组织"},"b":{"hanzi":"阻止","pinyin":"zǔ zhǐ","tones":"3·3","level":5,"meaning":"방지","speech":"阻止"}},{"id":"hsk5-085","syllable":"JUAN","a":{"hanzi":"卷","pinyin":"juǎn","tones":"3","level":5,"meaning":"롤업","speech":"卷"},"b":{"hanzi":"圈","pinyin":"juàn","tones":"4","level":5,"meaning":"가축 인클로저; 펜; 겹; 다래끼","speech":"圈"}},{"id":"hsk5-086","syllable":"ZHI DAO","a":{"hanzi":"知道","pinyin":"zhī dào","tones":"1·4","level":2,"meaning":"알고 있어요; 알게되다","speech":"知道"},"b":{"hanzi":"指导","pinyin":"zhǐ dǎo","tones":"3·3","level":5,"meaning":"가이드","speech":"指导"}},{"id":"hsk5-087","syllable":"XIU","a":{"hanzi":"修","pinyin":"xiū","tones":"1","level":4,"meaning":"장식하다","speech":"修"},"b":{"hanzi":"臭","pinyin":"xiù","tones":"4","level":5,"meaning":"후각","speech":"臭"}},{"id":"hsk5-088","syllable":"WAN","a":{"hanzi":"弯","pinyin":"wān","tones":"1","level":5,"meaning":"벤드","speech":"弯"},"b":{"hanzi":"玩","pinyin":"wán","tones":"2","level":2,"meaning":"재생","speech":"玩"}},{"id":"hsk5-089","syllable":"DONG","a":{"hanzi":"东","pinyin":"dōng","tones":"1","level":3,"meaning":"동쪽","speech":"东"},"b":{"hanzi":"冻","pinyin":"dòng","tones":"4","level":5,"meaning":"동결","speech":"冻"}},{"id":"hsk5-090","syllable":"DUN","a":{"hanzi":"蹲","pinyin":"dūn","tones":"1","level":5,"meaning":"웅크려","speech":"蹲"},"b":{"hanzi":"顿","pinyin":"dùn","tones":"4","level":4,"meaning":"중지","speech":"顿"}},{"id":"hsk5-091","syllable":"JIA","a":{"hanzi":"甲","pinyin":"jiǎ","tones":"3","level":5,"meaning":"십대 천간 중 첫 번째 干","speech":"甲"},"b":{"hanzi":"假","pinyin":"jià","tones":"4","level":4,"meaning":"휴가","speech":"假"}},{"id":"hsk5-092","syllable":"HUI","a":{"hanzi":"挥","pinyin":"huī","tones":"1","level":5,"meaning":"웨이브","speech":"挥"},"b":{"hanzi":"会","pinyin":"huì","tones":"4","level":1,"meaning":"할 수 있습니다. 기술을 갖다; 방법을 알기 위해","speech":"会"}},{"id":"hsk5-093","syllable":"SHUAI","a":{"hanzi":"摔","pinyin":"shuāi","tones":"1","level":5,"meaning":"아래로 던져","speech":"摔"},"b":{"hanzi":"帅","pinyin":"shuài","tones":"4","level":4,"meaning":"총사령관","speech":"帅"}},{"id":"hsk5-094","syllable":"LI","a":{"hanzi":"离","pinyin":"lí","tones":"2","level":2,"meaning":"떠나다","speech":"离"},"b":{"hanzi":"粒","pinyin":"lì","tones":"4","level":5,"meaning":"곡물","speech":"粒"}},{"id":"hsk5-095","syllable":"PIAO","a":{"hanzi":"飘","pinyin":"piāo","tones":"1","level":5,"meaning":"플로트","speech":"飘"},"b":{"hanzi":"票","pinyin":"piào","tones":"4","level":2,"meaning":"티켓","speech":"票"}},{"id":"hsk5-096","syllable":"SI","a":{"hanzi":"撕","pinyin":"sī","tones":"1","level":5,"meaning":"눈물","speech":"撕"},"b":{"hanzi":"死","pinyin":"sǐ","tones":"3","level":4,"meaning":"다이","speech":"死"}},{"id":"hsk5-097","syllable":"WAI","a":{"hanzi":"歪","pinyin":"wāi","tones":"1","level":5,"meaning":"비스듬히","speech":"歪"},"b":{"hanzi":"外","pinyin":"wài","tones":"4","level":2,"meaning":"외부","speech":"外"}},{"id":"hsk5-098","syllable":"QUAN","a":{"hanzi":"圈","pinyin":"quān","tones":"1","level":5,"meaning":"원; 반지; 루프","speech":"圈"},"b":{"hanzi":"劝","pinyin":"quàn","tones":"4","level":5,"meaning":"조언하다","speech":"劝"}},{"id":"hsk5-099","syllable":"ZHENG","a":{"hanzi":"睁","pinyin":"zhēng","tones":"1","level":5,"meaning":"열기","speech":"睁"},"b":{"hanzi":"正","pinyin":"zhèng","tones":"4","level":5,"meaning":"직진","speech":"正"}},{"id":"hsk5-100","syllable":"NONG","a":{"hanzi":"浓","pinyin":"nóng","tones":"2","level":5,"meaning":"집중","speech":"浓"},"b":{"hanzi":"弄","pinyin":"nòng","tones":"4","level":4,"meaning":"하다","speech":"弄"}},{"id":"hsk5-101","syllable":"MEI LI","a":{"hanzi":"美丽","pinyin":"měi lì","tones":"3·4","level":4,"meaning":"아름답다","speech":"美丽"},"b":{"hanzi":"魅力","pinyin":"mèi lì","tones":"4·4","level":5,"meaning":"매력","speech":"魅力"}},{"id":"hsk5-102","syllable":"DOU","a":{"hanzi":"都","pinyin":"dōu","tones":"1","level":1,"meaning":"전체; 둘 다; 완전히","speech":"都"},"b":{"hanzi":"逗","pinyin":"dòu","tones":"4","level":5,"meaning":"애타게 ; 유혹하다","speech":"逗"}},{"id":"hsk5-103","syllable":"TONG SHI","a":{"hanzi":"同时","pinyin":"tóng shí","tones":"2·2","level":5,"meaning":"동시에","speech":"同时"},"b":{"hanzi":"同事","pinyin":"tóng shì","tones":"2·4","level":3,"meaning":"동료; 동료","speech":"同事"}},{"id":"hsk5-104","syllable":"AI","a":{"hanzi":"矮","pinyin":"ǎi","tones":"3","level":3,"meaning":"낮음","speech":"矮"},"b":{"hanzi":"唉","pinyin":"ài","tones":"4","level":5,"meaning":"아아","speech":"唉"}},{"id":"hsk5-105","syllable":"YUN","a":{"hanzi":"云","pinyin":"yún","tones":"2","level":3,"meaning":"클라우드","speech":"云"},"b":{"hanzi":"晕","pinyin":"yùn","tones":"4","level":5,"meaning":"어지러워","speech":"晕"}},{"id":"hsk5-106","syllable":"TANG","a":{"hanzi":"躺","pinyin":"tǎng","tones":"3","level":4,"meaning":"기대다","speech":"躺"},"b":{"hanzi":"烫","pinyin":"tàng","tones":"4","level":5,"meaning":"스칼드","speech":"烫"}},{"id":"hsk5-107","syllable":"HAN","a":{"hanzi":"喊","pinyin":"hǎn","tones":"3","level":5,"meaning":"소리지르다","speech":"喊"},"b":{"hanzi":"汗","pinyin":"hàn","tones":"4","level":4,"meaning":"땀","speech":"汗"}},{"id":"hsk5-108","syllable":"REN WU","a":{"hanzi":"人物","pinyin":"rén wù","tones":"2·4","level":5,"meaning":"사람; 인물; 그림","speech":"人物"},"b":{"hanzi":"任务","pinyin":"rèn wu","tones":"4·5","level":4,"meaning":"미션; 과제; 일; 의무; 역할","speech":"任务"}},{"id":"hsk5-109","syllable":"YIN","a":{"hanzi":"阴","pinyin":"yīn","tones":"1","level":2,"meaning":"흐림","speech":"阴"},"b":{"hanzi":"银","pinyin":"yín","tones":"2","level":5,"meaning":"실버","speech":"银"}},{"id":"hsk5-110","syllable":"PI","a":{"hanzi":"批","pinyin":"pī","tones":"1","level":5,"meaning":"확인","speech":"批"},"b":{"hanzi":"匹","pinyin":"pǐ","tones":"3","level":5,"meaning":"일반인","speech":"匹"}},{"id":"hsk5-111","syllable":"CHOU","a":{"hanzi":"丑","pinyin":"chǒu","tones":"3","level":5,"meaning":"부끄러워","speech":"丑"},"b":{"hanzi":"臭","pinyin":"chòu","tones":"4","level":5,"meaning":"악취","speech":"臭"}},{"id":"hsk5-112","syllable":"TONG YI","a":{"hanzi":"同意","pinyin":"tóng yì","tones":"2·4","level":3,"meaning":"동의","speech":"同意"},"b":{"hanzi":"统一","pinyin":"tǒng yī","tones":"3·1","level":5,"meaning":"통합; 통합하다","speech":"统一"}},{"id":"hsk5-113","syllable":"QIAO","a":{"hanzi":"敲","pinyin":"qiāo","tones":"1","level":4,"meaning":"히트","speech":"敲"},"b":{"hanzi":"瞧","pinyin":"qiáo","tones":"2","level":5,"meaning":"보세요","speech":"瞧"}},{"id":"hsk5-114","syllable":"ZI","a":{"hanzi":"紫","pinyin":"zǐ","tones":"3","level":5,"meaning":"보라색","speech":"紫"},"b":{"hanzi":"字","pinyin":"zì","tones":"4","level":1,"meaning":"편지","speech":"字"}},{"id":"hsk5-115","syllable":"QIAN","a":{"hanzi":"千","pinyin":"qiān","tones":"1","level":2,"meaning":"천","speech":"千"},"b":{"hanzi":"浅","pinyin":"qiǎn","tones":"3","level":5,"meaning":"얕음","speech":"浅"}},{"id":"hsk5-116","syllable":"ZUO WEI","a":{"hanzi":"作为","pinyin":"zuò wéi","tones":"4·2","level":5,"meaning":"자신의 행위","speech":"作为"},"b":{"hanzi":"座位","pinyin":"zuò wèi","tones":"4·4","level":4,"meaning":"좌석","speech":"座位"}},{"id":"hsk5-117","syllable":"XIE","a":{"hanzi":"歇","pinyin":"xiē","tones":"1","level":5,"meaning":"휴식","speech":"歇"},"b":{"hanzi":"写","pinyin":"xiě","tones":"3","level":1,"meaning":"쓰기","speech":"写"}},{"id":"hsk5-118","syllable":"GAO SU","a":{"hanzi":"高速","pinyin":"gāo sù","tones":"1·4","level":5,"meaning":"고속","speech":"高速"},"b":{"hanzi":"告诉","pinyin":"gào su","tones":"4·5","level":2,"meaning":"말해; 알리다; 알리다","speech":"告诉"}},{"id":"hsk5-119","syllable":"SHI JIAN","a":{"hanzi":"时间","pinyin":"shí jiān","tones":"2·1","level":2,"meaning":"시간","speech":"时间"},"b":{"hanzi":"实践","pinyin":"shí jiàn","tones":"2·4","level":5,"meaning":"연습","speech":"实践"}},{"id":"hsk5-120","syllable":"JING LI","a":{"hanzi":"经理","pinyin":"jīng lǐ","tones":"1·3","level":3,"meaning":"관리자","speech":"经理"},"b":{"hanzi":"精力","pinyin":"jīng lì","tones":"1·4","level":5,"meaning":"에너지","speech":"精力"}},{"id":"hsk5-121","syllable":"SHI WU","a":{"hanzi":"食物","pinyin":"shí wù","tones":"2·4","level":5,"meaning":"음식","speech":"食物"},"b":{"hanzi":"事物","pinyin":"shì wù","tones":"4·4","level":5,"meaning":"사물; 물체","speech":"事物"}},{"id":"hsk5-122","syllable":"TONG ZHI","a":{"hanzi":"通知","pinyin":"tōng zhī","tones":"1·1","level":4,"meaning":"알림","speech":"通知"},"b":{"hanzi":"统治","pinyin":"tǒng zhì","tones":"3·4","level":5,"meaning":"규칙","speech":"统治"}},{"id":"hsk5-123","syllable":"ZHI HUI","a":{"hanzi":"指挥","pinyin":"zhǐ huī","tones":"3·1","level":5,"meaning":"수행","speech":"指挥"},"b":{"hanzi":"智慧","pinyin":"zhì huì","tones":"4·4","level":5,"meaning":"지혜","speech":"智慧"}},{"id":"hsk5-124","syllable":"SHI XIAN","a":{"hanzi":"实现","pinyin":"shí xiàn","tones":"2·4","level":5,"meaning":"달성","speech":"实现"},"b":{"hanzi":"事先","pinyin":"shì xiān","tones":"4·1","level":5,"meaning":"미리","speech":"事先"}},{"id":"hsk5-125","syllable":"YOU YU","a":{"hanzi":"由于","pinyin":"yóu yú","tones":"2·2","level":4,"meaning":"다음으로 인해","speech":"由于"},"b":{"hanzi":"犹豫","pinyin":"yóu yù","tones":"2·4","level":5,"meaning":"주저하다","speech":"犹豫"}},{"id":"hsk5-126","syllable":"JIAO","a":{"hanzi":"浇","pinyin":"jiāo","tones":"1","level":5,"meaning":"액체를 붓는다","speech":"浇"},"b":{"hanzi":"叫","pinyin":"jiào","tones":"4","level":1,"meaning":"소리치다","speech":"叫"}},{"id":"hsk5-127","syllable":"SHE JI","a":{"hanzi":"射击","pinyin":"shè jī","tones":"4·1","level":5,"meaning":"슛","speech":"射击"},"b":{"hanzi":"设计","pinyin":"shè jì","tones":"4·4","level":5,"meaning":"디자인; 계획하다","speech":"设计"}},{"id":"hsk5-128","syllable":"LAO SHI","a":{"hanzi":"老师","pinyin":"lǎo shī","tones":"3·1","level":1,"meaning":"선생님","speech":"老师"},"b":{"hanzi":"老实","pinyin":"lǎo shi","tones":"3·5","level":5,"meaning":"정직함; 성실한","speech":"老实"}},{"id":"hsk5-129","syllable":"ZHE","a":{"hanzi":"乙","pinyin":"zhé","tones":"2","level":5,"meaning":"터닝 스트로크, 일명 折","speech":"乙"},"b":{"hanzi":"这","pinyin":"zhè","tones":"4","level":1,"meaning":"이것; 이것들","speech":"这"}},{"id":"hsk5-130","syllable":"DI","a":{"hanzi":"的","pinyin":"dī","tones":"1","level":1,"meaning":"택시; 택시","speech":"的"},"b":{"hanzi":"递","pinyin":"dì","tones":"4","level":5,"meaning":"인계; 전달하다; 배달하다","speech":"递"}},{"id":"hsk5-131","syllable":"YI","a":{"hanzi":"一","pinyin":"yī","tones":"1","level":1,"meaning":"하나","speech":"一"},"b":{"hanzi":"乙","pinyin":"yǐ","tones":"3","level":5,"meaning":"십천간 중 두 번째 干","speech":"乙"}},{"id":"hsk5-132","syllable":"JI QI","a":{"hanzi":"机器","pinyin":"jī qì","tones":"1·4","level":5,"meaning":"기계","speech":"机器"},"b":{"hanzi":"极其","pinyin":"jí qí","tones":"2·2","level":4,"meaning":"매우","speech":"极其"}},{"id":"hsk5-133","syllable":"LI","a":{"hanzi":"梨","pinyin":"lí","tones":"2","level":5,"meaning":"배","speech":"梨"},"b":{"hanzi":"里","pinyin":"lǐ","tones":"3","level":1,"meaning":"li, 고대 길이 측정 단위, 약. 500m","speech":"里"}},{"id":"hsk5-134","syllable":"CHAO","a":{"hanzi":"抄","pinyin":"chāo","tones":"1","level":5,"meaning":"사본 만들기","speech":"抄"},"b":{"hanzi":"吵","pinyin":"chǎo","tones":"3","level":4,"meaning":"싸움","speech":"吵"}},{"id":"hsk5-135","syllable":"ZI YUAN","a":{"hanzi":"资源","pinyin":"zī yuán","tones":"1·2","level":5,"meaning":"천연자원","speech":"资源"},"b":{"hanzi":"自愿","pinyin":"zì yuàn","tones":"4·4","level":5,"meaning":"자발적","speech":"自愿"}},{"id":"hsk5-136","syllable":"DIAO","a":{"hanzi":"鸟","pinyin":"diǎo","tones":"3","level":3,"meaning":"성기","speech":"鸟"},"b":{"hanzi":"钓","pinyin":"diào","tones":"4","level":5,"meaning":"낚시와 미끼로 낚시하기","speech":"钓"}},{"id":"hsk5-137","syllable":"KE","a":{"hanzi":"渴","pinyin":"kě","tones":"3","level":3,"meaning":"목말라","speech":"渴"},"b":{"hanzi":"克","pinyin":"kè","tones":"4","level":5,"meaning":"진압","speech":"克"}},{"id":"hsk5-138","syllable":"REN SHI","a":{"hanzi":"人事","pinyin":"rén shì","tones":"2·4","level":5,"meaning":"인원","speech":"人事"},"b":{"hanzi":"认识","pinyin":"rèn shi","tones":"4·5","level":1,"meaning":"알고 있다","speech":"认识"}},{"id":"hsk5-139","syllable":"SHI YONG","a":{"hanzi":"实用","pinyin":"shí yòng","tones":"2·4","level":5,"meaning":"실용적","speech":"实用"},"b":{"hanzi":"使用","pinyin":"shǐ yòng","tones":"3·4","level":4,"meaning":"사용하다","speech":"使用"}},{"id":"hsk5-140","syllable":"XIAO HUA","a":{"hanzi":"消化","pinyin":"xiāo huà","tones":"1·4","level":5,"meaning":"다이제스트","speech":"消化"},"b":{"hanzi":"笑话","pinyin":"xiào hua","tones":"4·5","level":4,"meaning":"농담; 농담","speech":"笑话"}},{"id":"hsk5-141","syllable":"JIAN LI","a":{"hanzi":"简历","pinyin":"jiǎn lì","tones":"3·4","level":5,"meaning":"이력서","speech":"简历"},"b":{"hanzi":"建立","pinyin":"jiàn lì","tones":"4·4","level":5,"meaning":"설립","speech":"建立"}},{"id":"hsk5-142","syllable":"LAN","a":{"hanzi":"拦","pinyin":"lán","tones":"2","level":5,"meaning":"SB 경로 차단","speech":"拦"},"b":{"hanzi":"懒","pinyin":"lǎn","tones":"3","level":4,"meaning":"게으른","speech":"懒"}},{"id":"hsk5-143","syllable":"BEI JING","a":{"hanzi":"北京","pinyin":"Běi jīng","tones":"3·1","level":1,"meaning":"중화인민공화국의 수도 베이징","speech":"北京"},"b":{"hanzi":"背景","pinyin":"bèi jǐng","tones":"4·3","level":5,"meaning":"배경; 배경; 맥락","speech":"背景"}},{"id":"hsk5-144","syllable":"QU SHI","a":{"hanzi":"趋势","pinyin":"qū shì","tones":"1·4","level":5,"meaning":"추세; 성향","speech":"趋势"},"b":{"hanzi":"去世","pinyin":"qù shì","tones":"4·4","level":5,"meaning":"사망","speech":"去世"}},{"id":"hsk5-145","syllable":"NIAN JI","a":{"hanzi":"年级","pinyin":"nián jí","tones":"2·2","level":3,"meaning":"등급","speech":"年级"},"b":{"hanzi":"年纪","pinyin":"nián jì","tones":"2·4","level":5,"meaning":"나이","speech":"年纪"}},{"id":"hsk5-146","syllable":"HU SHI","a":{"hanzi":"忽视","pinyin":"hū shì","tones":"1·4","level":5,"meaning":"무시; 간과하다; 무시하다; 무시하다","speech":"忽视"},"b":{"hanzi":"护士","pinyin":"hù shi","tones":"4·5","level":4,"meaning":"간호사","speech":"护士"}},{"id":"hsk5-147","syllable":"RANG","a":{"hanzi":"嚷","pinyin":"rǎng","tones":"3","level":5,"meaning":"소리치다","speech":"嚷"},"b":{"hanzi":"让","pinyin":"ràng","tones":"4","level":2,"meaning":"수율","speech":"让"}},{"id":"hsk5-148","syllable":"JIE SHI","a":{"hanzi":"结实","pinyin":"jiē shi","tones":"1·5","level":5,"meaning":"견고함","speech":"结实"},"b":{"hanzi":"解释","pinyin":"jiě shì","tones":"3·4","level":4,"meaning":"설명","speech":"解释"}},{"id":"hsk5-149","syllable":"ZHAI","a":{"hanzi":"摘","pinyin":"zhāi","tones":"1","level":5,"meaning":"취","speech":"摘"},"b":{"hanzi":"窄","pinyin":"zhǎi","tones":"3","level":4,"meaning":"좁음","speech":"窄"}},{"id":"hsk5-150","syllable":"GE ZI","a":{"hanzi":"鸽子","pinyin":"gē zi","tones":"1·5","level":5,"meaning":"비둘기","speech":"鸽子"},"b":{"hanzi":"各自","pinyin":"gè zì","tones":"4·4","level":5,"meaning":"각각","speech":"各自"}},{"id":"hsk5-151","syllable":"WU SHU","a":{"hanzi":"无数","pinyin":"wú shù","tones":"2·4","level":5,"meaning":"수없이","speech":"无数"},"b":{"hanzi":"武术","pinyin":"wǔ shù","tones":"3·4","level":5,"meaning":"군사 기술 또는 기술","speech":"武术"}},{"id":"hsk5-152","syllable":"BEI ZI","a":{"hanzi":"杯子","pinyin":"bēi zi","tones":"1·5","level":1,"meaning":"컵","speech":"杯子"},"b":{"hanzi":"被子","pinyin":"bèi zi","tones":"4·5","level":5,"meaning":"이불","speech":"被子"}},{"id":"hsk5-153","syllable":"CHU XI","a":{"hanzi":"出席","pinyin":"chū xí","tones":"1·2","level":5,"meaning":"참석","speech":"出席"},"b":{"hanzi":"除夕","pinyin":"Chú xī","tones":"2·1","level":5,"meaning":"설날","speech":"除夕"}},{"id":"hsk5-154","syllable":"GUO JI","a":{"hanzi":"国籍","pinyin":"guó jí","tones":"2·2","level":5,"meaning":"국적","speech":"国籍"},"b":{"hanzi":"国际","pinyin":"guó jì","tones":"2·4","level":4,"meaning":"국제","speech":"国际"}},{"id":"hsk5-155","syllable":"ZHU FU","a":{"hanzi":"嘱咐","pinyin":"zhǔ fù","tones":"3·4","level":5,"meaning":"말해","speech":"嘱咐"},"b":{"hanzi":"祝福","pinyin":"zhù fú","tones":"4·2","level":5,"meaning":"축복","speech":"祝福"}}]},"hsk6":{"title":"HSK 6급","shortTitle":"6급","subtitle":"최상급 어휘 완성","accent":"coral","pairs":[{"id":"hsk6-001","syllable":"MA","a":{"hanzi":"嘛","pinyin":"má","tones":"2","level":6,"meaning":"무엇?, 뭐?","speech":"嘛"},"b":{"hanzi":"马","pinyin":"mǎ","tones":"3","level":3,"meaning":"말","speech":"马"}},{"id":"hsk6-002","syllable":"SHU","a":{"hanzi":"书","pinyin":"shū","tones":"1","level":1,"meaning":"책","speech":"书"},"b":{"hanzi":"数","pinyin":"shǔ","tones":"3","level":6,"meaning":"세다","speech":"数"}},{"id":"hsk6-003","syllable":"E","a":{"hanzi":"哦","pinyin":"é","tones":"2","level":6,"meaning":"읊조리다","speech":"哦"},"b":{"hanzi":"饿","pinyin":"è","tones":"4","level":3,"meaning":"배고프다","speech":"饿"}},{"id":"hsk6-004","syllable":"SHA","a":{"hanzi":"杀","pinyin":"shā","tones":"1","level":5,"meaning":"죽이기","speech":"杀"},"b":{"hanzi":"啥","pinyin":"shá","tones":"2","level":6,"meaning":"무엇, 뭐","speech":"啥"}},{"id":"hsk6-005","syllable":"DANG","a":{"hanzi":"当","pinyin":"dāng","tones":"1","level":4,"meaning":"~이다","speech":"当"},"b":{"hanzi":"党","pinyin":"dǎng","tones":"3","level":6,"meaning":"정당, 모임","speech":"党"}},{"id":"hsk6-006","syllable":"HAI","a":{"hanzi":"嗨","pinyin":"hāi","tones":"1","level":6,"meaning":"아!, 이런!","speech":"嗨"},"b":{"hanzi":"还","pinyin":"hái","tones":"2","level":2,"meaning":"여전히, 아직","speech":"还"}},{"id":"hsk6-007","syllable":"ZU","a":{"hanzi":"租","pinyin":"zū","tones":"1","level":4,"meaning":"빌리다, 고용하다","speech":"租"},"b":{"hanzi":"组","pinyin":"zǔ","tones":"3","level":6,"meaning":"구성하다","speech":"组"}},{"id":"hsk6-008","syllable":"DA","a":{"hanzi":"搭","pinyin":"dā","tones":"1","level":6,"meaning":"세우다, 설치하다","speech":"搭"},"b":{"hanzi":"大","pinyin":"dà","tones":"4","level":1,"meaning":"크다, 거대하다","speech":"大"}},{"id":"hsk6-009","syllable":"SHI JIAN","a":{"hanzi":"时间","pinyin":"shí jiān","tones":"2·1","level":2,"meaning":"시간","speech":"时间"},"b":{"hanzi":"事件","pinyin":"shì jiàn","tones":"4·4","level":6,"meaning":"이벤트","speech":"事件"}},{"id":"hsk6-010","syllable":"MEI","a":{"hanzi":"枚","pinyin":"méi","tones":"2","level":6,"meaning":"나무 줄기","speech":"枚"},"b":{"hanzi":"每","pinyin":"měi","tones":"3","level":2,"meaning":"각각","speech":"每"}},{"id":"hsk6-011","syllable":"FU","a":{"hanzi":"幅","pinyin":"fú","tones":"2","level":5,"meaning":"너비","speech":"幅"},"b":{"hanzi":"副","pinyin":"fù","tones":"4","level":6,"meaning":"보조","speech":"副"}},{"id":"hsk6-012","syllable":"DUAN","a":{"hanzi":"端","pinyin":"duān","tones":"1","level":6,"meaning":"시작","speech":"端"},"b":{"hanzi":"段","pinyin":"duàn","tones":"4","level":3,"meaning":"문단","speech":"段"}},{"id":"hsk6-013","syllable":"CI","a":{"hanzi":"刺","pinyin":"cī","tones":"1","level":6,"meaning":"휙","speech":"刺"},"b":{"hanzi":"次","pinyin":"cì","tones":"4","level":2,"meaning":"다음 순서","speech":"次"}},{"id":"hsk6-014","syllable":"SHU","a":{"hanzi":"输","pinyin":"shū","tones":"1","level":4,"meaning":"패배; 구타당하다","speech":"输"},"b":{"hanzi":"数","pinyin":"shù","tones":"4","level":6,"meaning":"번호; 그림","speech":"数"}},{"id":"hsk6-015","syllable":"ZHE","a":{"hanzi":"折","pinyin":"zhé","tones":"2","level":6,"meaning":"접기","speech":"折"},"b":{"hanzi":"这","pinyin":"zhè","tones":"4","level":1,"meaning":"이것; 이것들","speech":"这"}},{"id":"hsk6-016","syllable":"YI","a":{"hanzi":"一","pinyin":"yī","tones":"1","level":1,"meaning":"하나","speech":"一"},"b":{"hanzi":"亦","pinyin":"yì","tones":"4","level":6,"meaning":"또한","speech":"亦"}},{"id":"hsk6-017","syllable":"MENG","a":{"hanzi":"蒙","pinyin":"méng","tones":"2","level":6,"meaning":"표지","speech":"蒙"},"b":{"hanzi":"梦","pinyin":"mèng","tones":"4","level":4,"meaning":"꿈","speech":"梦"}},{"id":"hsk6-018","syllable":"LA","a":{"hanzi":"啦","pinyin":"lā","tones":"1","level":6,"meaning":"노래소리, 응원소리 등","speech":"啦"},"b":{"hanzi":"辣","pinyin":"là","tones":"4","level":4,"meaning":"핫","speech":"辣"}},{"id":"hsk6-019","syllable":"DONG","a":{"hanzi":"懂","pinyin":"dǒng","tones":"3","level":2,"meaning":"이해하다","speech":"懂"},"b":{"hanzi":"栋","pinyin":"dòng","tones":"4","level":6,"meaning":"리지폴","speech":"栋"}},{"id":"hsk6-020","syllable":"MO","a":{"hanzi":"膜","pinyin":"mó","tones":"2","level":6,"meaning":"막","speech":"膜"},"b":{"hanzi":"没","pinyin":"mò","tones":"4","level":1,"meaning":"익사함","speech":"没"}},{"id":"hsk6-021","syllable":"REN SHI","a":{"hanzi":"人士","pinyin":"rén shì","tones":"2·4","level":6,"meaning":"사람","speech":"人士"},"b":{"hanzi":"认识","pinyin":"rèn shi","tones":"4·5","level":1,"meaning":"알고 있다","speech":"认识"}},{"id":"hsk6-022","syllable":"TONG ZHI","a":{"hanzi":"通知","pinyin":"tōng zhī","tones":"1·1","level":4,"meaning":"알림","speech":"通知"},"b":{"hanzi":"同志","pinyin":"tóng zhì","tones":"2·4","level":6,"meaning":"동지","speech":"同志"}},{"id":"hsk6-023","syllable":"DING","a":{"hanzi":"盯","pinyin":"dīng","tones":"1","level":6,"meaning":"주의 깊게 관찰하세요","speech":"盯"},"b":{"hanzi":"顶","pinyin":"dǐng","tones":"3","level":5,"meaning":"정점","speech":"顶"}},{"id":"hsk6-024","syllable":"WO","a":{"hanzi":"窝","pinyin":"wō","tones":"1","level":6,"meaning":"둥지","speech":"窝"},"b":{"hanzi":"我","pinyin":"wǒ","tones":"3","level":1,"meaning":"나; 나; 나의","speech":"我"}},{"id":"hsk6-025","syllable":"JIE","a":{"hanzi":"皆","pinyin":"jiē","tones":"1","level":6,"meaning":"모두","speech":"皆"},"b":{"hanzi":"借","pinyin":"jiè","tones":"4","level":3,"meaning":"대출","speech":"借"}},{"id":"hsk6-026","syllable":"GE","a":{"hanzi":"割","pinyin":"gē","tones":"1","level":6,"meaning":"컷","speech":"割"},"b":{"hanzi":"个","pinyin":"gè","tones":"4","level":1,"meaning":"개인","speech":"个"}},{"id":"hsk6-027","syllable":"ZA","a":{"hanzi":"扎","pinyin":"zā","tones":"1","level":6,"meaning":"묶다","speech":"扎"},"b":{"hanzi":"砸","pinyin":"zá","tones":"2","level":6,"meaning":"스매시","speech":"砸"}},{"id":"hsk6-028","syllable":"SHENG MING","a":{"hanzi":"声明","pinyin":"shēng míng","tones":"1·2","level":6,"meaning":"상태","speech":"声明"},"b":{"hanzi":"生命","pinyin":"shēng mìng","tones":"1·4","level":4,"meaning":"생명","speech":"生命"}},{"id":"hsk6-029","syllable":"SHI SHI","a":{"hanzi":"实施","pinyin":"shí shī","tones":"2·1","level":6,"meaning":"구현","speech":"实施"},"b":{"hanzi":"事实","pinyin":"shì shí","tones":"4·2","level":5,"meaning":"사실","speech":"事实"}},{"id":"hsk6-030","syllable":"LAO","a":{"hanzi":"捞","pinyin":"lāo","tones":"1","level":6,"meaning":"낚시업","speech":"捞"},"b":{"hanzi":"老","pinyin":"lǎo","tones":"3","level":3,"meaning":"오래된","speech":"老"}},{"id":"hsk6-031","syllable":"HE","a":{"hanzi":"呵","pinyin":"hē","tones":"1","level":6,"meaning":"숨을 내쉬다","speech":"呵"},"b":{"hanzi":"和","pinyin":"hé","tones":"2","level":1,"meaning":"조화로운","speech":"和"}},{"id":"hsk6-032","syllable":"CHUAN","a":{"hanzi":"穿","pinyin":"chuān","tones":"1","level":2,"meaning":"착용","speech":"穿"},"b":{"hanzi":"串","pinyin":"chuàn","tones":"4","level":6,"meaning":"함께 문자열","speech":"串"}},{"id":"hsk6-033","syllable":"DIAN","a":{"hanzi":"点","pinyin":"diǎn","tones":"3","level":1,"meaning":"포인트","speech":"点"},"b":{"hanzi":"垫","pinyin":"diàn","tones":"4","level":6,"meaning":"패드","speech":"垫"}},{"id":"hsk6-034","syllable":"TAO","a":{"hanzi":"掏","pinyin":"tāo","tones":"1","level":6,"meaning":"낚시 아웃","speech":"掏"},"b":{"hanzi":"套","pinyin":"tào","tones":"4","level":5,"meaning":"표지","speech":"套"}},{"id":"hsk6-035","syllable":"BIAN","a":{"hanzi":"扁","pinyin":"biǎn","tones":"3","level":6,"meaning":"플랫","speech":"扁"},"b":{"hanzi":"便","pinyin":"biàn","tones":"4","level":5,"meaning":"일반","speech":"便"}},{"id":"hsk6-036","syllable":"QUAN","a":{"hanzi":"圈","pinyin":"quān","tones":"1","level":5,"meaning":"원; 반지; 루프","speech":"圈"},"b":{"hanzi":"犬","pinyin":"quǎn","tones":"3","level":6,"meaning":"개","speech":"犬"}},{"id":"hsk6-037","syllable":"YI SHI","a":{"hanzi":"仪式","pinyin":"yí shì","tones":"2·4","level":6,"meaning":"식","speech":"仪式"},"b":{"hanzi":"意识","pinyin":"yì shí","tones":"4·2","level":6,"meaning":"의식","speech":"意识"}},{"id":"hsk6-038","syllable":"PIAN","a":{"hanzi":"扁","pinyin":"piān","tones":"1","level":6,"meaning":"소형 보트","speech":"扁"},"b":{"hanzi":"片","pinyin":"piàn","tones":"4","level":5,"meaning":"얇은 조각","speech":"片"}},{"id":"hsk6-039","syllable":"GUAN","a":{"hanzi":"关","pinyin":"guān","tones":"1","level":3,"meaning":"산길","speech":"关"},"b":{"hanzi":"罐","pinyin":"guàn","tones":"4","level":6,"meaning":"할 수 있다","speech":"罐"}},{"id":"hsk6-040","syllable":"ZHENG SHI","a":{"hanzi":"证实","pinyin":"zhèng shí","tones":"4·2","level":6,"meaning":"확인","speech":"证实"},"b":{"hanzi":"正式","pinyin":"zhèng shì","tones":"4·4","level":4,"meaning":"공식적; 공식","speech":"正式"}},{"id":"hsk6-041","syllable":"SHUA","a":{"hanzi":"刷","pinyin":"shuā","tones":"1","level":3,"meaning":"브러시","speech":"刷"},"b":{"hanzi":"耍","pinyin":"shuǎ","tones":"3","level":6,"meaning":"함께 놀아요","speech":"耍"}},{"id":"hsk6-042","syllable":"XIAN","a":{"hanzi":"先","pinyin":"xiān","tones":"1","level":3,"meaning":"초기","speech":"先"},"b":{"hanzi":"嫌","pinyin":"xián","tones":"2","level":6,"meaning":"좋아요","speech":"嫌"}},{"id":"hsk6-043","syllable":"MAI","a":{"hanzi":"买","pinyin":"mǎi","tones":"3","level":1,"meaning":"구매","speech":"买"},"b":{"hanzi":"迈","pinyin":"mài","tones":"4","level":6,"meaning":"한 걸음 더 나아가","speech":"迈"}},{"id":"hsk6-044","syllable":"SHE JI","a":{"hanzi":"涉及","pinyin":"shè jí","tones":"4·2","level":6,"meaning":"참여","speech":"涉及"},"b":{"hanzi":"设计","pinyin":"shè jì","tones":"4·4","level":5,"meaning":"디자인; 계획하다","speech":"设计"}},{"id":"hsk6-045","syllable":"SHI YAN","a":{"hanzi":"实验","pinyin":"shí yàn","tones":"2·4","level":5,"meaning":"실험","speech":"实验"},"b":{"hanzi":"试验","pinyin":"shì yàn","tones":"4·4","level":6,"meaning":"실험","speech":"试验"}},{"id":"hsk6-046","syllable":"LIU","a":{"hanzi":"溜","pinyin":"liū","tones":"1","level":6,"meaning":"슬쩍 빠져나가","speech":"溜"},"b":{"hanzi":"六","pinyin":"liù","tones":"4","level":1,"meaning":"6","speech":"六"}},{"id":"hsk6-047","syllable":"ZOU","a":{"hanzi":"走","pinyin":"zǒu","tones":"3","level":2,"meaning":"도보","speech":"走"},"b":{"hanzi":"揍","pinyin":"zòu","tones":"4","level":6,"meaning":"타격; 이길","speech":"揍"}},{"id":"hsk6-048","syllable":"YU","a":{"hanzi":"与","pinyin":"yǔ","tones":"3","level":4,"meaning":"및","speech":"与"},"b":{"hanzi":"愈","pinyin":"yù","tones":"4","level":6,"meaning":"치유","speech":"愈"}},{"id":"hsk6-049","syllable":"ZHUANG","a":{"hanzi":"装","pinyin":"zhuāng","tones":"1","level":5,"meaning":"장식","speech":"装"},"b":{"hanzi":"幢","pinyin":"zhuàng","tones":"4","level":6,"meaning":"캐리어 커튼","speech":"幢"}},{"id":"hsk6-050","syllable":"YI","a":{"hanzi":"以","pinyin":"yǐ","tones":"3","level":4,"meaning":"사용하다","speech":"以"},"b":{"hanzi":"翼","pinyin":"yì","tones":"4","level":6,"meaning":"날개","speech":"翼"}},{"id":"hsk6-051","syllable":"PO","a":{"hanzi":"颇","pinyin":"pō","tones":"1","level":6,"meaning":"오히려","speech":"颇"},"b":{"hanzi":"破","pinyin":"pò","tones":"4","level":4,"meaning":"깨짐","speech":"破"}},{"id":"hsk6-052","syllable":"DIAO","a":{"hanzi":"鸟","pinyin":"diǎo","tones":"3","level":3,"meaning":"성기","speech":"鸟"},"b":{"hanzi":"吊","pinyin":"diào","tones":"4","level":6,"meaning":"현금 100개 문자열","speech":"吊"}},{"id":"hsk6-053","syllable":"HOU","a":{"hanzi":"吼","pinyin":"hǒu","tones":"3","level":6,"meaning":"울부짖다","speech":"吼"},"b":{"hanzi":"厚","pinyin":"hòu","tones":"4","level":4,"meaning":"두꺼운","speech":"厚"}},{"id":"hsk6-054","syllable":"YE","a":{"hanzi":"也","pinyin":"yě","tones":"3","level":2,"meaning":"또한; 둘 다 ... 그리고 ...","speech":"也"},"b":{"hanzi":"拽","pinyin":"yè","tones":"4","level":6,"meaning":"드래그","speech":"拽"}},{"id":"hsk6-055","syllable":"XIAN JIN","a":{"hanzi":"先进","pinyin":"xiān jìn","tones":"1·4","level":6,"meaning":"고급","speech":"先进"},"b":{"hanzi":"现金","pinyin":"xiàn jīn","tones":"4·1","level":5,"meaning":"현금","speech":"现金"}},{"id":"hsk6-056","syllable":"BIE","a":{"hanzi":"憋","pinyin":"biē","tones":"1","level":6,"meaning":"초크","speech":"憋"},"b":{"hanzi":"别","pinyin":"bié","tones":"2","level":2,"meaning":"떠나다; 헤어지다","speech":"别"}},{"id":"hsk6-057","syllable":"SHI","a":{"hanzi":"拾","pinyin":"shí","tones":"2","level":6,"meaning":"데리러","speech":"拾"},"b":{"hanzi":"是","pinyin":"shì","tones":"4","level":1,"meaning":"~이다","speech":"是"}},{"id":"hsk6-058","syllable":"DENG","a":{"hanzi":"等","pinyin":"děng","tones":"3","level":4,"meaning":"클래스","speech":"等"},"b":{"hanzi":"瞪","pinyin":"dèng","tones":"4","level":6,"meaning":"넓게 열림","speech":"瞪"}},{"id":"hsk6-059","syllable":"ZAI","a":{"hanzi":"宰","pinyin":"zǎi","tones":"3","level":6,"meaning":"도살; 도살하다; 죽이다","speech":"宰"},"b":{"hanzi":"在","pinyin":"zài","tones":"4","level":1,"meaning":"존재; 살아있다","speech":"在"}},{"id":"hsk6-060","syllable":"BI","a":{"hanzi":"比","pinyin":"bǐ","tones":"3","level":2,"meaning":"비교","speech":"比"},"b":{"hanzi":"臂","pinyin":"bì","tones":"4","level":6,"meaning":"팔","speech":"臂"}},{"id":"hsk6-061","syllable":"HONG","a":{"hanzi":"红","pinyin":"hóng","tones":"2","level":2,"meaning":"빨간색","speech":"红"},"b":{"hanzi":"哄","pinyin":"hòng","tones":"4","level":6,"meaning":"소란","speech":"哄"}},{"id":"hsk6-062","syllable":"WAN","a":{"hanzi":"丸","pinyin":"wán","tones":"2","level":6,"meaning":"공","speech":"丸"},"b":{"hanzi":"万","pinyin":"wàn","tones":"4","level":3,"meaning":"만","speech":"万"}},{"id":"hsk6-063","syllable":"WU","a":{"hanzi":"五","pinyin":"wǔ","tones":"3","level":1,"meaning":"다섯","speech":"五"},"b":{"hanzi":"勿","pinyin":"wù","tones":"4","level":6,"meaning":"하지 마세요","speech":"勿"}},{"id":"hsk6-064","syllable":"ZHI","a":{"hanzi":"枝","pinyin":"zhī","tones":"1","level":6,"meaning":"분기","speech":"枝"},"b":{"hanzi":"只","pinyin":"zhǐ","tones":"3","level":3,"meaning":"오직, 단지","speech":"只"}},{"id":"hsk6-065","syllable":"AI","a":{"hanzi":"挨","pinyin":"ái","tones":"2","level":6,"meaning":"고통받다; 견디다","speech":"挨"},"b":{"hanzi":"爱","pinyin":"ài","tones":"4","level":1,"meaning":"사랑; 좋아하다; 좋아하다","speech":"爱"}},{"id":"hsk6-066","syllable":"YI ZHI","a":{"hanzi":"一直","pinyin":"yī zhí","tones":"1·2","level":3,"meaning":"직진","speech":"一直"},"b":{"hanzi":"抑制","pinyin":"yì zhì","tones":"4·4","level":6,"meaning":"금지","speech":"抑制"}},{"id":"hsk6-067","syllable":"QIAO","a":{"hanzi":"桥","pinyin":"qiáo","tones":"2","level":4,"meaning":"브리지","speech":"桥"},"b":{"hanzi":"翘","pinyin":"qiào","tones":"4","level":6,"meaning":"붙어라","speech":"翘"}},{"id":"hsk6-068","syllable":"DA JIA","a":{"hanzi":"打架","pinyin":"dǎ jià","tones":"3·4","level":6,"meaning":"싸움","speech":"打架"},"b":{"hanzi":"大家","pinyin":"dà jiā","tones":"4·1","level":2,"meaning":"모두","speech":"大家"}},{"id":"hsk6-069","syllable":"DOU","a":{"hanzi":"兜","pinyin":"dōu","tones":"1","level":6,"meaning":"포켓","speech":"兜"},"b":{"hanzi":"读","pinyin":"dòu","tones":"4","level":1,"meaning":"쉼표","speech":"读"}},{"id":"hsk6-070","syllable":"QING CHU","a":{"hanzi":"清除","pinyin":"qīng chú","tones":"1·2","level":6,"meaning":"삭제","speech":"清除"},"b":{"hanzi":"清楚","pinyin":"qīng chu","tones":"1·5","level":3,"meaning":"지우기","speech":"清楚"}},{"id":"hsk6-071","syllable":"HENG","a":{"hanzi":"哼","pinyin":"hēng","tones":"1","level":6,"meaning":"신음소리","speech":"哼"},"b":{"hanzi":"横","pinyin":"héng","tones":"2","level":5,"meaning":"수평","speech":"横"}},{"id":"hsk6-072","syllable":"YI LAI","a":{"hanzi":"依赖","pinyin":"yī lài","tones":"1·4","level":6,"meaning":"의존","speech":"依赖"},"b":{"hanzi":"以来","pinyin":"yǐ lái","tones":"3·2","level":5,"meaning":"이후","speech":"以来"}},{"id":"hsk6-073","syllable":"SHI WU","a":{"hanzi":"食物","pinyin":"shí wù","tones":"2·4","level":5,"meaning":"음식","speech":"食物"},"b":{"hanzi":"事务","pinyin":"shì wù","tones":"4·4","level":6,"meaning":"사정","speech":"事务"}},{"id":"hsk6-074","syllable":"YI BIAN","a":{"hanzi":"一边","pinyin":"yī biān","tones":"1·1","level":3,"meaning":"한쪽","speech":"一边"},"b":{"hanzi":"以便","pinyin":"yǐ biàn","tones":"3·4","level":6,"meaning":"그래서","speech":"以便"}},{"id":"hsk6-075","syllable":"SHI JI","a":{"hanzi":"时机","pinyin":"shí jī","tones":"2·1","level":6,"meaning":"기회; 절호의 순간","speech":"时机"},"b":{"hanzi":"世纪","pinyin":"shì jì","tones":"4·4","level":4,"meaning":"세기","speech":"世纪"}},{"id":"hsk6-076","syllable":"JIE CHU","a":{"hanzi":"接触","pinyin":"jiē chù","tones":"1·4","level":5,"meaning":"닿다, 만지다","speech":"接触"},"b":{"hanzi":"解除","pinyin":"jiě chú","tones":"3·2","level":6,"meaning":"제거","speech":"解除"}},{"id":"hsk6-077","syllable":"ZHI SHI","a":{"hanzi":"知识","pinyin":"zhī shi","tones":"1·5","level":4,"meaning":"지식","speech":"知识"},"b":{"hanzi":"指示","pinyin":"zhǐ shì","tones":"3·4","level":6,"meaning":"지적하다","speech":"指示"}},{"id":"hsk6-078","syllable":"ZHA","a":{"hanzi":"扎","pinyin":"zhā","tones":"1","level":6,"meaning":"주둔 예정","speech":"扎"},"b":{"hanzi":"咋","pinyin":"zhà","tones":"4","level":6,"meaning":"시끄러운 소음","speech":"咋"}},{"id":"hsk6-079","syllable":"BA","a":{"hanzi":"扒","pinyin":"bā","tones":"1","level":6,"meaning":"껍질을 벗기다","speech":"扒"},"b":{"hanzi":"把","pinyin":"bà","tones":"4","level":3,"meaning":"손잡이; 잡다","speech":"把"}},{"id":"hsk6-080","syllable":"SHI YE","a":{"hanzi":"失业","pinyin":"shī yè","tones":"1·4","level":5,"meaning":"실업","speech":"失业"},"b":{"hanzi":"事业","pinyin":"shì yè","tones":"4·4","level":6,"meaning":"사업을 진행 중","speech":"事业"}},{"id":"hsk6-081","syllable":"ZHENG FU","a":{"hanzi":"征服","pinyin":"zhēng fú","tones":"1·2","level":6,"meaning":"정복하다","speech":"征服"},"b":{"hanzi":"政府","pinyin":"zhèng fǔ","tones":"4·3","level":5,"meaning":"정부","speech":"政府"}},{"id":"hsk6-082","syllable":"AI","a":{"hanzi":"挨","pinyin":"āi","tones":"1","level":6,"meaning":"순서; 순서대로","speech":"挨"},"b":{"hanzi":"唉","pinyin":"ài","tones":"4","level":5,"meaning":"아아","speech":"唉"}},{"id":"hsk6-083","syllable":"XI","a":{"hanzi":"溪","pinyin":"xī","tones":"1","level":6,"meaning":"크릭","speech":"溪"},"b":{"hanzi":"系","pinyin":"xì","tones":"4","level":5,"meaning":"연결","speech":"系"}},{"id":"hsk6-084","syllable":"XIANG","a":{"hanzi":"想","pinyin":"xiǎng","tones":"3","level":1,"meaning":"생각하다","speech":"想"},"b":{"hanzi":"巷","pinyin":"xiàng","tones":"4","level":6,"meaning":"레인","speech":"巷"}},{"id":"hsk6-085","syllable":"YI QI","a":{"hanzi":"一起","pinyin":"yī qǐ","tones":"1·3","level":2,"meaning":"같은 장소에","speech":"一起"},"b":{"hanzi":"仪器","pinyin":"yí qì","tones":"2·4","level":6,"meaning":"계측기; 장치","speech":"仪器"}},{"id":"hsk6-086","syllable":"SHENG","a":{"hanzi":"升","pinyin":"shēng","tones":"1","level":5,"meaning":"상승","speech":"升"},"b":{"hanzi":"盛","pinyin":"shèng","tones":"4","level":6,"meaning":"번성","speech":"盛"}},{"id":"hsk6-087","syllable":"SHENG LI","a":{"hanzi":"生理","pinyin":"shēng lǐ","tones":"1·3","level":6,"meaning":"생리학","speech":"生理"},"b":{"hanzi":"胜利","pinyin":"shèng lì","tones":"4·4","level":5,"meaning":"승리","speech":"胜利"}},{"id":"hsk6-088","syllable":"ZHU","a":{"hanzi":"株","pinyin":"zhū","tones":"1","level":6,"meaning":"나무 줄기","speech":"株"},"b":{"hanzi":"住","pinyin":"zhù","tones":"4","level":1,"meaning":"라이브","speech":"住"}},{"id":"hsk6-089","syllable":"HUI BAO","a":{"hanzi":"回报","pinyin":"huí bào","tones":"2·4","level":6,"meaning":"반환","speech":"回报"},"b":{"hanzi":"汇报","pinyin":"huì bào","tones":"4·4","level":6,"meaning":"신고","speech":"汇报"}},{"id":"hsk6-090","syllable":"SHI XIAN","a":{"hanzi":"实现","pinyin":"shí xiàn","tones":"2·4","level":5,"meaning":"달성","speech":"实现"},"b":{"hanzi":"视线","pinyin":"shì xiàn","tones":"4·4","level":6,"meaning":"시선","speech":"视线"}},{"id":"hsk6-091","syllable":"PU","a":{"hanzi":"扑","pinyin":"pū","tones":"1","level":6,"meaning":"몸을 던져","speech":"扑"},"b":{"hanzi":"铺","pinyin":"pù","tones":"4","level":6,"meaning":"판자 침대","speech":"铺"}},{"id":"hsk6-092","syllable":"QIAO","a":{"hanzi":"敲","pinyin":"qiāo","tones":"1","level":4,"meaning":"히트","speech":"敲"},"b":{"hanzi":"翘","pinyin":"qiáo","tones":"2","level":6,"meaning":"뛰어난","speech":"翘"}},{"id":"hsk6-093","syllable":"SHI LI","a":{"hanzi":"实力","pinyin":"shí lì","tones":"2·4","level":6,"meaning":"강도","speech":"实力"},"b":{"hanzi":"势力","pinyin":"shì li","tones":"4·5","level":6,"meaning":"전원","speech":"势力"}},{"id":"hsk6-094","syllable":"TIAN","a":{"hanzi":"甜","pinyin":"tián","tones":"2","level":3,"meaning":"달콤하다","speech":"甜"},"b":{"hanzi":"舔","pinyin":"tiǎn","tones":"3","level":6,"meaning":"핥아","speech":"舔"}},{"id":"hsk6-095","syllable":"DENG JI","a":{"hanzi":"登记","pinyin":"dēng jì","tones":"1·4","level":5,"meaning":"등록","speech":"登记"},"b":{"hanzi":"等级","pinyin":"děng jí","tones":"3·2","level":6,"meaning":"등급","speech":"等级"}},{"id":"hsk6-096","syllable":"CHUANG","a":{"hanzi":"幢","pinyin":"chuáng","tones":"2","level":6,"meaning":"배너","speech":"幢"},"b":{"hanzi":"闯","pinyin":"chuǎng","tones":"3","level":5,"meaning":"러쉬","speech":"闯"}},{"id":"hsk6-097","syllable":"QING XING","a":{"hanzi":"清醒","pinyin":"qīng xǐng","tones":"1·3","level":6,"meaning":"명석한","speech":"清醒"},"b":{"hanzi":"情形","pinyin":"qíng xing","tones":"2·5","level":6,"meaning":"상황","speech":"情形"}},{"id":"hsk6-098","syllable":"YI ZHI","a":{"hanzi":"一致","pinyin":"yī zhì","tones":"1·4","level":5,"meaning":"만장일치","speech":"一致"},"b":{"hanzi":"意志","pinyin":"yì zhì","tones":"4·4","level":6,"meaning":"할 것이다; 의지력; 결심","speech":"意志"}},{"id":"hsk6-099","syllable":"BA","a":{"hanzi":"疤","pinyin":"bā","tones":"1","level":6,"meaning":"상처","speech":"疤"},"b":{"hanzi":"把","pinyin":"bǎ","tones":"3","level":3,"meaning":"보류; 파악하다","speech":"把"}},{"id":"hsk6-100","syllable":"GONG JI","a":{"hanzi":"攻击","pinyin":"gōng jī","tones":"1·1","level":6,"meaning":"공격","speech":"攻击"},"b":{"hanzi":"供给","pinyin":"gōng jǐ","tones":"1·3","level":6,"meaning":"제공","speech":"供给"}},{"id":"hsk6-101","syllable":"FENG XIAN","a":{"hanzi":"风险","pinyin":"fēng xiǎn","tones":"1·3","level":5,"meaning":"위험; 위험","speech":"风险"},"b":{"hanzi":"奉献","pinyin":"fèng xiàn","tones":"4·4","level":6,"meaning":"정중하게 제안하세요","speech":"奉献"}},{"id":"hsk6-102","syllable":"KE","a":{"hanzi":"磕","pinyin":"kē","tones":"1","level":6,"meaning":"탭","speech":"磕"},"b":{"hanzi":"克","pinyin":"kè","tones":"4","level":5,"meaning":"진압","speech":"克"}},{"id":"hsk6-103","syllable":"XIE","a":{"hanzi":"写","pinyin":"xiě","tones":"3","level":1,"meaning":"쓰기","speech":"写"},"b":{"hanzi":"屑","pinyin":"xiè","tones":"4","level":6,"meaning":"비트","speech":"屑"}},{"id":"hsk6-104","syllable":"SHI WU","a":{"hanzi":"失误","pinyin":"shī wù","tones":"1·4","level":6,"meaning":"경과","speech":"失误"},"b":{"hanzi":"事物","pinyin":"shì wù","tones":"4·4","level":5,"meaning":"사물; 물체","speech":"事物"}},{"id":"hsk6-105","syllable":"BAN FA","a":{"hanzi":"颁发","pinyin":"bān fā","tones":"1·1","level":6,"meaning":"문제","speech":"颁发"},"b":{"hanzi":"办法","pinyin":"bàn fǎ","tones":"4·3","level":3,"meaning":"의미","speech":"办法"}},{"id":"hsk6-106","syllable":"JIU JING","a":{"hanzi":"究竟","pinyin":"jiū jìng","tones":"1·4","level":4,"meaning":"문제의 맨 아래로 이동","speech":"究竟"},"b":{"hanzi":"酒精","pinyin":"jiǔ jīng","tones":"3·1","level":6,"meaning":"알코올","speech":"酒精"}},{"id":"hsk6-107","syllable":"TA","a":{"hanzi":"塌","pinyin":"tā","tones":"1","level":6,"meaning":"접기","speech":"塌"},"b":{"hanzi":"塔","pinyin":"tǎ","tones":"3","level":5,"meaning":"탑","speech":"塔"}},{"id":"hsk6-108","syllable":"FANG SHOU","a":{"hanzi":"防守","pinyin":"fáng shǒu","tones":"2·3","level":6,"meaning":"방어하다","speech":"防守"},"b":{"hanzi":"放手","pinyin":"fàng shǒu","tones":"4·3","level":6,"meaning":"잡아 놓으세요","speech":"放手"}},{"id":"hsk6-109","syllable":"JIAN YU","a":{"hanzi":"监狱","pinyin":"jiān yù","tones":"1·4","level":6,"meaning":"감옥","speech":"监狱"},"b":{"hanzi":"鉴于","pinyin":"jiàn yú","tones":"4·2","level":6,"meaning":"다음을 고려하여","speech":"鉴于"}},{"id":"hsk6-110","syllable":"ZHI DING","a":{"hanzi":"指定","pinyin":"zhǐ dìng","tones":"3·4","level":6,"meaning":"지정","speech":"指定"},"b":{"hanzi":"制定","pinyin":"zhì dìng","tones":"4·4","level":5,"meaning":"작성; 공식화하다","speech":"制定"}},{"id":"hsk6-111","syllable":"DIAO","a":{"hanzi":"叼","pinyin":"diāo","tones":"1","level":6,"meaning":"입으로 붙잡다","speech":"叼"},"b":{"hanzi":"掉","pinyin":"diào","tones":"4","level":4,"meaning":"가을","speech":"掉"}},{"id":"hsk6-112","syllable":"JIAN DING","a":{"hanzi":"坚定","pinyin":"jiān dìng","tones":"1·4","level":6,"meaning":"회사","speech":"坚定"},"b":{"hanzi":"鉴定","pinyin":"jiàn dìng","tones":"4·4","level":6,"meaning":"평가하다","speech":"鉴定"}},{"id":"hsk6-113","syllable":"QI SHI","a":{"hanzi":"其实","pinyin":"qí shí","tones":"2·2","level":3,"meaning":"사실; 사실은; 정말로","speech":"其实"},"b":{"hanzi":"歧视","pinyin":"qí shì","tones":"2·4","level":6,"meaning":"차별하다","speech":"歧视"}},{"id":"hsk6-114","syllable":"PI","a":{"hanzi":"批","pinyin":"pī","tones":"1","level":5,"meaning":"확인","speech":"批"},"b":{"hanzi":"劈","pinyin":"pǐ","tones":"3","level":6,"meaning":"두 개로 분할","speech":"劈"}},{"id":"hsk6-115","syllable":"LOU","a":{"hanzi":"楼","pinyin":"lóu","tones":"2","level":3,"meaning":"1층 이상의 집","speech":"楼"},"b":{"hanzi":"搂","pinyin":"lǒu","tones":"3","level":6,"meaning":"포옹","speech":"搂"}},{"id":"hsk6-116","syllable":"YU YAN","a":{"hanzi":"语言","pinyin":"yǔ yán","tones":"3·2","level":4,"meaning":"언어","speech":"语言"},"b":{"hanzi":"预言","pinyin":"yù yán","tones":"4·2","level":6,"meaning":"예측","speech":"预言"}},{"id":"hsk6-117","syllable":"BU ZHI","a":{"hanzi":"不止","pinyin":"bù zhǐ","tones":"4·3","level":6,"meaning":"끊임없이","speech":"不止"},"b":{"hanzi":"布置","pinyin":"bù zhì","tones":"4·4","level":6,"meaning":"정렬하다","speech":"布置"}},{"id":"hsk6-118","syllable":"HUAN JIE","a":{"hanzi":"环节","pinyin":"huán jié","tones":"2·2","level":6,"meaning":"세그먼트","speech":"环节"},"b":{"hanzi":"缓解","pinyin":"huǎn jiě","tones":"3·3","level":5,"meaning":"안도감을 가져오다","speech":"缓解"}},{"id":"hsk6-119","syllable":"QING","a":{"hanzi":"氢","pinyin":"qīng","tones":"1","level":6,"meaning":"수소","speech":"氢"},"b":{"hanzi":"请","pinyin":"qǐng","tones":"3","level":1,"meaning":"질문","speech":"请"}},{"id":"hsk6-120","syllable":"SHI CHANG","a":{"hanzi":"时常","pinyin":"shí cháng","tones":"2·2","level":6,"meaning":"자주","speech":"时常"},"b":{"hanzi":"市场","pinyin":"shì chǎng","tones":"4·3","level":4,"meaning":"마켓플레이스","speech":"市场"}},{"id":"hsk6-121","syllable":"JIAN","a":{"hanzi":"拣","pinyin":"jiǎn","tones":"3","level":6,"meaning":"선택","speech":"拣"},"b":{"hanzi":"件","pinyin":"jiàn","tones":"4","level":2,"meaning":"항목","speech":"件"}},{"id":"hsk6-122","syllable":"QING JIE","a":{"hanzi":"清洁","pinyin":"qīng jié","tones":"1·2","level":6,"meaning":"깨끗함","speech":"清洁"},"b":{"hanzi":"情节","pinyin":"qíng jié","tones":"2·2","level":6,"meaning":"상황","speech":"情节"}},{"id":"hsk6-123","syllable":"ZHONG DIAN","a":{"hanzi":"终点","pinyin":"zhōng diǎn","tones":"1·3","level":6,"meaning":"끝","speech":"终点"},"b":{"hanzi":"重点","pinyin":"zhòng diǎn","tones":"4·3","level":4,"meaning":"중요한 점; 급소; 초점","speech":"重点"}},{"id":"hsk6-124","syllable":"SHE","a":{"hanzi":"折","pinyin":"shé","tones":"2","level":6,"meaning":"스냅","speech":"折"},"b":{"hanzi":"拾","pinyin":"shè","tones":"4","level":6,"meaning":"가벼운 발걸음으로 오르다","speech":"拾"}},{"id":"hsk6-125","syllable":"NU LI","a":{"hanzi":"奴隶","pinyin":"nú lì","tones":"2·4","level":6,"meaning":"노예","speech":"奴隶"},"b":{"hanzi":"努力","pinyin":"nǔ lì","tones":"3·4","level":3,"meaning":"노력하세요; 열심히 노력하다; 노력하다","speech":"努力"}},{"id":"hsk6-126","syllable":"WU ZHI","a":{"hanzi":"无知","pinyin":"wú zhī","tones":"2·1","level":6,"meaning":"무지한","speech":"无知"},"b":{"hanzi":"物质","pinyin":"wù zhì","tones":"4·4","level":5,"meaning":"물질","speech":"物质"}},{"id":"hsk6-127","syllable":"CHUI","a":{"hanzi":"吹","pinyin":"chuī","tones":"1","level":5,"meaning":"타격","speech":"吹"},"b":{"hanzi":"锤","pinyin":"chuí","tones":"2","level":6,"meaning":"해머","speech":"锤"}},{"id":"hsk6-128","syllable":"BAI TUO","a":{"hanzi":"摆脱","pinyin":"bǎi tuō","tones":"3·1","level":6,"meaning":"이탈","speech":"摆脱"},"b":{"hanzi":"拜托","pinyin":"bài tuō","tones":"4·1","level":6,"meaning":"sb에게 sth 수행을 요청","speech":"拜托"}},{"id":"hsk6-129","syllable":"SHU FU","a":{"hanzi":"舒服","pinyin":"shū fu","tones":"1·5","level":3,"meaning":"편안하다","speech":"舒服"},"b":{"hanzi":"束缚","pinyin":"shù fù","tones":"4·4","level":6,"meaning":"바인드","speech":"束缚"}},{"id":"hsk6-130","syllable":"YU QI","a":{"hanzi":"语气","pinyin":"yǔ qì","tones":"3·4","level":5,"meaning":"톤","speech":"语气"},"b":{"hanzi":"预期","pinyin":"yù qī","tones":"4·1","level":6,"meaning":"기대","speech":"预期"}},{"id":"hsk6-131","syllable":"MING MING","a":{"hanzi":"明明","pinyin":"míng míng","tones":"2·2","level":6,"meaning":"분명히","speech":"明明"},"b":{"hanzi":"命名","pinyin":"mìng míng","tones":"4·2","level":6,"meaning":"이름을 지어주세요","speech":"命名"}},{"id":"hsk6-132","syllable":"JI YU","a":{"hanzi":"机遇","pinyin":"jī yù","tones":"1·4","level":6,"meaning":"기회","speech":"机遇"},"b":{"hanzi":"给予","pinyin":"jǐ yǔ","tones":"3·3","level":6,"meaning":"주다; 일치하다; 렌더링하다","speech":"给予"}},{"id":"hsk6-133","syllable":"DI ZHI","a":{"hanzi":"抵制","pinyin":"dǐ zhì","tones":"3·4","level":6,"meaning":"저항하다","speech":"抵制"},"b":{"hanzi":"地址","pinyin":"dì zhǐ","tones":"4·3","level":4,"meaning":"주소","speech":"地址"}},{"id":"hsk6-134","syllable":"GUAN LI","a":{"hanzi":"管理","pinyin":"guǎn lǐ","tones":"3·3","level":4,"meaning":"감독하다","speech":"管理"},"b":{"hanzi":"惯例","pinyin":"guàn lì","tones":"4·4","level":6,"meaning":"규칙","speech":"惯例"}},{"id":"hsk6-135","syllable":"PI","a":{"hanzi":"劈","pinyin":"pī","tones":"1","level":6,"meaning":"해킹","speech":"劈"},"b":{"hanzi":"匹","pinyin":"pǐ","tones":"3","level":5,"meaning":"일반인","speech":"匹"}},{"id":"hsk6-136","syllable":"ZHE","a":{"hanzi":"折","pinyin":"zhē","tones":"1","level":6,"meaning":"sth를 뒤집다","speech":"折"},"b":{"hanzi":"乙","pinyin":"zhé","tones":"2","level":5,"meaning":"터닝 스트로크, 일명 折","speech":"乙"}},{"id":"hsk6-137","syllable":"XIAN","a":{"hanzi":"弦","pinyin":"xián","tones":"2","level":6,"meaning":"활끈","speech":"弦"},"b":{"hanzi":"县","pinyin":"xiàn","tones":"4","level":5,"meaning":"카운티","speech":"县"}},{"id":"hsk6-138","syllable":"BAO WEI","a":{"hanzi":"包围","pinyin":"bāo wéi","tones":"1·2","level":6,"meaning":"서라운드","speech":"包围"},"b":{"hanzi":"保卫","pinyin":"bǎo wèi","tones":"3·4","level":6,"meaning":"방어하다","speech":"保卫"}},{"id":"hsk6-139","syllable":"ZHENG YI","a":{"hanzi":"争议","pinyin":"zhēng yì","tones":"1·4","level":6,"meaning":"논쟁","speech":"争议"},"b":{"hanzi":"正义","pinyin":"zhèng yì","tones":"4·4","level":6,"meaning":"정의","speech":"正义"}},{"id":"hsk6-140","syllable":"LOU","a":{"hanzi":"搂","pinyin":"lōu","tones":"1","level":6,"meaning":"자신을 향해 끌린다","speech":"搂"},"b":{"hanzi":"露","pinyin":"lòu","tones":"4","level":5,"meaning":"표시","speech":"露"}},{"id":"hsk6-141","syllable":"BU JIN","a":{"hanzi":"不禁","pinyin":"bù jīn","tones":"4·1","level":6,"meaning":"도와드릴 수 없습니다","speech":"不禁"},"b":{"hanzi":"不仅","pinyin":"bù jǐn","tones":"4·3","level":4,"meaning":"그냥 아니고; 이에 국한되지 않고","speech":"不仅"}},{"id":"hsk6-142","syllable":"JI DU","a":{"hanzi":"嫉妒","pinyin":"jí dù","tones":"2·4","level":6,"meaning":"질투하다; 부러워하다","speech":"嫉妒"},"b":{"hanzi":"季度","pinyin":"jì dù","tones":"4·4","level":6,"meaning":"분기별","speech":"季度"}},{"id":"hsk6-143","syllable":"YOU YU","a":{"hanzi":"忧郁","pinyin":"yōu yù","tones":"1·4","level":6,"meaning":"침침한; 우울한; 우울; 낙담한","speech":"忧郁"},"b":{"hanzi":"由于","pinyin":"yóu yú","tones":"2·2","level":4,"meaning":"다음으로 인해","speech":"由于"}},{"id":"hsk6-144","syllable":"YIN XIANG","a":{"hanzi":"音响","pinyin":"yīn xiǎng","tones":"1·3","level":6,"meaning":"소리","speech":"音响"},"b":{"hanzi":"印象","pinyin":"yìn xiàng","tones":"4·4","level":4,"meaning":"노출","speech":"印象"}},{"id":"hsk6-145","syllable":"LENG","a":{"hanzi":"冷","pinyin":"lěng","tones":"3","level":1,"meaning":"추위","speech":"冷"},"b":{"hanzi":"愣","pinyin":"lèng","tones":"4","level":6,"meaning":"정신이 산만한 것 같아","speech":"愣"}}]}};
+/* Chinese-to-Korean meanings translated directly with Papago and reviewed by reading. */
+window.HSK_PAIR_SETS = {
+  "hsk1-4": {
+    "title": "HSK 1–4급",
+    "shortTitle": "1–4급",
+    "subtitle": "기초·중급 필수",
+    "accent": "green",
+    "pairs": [
+      {
+        "id": "hsk1-4-001",
+        "syllable": "YI",
+        "a": {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "tones": "1",
+          "level": 1,
+          "meaning": "1. 일. 하나.",
+          "speech": "一"
+        },
+        "b": {
+          "hanzi": "以",
+          "pinyin": "yǐ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "…(으)로(써). …을 가지고. …을 근거로.",
+          "speech": "以"
+        },
+        "tip": "“1. 일. 하나”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yī</strong>; “…(으)로(써). …을 가지고. …을 근거로”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǐ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-002",
+        "syllable": "BA",
+        "a": {
+          "hanzi": "吧",
+          "pinyin": "bā",
+          "tones": "1",
+          "level": 2,
+          "meaning": "구말(句末)에 쓰여 상의(相議)·제의(提議)·청구(請求)·명령·독촉의 어기(語氣)를 나타냄.",
+          "speech": "吧"
+        },
+        "b": {
+          "hanzi": "把",
+          "pinyin": "bà",
+          "tones": "4",
+          "level": 3,
+          "meaning": "손잡이",
+          "speech": "把"
+        },
+        "tip": "“구말(句末)에 쓰여 상의(相議)·제의(提議)·청구(請求)·명령·독촉의 어기(語氣)를 나타냄”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bā</strong>; “손잡이”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bà</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-003",
+        "syllable": "ZHI",
+        "a": {
+          "hanzi": "之",
+          "pinyin": "zhī",
+          "tones": "1",
+          "level": 4,
+          "meaning": "가다. 이르다.",
+          "speech": "之"
+        },
+        "b": {
+          "hanzi": "只",
+          "pinyin": "zhǐ",
+          "tones": "3",
+          "level": 3,
+          "meaning": "오직; 단지",
+          "speech": "只"
+        },
+        "tip": "“가다. 이르다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhī</strong>; “오직; 단지”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǐ</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-004",
+        "syllable": "HAO",
+        "a": {
+          "hanzi": "号",
+          "pinyin": "háo",
+          "tones": "2",
+          "level": 2,
+          "meaning": "울부짖다",
+          "speech": "号"
+        },
+        "b": {
+          "hanzi": "好",
+          "pinyin": "hǎo",
+          "tones": "3",
+          "level": 1,
+          "meaning": "좋다",
+          "speech": "好"
+        },
+        "tip": "“울부짖다”의 장면은 기세를 위로 끌어올려 <strong>háo</strong>; “좋다”의 장면은 낮게 품었다가 다시 꺾어 <strong>hǎo</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-005",
+        "syllable": "SHI",
+        "a": {
+          "hanzi": "使",
+          "pinyin": "shǐ",
+          "tones": "3",
+          "level": 3,
+          "meaning": "파견하다. 사람을 보내다.",
+          "speech": "使"
+        },
+        "b": {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "tones": "4",
+          "level": 1,
+          "meaning": "맞다. 옳다.",
+          "speech": "是"
+        },
+        "tip": "“파견하다. 사람을 보내다”의 장면은 낮게 품었다가 다시 꺾어 <strong>shǐ</strong>; “맞다. 옳다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-006",
+        "syllable": "WEI",
+        "a": {
+          "hanzi": "为",
+          "pinyin": "wéi",
+          "tones": "2",
+          "level": 2,
+          "meaning": "~이 되다; ~로서",
+          "speech": "为"
+        },
+        "b": {
+          "hanzi": "位",
+          "pinyin": "wèi",
+          "tones": "4",
+          "level": 3,
+          "meaning": "곳. 자리. 위치.",
+          "speech": "位"
+        },
+        "tip": "“~이 되다; ~로서”의 장면은 기세를 위로 끌어올려 <strong>wéi</strong>; “곳. 자리. 위치”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wèi</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-007",
+        "syllable": "JI",
+        "a": {
+          "hanzi": "几",
+          "pinyin": "jī",
+          "tones": "1",
+          "level": 1,
+          "meaning": "작은 탁자; 거의",
+          "speech": "几"
+        },
+        "b": {
+          "hanzi": "给",
+          "pinyin": "jǐ",
+          "tones": "3",
+          "level": 2,
+          "meaning": "주다",
+          "speech": "给"
+        },
+        "tip": "“작은 탁자; 거의”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jī</strong>; “주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-008",
+        "syllable": "XIANG",
+        "a": {
+          "hanzi": "想",
+          "pinyin": "xiǎng",
+          "tones": "3",
+          "level": 1,
+          "meaning": "생각하다.)",
+          "speech": "想"
+        },
+        "b": {
+          "hanzi": "像",
+          "pinyin": "xiàng",
+          "tones": "4",
+          "level": 3,
+          "meaning": "(인물을, 혹은 인위적으로) 본뜬 형상. 본떠 그린 모양.)",
+          "speech": "像"
+        },
+        "tip": "“생각하다.)”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎng</strong>; “(인물을, 혹은 인위적으로) 본뜬 형상. 본떠 그린 모양.)”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-009",
+        "syllable": "XIANG",
+        "a": {
+          "hanzi": "想",
+          "pinyin": "xiǎng",
+          "tones": "3",
+          "level": 1,
+          "meaning": "생각하다.)",
+          "speech": "想"
+        },
+        "b": {
+          "hanzi": "向",
+          "pinyin": "xiàng",
+          "tones": "4",
+          "level": 2,
+          "meaning": "향",
+          "speech": "向"
+        },
+        "tip": "“생각하다.)”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎng</strong>; “향”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàng</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-010",
+        "syllable": "ZHAO",
+        "a": {
+          "hanzi": "着",
+          "pinyin": "zhāo",
+          "tones": "1",
+          "level": 2,
+          "meaning": "수; 방법",
+          "speech": "着"
+        },
+        "b": {
+          "hanzi": "找",
+          "pinyin": "zhǎo",
+          "tones": "3",
+          "level": 2,
+          "meaning": "찾다. 구하다. 물색하다.",
+          "speech": "找"
+        },
+        "tip": "“수; 방법”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhāo</strong>; “찾다. 구하다. 물색하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǎo</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-011",
+        "syllable": "BA",
+        "a": {
+          "hanzi": "吧",
+          "pinyin": "bā",
+          "tones": "1",
+          "level": 2,
+          "meaning": "구말(句末)에 쓰여 상의(相議)·제의(提議)·청구(請求)·명령·독촉의 어기(語氣)를 나타냄.",
+          "speech": "吧"
+        },
+        "b": {
+          "hanzi": "把",
+          "pinyin": "bǎ",
+          "tones": "3",
+          "level": 3,
+          "meaning": "잡다; ~을/를",
+          "speech": "把"
+        },
+        "tip": "“구말(句末)에 쓰여 상의(相議)·제의(提議)·청구(請求)·명령·독촉의 어기(語氣)를 나타냄”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bā</strong>; “잡다; ~을/를”의 장면은 낮게 품었다가 다시 꺾어 <strong>bǎ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-012",
+        "syllable": "ZHAO",
+        "a": {
+          "hanzi": "着",
+          "pinyin": "zháo",
+          "tones": "2",
+          "level": 2,
+          "meaning": "닿다; 붙다",
+          "speech": "着"
+        },
+        "b": {
+          "hanzi": "找",
+          "pinyin": "zhǎo",
+          "tones": "3",
+          "level": 2,
+          "meaning": "찾다. 구하다. 물색하다.",
+          "speech": "找"
+        },
+        "tip": "“닿다; 붙다”의 장면은 기세를 위로 끌어올려 <strong>zháo</strong>; “찾다. 구하다. 물색하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǎo</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-013",
+        "syllable": "YOU",
+        "a": {
+          "hanzi": "由",
+          "pinyin": "yóu",
+          "tones": "2",
+          "level": 4,
+          "meaning": "원인. 이유. 유래.",
+          "speech": "由"
+        },
+        "b": {
+          "hanzi": "又",
+          "pinyin": "yòu",
+          "tones": "4",
+          "level": 3,
+          "meaning": "또. 다시. 거듭. [반복 또는 연속을 표시]",
+          "speech": "又"
+        },
+        "tip": "“원인. 이유. 유래”의 장면은 기세를 위로 끌어올려 <strong>yóu</strong>; “또. 다시. 거듭. [반복 또는 연속을 표시]”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yòu</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-014",
+        "syllable": "NI",
+        "a": {
+          "hanzi": "呢",
+          "pinyin": "ní",
+          "tones": "2",
+          "level": 1,
+          "meaning": "의문문(疑問文)의 끝에 써서 의문의 어기(語氣)를 나타냄. [특히 지시 의문문·선택 의문문 또는 반복 의문문에 쓰임]",
+          "speech": "呢"
+        },
+        "b": {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "tones": "3",
+          "level": 1,
+          "meaning": "너. 자네. 당신.",
+          "speech": "你"
+        },
+        "tip": "“의문문(疑問文)의 끝에 써서 의문의 어기(語氣)를 나타냄. [특히 지시 의문문·선택 의문문 또는 반복 의문문에 쓰임]”의 장면은 기세를 위로 끌어올려 <strong>ní</strong>; “너. 자네. 당신”의 장면은 낮게 품었다가 다시 꺾어 <strong>nǐ</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-015",
+        "syllable": "SI",
+        "a": {
+          "hanzi": "死",
+          "pinyin": "sǐ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "죽다., 生(1d))",
+          "speech": "死"
+        },
+        "b": {
+          "hanzi": "四",
+          "pinyin": "sì",
+          "tones": "4",
+          "level": 1,
+          "meaning": "4. 넷.",
+          "speech": "四"
+        },
+        "tip": "“죽다., 生(1d))”의 장면은 낮게 품었다가 다시 꺾어 <strong>sǐ</strong>; “4. 넷”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>sì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-016",
+        "syllable": "XIN",
+        "a": {
+          "hanzi": "新",
+          "pinyin": "xīn",
+          "tones": "1",
+          "level": 2,
+          "meaning": "새롭다. 새로운.",
+          "speech": "新"
+        },
+        "b": {
+          "hanzi": "信",
+          "pinyin": "xìn",
+          "tones": "4",
+          "level": 3,
+          "meaning": "신용. 신의. 믿음.",
+          "speech": "信"
+        },
+        "tip": "“새롭다. 새로운”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xīn</strong>; “신용. 신의. 믿음”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xìn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-017",
+        "syllable": "DI",
+        "a": {
+          "hanzi": "的",
+          "pinyin": "dī",
+          "tones": "1",
+          "level": 1,
+          "meaning": "택시",
+          "speech": "的"
+        },
+        "b": {
+          "hanzi": "地",
+          "pinyin": "dì",
+          "tones": "4",
+          "level": 3,
+          "meaning": "지구(地球). 대지.",
+          "speech": "地"
+        },
+        "tip": "“택시”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dī</strong>; “지구(地球). 대지”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-018",
+        "syllable": "ER",
+        "a": {
+          "hanzi": "而",
+          "pinyin": "ér",
+          "tones": "2",
+          "level": 4,
+          "meaning": "같은 종류의 단어 또는 문을 접속함. 단, 명사는 접속할 수 없음.",
+          "speech": "而"
+        },
+        "b": {
+          "hanzi": "二",
+          "pinyin": "èr",
+          "tones": "4",
+          "level": 1,
+          "meaning": "2. 둘.",
+          "speech": "二"
+        },
+        "tip": "“같은 종류의 단어 또는 문을 접속함. 단, 명사는 접속할 수 없음”의 장면은 기세를 위로 끌어올려 <strong>ér</strong>; “2. 둘”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>èr</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-019",
+        "syllable": "YOU",
+        "a": {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "tones": "3",
+          "level": 1,
+          "meaning": "가지고 있다. 소유하다. [소유를 나타냄]",
+          "speech": "有"
+        },
+        "b": {
+          "hanzi": "又",
+          "pinyin": "yòu",
+          "tones": "4",
+          "level": 3,
+          "meaning": "또. 다시. 거듭. [반복 또는 연속을 표시]",
+          "speech": "又"
+        },
+        "tip": "“가지고 있다. 소유하다. [소유를 나타냄]”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǒu</strong>; “또. 다시. 거듭. [반복 또는 연속을 표시]”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yòu</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-020",
+        "syllable": "SHI",
+        "a": {
+          "hanzi": "十",
+          "pinyin": "shí",
+          "tones": "2",
+          "level": 1,
+          "meaning": "십. 열.",
+          "speech": "十"
+        },
+        "b": {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "tones": "4",
+          "level": 1,
+          "meaning": "맞다. 옳다.",
+          "speech": "是"
+        },
+        "tip": "숫자 10은 올라가는 <strong>shí</strong>, 확답은 내려찍는 <strong>shì</strong>"
+      },
+      {
+        "id": "hsk1-4-021",
+        "syllable": "ZHANG",
+        "a": {
+          "hanzi": "张",
+          "pinyin": "zhāng",
+          "tones": "1",
+          "level": 2,
+          "meaning": "장",
+          "speech": "张"
+        },
+        "b": {
+          "hanzi": "长",
+          "pinyin": "zhǎng",
+          "tones": "3",
+          "level": 2,
+          "meaning": "자라다; 우두머리",
+          "speech": "长"
+        },
+        "tip": "“장”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhāng</strong>; “자라다; 우두머리”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǎng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-022",
+        "syllable": "MAI",
+        "a": {
+          "hanzi": "买",
+          "pinyin": "mǎi",
+          "tones": "3",
+          "level": 1,
+          "meaning": "사다",
+          "speech": "买"
+        },
+        "b": {
+          "hanzi": "卖",
+          "pinyin": "mài",
+          "tones": "4",
+          "level": 2,
+          "meaning": "팔다",
+          "speech": "卖"
+        },
+        "tip": "살 때는 낮게 <strong>mǎi</strong>, 팔 때는 단호하게 <strong>mài</strong>"
+      },
+      {
+        "id": "hsk1-4-023",
+        "syllable": "DI",
+        "a": {
+          "hanzi": "的",
+          "pinyin": "dí",
+          "tones": "2",
+          "level": 1,
+          "meaning": "확실히; 정말",
+          "speech": "的"
+        },
+        "b": {
+          "hanzi": "地",
+          "pinyin": "dì",
+          "tones": "4",
+          "level": 3,
+          "meaning": "지구(地球). 대지.",
+          "speech": "地"
+        },
+        "tip": "“확실히; 정말”의 장면은 기세를 위로 끌어올려 <strong>dí</strong>; “지구(地球). 대지”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-024",
+        "syllable": "NA",
+        "a": {
+          "hanzi": "拿",
+          "pinyin": "ná",
+          "tones": "2",
+          "level": 3,
+          "meaning": "(손으로) 잡다. (손에) 쥐다. 가지다.",
+          "speech": "拿"
+        },
+        "b": {
+          "hanzi": "哪",
+          "pinyin": "nǎ",
+          "tones": "3",
+          "level": 1,
+          "meaning": "어느. 어떤. 어디. [그 뒤에 양사(量詞)나 수량사(數量詞)를 써서, 여러 사람·시간·장소·사물 가운데서 하나를 나타냄]",
+          "speech": "哪"
+        },
+        "tip": "“(손으로) 잡다. (손에) 쥐다. 가지다”의 장면은 기세를 위로 끌어올려 <strong>ná</strong>; “어느. 어떤. 어디. [그 뒤에 양사(量詞)나 수량사(數量詞)를 써서, 여러 사람·시간·장소·사물 가운데서 하나를 나타냄]”의 장면은 낮게 품었다가 다시 꺾어 <strong>nǎ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-025",
+        "syllable": "MA",
+        "a": {
+          "hanzi": "吗",
+          "pinyin": "má",
+          "tones": "2",
+          "level": 1,
+          "meaning": "마",
+          "speech": "吗"
+        },
+        "b": {
+          "hanzi": "马",
+          "pinyin": "mǎ",
+          "tones": "3",
+          "level": 3,
+          "meaning": "말",
+          "speech": "马"
+        },
+        "tip": "“마”의 장면은 기세를 위로 끌어올려 <strong>má</strong>; “말”의 장면은 낮게 품었다가 다시 꺾어 <strong>mǎ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-026",
+        "syllable": "HE",
+        "a": {
+          "hanzi": "喝",
+          "pinyin": "hē",
+          "tones": "1",
+          "level": 1,
+          "meaning": "마시다",
+          "speech": "喝"
+        },
+        "b": {
+          "hanzi": "和",
+          "pinyin": "hé",
+          "tones": "2",
+          "level": 1,
+          "meaning": "~와; 화목하다",
+          "speech": "和"
+        },
+        "tip": "“마시다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>hē</strong>; “~와; 화목하다”의 장면은 기세를 위로 끌어올려 <strong>hé</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-027",
+        "syllable": "HE",
+        "a": {
+          "hanzi": "和",
+          "pinyin": "hé",
+          "tones": "2",
+          "level": 1,
+          "meaning": "~와; 화목하다",
+          "speech": "和"
+        },
+        "b": {
+          "hanzi": "喝",
+          "pinyin": "hè",
+          "tones": "4",
+          "level": 1,
+          "meaning": "큰소리로 외치다",
+          "speech": "喝"
+        },
+        "tip": "“~와; 화목하다”의 장면은 기세를 위로 끌어올려 <strong>hé</strong>; “큰소리로 외치다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hè</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-028",
+        "syllable": "HAO",
+        "a": {
+          "hanzi": "好",
+          "pinyin": "hǎo",
+          "tones": "3",
+          "level": 1,
+          "meaning": "좋다",
+          "speech": "好"
+        },
+        "b": {
+          "hanzi": "号",
+          "pinyin": "hào",
+          "tones": "4",
+          "level": 2,
+          "meaning": "번호; 호",
+          "speech": "号"
+        },
+        "tip": "“좋다”의 장면은 낮게 품었다가 다시 꺾어 <strong>hǎo</strong>; “번호; 호”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hào</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-029",
+        "syllable": "ZHI",
+        "a": {
+          "hanzi": "之",
+          "pinyin": "zhī",
+          "tones": "1",
+          "level": 4,
+          "meaning": "가다. 이르다.",
+          "speech": "之"
+        },
+        "b": {
+          "hanzi": "指",
+          "pinyin": "zhǐ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "손가락.",
+          "speech": "指"
+        },
+        "tip": "“가다. 이르다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhī</strong>; “손가락”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǐ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-030",
+        "syllable": "MEI",
+        "a": {
+          "hanzi": "没",
+          "pinyin": "méi",
+          "tones": "2",
+          "level": 1,
+          "meaning": "없다; 아직 ~않다",
+          "speech": "没"
+        },
+        "b": {
+          "hanzi": "每",
+          "pinyin": "měi",
+          "tones": "3",
+          "level": 2,
+          "meaning": "매. 각. …마다[모두].",
+          "speech": "每"
+        },
+        "tip": "“없다; 아직 ~않다”의 장면은 기세를 위로 끌어올려 <strong>méi</strong>; “매. 각. …마다[모두]”의 장면은 낮게 품었다가 다시 꺾어 <strong>měi</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-031",
+        "syllable": "NA",
+        "a": {
+          "hanzi": "拿",
+          "pinyin": "ná",
+          "tones": "2",
+          "level": 3,
+          "meaning": "(손으로) 잡다. (손에) 쥐다. 가지다.",
+          "speech": "拿"
+        },
+        "b": {
+          "hanzi": "那",
+          "pinyin": "nà",
+          "tones": "4",
+          "level": 1,
+          "meaning": "저것. 그것. 저것들. [말하는 당사자로부터 멀리 떨어진 곳에 있는 사람·사물을 가리킴]",
+          "speech": "那"
+        },
+        "tip": "“(손으로) 잡다. (손에) 쥐다. 가지다”의 장면은 기세를 위로 끌어올려 <strong>ná</strong>; “저것. 그것. 저것들. [말하는 당사자로부터 멀리 떨어진 곳에 있는 사람·사물을 가리킴]”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>nà</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-032",
+        "syllable": "YOU",
+        "a": {
+          "hanzi": "由",
+          "pinyin": "yóu",
+          "tones": "2",
+          "level": 4,
+          "meaning": "원인. 이유. 유래.",
+          "speech": "由"
+        },
+        "b": {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "tones": "3",
+          "level": 1,
+          "meaning": "가지고 있다. 소유하다. [소유를 나타냄]",
+          "speech": "有"
+        },
+        "tip": "“원인. 이유. 유래”의 장면은 기세를 위로 끌어올려 <strong>yóu</strong>; “가지고 있다. 소유하다. [소유를 나타냄]”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǒu</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-033",
+        "syllable": "LIAN",
+        "a": {
+          "hanzi": "连",
+          "pinyin": "lián",
+          "tones": "2",
+          "level": 4,
+          "meaning": "마저도",
+          "speech": "连"
+        },
+        "b": {
+          "hanzi": "脸",
+          "pinyin": "liǎn",
+          "tones": "3",
+          "level": 3,
+          "meaning": "얼굴",
+          "speech": "脸"
+        },
+        "tip": "“마저도”의 장면은 기세를 위로 끌어올려 <strong>lián</strong>; “얼굴”의 장면은 낮게 품었다가 다시 꺾어 <strong>liǎn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-034",
+        "syllable": "HUAN",
+        "a": {
+          "hanzi": "还",
+          "pinyin": "huán",
+          "tones": "2",
+          "level": 2,
+          "meaning": "돌려주다; 갚다",
+          "speech": "还"
+        },
+        "b": {
+          "hanzi": "换",
+          "pinyin": "huàn",
+          "tones": "4",
+          "level": 3,
+          "meaning": "교환하다. 바꾸다.",
+          "speech": "换"
+        },
+        "tip": "“돌려주다; 갚다”의 장면은 기세를 위로 끌어올려 <strong>huán</strong>; “교환하다. 바꾸다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>huàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-035",
+        "syllable": "XIAO",
+        "a": {
+          "hanzi": "小",
+          "pinyin": "xiǎo",
+          "tones": "3",
+          "level": 1,
+          "meaning": "(체적·면적·용량·소리 따위가) 작다. (수량이) 적다. (정도가) 얕다. (나이가) 어리다. (힘·강도 따위가) 약하다. (장소·도량 따위가) 좁다.)",
+          "speech": "小"
+        },
+        "b": {
+          "hanzi": "笑",
+          "pinyin": "xiào",
+          "tones": "4",
+          "level": 2,
+          "meaning": "웃다.",
+          "speech": "笑"
+        },
+        "tip": "“(체적·면적·용량·소리 따위가) 작다. (수량이) 적다. (정도가) 얕다. (나이가) 어리다. (힘·강도 따위가) 약하다. (장소·도량 따위가) 좁다.)”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎo</strong>; “웃다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiào</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-036",
+        "syllable": "DI",
+        "a": {
+          "hanzi": "低",
+          "pinyin": "dī",
+          "tones": "1",
+          "level": 3,
+          "meaning": "낮다.",
+          "speech": "低"
+        },
+        "b": {
+          "hanzi": "地",
+          "pinyin": "dì",
+          "tones": "4",
+          "level": 3,
+          "meaning": "지구(地球). 대지.",
+          "speech": "地"
+        },
+        "tip": "“낮다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dī</strong>; “지구(地球). 대지”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dì</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-037",
+        "syllable": "TAI",
+        "a": {
+          "hanzi": "台",
+          "pinyin": "tái",
+          "tones": "2",
+          "level": 4,
+          "meaning": "타이저우(台州). [저장(浙江)성에 있는 시 이름]",
+          "speech": "台"
+        },
+        "b": {
+          "hanzi": "太",
+          "pinyin": "tài",
+          "tones": "4",
+          "level": 1,
+          "meaning": "지나치게. 몹시. 너무.",
+          "speech": "太"
+        },
+        "tip": "“타이저우(台州). [저장(浙江)성에 있는 시 이름]”의 장면은 기세를 위로 끌어올려 <strong>tái</strong>; “지나치게. 몹시. 너무”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tài</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-038",
+        "syllable": "QU",
+        "a": {
+          "hanzi": "取",
+          "pinyin": "qǔ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "가지다. 찾다. 찾아 가지다. 받다.",
+          "speech": "取"
+        },
+        "b": {
+          "hanzi": "去",
+          "pinyin": "qù",
+          "tones": "4",
+          "level": 1,
+          "meaning": "떠나다.",
+          "speech": "去"
+        },
+        "tip": "“가지다. 찾다. 찾아 가지다. 받다”의 장면은 낮게 품었다가 다시 꺾어 <strong>qǔ</strong>; “떠나다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>qù</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-039",
+        "syllable": "NA",
+        "a": {
+          "hanzi": "哪",
+          "pinyin": "nǎ",
+          "tones": "3",
+          "level": 1,
+          "meaning": "어느. 어떤. 어디. [그 뒤에 양사(量詞)나 수량사(數量詞)를 써서, 여러 사람·시간·장소·사물 가운데서 하나를 나타냄]",
+          "speech": "哪"
+        },
+        "b": {
+          "hanzi": "那",
+          "pinyin": "nà",
+          "tones": "4",
+          "level": 1,
+          "meaning": "저것. 그것. 저것들. [말하는 당사자로부터 멀리 떨어진 곳에 있는 사람·사물을 가리킴]",
+          "speech": "那"
+        },
+        "tip": "“어느. 어떤. 어디. [그 뒤에 양사(量詞)나 수량사(數量詞)를 써서, 여러 사람·시간·장소·사물 가운데서 하나를 나타냄]”의 장면은 낮게 품었다가 다시 꺾어 <strong>nǎ</strong>; “저것. 그것. 저것들. [말하는 당사자로부터 멀리 떨어진 곳에 있는 사람·사물을 가리킴]”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>nà</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-040",
+        "syllable": "ZUI",
+        "a": {
+          "hanzi": "嘴",
+          "pinyin": "zuǐ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "입의 통칭. 부리. 주둥이.",
+          "speech": "嘴"
+        },
+        "b": {
+          "hanzi": "最",
+          "pinyin": "zuì",
+          "tones": "4",
+          "level": 2,
+          "meaning": "가장. 제일. 으뜸으로. 더없이. 대단히. 매우.",
+          "speech": "最"
+        },
+        "tip": "“입의 통칭. 부리. 주둥이”의 장면은 낮게 품었다가 다시 꺾어 <strong>zuǐ</strong>; “가장. 제일. 으뜸으로. 더없이. 대단히. 매우”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zuì</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-041",
+        "syllable": "JIAO",
+        "a": {
+          "hanzi": "交",
+          "pinyin": "jiāo",
+          "tones": "1",
+          "level": 4,
+          "meaning": "넘기다. 건네다. 내다. 제출하다. 바치다. 주다., 给, 缴)",
+          "speech": "交"
+        },
+        "b": {
+          "hanzi": "叫",
+          "pinyin": "jiào",
+          "tones": "4",
+          "level": 1,
+          "meaning": "외치다. 고함치다. 소리지르다. 소리치다. 부르짖다.",
+          "speech": "叫"
+        },
+        "tip": "“넘기다. 건네다. 내다. 제출하다. 바치다. 주다., 给, 缴)”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiāo</strong>; “외치다. 고함치다. 소리지르다. 소리치다. 부르짖다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiào</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-042",
+        "syllable": "SHI",
+        "a": {
+          "hanzi": "十",
+          "pinyin": "shí",
+          "tones": "2",
+          "level": 1,
+          "meaning": "십. 열.",
+          "speech": "十"
+        },
+        "b": {
+          "hanzi": "使",
+          "pinyin": "shǐ",
+          "tones": "3",
+          "level": 3,
+          "meaning": "파견하다. 사람을 보내다.",
+          "speech": "使"
+        },
+        "tip": "“십. 열”의 장면은 기세를 위로 끌어올려 <strong>shí</strong>; “파견하다. 사람을 보내다”의 장면은 낮게 품었다가 다시 꺾어 <strong>shǐ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-043",
+        "syllable": "WU",
+        "a": {
+          "hanzi": "无",
+          "pinyin": "wú",
+          "tones": "2",
+          "level": 4,
+          "meaning": "무",
+          "speech": "无"
+        },
+        "b": {
+          "hanzi": "五",
+          "pinyin": "wǔ",
+          "tones": "3",
+          "level": 1,
+          "meaning": "5. 다섯. 다섯째.",
+          "speech": "五"
+        },
+        "tip": "“무”의 장면은 기세를 위로 끌어올려 <strong>wú</strong>; “5. 다섯. 다섯째”의 장면은 낮게 품었다가 다시 꺾어 <strong>wǔ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-044",
+        "syllable": "WEI",
+        "a": {
+          "hanzi": "为",
+          "pinyin": "wéi",
+          "tones": "2",
+          "level": 2,
+          "meaning": "~이 되다; ~로서",
+          "speech": "为"
+        },
+        "b": {
+          "hanzi": "喂",
+          "pinyin": "wèi",
+          "tones": "4",
+          "level": 1,
+          "meaning": "먹이를 주다; 여보세요",
+          "speech": "喂"
+        },
+        "tip": "“~이 되다; ~로서”의 장면은 기세를 위로 끌어올려 <strong>wéi</strong>; “먹이를 주다; 여보세요”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wèi</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-045",
+        "syllable": "JIAO",
+        "a": {
+          "hanzi": "脚",
+          "pinyin": "jiǎo",
+          "tones": "3",
+          "level": 3,
+          "meaning": "발",
+          "speech": "脚"
+        },
+        "b": {
+          "hanzi": "叫",
+          "pinyin": "jiào",
+          "tones": "4",
+          "level": 1,
+          "meaning": "외치다. 고함치다. 소리지르다. 소리치다. 부르짖다.",
+          "speech": "叫"
+        },
+        "tip": "“발”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎo</strong>; “외치다. 고함치다. 소리지르다. 소리치다. 부르짖다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiào</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-046",
+        "syllable": "JIA",
+        "a": {
+          "hanzi": "家",
+          "pinyin": "jiā",
+          "tones": "1",
+          "level": 1,
+          "meaning": "집",
+          "speech": "家"
+        },
+        "b": {
+          "hanzi": "假",
+          "pinyin": "jiǎ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "거짓; 가짜",
+          "speech": "假"
+        },
+        "tip": "“집”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiā</strong>; “거짓; 가짜”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎ</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-047",
+        "syllable": "YU",
+        "a": {
+          "hanzi": "鱼",
+          "pinyin": "yú",
+          "tones": "2",
+          "level": 2,
+          "meaning": "물고기",
+          "speech": "鱼"
+        },
+        "b": {
+          "hanzi": "与",
+          "pinyin": "yǔ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "~와; 주다",
+          "speech": "与"
+        },
+        "tip": "“물고기”의 장면은 기세를 위로 끌어올려 <strong>yú</strong>; “~와; 주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǔ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-048",
+        "syllable": "JIAO",
+        "a": {
+          "hanzi": "教",
+          "pinyin": "jiāo",
+          "tones": "1",
+          "level": 3,
+          "meaning": "가르치다",
+          "speech": "教"
+        },
+        "b": {
+          "hanzi": "叫",
+          "pinyin": "jiào",
+          "tones": "4",
+          "level": 1,
+          "meaning": "외치다. 고함치다. 소리지르다. 소리치다. 부르짖다.",
+          "speech": "叫"
+        },
+        "tip": "“가르치다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiāo</strong>; “외치다. 고함치다. 소리지르다. 소리치다. 부르짖다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiào</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-049",
+        "syllable": "DI",
+        "a": {
+          "hanzi": "底",
+          "pinyin": "dǐ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "바닥",
+          "speech": "底"
+        },
+        "b": {
+          "hanzi": "地",
+          "pinyin": "dì",
+          "tones": "4",
+          "level": 3,
+          "meaning": "지구(地球). 대지.",
+          "speech": "地"
+        },
+        "tip": "“바닥”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǐ</strong>; “지구(地球). 대지”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-050",
+        "syllable": "SHI",
+        "a": {
+          "hanzi": "使",
+          "pinyin": "shǐ",
+          "tones": "3",
+          "level": 3,
+          "meaning": "파견하다. 사람을 보내다.",
+          "speech": "使"
+        },
+        "b": {
+          "hanzi": "试",
+          "pinyin": "shì",
+          "tones": "4",
+          "level": 4,
+          "meaning": "시험",
+          "speech": "试"
+        },
+        "tip": "“파견하다. 사람을 보내다”의 장면은 낮게 품었다가 다시 꺾어 <strong>shǐ</strong>; “시험”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-051",
+        "syllable": "WAN",
+        "a": {
+          "hanzi": "玩",
+          "pinyin": "wán",
+          "tones": "2",
+          "level": 2,
+          "meaning": "놀다. 놀이하다. 장난하다.",
+          "speech": "玩"
+        },
+        "b": {
+          "hanzi": "万",
+          "pinyin": "wàn",
+          "tones": "4",
+          "level": 3,
+          "meaning": "만",
+          "speech": "万"
+        },
+        "tip": "“놀다. 놀이하다. 장난하다”의 장면은 기세를 위로 끌어올려 <strong>wán</strong>; “만”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wàn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-052",
+        "syllable": "JIA",
+        "a": {
+          "hanzi": "家",
+          "pinyin": "jiā",
+          "tones": "1",
+          "level": 1,
+          "meaning": "집",
+          "speech": "家"
+        },
+        "b": {
+          "hanzi": "假",
+          "pinyin": "jià",
+          "tones": "4",
+          "level": 4,
+          "meaning": "휴가",
+          "speech": "假"
+        },
+        "tip": "“집”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiā</strong>; “휴가”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jià</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-053",
+        "syllable": "WAN",
+        "a": {
+          "hanzi": "完",
+          "pinyin": "wán",
+          "tones": "2",
+          "level": 2,
+          "meaning": "완전하다. 완벽하다.",
+          "speech": "完"
+        },
+        "b": {
+          "hanzi": "万",
+          "pinyin": "wàn",
+          "tones": "4",
+          "level": 3,
+          "meaning": "만",
+          "speech": "万"
+        },
+        "tip": "“완전하다. 완벽하다”의 장면은 기세를 위로 끌어올려 <strong>wán</strong>; “만”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wàn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-054",
+        "syllable": "DI",
+        "a": {
+          "hanzi": "低",
+          "pinyin": "dī",
+          "tones": "1",
+          "level": 3,
+          "meaning": "낮다.",
+          "speech": "低"
+        },
+        "b": {
+          "hanzi": "的",
+          "pinyin": "dí",
+          "tones": "2",
+          "level": 1,
+          "meaning": "확실히; 정말",
+          "speech": "的"
+        },
+        "tip": "“낮다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dī</strong>; “확실히; 정말”의 장면은 기세를 위로 끌어올려 <strong>dí</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-055",
+        "syllable": "LIU",
+        "a": {
+          "hanzi": "留",
+          "pinyin": "liú",
+          "tones": "2",
+          "level": 4,
+          "meaning": "남김",
+          "speech": "留"
+        },
+        "b": {
+          "hanzi": "六",
+          "pinyin": "liù",
+          "tones": "4",
+          "level": 1,
+          "meaning": "6",
+          "speech": "六"
+        },
+        "tip": "“남김”의 장면은 기세를 위로 끌어올려 <strong>liú</strong>; “6”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>liù</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-056",
+        "syllable": "DI",
+        "a": {
+          "hanzi": "的",
+          "pinyin": "dī",
+          "tones": "1",
+          "level": 1,
+          "meaning": "택시",
+          "speech": "的"
+        },
+        "b": {
+          "hanzi": "底",
+          "pinyin": "dǐ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "바닥",
+          "speech": "底"
+        },
+        "tip": "“택시”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dī</strong>; “바닥”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǐ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-057",
+        "syllable": "HUO",
+        "a": {
+          "hanzi": "火",
+          "pinyin": "huǒ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "불",
+          "speech": "火"
+        },
+        "b": {
+          "hanzi": "和",
+          "pinyin": "huò",
+          "tones": "4",
+          "level": 1,
+          "meaning": "섞다",
+          "speech": "和"
+        },
+        "tip": "“불”의 장면은 낮게 품었다가 다시 꺾어 <strong>huǒ</strong>; “섞다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>huò</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-058",
+        "syllable": "DI",
+        "a": {
+          "hanzi": "低",
+          "pinyin": "dī",
+          "tones": "1",
+          "level": 3,
+          "meaning": "낮다.",
+          "speech": "低"
+        },
+        "b": {
+          "hanzi": "的",
+          "pinyin": "dì",
+          "tones": "4",
+          "level": 1,
+          "meaning": "과녁; 목표",
+          "speech": "的"
+        },
+        "tip": "“낮다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dī</strong>; “과녁; 목표”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-059",
+        "syllable": "XIE",
+        "a": {
+          "hanzi": "鞋",
+          "pinyin": "xié",
+          "tones": "2",
+          "level": 3,
+          "meaning": "신발",
+          "speech": "鞋"
+        },
+        "b": {
+          "hanzi": "写",
+          "pinyin": "xiě",
+          "tones": "3",
+          "level": 1,
+          "meaning": "쓰다",
+          "speech": "写"
+        },
+        "tip": "“신발”의 장면은 기세를 위로 끌어올려 <strong>xié</strong>; “쓰다”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiě</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-060",
+        "syllable": "GAN",
+        "a": {
+          "hanzi": "敢",
+          "pinyin": "gǎn",
+          "tones": "3",
+          "level": 3,
+          "meaning": "감히",
+          "speech": "敢"
+        },
+        "b": {
+          "hanzi": "干",
+          "pinyin": "gàn",
+          "tones": "4",
+          "level": 4,
+          "meaning": "하다; 줄기",
+          "speech": "干"
+        },
+        "tip": "“감히”의 장면은 낮게 품었다가 다시 꺾어 <strong>gǎn</strong>; “하다; 줄기”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>gàn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-061",
+        "syllable": "WEI",
+        "a": {
+          "hanzi": "喂",
+          "pinyin": "wéi",
+          "tones": "2",
+          "level": 1,
+          "meaning": "여보세요",
+          "speech": "喂"
+        },
+        "b": {
+          "hanzi": "为",
+          "pinyin": "wèi",
+          "tones": "4",
+          "level": 2,
+          "meaning": "~을 위하여; 때문에",
+          "speech": "为"
+        },
+        "tip": "“여보세요”의 장면은 기세를 위로 끌어올려 <strong>wéi</strong>; “~을 위하여; 때문에”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wèi</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-062",
+        "syllable": "BA",
+        "a": {
+          "hanzi": "八",
+          "pinyin": "bā",
+          "tones": "1",
+          "level": 1,
+          "meaning": "8",
+          "speech": "八"
+        },
+        "b": {
+          "hanzi": "把",
+          "pinyin": "bà",
+          "tones": "4",
+          "level": 3,
+          "meaning": "손잡이",
+          "speech": "把"
+        },
+        "tip": "“8”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bā</strong>; “손잡이”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bà</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-063",
+        "syllable": "YAO",
+        "a": {
+          "hanzi": "要",
+          "pinyin": "yāo",
+          "tones": "1",
+          "level": 2,
+          "meaning": "요구하다",
+          "speech": "要"
+        },
+        "b": {
+          "hanzi": "药",
+          "pinyin": "yào",
+          "tones": "4",
+          "level": 2,
+          "meaning": "약",
+          "speech": "药"
+        },
+        "tip": "“요구하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yāo</strong>; “약”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yào</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-064",
+        "syllable": "WEI",
+        "a": {
+          "hanzi": "喂",
+          "pinyin": "wéi",
+          "tones": "2",
+          "level": 1,
+          "meaning": "여보세요",
+          "speech": "喂"
+        },
+        "b": {
+          "hanzi": "位",
+          "pinyin": "wèi",
+          "tones": "4",
+          "level": 3,
+          "meaning": "곳. 자리. 위치.",
+          "speech": "位"
+        },
+        "tip": "“여보세요”의 장면은 기세를 위로 끌어올려 <strong>wéi</strong>; “곳. 자리. 위치”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wèi</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-065",
+        "syllable": "YU",
+        "a": {
+          "hanzi": "鱼",
+          "pinyin": "yú",
+          "tones": "2",
+          "level": 2,
+          "meaning": "물고기",
+          "speech": "鱼"
+        },
+        "b": {
+          "hanzi": "与",
+          "pinyin": "yù",
+          "tones": "4",
+          "level": 4,
+          "meaning": "참여하다",
+          "speech": "与"
+        },
+        "tip": "“물고기”의 장면은 기세를 위로 끌어올려 <strong>yú</strong>; “참여하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yù</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-066",
+        "syllable": "DI",
+        "a": {
+          "hanzi": "的",
+          "pinyin": "dí",
+          "tones": "2",
+          "level": 1,
+          "meaning": "확실히; 정말",
+          "speech": "的"
+        },
+        "b": {
+          "hanzi": "底",
+          "pinyin": "dǐ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "바닥",
+          "speech": "底"
+        },
+        "tip": "“확실히; 정말”의 장면은 기세를 위로 끌어올려 <strong>dí</strong>; “바닥”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǐ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-067",
+        "syllable": "SHI",
+        "a": {
+          "hanzi": "十",
+          "pinyin": "shí",
+          "tones": "2",
+          "level": 1,
+          "meaning": "십. 열.",
+          "speech": "十"
+        },
+        "b": {
+          "hanzi": "试",
+          "pinyin": "shì",
+          "tones": "4",
+          "level": 4,
+          "meaning": "시험",
+          "speech": "试"
+        },
+        "tip": "“십. 열”의 장면은 기세를 위로 끌어올려 <strong>shí</strong>; “시험”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-068",
+        "syllable": "CHUAN",
+        "a": {
+          "hanzi": "穿",
+          "pinyin": "chuān",
+          "tones": "1",
+          "level": 2,
+          "meaning": "(구멍을) 뚫다.",
+          "speech": "穿"
+        },
+        "b": {
+          "hanzi": "船",
+          "pinyin": "chuán",
+          "tones": "2",
+          "level": 2,
+          "meaning": "배",
+          "speech": "船"
+        },
+        "tip": "“(구멍을) 뚫다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>chuān</strong>; “배”의 장면은 기세를 위로 끌어올려 <strong>chuán</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-069",
+        "syllable": "YUAN",
+        "a": {
+          "hanzi": "元",
+          "pinyin": "yuán",
+          "tones": "2",
+          "level": 2,
+          "meaning": "원",
+          "speech": "元"
+        },
+        "b": {
+          "hanzi": "远",
+          "pinyin": "yuǎn",
+          "tones": "3",
+          "level": 2,
+          "meaning": "멀다",
+          "speech": "远"
+        },
+        "tip": "“원”의 장면은 기세를 위로 끌어올려 <strong>yuán</strong>; “멀다”의 장면은 낮게 품었다가 다시 꺾어 <strong>yuǎn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-070",
+        "syllable": "JI",
+        "a": {
+          "hanzi": "极",
+          "pinyin": "jí",
+          "tones": "2",
+          "level": 3,
+          "meaning": "극",
+          "speech": "极"
+        },
+        "b": {
+          "hanzi": "给",
+          "pinyin": "jǐ",
+          "tones": "3",
+          "level": 2,
+          "meaning": "주다",
+          "speech": "给"
+        },
+        "tip": "“극”의 장면은 기세를 위로 끌어올려 <strong>jí</strong>; “주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-071",
+        "syllable": "XING",
+        "a": {
+          "hanzi": "行",
+          "pinyin": "xíng",
+          "tones": "2",
+          "level": 4,
+          "meaning": "행",
+          "speech": "行"
+        },
+        "b": {
+          "hanzi": "省",
+          "pinyin": "xǐng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "돌이켜보다",
+          "speech": "省"
+        },
+        "tip": "“행”의 장면은 기세를 위로 끌어올려 <strong>xíng</strong>; “돌이켜보다”의 장면은 낮게 품었다가 다시 꺾어 <strong>xǐng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-072",
+        "syllable": "ZHU",
+        "a": {
+          "hanzi": "猪",
+          "pinyin": "zhū",
+          "tones": "1",
+          "level": 4,
+          "meaning": "돼지",
+          "speech": "猪"
+        },
+        "b": {
+          "hanzi": "住",
+          "pinyin": "zhù",
+          "tones": "4",
+          "level": 1,
+          "meaning": "주",
+          "speech": "住"
+        },
+        "tip": "“돼지”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhū</strong>; “주”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhù</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-073",
+        "syllable": "JIU",
+        "a": {
+          "hanzi": "久",
+          "pinyin": "jiǔ",
+          "tones": "3",
+          "level": 3,
+          "meaning": "오래",
+          "speech": "久"
+        },
+        "b": {
+          "hanzi": "就",
+          "pinyin": "jiù",
+          "tones": "4",
+          "level": 2,
+          "meaning": "바로",
+          "speech": "就"
+        },
+        "tip": "“오래”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǔ</strong>; “바로”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiù</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-074",
+        "syllable": "XING",
+        "a": {
+          "hanzi": "行",
+          "pinyin": "xíng",
+          "tones": "2",
+          "level": 4,
+          "meaning": "행",
+          "speech": "行"
+        },
+        "b": {
+          "hanzi": "醒",
+          "pinyin": "xǐng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "깨",
+          "speech": "醒"
+        },
+        "tip": "“행”의 장면은 기세를 위로 끌어올려 <strong>xíng</strong>; “깨”의 장면은 낮게 품었다가 다시 꺾어 <strong>xǐng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-075",
+        "syllable": "LIANG",
+        "a": {
+          "hanzi": "两",
+          "pinyin": "liǎng",
+          "tones": "3",
+          "level": 2,
+          "meaning": "양",
+          "speech": "两"
+        },
+        "b": {
+          "hanzi": "亮",
+          "pinyin": "liàng",
+          "tones": "4",
+          "level": 4,
+          "meaning": "밝음",
+          "speech": "亮"
+        },
+        "tip": "“양”의 장면은 낮게 품었다가 다시 꺾어 <strong>liǎng</strong>; “밝음”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>liàng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-076",
+        "syllable": "TING",
+        "a": {
+          "hanzi": "听",
+          "pinyin": "tīng",
+          "tones": "1",
+          "level": 1,
+          "meaning": "듣다",
+          "speech": "听"
+        },
+        "b": {
+          "hanzi": "挺",
+          "pinyin": "tǐng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "괜찮다",
+          "speech": "挺"
+        },
+        "tip": "“듣다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tīng</strong>; “괜찮다”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǐng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-077",
+        "syllable": "DOU",
+        "a": {
+          "hanzi": "都",
+          "pinyin": "dōu",
+          "tones": "1",
+          "level": 1,
+          "meaning": "모두",
+          "speech": "都"
+        },
+        "b": {
+          "hanzi": "读",
+          "pinyin": "dòu",
+          "tones": "4",
+          "level": 1,
+          "meaning": "쉼표",
+          "speech": "读"
+        },
+        "tip": "“모두”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dōu</strong>; “쉼표”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dòu</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-078",
+        "syllable": "GOU",
+        "a": {
+          "hanzi": "狗",
+          "pinyin": "gǒu",
+          "tones": "3",
+          "level": 1,
+          "meaning": "개",
+          "speech": "狗"
+        },
+        "b": {
+          "hanzi": "够",
+          "pinyin": "gòu",
+          "tones": "4",
+          "level": 4,
+          "meaning": "충분하다",
+          "speech": "够"
+        },
+        "tip": "“개”의 장면은 낮게 품었다가 다시 꺾어 <strong>gǒu</strong>; “충분하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>gòu</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-079",
+        "syllable": "DI",
+        "a": {
+          "hanzi": "底",
+          "pinyin": "dǐ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "바닥",
+          "speech": "底"
+        },
+        "b": {
+          "hanzi": "的",
+          "pinyin": "dì",
+          "tones": "4",
+          "level": 1,
+          "meaning": "과녁; 목표",
+          "speech": "的"
+        },
+        "tip": "“바닥”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǐ</strong>; “과녁; 목표”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-080",
+        "syllable": "DUAN",
+        "a": {
+          "hanzi": "短",
+          "pinyin": "duǎn",
+          "tones": "3",
+          "level": 3,
+          "meaning": "짧다. [공간적·시간적 거리의 짧음을 말함]",
+          "speech": "短"
+        },
+        "b": {
+          "hanzi": "段",
+          "pinyin": "duàn",
+          "tones": "4",
+          "level": 3,
+          "meaning": "단",
+          "speech": "段"
+        },
+        "tip": "“짧다. [공간적·시간적 거리의 짧음을 말함]”의 장면은 낮게 품었다가 다시 꺾어 <strong>duǎn</strong>; “단”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>duàn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-081",
+        "syllable": "JI",
+        "a": {
+          "hanzi": "几",
+          "pinyin": "jī",
+          "tones": "1",
+          "level": 1,
+          "meaning": "작은 탁자; 거의",
+          "speech": "几"
+        },
+        "b": {
+          "hanzi": "极",
+          "pinyin": "jí",
+          "tones": "2",
+          "level": 3,
+          "meaning": "극",
+          "speech": "极"
+        },
+        "tip": "“작은 탁자; 거의”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jī</strong>; “극”의 장면은 기세를 위로 끌어올려 <strong>jí</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-082",
+        "syllable": "DAO",
+        "a": {
+          "hanzi": "刀",
+          "pinyin": "dāo",
+          "tones": "1",
+          "level": 4,
+          "meaning": "칼",
+          "speech": "刀"
+        },
+        "b": {
+          "hanzi": "到",
+          "pinyin": "dào",
+          "tones": "4",
+          "level": 2,
+          "meaning": "도착하다. 도달하다. …에 이르다[미치다]. (시간·기간·날짜가) 되다.",
+          "speech": "到"
+        },
+        "tip": "“칼”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dāo</strong>; “도착하다. 도달하다. …에 이르다[미치다]. (시간·기간·날짜가) 되다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dào</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-083",
+        "syllable": "JIAO",
+        "a": {
+          "hanzi": "交",
+          "pinyin": "jiāo",
+          "tones": "1",
+          "level": 4,
+          "meaning": "넘기다. 건네다. 내다. 제출하다. 바치다. 주다., 给, 缴)",
+          "speech": "交"
+        },
+        "b": {
+          "hanzi": "脚",
+          "pinyin": "jiǎo",
+          "tones": "3",
+          "level": 3,
+          "meaning": "발",
+          "speech": "脚"
+        },
+        "tip": "“넘기다. 건네다. 내다. 제출하다. 바치다. 주다., 给, 缴)”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiāo</strong>; “발”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎo</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-084",
+        "syllable": "HUI",
+        "a": {
+          "hanzi": "回",
+          "pinyin": "huí",
+          "tones": "2",
+          "level": 1,
+          "meaning": "후이쭈. 회족.",
+          "speech": "回"
+        },
+        "b": {
+          "hanzi": "会",
+          "pinyin": "huì",
+          "tones": "4",
+          "level": 1,
+          "meaning": "될 것",
+          "speech": "会"
+        },
+        "tip": "“후이쭈. 회족”의 장면은 기세를 위로 끌어올려 <strong>huí</strong>; “될 것”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>huì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-085",
+        "syllable": "QING",
+        "a": {
+          "hanzi": "轻",
+          "pinyin": "qīng",
+          "tones": "1",
+          "level": 4,
+          "meaning": "가볍다",
+          "speech": "轻"
+        },
+        "b": {
+          "hanzi": "请",
+          "pinyin": "qǐng",
+          "tones": "3",
+          "level": 1,
+          "meaning": "주다",
+          "speech": "请"
+        },
+        "tip": "“가볍다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qīng</strong>; “주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>qǐng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-086",
+        "syllable": "JI",
+        "a": {
+          "hanzi": "极",
+          "pinyin": "jí",
+          "tones": "2",
+          "level": 3,
+          "meaning": "극",
+          "speech": "极"
+        },
+        "b": {
+          "hanzi": "几",
+          "pinyin": "jǐ",
+          "tones": "3",
+          "level": 1,
+          "meaning": "몇; 얼마나",
+          "speech": "几"
+        },
+        "tip": "“극”의 장면은 기세를 위로 끌어올려 <strong>jí</strong>; “몇; 얼마나”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐ</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-087",
+        "syllable": "SHU",
+        "a": {
+          "hanzi": "书",
+          "pinyin": "shū",
+          "tones": "1",
+          "level": 1,
+          "meaning": "책",
+          "speech": "书"
+        },
+        "b": {
+          "hanzi": "树",
+          "pinyin": "shù",
+          "tones": "4",
+          "level": 3,
+          "meaning": "나무",
+          "speech": "树"
+        },
+        "tip": "책장은 평평하게 <strong>shū</strong>, 나무는 아래로 뿌리내리듯 <strong>shù</strong>"
+      },
+      {
+        "id": "hsk1-4-088",
+        "syllable": "BAO",
+        "a": {
+          "hanzi": "包",
+          "pinyin": "bāo",
+          "tones": "1",
+          "level": 3,
+          "meaning": "가방",
+          "speech": "包"
+        },
+        "b": {
+          "hanzi": "抱",
+          "pinyin": "bào",
+          "tones": "4",
+          "level": 4,
+          "meaning": "포옹",
+          "speech": "抱"
+        },
+        "tip": "“가방”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bāo</strong>; “포옹”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bào</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-089",
+        "syllable": "JIAO",
+        "a": {
+          "hanzi": "教",
+          "pinyin": "jiāo",
+          "tones": "1",
+          "level": 3,
+          "meaning": "가르치다",
+          "speech": "教"
+        },
+        "b": {
+          "hanzi": "脚",
+          "pinyin": "jiǎo",
+          "tones": "3",
+          "level": 3,
+          "meaning": "발",
+          "speech": "脚"
+        },
+        "tip": "“가르치다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiāo</strong>; “발”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎo</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-090",
+        "syllable": "JIE",
+        "a": {
+          "hanzi": "接",
+          "pinyin": "jiē",
+          "tones": "1",
+          "level": 3,
+          "meaning": "가까이 가다. 접근하다. 접촉하다. 접하다. 닿다.",
+          "speech": "接"
+        },
+        "b": {
+          "hanzi": "借",
+          "pinyin": "jiè",
+          "tones": "4",
+          "level": 3,
+          "meaning": "빌리다",
+          "speech": "借"
+        },
+        "tip": "“가까이 가다. 접근하다. 접촉하다. 접하다. 닿다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiē</strong>; “빌리다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiè</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-091",
+        "syllable": "ZHI",
+        "a": {
+          "hanzi": "只",
+          "pinyin": "zhī",
+          "tones": "1",
+          "level": 3,
+          "meaning": "마리·개(양사)",
+          "speech": "只"
+        },
+        "b": {
+          "hanzi": "指",
+          "pinyin": "zhǐ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "손가락.",
+          "speech": "指"
+        },
+        "tip": "“마리·개(양사)”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhī</strong>; “손가락”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǐ</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-092",
+        "syllable": "BA",
+        "a": {
+          "hanzi": "八",
+          "pinyin": "bā",
+          "tones": "1",
+          "level": 1,
+          "meaning": "8",
+          "speech": "八"
+        },
+        "b": {
+          "hanzi": "把",
+          "pinyin": "bǎ",
+          "tones": "3",
+          "level": 3,
+          "meaning": "잡다; ~을/를",
+          "speech": "把"
+        },
+        "tip": "“8”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bā</strong>; “잡다; ~을/를”의 장면은 낮게 품었다가 다시 꺾어 <strong>bǎ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-093",
+        "syllable": "CAI",
+        "a": {
+          "hanzi": "才",
+          "pinyin": "cái",
+          "tones": "2",
+          "level": 3,
+          "meaning": "비로소",
+          "speech": "才"
+        },
+        "b": {
+          "hanzi": "菜",
+          "pinyin": "cài",
+          "tones": "4",
+          "level": 1,
+          "meaning": "요리",
+          "speech": "菜"
+        },
+        "tip": "“비로소”의 장면은 기세를 위로 끌어올려 <strong>cái</strong>; “요리”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>cài</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-094",
+        "syllable": "DENG",
+        "a": {
+          "hanzi": "灯",
+          "pinyin": "dēng",
+          "tones": "1",
+          "level": 3,
+          "meaning": "등",
+          "speech": "灯"
+        },
+        "b": {
+          "hanzi": "等",
+          "pinyin": "děng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "등",
+          "speech": "等"
+        },
+        "tip": "“등”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dēng</strong>; “등”의 장면은 낮게 품었다가 다시 꺾어 <strong>děng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-095",
+        "syllable": "QIAN",
+        "a": {
+          "hanzi": "千",
+          "pinyin": "qiān",
+          "tones": "1",
+          "level": 2,
+          "meaning": "천",
+          "speech": "千"
+        },
+        "b": {
+          "hanzi": "钱",
+          "pinyin": "qián",
+          "tones": "2",
+          "level": 1,
+          "meaning": "돈",
+          "speech": "钱"
+        },
+        "tip": "“천”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qiān</strong>; “돈”의 장면은 기세를 위로 끌어올려 <strong>qián</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-096",
+        "syllable": "JIAO",
+        "a": {
+          "hanzi": "交",
+          "pinyin": "jiāo",
+          "tones": "1",
+          "level": 4,
+          "meaning": "넘기다. 건네다. 내다. 제출하다. 바치다. 주다., 给, 缴)",
+          "speech": "交"
+        },
+        "b": {
+          "hanzi": "教",
+          "pinyin": "jiào",
+          "tones": "4",
+          "level": 3,
+          "meaning": "가르침; 종교",
+          "speech": "教"
+        },
+        "tip": "“넘기다. 건네다. 내다. 제출하다. 바치다. 주다., 给, 缴)”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiāo</strong>; “가르침; 종교”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiào</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-097",
+        "syllable": "HUA",
+        "a": {
+          "hanzi": "花",
+          "pinyin": "huā",
+          "tones": "1",
+          "level": 3,
+          "meaning": "꽃",
+          "speech": "花"
+        },
+        "b": {
+          "hanzi": "画",
+          "pinyin": "huà",
+          "tones": "4",
+          "level": 3,
+          "meaning": "그리다",
+          "speech": "画"
+        },
+        "tip": "꽃은 활짝 평평하게 <strong>huā</strong>, 그림은 붓을 내리듯 <strong>huà</strong>"
+      },
+      {
+        "id": "hsk1-4-098",
+        "syllable": "DIAO",
+        "a": {
+          "hanzi": "鸟",
+          "pinyin": "diǎo",
+          "tones": "3",
+          "level": 3,
+          "meaning": "새",
+          "speech": "鸟"
+        },
+        "b": {
+          "hanzi": "掉",
+          "pinyin": "diào",
+          "tones": "4",
+          "level": 4,
+          "meaning": "(아래로) 떨어지다. 떨어뜨리다.",
+          "speech": "掉"
+        },
+        "tip": "“새”의 장면은 낮게 품었다가 다시 꺾어 <strong>diǎo</strong>; “(아래로) 떨어지다. 떨어뜨리다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>diào</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-099",
+        "syllable": "JIAO",
+        "a": {
+          "hanzi": "脚",
+          "pinyin": "jiǎo",
+          "tones": "3",
+          "level": 3,
+          "meaning": "발",
+          "speech": "脚"
+        },
+        "b": {
+          "hanzi": "教",
+          "pinyin": "jiào",
+          "tones": "4",
+          "level": 3,
+          "meaning": "가르침; 종교",
+          "speech": "教"
+        },
+        "tip": "“발”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎo</strong>; “가르침; 종교”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiào</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-100",
+        "syllable": "XIANG",
+        "a": {
+          "hanzi": "香",
+          "pinyin": "xiāng",
+          "tones": "1",
+          "level": 4,
+          "meaning": "향",
+          "speech": "香"
+        },
+        "b": {
+          "hanzi": "想",
+          "pinyin": "xiǎng",
+          "tones": "3",
+          "level": 1,
+          "meaning": "생각하다.)",
+          "speech": "想"
+        },
+        "tip": "“향”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiāng</strong>; “생각하다.)”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-101",
+        "syllable": "CHANG",
+        "a": {
+          "hanzi": "长",
+          "pinyin": "cháng",
+          "tones": "2",
+          "level": 2,
+          "meaning": "길다; 길이",
+          "speech": "长"
+        },
+        "b": {
+          "hanzi": "场",
+          "pinyin": "chǎng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "장",
+          "speech": "场"
+        },
+        "tip": "“길다; 길이”의 장면은 기세를 위로 끌어올려 <strong>cháng</strong>; “장”의 장면은 낮게 품었다가 다시 꺾어 <strong>chǎng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-102",
+        "syllable": "DU",
+        "a": {
+          "hanzi": "都",
+          "pinyin": "dū",
+          "tones": "1",
+          "level": 1,
+          "meaning": "수도",
+          "speech": "都"
+        },
+        "b": {
+          "hanzi": "读",
+          "pinyin": "dú",
+          "tones": "2",
+          "level": 1,
+          "meaning": "읽다",
+          "speech": "读"
+        },
+        "tip": "“수도”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dū</strong>; “읽다”의 장면은 기세를 위로 끌어올려 <strong>dú</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-103",
+        "syllable": "DONG",
+        "a": {
+          "hanzi": "东",
+          "pinyin": "dōng",
+          "tones": "1",
+          "level": 3,
+          "meaning": "동",
+          "speech": "东"
+        },
+        "b": {
+          "hanzi": "懂",
+          "pinyin": "dǒng",
+          "tones": "3",
+          "level": 2,
+          "meaning": "알다",
+          "speech": "懂"
+        },
+        "tip": "동쪽 지평선은 평평한 <strong>dōng</strong>, 이해할 땐 고개를 끄덕이며 <strong>dǒng</strong>"
+      },
+      {
+        "id": "hsk1-4-104",
+        "syllable": "NAN",
+        "a": {
+          "hanzi": "南",
+          "pinyin": "nán",
+          "tones": "2",
+          "level": 3,
+          "meaning": "남",
+          "speech": "南"
+        },
+        "b": {
+          "hanzi": "难",
+          "pinyin": "nàn",
+          "tones": "4",
+          "level": 3,
+          "meaning": "어렵다",
+          "speech": "难"
+        },
+        "tip": "“남”의 장면은 기세를 위로 끌어올려 <strong>nán</strong>; “어렵다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>nàn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-105",
+        "syllable": "XIANG",
+        "a": {
+          "hanzi": "香",
+          "pinyin": "xiāng",
+          "tones": "1",
+          "level": 4,
+          "meaning": "향",
+          "speech": "香"
+        },
+        "b": {
+          "hanzi": "像",
+          "pinyin": "xiàng",
+          "tones": "4",
+          "level": 3,
+          "meaning": "(인물을, 혹은 인위적으로) 본뜬 형상. 본떠 그린 모양.)",
+          "speech": "像"
+        },
+        "tip": "“향”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiāng</strong>; “(인물을, 혹은 인위적으로) 본뜬 형상. 본떠 그린 모양.)”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-106",
+        "syllable": "HAO",
+        "a": {
+          "hanzi": "号",
+          "pinyin": "háo",
+          "tones": "2",
+          "level": 2,
+          "meaning": "울부짖다",
+          "speech": "号"
+        },
+        "b": {
+          "hanzi": "好",
+          "pinyin": "hào",
+          "tones": "4",
+          "level": 1,
+          "meaning": "좋아하다",
+          "speech": "好"
+        },
+        "tip": "“울부짖다”의 장면은 기세를 위로 끌어올려 <strong>háo</strong>; “좋아하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hào</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-107",
+        "syllable": "XIANG",
+        "a": {
+          "hanzi": "香",
+          "pinyin": "xiāng",
+          "tones": "1",
+          "level": 4,
+          "meaning": "향",
+          "speech": "香"
+        },
+        "b": {
+          "hanzi": "向",
+          "pinyin": "xiàng",
+          "tones": "4",
+          "level": 2,
+          "meaning": "향",
+          "speech": "向"
+        },
+        "tip": "“향”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiāng</strong>; “향”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-108",
+        "syllable": "XIANG",
+        "a": {
+          "hanzi": "响",
+          "pinyin": "xiǎng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "울림",
+          "speech": "响"
+        },
+        "b": {
+          "hanzi": "像",
+          "pinyin": "xiàng",
+          "tones": "4",
+          "level": 3,
+          "meaning": "(인물을, 혹은 인위적으로) 본뜬 형상. 본떠 그린 모양.)",
+          "speech": "像"
+        },
+        "tip": "“울림”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎng</strong>; “(인물을, 혹은 인위적으로) 본뜬 형상. 본떠 그린 모양.)”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàng</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-109",
+        "syllable": "XIANG",
+        "a": {
+          "hanzi": "响",
+          "pinyin": "xiǎng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "울림",
+          "speech": "响"
+        },
+        "b": {
+          "hanzi": "向",
+          "pinyin": "xiàng",
+          "tones": "4",
+          "level": 2,
+          "meaning": "향",
+          "speech": "向"
+        },
+        "tip": "“울림”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎng</strong>; “향”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-110",
+        "syllable": "BAN",
+        "a": {
+          "hanzi": "班",
+          "pinyin": "bān",
+          "tones": "1",
+          "level": 3,
+          "meaning": "반",
+          "speech": "班"
+        },
+        "b": {
+          "hanzi": "半",
+          "pinyin": "bàn",
+          "tones": "4",
+          "level": 3,
+          "meaning": "반",
+          "speech": "半"
+        },
+        "tip": "“반”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bān</strong>; “반”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-111",
+        "syllable": "JIAO",
+        "a": {
+          "hanzi": "角",
+          "pinyin": "jiǎo",
+          "tones": "3",
+          "level": 3,
+          "meaning": "모서리",
+          "speech": "角"
+        },
+        "b": {
+          "hanzi": "叫",
+          "pinyin": "jiào",
+          "tones": "4",
+          "level": 1,
+          "meaning": "외치다. 고함치다. 소리지르다. 소리치다. 부르짖다.",
+          "speech": "叫"
+        },
+        "tip": "“모서리”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎo</strong>; “외치다. 고함치다. 소리지르다. 소리치다. 부르짖다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiào</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-112",
+        "syllable": "YUAN",
+        "a": {
+          "hanzi": "元",
+          "pinyin": "yuán",
+          "tones": "2",
+          "level": 2,
+          "meaning": "원",
+          "speech": "元"
+        },
+        "b": {
+          "hanzi": "远",
+          "pinyin": "yuàn",
+          "tones": "4",
+          "level": 2,
+          "meaning": "멀리하다",
+          "speech": "远"
+        },
+        "tip": "“원”의 장면은 기세를 위로 끌어올려 <strong>yuán</strong>; “멀리하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yuàn</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-113",
+        "syllable": "TUI",
+        "a": {
+          "hanzi": "推",
+          "pinyin": "tuī",
+          "tones": "1",
+          "level": 4,
+          "meaning": "밀어주다",
+          "speech": "推"
+        },
+        "b": {
+          "hanzi": "腿",
+          "pinyin": "tuǐ",
+          "tones": "3",
+          "level": 3,
+          "meaning": "다리",
+          "speech": "腿"
+        },
+        "tip": "“밀어주다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tuī</strong>; “다리”의 장면은 낮게 품었다가 다시 꺾어 <strong>tuǐ</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-114",
+        "syllable": "MAN",
+        "a": {
+          "hanzi": "满",
+          "pinyin": "mǎn",
+          "tones": "3",
+          "level": 4,
+          "meaning": "가득",
+          "speech": "满"
+        },
+        "b": {
+          "hanzi": "慢",
+          "pinyin": "màn",
+          "tones": "4",
+          "level": 2,
+          "meaning": "느리다.",
+          "speech": "慢"
+        },
+        "tip": "“가득”의 장면은 낮게 품었다가 다시 꺾어 <strong>mǎn</strong>; “느리다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>màn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-115",
+        "syllable": "XUE",
+        "a": {
+          "hanzi": "雪",
+          "pinyin": "xuě",
+          "tones": "3",
+          "level": 2,
+          "meaning": "눈",
+          "speech": "雪"
+        },
+        "b": {
+          "hanzi": "血",
+          "pinyin": "xuè",
+          "tones": "4",
+          "level": 4,
+          "meaning": "피",
+          "speech": "血"
+        },
+        "tip": "“눈”의 장면은 낮게 품었다가 다시 꺾어 <strong>xuě</strong>; “피”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xuè</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-116",
+        "syllable": "JIU",
+        "a": {
+          "hanzi": "九",
+          "pinyin": "jiǔ",
+          "tones": "3",
+          "level": 1,
+          "meaning": "9",
+          "speech": "九"
+        },
+        "b": {
+          "hanzi": "就",
+          "pinyin": "jiù",
+          "tones": "4",
+          "level": 2,
+          "meaning": "바로",
+          "speech": "就"
+        },
+        "tip": "“9”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǔ</strong>; “바로”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiù</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-117",
+        "syllable": "XI",
+        "a": {
+          "hanzi": "西",
+          "pinyin": "xī",
+          "tones": "1",
+          "level": 3,
+          "meaning": "서",
+          "speech": "西"
+        },
+        "b": {
+          "hanzi": "洗",
+          "pinyin": "xǐ",
+          "tones": "3",
+          "level": 2,
+          "meaning": "세탁",
+          "speech": "洗"
+        },
+        "tip": "“서”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xī</strong>; “세탁”의 장면은 낮게 품었다가 다시 꺾어 <strong>xǐ</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-118",
+        "syllable": "HE",
+        "a": {
+          "hanzi": "喝",
+          "pinyin": "hē",
+          "tones": "1",
+          "level": 1,
+          "meaning": "마시다",
+          "speech": "喝"
+        },
+        "b": {
+          "hanzi": "河",
+          "pinyin": "hé",
+          "tones": "2",
+          "level": 3,
+          "meaning": "강",
+          "speech": "河"
+        },
+        "tip": "“마시다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>hē</strong>; “강”의 장면은 기세를 위로 끌어올려 <strong>hé</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-119",
+        "syllable": "HE",
+        "a": {
+          "hanzi": "河",
+          "pinyin": "hé",
+          "tones": "2",
+          "level": 3,
+          "meaning": "강",
+          "speech": "河"
+        },
+        "b": {
+          "hanzi": "喝",
+          "pinyin": "hè",
+          "tones": "4",
+          "level": 1,
+          "meaning": "큰소리로 외치다",
+          "speech": "喝"
+        },
+        "tip": "“강”의 장면은 기세를 위로 끌어올려 <strong>hé</strong>; “큰소리로 외치다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hè</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-120",
+        "syllable": "JI",
+        "a": {
+          "hanzi": "给",
+          "pinyin": "jǐ",
+          "tones": "3",
+          "level": 2,
+          "meaning": "주다",
+          "speech": "给"
+        },
+        "b": {
+          "hanzi": "骑",
+          "pinyin": "jì",
+          "tones": "4",
+          "level": 3,
+          "meaning": "기병; 탄 말",
+          "speech": "骑"
+        },
+        "tip": "“주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐ</strong>; “기병; 탄 말”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-121",
+        "syllable": "DUAN",
+        "a": {
+          "hanzi": "短",
+          "pinyin": "duǎn",
+          "tones": "3",
+          "level": 3,
+          "meaning": "짧다. [공간적·시간적 거리의 짧음을 말함]",
+          "speech": "短"
+        },
+        "b": {
+          "hanzi": "断",
+          "pinyin": "duàn",
+          "tones": "4",
+          "level": 4,
+          "meaning": "끊다",
+          "speech": "断"
+        },
+        "tip": "“짧다. [공간적·시간적 거리의 짧음을 말함]”의 장면은 낮게 품었다가 다시 꺾어 <strong>duǎn</strong>; “끊다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>duàn</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-122",
+        "syllable": "XIE",
+        "a": {
+          "hanzi": "页",
+          "pinyin": "xié",
+          "tones": "2",
+          "level": 4,
+          "meaning": "머리",
+          "speech": "页"
+        },
+        "b": {
+          "hanzi": "写",
+          "pinyin": "xiě",
+          "tones": "3",
+          "level": 1,
+          "meaning": "쓰다",
+          "speech": "写"
+        },
+        "tip": "“머리”의 장면은 기세를 위로 끌어올려 <strong>xié</strong>; “쓰다”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiě</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-123",
+        "syllable": "JIU",
+        "a": {
+          "hanzi": "久",
+          "pinyin": "jiǔ",
+          "tones": "3",
+          "level": 3,
+          "meaning": "오래",
+          "speech": "久"
+        },
+        "b": {
+          "hanzi": "旧",
+          "pinyin": "jiù",
+          "tones": "4",
+          "level": 3,
+          "meaning": "구",
+          "speech": "旧"
+        },
+        "tip": "“오래”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǔ</strong>; “구”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiù</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-124",
+        "syllable": "HUO",
+        "a": {
+          "hanzi": "和",
+          "pinyin": "huó",
+          "tones": "2",
+          "level": 1,
+          "meaning": "반죽하다",
+          "speech": "和"
+        },
+        "b": {
+          "hanzi": "火",
+          "pinyin": "huǒ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "불",
+          "speech": "火"
+        },
+        "tip": "“반죽하다”의 장면은 기세를 위로 끌어올려 <strong>huó</strong>; “불”의 장면은 낮게 품었다가 다시 꺾어 <strong>huǒ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-125",
+        "syllable": "CAI",
+        "a": {
+          "hanzi": "猜",
+          "pinyin": "cāi",
+          "tones": "1",
+          "level": 4,
+          "meaning": "추측하다",
+          "speech": "猜"
+        },
+        "b": {
+          "hanzi": "才",
+          "pinyin": "cái",
+          "tones": "2",
+          "level": 3,
+          "meaning": "비로소",
+          "speech": "才"
+        },
+        "tip": "“추측하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>cāi</strong>; “비로소”의 장면은 기세를 위로 끌어올려 <strong>cái</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-126",
+        "syllable": "JI",
+        "a": {
+          "hanzi": "几",
+          "pinyin": "jī",
+          "tones": "1",
+          "level": 1,
+          "meaning": "작은 탁자; 거의",
+          "speech": "几"
+        },
+        "b": {
+          "hanzi": "骑",
+          "pinyin": "jì",
+          "tones": "4",
+          "level": 3,
+          "meaning": "기병; 탄 말",
+          "speech": "骑"
+        },
+        "tip": "“작은 탁자; 거의”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jī</strong>; “기병; 탄 말”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jì</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-127",
+        "syllable": "ZHU",
+        "a": {
+          "hanzi": "猪",
+          "pinyin": "zhū",
+          "tones": "1",
+          "level": 4,
+          "meaning": "돼지",
+          "speech": "猪"
+        },
+        "b": {
+          "hanzi": "祝",
+          "pinyin": "zhù",
+          "tones": "4",
+          "level": 3,
+          "meaning": "원컨대",
+          "speech": "祝"
+        },
+        "tip": "“돼지”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhū</strong>; “원컨대”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhù</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-128",
+        "syllable": "HE",
+        "a": {
+          "hanzi": "喝",
+          "pinyin": "hē",
+          "tones": "1",
+          "level": 1,
+          "meaning": "마시다",
+          "speech": "喝"
+        },
+        "b": {
+          "hanzi": "和",
+          "pinyin": "hè",
+          "tones": "4",
+          "level": 1,
+          "meaning": "화답하다",
+          "speech": "和"
+        },
+        "tip": "“마시다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>hē</strong>; “화답하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hè</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-129",
+        "syllable": "BAN",
+        "a": {
+          "hanzi": "搬",
+          "pinyin": "bān",
+          "tones": "1",
+          "level": 3,
+          "meaning": "운반하다. 옮기다.",
+          "speech": "搬"
+        },
+        "b": {
+          "hanzi": "半",
+          "pinyin": "bàn",
+          "tones": "4",
+          "level": 3,
+          "meaning": "반",
+          "speech": "半"
+        },
+        "tip": "“운반하다. 옮기다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bān</strong>; “반”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-130",
+        "syllable": "JI",
+        "a": {
+          "hanzi": "给",
+          "pinyin": "jǐ",
+          "tones": "3",
+          "level": 2,
+          "meaning": "주다",
+          "speech": "给"
+        },
+        "b": {
+          "hanzi": "寄",
+          "pinyin": "jì",
+          "tones": "4",
+          "level": 4,
+          "meaning": "寄",
+          "speech": "寄"
+        },
+        "tip": "“주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐ</strong>; “寄”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jì</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-131",
+        "syllable": "JI",
+        "a": {
+          "hanzi": "几",
+          "pinyin": "jǐ",
+          "tones": "3",
+          "level": 1,
+          "meaning": "몇; 얼마나",
+          "speech": "几"
+        },
+        "b": {
+          "hanzi": "骑",
+          "pinyin": "jì",
+          "tones": "4",
+          "level": 3,
+          "meaning": "기병; 탄 말",
+          "speech": "骑"
+        },
+        "tip": "“몇; 얼마나”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐ</strong>; “기병; 탄 말”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-132",
+        "syllable": "LI",
+        "a": {
+          "hanzi": "离",
+          "pinyin": "lí",
+          "tones": "2",
+          "level": 2,
+          "meaning": "떨어짐",
+          "speech": "离"
+        },
+        "b": {
+          "hanzi": "里",
+          "pinyin": "lǐ",
+          "tones": "3",
+          "level": 1,
+          "meaning": "안",
+          "speech": "里"
+        },
+        "tip": "“떨어짐”의 장면은 기세를 위로 끌어올려 <strong>lí</strong>; “안”의 장면은 낮게 품었다가 다시 꺾어 <strong>lǐ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-133",
+        "syllable": "CHA",
+        "a": {
+          "hanzi": "茶",
+          "pinyin": "chá",
+          "tones": "2",
+          "level": 1,
+          "meaning": "차",
+          "speech": "茶"
+        },
+        "b": {
+          "hanzi": "差",
+          "pinyin": "chà",
+          "tones": "4",
+          "level": 3,
+          "meaning": "나쁘다; 부족하다",
+          "speech": "差"
+        },
+        "tip": "“차”의 장면은 기세를 위로 끌어올려 <strong>chá</strong>; “나쁘다; 부족하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>chà</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-134",
+        "syllable": "JI",
+        "a": {
+          "hanzi": "几",
+          "pinyin": "jī",
+          "tones": "1",
+          "level": 1,
+          "meaning": "작은 탁자; 거의",
+          "speech": "几"
+        },
+        "b": {
+          "hanzi": "寄",
+          "pinyin": "jì",
+          "tones": "4",
+          "level": 4,
+          "meaning": "寄",
+          "speech": "寄"
+        },
+        "tip": "“작은 탁자; 거의”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jī</strong>; “寄”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-135",
+        "syllable": "JI",
+        "a": {
+          "hanzi": "几",
+          "pinyin": "jǐ",
+          "tones": "3",
+          "level": 1,
+          "meaning": "몇; 얼마나",
+          "speech": "几"
+        },
+        "b": {
+          "hanzi": "寄",
+          "pinyin": "jì",
+          "tones": "4",
+          "level": 4,
+          "meaning": "寄",
+          "speech": "寄"
+        },
+        "tip": "“몇; 얼마나”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐ</strong>; “寄”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jì</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-136",
+        "syllable": "LA",
+        "a": {
+          "hanzi": "拉",
+          "pinyin": "lā",
+          "tones": "1",
+          "level": 4,
+          "meaning": "끌다. 당기다.",
+          "speech": "拉"
+        },
+        "b": {
+          "hanzi": "辣",
+          "pinyin": "là",
+          "tones": "4",
+          "level": 4,
+          "meaning": "매운 맛.",
+          "speech": "辣"
+        },
+        "tip": "“끌다. 당기다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>lā</strong>; “매운 맛”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>là</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-137",
+        "syllable": "WAN",
+        "a": {
+          "hanzi": "玩",
+          "pinyin": "wán",
+          "tones": "2",
+          "level": 2,
+          "meaning": "놀다. 놀이하다. 장난하다.",
+          "speech": "玩"
+        },
+        "b": {
+          "hanzi": "碗",
+          "pinyin": "wǎn",
+          "tones": "3",
+          "level": 3,
+          "meaning": "그릇",
+          "speech": "碗"
+        },
+        "tip": "“놀다. 놀이하다. 장난하다”의 장면은 기세를 위로 끌어올려 <strong>wán</strong>; “그릇”의 장면은 낮게 품었다가 다시 꺾어 <strong>wǎn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-138",
+        "syllable": "GAN",
+        "a": {
+          "hanzi": "干",
+          "pinyin": "gān",
+          "tones": "1",
+          "level": 4,
+          "meaning": "마르다; 관계하다",
+          "speech": "干"
+        },
+        "b": {
+          "hanzi": "敢",
+          "pinyin": "gǎn",
+          "tones": "3",
+          "level": 3,
+          "meaning": "감히",
+          "speech": "敢"
+        },
+        "tip": "“마르다; 관계하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>gān</strong>; “감히”의 장면은 낮게 품었다가 다시 꺾어 <strong>gǎn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-139",
+        "syllable": "YE",
+        "a": {
+          "hanzi": "也",
+          "pinyin": "yě",
+          "tones": "3",
+          "level": 2,
+          "meaning": "도",
+          "speech": "也"
+        },
+        "b": {
+          "hanzi": "页",
+          "pinyin": "yè",
+          "tones": "4",
+          "level": 4,
+          "meaning": "쪽; 페이지",
+          "speech": "页"
+        },
+        "tip": "“도”의 장면은 낮게 품었다가 다시 꺾어 <strong>yě</strong>; “쪽; 페이지”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yè</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-140",
+        "syllable": "WAN",
+        "a": {
+          "hanzi": "完",
+          "pinyin": "wán",
+          "tones": "2",
+          "level": 2,
+          "meaning": "완전하다. 완벽하다.",
+          "speech": "完"
+        },
+        "b": {
+          "hanzi": "碗",
+          "pinyin": "wǎn",
+          "tones": "3",
+          "level": 3,
+          "meaning": "그릇",
+          "speech": "碗"
+        },
+        "tip": "“완전하다. 완벽하다”의 장면은 기세를 위로 끌어올려 <strong>wán</strong>; “그릇”의 장면은 낮게 품었다가 다시 꺾어 <strong>wǎn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-141",
+        "syllable": "JIAO",
+        "a": {
+          "hanzi": "交",
+          "pinyin": "jiāo",
+          "tones": "1",
+          "level": 4,
+          "meaning": "넘기다. 건네다. 내다. 제출하다. 바치다. 주다., 给, 缴)",
+          "speech": "交"
+        },
+        "b": {
+          "hanzi": "角",
+          "pinyin": "jiǎo",
+          "tones": "3",
+          "level": 3,
+          "meaning": "모서리",
+          "speech": "角"
+        },
+        "tip": "“넘기다. 건네다. 내다. 제출하다. 바치다. 주다., 给, 缴)”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiāo</strong>; “모서리”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎo</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-142",
+        "syllable": "JIAO",
+        "a": {
+          "hanzi": "教",
+          "pinyin": "jiāo",
+          "tones": "1",
+          "level": 3,
+          "meaning": "가르치다",
+          "speech": "教"
+        },
+        "b": {
+          "hanzi": "角",
+          "pinyin": "jiǎo",
+          "tones": "3",
+          "level": 3,
+          "meaning": "모서리",
+          "speech": "角"
+        },
+        "tip": "“가르치다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiāo</strong>; “모서리”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎo</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-143",
+        "syllable": "YI",
+        "a": {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "tones": "1",
+          "level": 1,
+          "meaning": "1. 일. 하나.",
+          "speech": "一"
+        },
+        "b": {
+          "hanzi": "亿",
+          "pinyin": "yì",
+          "tones": "4",
+          "level": 4,
+          "meaning": "억",
+          "speech": "亿"
+        },
+        "tip": "“1. 일. 하나”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yī</strong>; “억”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-144",
+        "syllable": "SHOU",
+        "a": {
+          "hanzi": "收",
+          "pinyin": "shōu",
+          "tones": "1",
+          "level": 4,
+          "meaning": "(물건을) 거두어들이다. 거두다. 건사하다. 간수하다. 간직하다. 보존하다.",
+          "speech": "收"
+        },
+        "b": {
+          "hanzi": "瘦",
+          "pinyin": "shòu",
+          "tones": "4",
+          "level": 3,
+          "meaning": "마르다. 여위다.",
+          "speech": "瘦"
+        },
+        "tip": "“(물건을) 거두어들이다. 거두다. 건사하다. 간수하다. 간직하다. 보존하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shōu</strong>; “마르다. 여위다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shòu</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-145",
+        "syllable": "SHU",
+        "a": {
+          "hanzi": "输",
+          "pinyin": "shū",
+          "tones": "1",
+          "level": 4,
+          "meaning": "패",
+          "speech": "输"
+        },
+        "b": {
+          "hanzi": "树",
+          "pinyin": "shù",
+          "tones": "4",
+          "level": 3,
+          "meaning": "나무",
+          "speech": "树"
+        },
+        "tip": "“패”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shū</strong>; “나무”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shù</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-146",
+        "syllable": "YUAN",
+        "a": {
+          "hanzi": "圆",
+          "pinyin": "yuán",
+          "tones": "2",
+          "level": 4,
+          "meaning": "원",
+          "speech": "圆"
+        },
+        "b": {
+          "hanzi": "远",
+          "pinyin": "yuǎn",
+          "tones": "3",
+          "level": 2,
+          "meaning": "멀다",
+          "speech": "远"
+        },
+        "tip": "“원”의 장면은 기세를 위로 끌어올려 <strong>yuán</strong>; “멀다”의 장면은 낮게 품었다가 다시 꺾어 <strong>yuǎn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-147",
+        "syllable": "BAI",
+        "a": {
+          "hanzi": "白",
+          "pinyin": "bái",
+          "tones": "2",
+          "level": 2,
+          "meaning": "백",
+          "speech": "白"
+        },
+        "b": {
+          "hanzi": "百",
+          "pinyin": "bǎi",
+          "tones": "3",
+          "level": 2,
+          "meaning": "백",
+          "speech": "百"
+        },
+        "tip": "“백”의 장면은 기세를 위로 끌어올려 <strong>bái</strong>; “백”의 장면은 낮게 품었다가 다시 꺾어 <strong>bǎi</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-148",
+        "syllable": "JIAO",
+        "a": {
+          "hanzi": "角",
+          "pinyin": "jiǎo",
+          "tones": "3",
+          "level": 3,
+          "meaning": "모서리",
+          "speech": "角"
+        },
+        "b": {
+          "hanzi": "教",
+          "pinyin": "jiào",
+          "tones": "4",
+          "level": 3,
+          "meaning": "가르침; 종교",
+          "speech": "教"
+        },
+        "tip": "“모서리”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎo</strong>; “가르침; 종교”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiào</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-149",
+        "syllable": "CAI",
+        "a": {
+          "hanzi": "猜",
+          "pinyin": "cāi",
+          "tones": "1",
+          "level": 4,
+          "meaning": "추측하다",
+          "speech": "猜"
+        },
+        "b": {
+          "hanzi": "菜",
+          "pinyin": "cài",
+          "tones": "4",
+          "level": 1,
+          "meaning": "요리",
+          "speech": "菜"
+        },
+        "tip": "“추측하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>cāi</strong>; “요리”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>cài</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-150",
+        "syllable": "YI",
+        "a": {
+          "hanzi": "以",
+          "pinyin": "yǐ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "…(으)로(써). …을 가지고. …을 근거로.",
+          "speech": "以"
+        },
+        "b": {
+          "hanzi": "亿",
+          "pinyin": "yì",
+          "tones": "4",
+          "level": 4,
+          "meaning": "억",
+          "speech": "亿"
+        },
+        "tip": "“…(으)로(써). …을 가지고. …을 근거로”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǐ</strong>; “억”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-151",
+        "syllable": "PIAN",
+        "a": {
+          "hanzi": "篇",
+          "pinyin": "piān",
+          "tones": "1",
+          "level": 4,
+          "meaning": "편",
+          "speech": "篇"
+        },
+        "b": {
+          "hanzi": "骗",
+          "pinyin": "piàn",
+          "tones": "4",
+          "level": 4,
+          "meaning": "사기 치다",
+          "speech": "骗"
+        },
+        "tip": "“편”의 장면은 흔들리지 않게 길게 펼쳐 <strong>piān</strong>; “사기 치다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>piàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-152",
+        "syllable": "KU",
+        "a": {
+          "hanzi": "哭",
+          "pinyin": "kū",
+          "tones": "1",
+          "level": 3,
+          "meaning": "울다",
+          "speech": "哭"
+        },
+        "b": {
+          "hanzi": "苦",
+          "pinyin": "kǔ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "고",
+          "speech": "苦"
+        },
+        "tip": "“울다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>kū</strong>; “고”의 장면은 낮게 품었다가 다시 꺾어 <strong>kǔ</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-153",
+        "syllable": "JIU",
+        "a": {
+          "hanzi": "九",
+          "pinyin": "jiǔ",
+          "tones": "3",
+          "level": 1,
+          "meaning": "9",
+          "speech": "九"
+        },
+        "b": {
+          "hanzi": "旧",
+          "pinyin": "jiù",
+          "tones": "4",
+          "level": 3,
+          "meaning": "구",
+          "speech": "旧"
+        },
+        "tip": "“9”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǔ</strong>; “구”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiù</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-154",
+        "syllable": "CHA",
+        "a": {
+          "hanzi": "差",
+          "pinyin": "chā",
+          "tones": "1",
+          "level": 3,
+          "meaning": "차이",
+          "speech": "差"
+        },
+        "b": {
+          "hanzi": "茶",
+          "pinyin": "chá",
+          "tones": "2",
+          "level": 1,
+          "meaning": "차",
+          "speech": "茶"
+        },
+        "tip": "“차이”의 장면은 흔들리지 않게 길게 펼쳐 <strong>chā</strong>; “차”의 장면은 기세를 위로 끌어올려 <strong>chá</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-155",
+        "syllable": "TAI",
+        "a": {
+          "hanzi": "抬",
+          "pinyin": "tái",
+          "tones": "2",
+          "level": 4,
+          "meaning": "들어 올리다",
+          "speech": "抬"
+        },
+        "b": {
+          "hanzi": "太",
+          "pinyin": "tài",
+          "tones": "4",
+          "level": 1,
+          "meaning": "지나치게. 몹시. 너무.",
+          "speech": "太"
+        },
+        "tip": "“들어 올리다”의 장면은 기세를 위로 끌어올려 <strong>tái</strong>; “지나치게. 몹시. 너무”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tài</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-156",
+        "syllable": "WAN",
+        "a": {
+          "hanzi": "碗",
+          "pinyin": "wǎn",
+          "tones": "3",
+          "level": 3,
+          "meaning": "그릇",
+          "speech": "碗"
+        },
+        "b": {
+          "hanzi": "万",
+          "pinyin": "wàn",
+          "tones": "4",
+          "level": 3,
+          "meaning": "만",
+          "speech": "万"
+        },
+        "tip": "“그릇”의 장면은 낮게 품었다가 다시 꺾어 <strong>wǎn</strong>; “만”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-157",
+        "syllable": "SHANG",
+        "a": {
+          "hanzi": "汤",
+          "pinyin": "shāng",
+          "tones": "1",
+          "level": 4,
+          "meaning": "세차게 흐르는 물",
+          "speech": "汤"
+        },
+        "b": {
+          "hanzi": "上",
+          "pinyin": "shàng",
+          "tones": "4",
+          "level": 1,
+          "meaning": "위",
+          "speech": "上"
+        },
+        "tip": "“세차게 흐르는 물”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shāng</strong>; “위”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shàng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-158",
+        "syllable": "QI",
+        "a": {
+          "hanzi": "七",
+          "pinyin": "qī",
+          "tones": "1",
+          "level": 1,
+          "meaning": "7",
+          "speech": "七"
+        },
+        "b": {
+          "hanzi": "骑",
+          "pinyin": "qí",
+          "tones": "2",
+          "level": 3,
+          "meaning": "타다",
+          "speech": "骑"
+        },
+        "tip": "“7”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qī</strong>; “타다”의 장면은 기세를 위로 끌어올려 <strong>qí</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-159",
+        "syllable": "BEN",
+        "a": {
+          "hanzi": "本",
+          "pinyin": "běn",
+          "tones": "3",
+          "level": 1,
+          "meaning": "책",
+          "speech": "本"
+        },
+        "b": {
+          "hanzi": "笨",
+          "pinyin": "bèn",
+          "tones": "4",
+          "level": 4,
+          "meaning": "멍청하다",
+          "speech": "笨"
+        },
+        "tip": "“책”의 장면은 낮게 품었다가 다시 꺾어 <strong>běn</strong>; “멍청하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bèn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-160",
+        "syllable": "TANG",
+        "a": {
+          "hanzi": "糖",
+          "pinyin": "táng",
+          "tones": "2",
+          "level": 3,
+          "meaning": "설탕",
+          "speech": "糖"
+        },
+        "b": {
+          "hanzi": "躺",
+          "pinyin": "tǎng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "눕다",
+          "speech": "躺"
+        },
+        "tip": "“설탕”의 장면은 기세를 위로 끌어올려 <strong>táng</strong>; “눕다”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǎng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-161",
+        "syllable": "YING",
+        "a": {
+          "hanzi": "赢",
+          "pinyin": "yíng",
+          "tones": "2",
+          "level": 4,
+          "meaning": "이기다",
+          "speech": "赢"
+        },
+        "b": {
+          "hanzi": "硬",
+          "pinyin": "yìng",
+          "tones": "4",
+          "level": 4,
+          "meaning": "딱딱하다",
+          "speech": "硬"
+        },
+        "tip": "“이기다”의 장면은 기세를 위로 끌어올려 <strong>yíng</strong>; “딱딱하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yìng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-162",
+        "syllable": "XING",
+        "a": {
+          "hanzi": "行",
+          "pinyin": "xíng",
+          "tones": "2",
+          "level": 4,
+          "meaning": "행",
+          "speech": "行"
+        },
+        "b": {
+          "hanzi": "姓",
+          "pinyin": "xìng",
+          "tones": "4",
+          "level": 2,
+          "meaning": "성",
+          "speech": "姓"
+        },
+        "tip": "“행”의 장면은 기세를 위로 끌어올려 <strong>xíng</strong>; “성”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xìng</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-163",
+        "syllable": "TANG",
+        "a": {
+          "hanzi": "汤",
+          "pinyin": "tāng",
+          "tones": "1",
+          "level": 4,
+          "meaning": "국; 탕",
+          "speech": "汤"
+        },
+        "b": {
+          "hanzi": "躺",
+          "pinyin": "tǎng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "눕다",
+          "speech": "躺"
+        },
+        "tip": "“국; 탕”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tāng</strong>; “눕다”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǎng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-164",
+        "syllable": "JI",
+        "a": {
+          "hanzi": "极",
+          "pinyin": "jí",
+          "tones": "2",
+          "level": 3,
+          "meaning": "극",
+          "speech": "极"
+        },
+        "b": {
+          "hanzi": "骑",
+          "pinyin": "jì",
+          "tones": "4",
+          "level": 3,
+          "meaning": "기병; 탄 말",
+          "speech": "骑"
+        },
+        "tip": "“극”의 장면은 기세를 위로 끌어올려 <strong>jí</strong>; “기병; 탄 말”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-165",
+        "syllable": "SUAN",
+        "a": {
+          "hanzi": "酸",
+          "pinyin": "suān",
+          "tones": "1",
+          "level": 4,
+          "meaning": "시(時)",
+          "speech": "酸"
+        },
+        "b": {
+          "hanzi": "算",
+          "pinyin": "suàn",
+          "tones": "4",
+          "level": 4,
+          "meaning": "계산하다",
+          "speech": "算"
+        },
+        "tip": "“시(時)”의 장면은 흔들리지 않게 길게 펼쳐 <strong>suān</strong>; “계산하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>suàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-166",
+        "syllable": "TANG",
+        "a": {
+          "hanzi": "汤",
+          "pinyin": "tāng",
+          "tones": "1",
+          "level": 4,
+          "meaning": "국; 탕",
+          "speech": "汤"
+        },
+        "b": {
+          "hanzi": "糖",
+          "pinyin": "táng",
+          "tones": "2",
+          "level": 3,
+          "meaning": "설탕",
+          "speech": "糖"
+        },
+        "tip": "뜨거운 국은 평평한 <strong>tāng</strong>, 달콤함은 올라가는 <strong>táng</strong>"
+      },
+      {
+        "id": "hsk1-4-167",
+        "syllable": "XIANG",
+        "a": {
+          "hanzi": "香",
+          "pinyin": "xiāng",
+          "tones": "1",
+          "level": 4,
+          "meaning": "향",
+          "speech": "香"
+        },
+        "b": {
+          "hanzi": "响",
+          "pinyin": "xiǎng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "울림",
+          "speech": "响"
+        },
+        "tip": "“향”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiāng</strong>; “울림”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎng</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-168",
+        "syllable": "YUAN",
+        "a": {
+          "hanzi": "圆",
+          "pinyin": "yuán",
+          "tones": "2",
+          "level": 4,
+          "meaning": "원",
+          "speech": "圆"
+        },
+        "b": {
+          "hanzi": "远",
+          "pinyin": "yuàn",
+          "tones": "4",
+          "level": 2,
+          "meaning": "멀리하다",
+          "speech": "远"
+        },
+        "tip": "“원”의 장면은 기세를 위로 끌어올려 <strong>yuán</strong>; “멀리하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yuàn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-169",
+        "syllable": "HE",
+        "a": {
+          "hanzi": "河",
+          "pinyin": "hé",
+          "tones": "2",
+          "level": 3,
+          "meaning": "강",
+          "speech": "河"
+        },
+        "b": {
+          "hanzi": "和",
+          "pinyin": "hè",
+          "tones": "4",
+          "level": 1,
+          "meaning": "화답하다",
+          "speech": "和"
+        },
+        "tip": "“강”의 장면은 기세를 위로 끌어올려 <strong>hé</strong>; “화답하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hè</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-170",
+        "syllable": "SHENG",
+        "a": {
+          "hanzi": "省",
+          "pinyin": "shěng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "절약하다; 성",
+          "speech": "省"
+        },
+        "b": {
+          "hanzi": "剩",
+          "pinyin": "shèng",
+          "tones": "4",
+          "level": 4,
+          "meaning": "남은",
+          "speech": "剩"
+        },
+        "tip": "“절약하다; 성”의 장면은 낮게 품었다가 다시 꺾어 <strong>shěng</strong>; “남은”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shèng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-171",
+        "syllable": "TI",
+        "a": {
+          "hanzi": "踢",
+          "pinyin": "tī",
+          "tones": "1",
+          "level": 2,
+          "meaning": "차다",
+          "speech": "踢"
+        },
+        "b": {
+          "hanzi": "题",
+          "pinyin": "tí",
+          "tones": "2",
+          "level": 2,
+          "meaning": "제목",
+          "speech": "题"
+        },
+        "tip": "“차다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tī</strong>; “제목”의 장면은 기세를 위로 끌어올려 <strong>tí</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-172",
+        "syllable": "TANG",
+        "a": {
+          "hanzi": "趟",
+          "pinyin": "tāng",
+          "tones": "1",
+          "level": 4,
+          "meaning": "물을 헤치며 걷다",
+          "speech": "趟"
+        },
+        "b": {
+          "hanzi": "躺",
+          "pinyin": "tǎng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "눕다",
+          "speech": "躺"
+        },
+        "tip": "“물을 헤치며 걷다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tāng</strong>; “눕다”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǎng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-173",
+        "syllable": "AI",
+        "a": {
+          "hanzi": "矮",
+          "pinyin": "ǎi",
+          "tones": "3",
+          "level": 3,
+          "meaning": "키가 작다",
+          "speech": "矮"
+        },
+        "b": {
+          "hanzi": "爱",
+          "pinyin": "ài",
+          "tones": "4",
+          "level": 1,
+          "meaning": "사랑",
+          "speech": "爱"
+        },
+        "tip": "“키가 작다”의 장면은 낮게 품었다가 다시 꺾어 <strong>ǎi</strong>; “사랑”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>ài</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-174",
+        "syllable": "HUI YI",
+        "a": {
+          "hanzi": "回忆",
+          "pinyin": "huí yì",
+          "tones": "2·4",
+          "level": 4,
+          "meaning": "회상",
+          "speech": "回忆"
+        },
+        "b": {
+          "hanzi": "会议",
+          "pinyin": "huì yì",
+          "tones": "4·4",
+          "level": 3,
+          "meaning": "회의",
+          "speech": "会议"
+        },
+        "tip": "“회상”의 장면은 기세를 위로 끌어올려 <strong>huí yì</strong>; “회의”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>huì yì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-175",
+        "syllable": "TANG",
+        "a": {
+          "hanzi": "趟",
+          "pinyin": "tāng",
+          "tones": "1",
+          "level": 4,
+          "meaning": "물을 헤치며 걷다",
+          "speech": "趟"
+        },
+        "b": {
+          "hanzi": "糖",
+          "pinyin": "táng",
+          "tones": "2",
+          "level": 3,
+          "meaning": "설탕",
+          "speech": "糖"
+        },
+        "tip": "“물을 헤치며 걷다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tāng</strong>; “설탕”의 장면은 기세를 위로 끌어올려 <strong>táng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-176",
+        "syllable": "TANG",
+        "a": {
+          "hanzi": "躺",
+          "pinyin": "tǎng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "눕다",
+          "speech": "躺"
+        },
+        "b": {
+          "hanzi": "趟",
+          "pinyin": "tàng",
+          "tones": "4",
+          "level": 4,
+          "meaning": "번; 차례",
+          "speech": "趟"
+        },
+        "tip": "“눕다”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǎng</strong>; “번; 차례”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tàng</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-177",
+        "syllable": "JING LI",
+        "a": {
+          "hanzi": "经理",
+          "pinyin": "jīng lǐ",
+          "tones": "1·3",
+          "level": 3,
+          "meaning": "사장님",
+          "speech": "经理"
+        },
+        "b": {
+          "hanzi": "经历",
+          "pinyin": "jīng lì",
+          "tones": "1·4",
+          "level": 4,
+          "meaning": "경험하다",
+          "speech": "经历"
+        },
+        "tip": "“사장님”의 장면은 낮게 품었다가 다시 꺾어 <strong>jīng lǐ</strong>; “경험하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jīng lì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-178",
+        "syllable": "TANG",
+        "a": {
+          "hanzi": "糖",
+          "pinyin": "táng",
+          "tones": "2",
+          "level": 3,
+          "meaning": "설탕",
+          "speech": "糖"
+        },
+        "b": {
+          "hanzi": "趟",
+          "pinyin": "tàng",
+          "tones": "4",
+          "level": 4,
+          "meaning": "번; 차례",
+          "speech": "趟"
+        },
+        "tip": "“설탕”의 장면은 기세를 위로 끌어올려 <strong>táng</strong>; “번; 차례”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tàng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-179",
+        "syllable": "DUO",
+        "a": {
+          "hanzi": "多",
+          "pinyin": "duō",
+          "tones": "1",
+          "level": 1,
+          "meaning": "많다",
+          "speech": "多"
+        },
+        "b": {
+          "hanzi": "朵",
+          "pinyin": "duǒ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "송이",
+          "speech": "朵"
+        },
+        "tip": "“많다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>duō</strong>; “송이”의 장면은 낮게 품었다가 다시 꺾어 <strong>duǒ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-180",
+        "syllable": "XING",
+        "a": {
+          "hanzi": "省",
+          "pinyin": "xǐng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "돌이켜보다",
+          "speech": "省"
+        },
+        "b": {
+          "hanzi": "姓",
+          "pinyin": "xìng",
+          "tones": "4",
+          "level": 2,
+          "meaning": "성",
+          "speech": "姓"
+        },
+        "tip": "“돌이켜보다”의 장면은 낮게 품었다가 다시 꺾어 <strong>xǐng</strong>; “성”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xìng</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-181",
+        "syllable": "XING",
+        "a": {
+          "hanzi": "醒",
+          "pinyin": "xǐng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "깨",
+          "speech": "醒"
+        },
+        "b": {
+          "hanzi": "姓",
+          "pinyin": "xìng",
+          "tones": "4",
+          "level": 2,
+          "meaning": "성",
+          "speech": "姓"
+        },
+        "tip": "“깨”의 장면은 낮게 품었다가 다시 꺾어 <strong>xǐng</strong>; “성”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xìng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-182",
+        "syllable": "TANG",
+        "a": {
+          "hanzi": "汤",
+          "pinyin": "tāng",
+          "tones": "1",
+          "level": 4,
+          "meaning": "국; 탕",
+          "speech": "汤"
+        },
+        "b": {
+          "hanzi": "趟",
+          "pinyin": "tàng",
+          "tones": "4",
+          "level": 4,
+          "meaning": "번; 차례",
+          "speech": "趟"
+        },
+        "tip": "“국; 탕”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tāng</strong>; “번; 차례”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tàng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-183",
+        "syllable": "GUA",
+        "a": {
+          "hanzi": "刮",
+          "pinyin": "guā",
+          "tones": "1",
+          "level": 3,
+          "meaning": "긁다",
+          "speech": "刮"
+        },
+        "b": {
+          "hanzi": "挂",
+          "pinyin": "guà",
+          "tones": "4",
+          "level": 4,
+          "meaning": "걸려 있다",
+          "speech": "挂"
+        },
+        "tip": "“긁다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>guā</strong>; “걸려 있다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>guà</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-184",
+        "syllable": "CHANG",
+        "a": {
+          "hanzi": "尝",
+          "pinyin": "cháng",
+          "tones": "2",
+          "level": 4,
+          "meaning": "맛",
+          "speech": "尝"
+        },
+        "b": {
+          "hanzi": "场",
+          "pinyin": "chǎng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "장",
+          "speech": "场"
+        },
+        "tip": "“맛”의 장면은 기세를 위로 끌어올려 <strong>cháng</strong>; “장”의 장면은 낮게 품었다가 다시 꺾어 <strong>chǎng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-185",
+        "syllable": "SHI JI",
+        "a": {
+          "hanzi": "实际",
+          "pinyin": "shí jì",
+          "tones": "2·4",
+          "level": 4,
+          "meaning": "실제",
+          "speech": "实际"
+        },
+        "b": {
+          "hanzi": "世纪",
+          "pinyin": "shì jì",
+          "tones": "4·4",
+          "level": 4,
+          "meaning": "세기",
+          "speech": "世纪"
+        },
+        "tip": "“실제”의 장면은 기세를 위로 끌어올려 <strong>shí jì</strong>; “세기”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì jì</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-186",
+        "syllable": "GUANG",
+        "a": {
+          "hanzi": "光",
+          "pinyin": "guāng",
+          "tones": "1",
+          "level": 4,
+          "meaning": "빛",
+          "speech": "光"
+        },
+        "b": {
+          "hanzi": "逛",
+          "pinyin": "guàng",
+          "tones": "4",
+          "level": 4,
+          "meaning": "둘러보다",
+          "speech": "逛"
+        },
+        "tip": "“빛”의 장면은 흔들리지 않게 길게 펼쳐 <strong>guāng</strong>; “둘러보다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>guàng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-187",
+        "syllable": "BAO",
+        "a": {
+          "hanzi": "包",
+          "pinyin": "bāo",
+          "tones": "1",
+          "level": 3,
+          "meaning": "가방",
+          "speech": "包"
+        },
+        "b": {
+          "hanzi": "饱",
+          "pinyin": "bǎo",
+          "tones": "3",
+          "level": 3,
+          "meaning": "부르다",
+          "speech": "饱"
+        },
+        "tip": "가방끈은 곧게 <strong>bāo</strong>, 배부르면 묵직하게 <strong>bǎo</strong>"
+      },
+      {
+        "id": "hsk1-4-188",
+        "syllable": "QIAO",
+        "a": {
+          "hanzi": "敲",
+          "pinyin": "qiāo",
+          "tones": "1",
+          "level": 4,
+          "meaning": "치다",
+          "speech": "敲"
+        },
+        "b": {
+          "hanzi": "桥",
+          "pinyin": "qiáo",
+          "tones": "2",
+          "level": 4,
+          "meaning": "다리",
+          "speech": "桥"
+        },
+        "tip": "“치다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qiāo</strong>; “다리”의 장면은 기세를 위로 끌어올려 <strong>qiáo</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-189",
+        "syllable": "LIAN XI",
+        "a": {
+          "hanzi": "联系",
+          "pinyin": "lián xì",
+          "tones": "2·4",
+          "level": 4,
+          "meaning": "연락하다",
+          "speech": "联系"
+        },
+        "b": {
+          "hanzi": "练习",
+          "pinyin": "liàn xí",
+          "tones": "4·2",
+          "level": 3,
+          "meaning": "연습하다",
+          "speech": "练习"
+        },
+        "tip": "“연락하다”의 장면은 기세를 위로 끌어올려 <strong>lián xì</strong>; “연습하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>liàn xí</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-190",
+        "syllable": "BAO",
+        "a": {
+          "hanzi": "饱",
+          "pinyin": "bǎo",
+          "tones": "3",
+          "level": 3,
+          "meaning": "부르다",
+          "speech": "饱"
+        },
+        "b": {
+          "hanzi": "抱",
+          "pinyin": "bào",
+          "tones": "4",
+          "level": 4,
+          "meaning": "포옹",
+          "speech": "抱"
+        },
+        "tip": "“부르다”의 장면은 낮게 품었다가 다시 꺾어 <strong>bǎo</strong>; “포옹”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bào</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-191",
+        "syllable": "SAN",
+        "a": {
+          "hanzi": "三",
+          "pinyin": "sān",
+          "tones": "1",
+          "level": 1,
+          "meaning": "3",
+          "speech": "三"
+        },
+        "b": {
+          "hanzi": "伞",
+          "pinyin": "sǎn",
+          "tones": "3",
+          "level": 3,
+          "meaning": "우산",
+          "speech": "伞"
+        },
+        "tip": "“3”의 장면은 흔들리지 않게 길게 펼쳐 <strong>sān</strong>; “우산”의 장면은 낮게 품었다가 다시 꺾어 <strong>sǎn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-192",
+        "syllable": "DONG",
+        "a": {
+          "hanzi": "冬",
+          "pinyin": "dōng",
+          "tones": "1",
+          "level": 3,
+          "meaning": "겨울",
+          "speech": "冬"
+        },
+        "b": {
+          "hanzi": "懂",
+          "pinyin": "dǒng",
+          "tones": "3",
+          "level": 2,
+          "meaning": "알다",
+          "speech": "懂"
+        },
+        "tip": "“겨울”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dōng</strong>; “알다”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǒng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-193",
+        "syllable": "YAN JING",
+        "a": {
+          "hanzi": "眼镜",
+          "pinyin": "yǎn jìng",
+          "tones": "3·4",
+          "level": 3,
+          "meaning": "안경",
+          "speech": "眼镜"
+        },
+        "b": {
+          "hanzi": "眼睛",
+          "pinyin": "yǎn jing",
+          "tones": "3·5",
+          "level": 2,
+          "meaning": "눈",
+          "speech": "眼睛"
+        },
+        "tip": "“안경”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yǎn jìng</strong>; “눈”의 장면은 짧고 가볍게 덧붙여 <strong>yǎn jing</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-194",
+        "syllable": "JI SHI",
+        "a": {
+          "hanzi": "及时",
+          "pinyin": "jí shí",
+          "tones": "2·2",
+          "level": 4,
+          "meaning": "제때",
+          "speech": "及时"
+        },
+        "b": {
+          "hanzi": "即使",
+          "pinyin": "jí shǐ",
+          "tones": "2·3",
+          "level": 4,
+          "meaning": "설령",
+          "speech": "即使"
+        },
+        "tip": "“제때”의 장면은 기세를 위로 끌어올려 <strong>jí shí</strong>; “설령”의 장면은 낮게 품었다가 다시 꺾어 <strong>jí shǐ</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-195",
+        "syllable": "ZHU YI",
+        "a": {
+          "hanzi": "主意",
+          "pinyin": "zhǔ yi",
+          "tones": "3·5",
+          "level": 4,
+          "meaning": "아이디어",
+          "speech": "主意"
+        },
+        "b": {
+          "hanzi": "注意",
+          "pinyin": "zhù yì",
+          "tones": "4·4",
+          "level": 3,
+          "meaning": "주의하다",
+          "speech": "注意"
+        },
+        "tip": "“아이디어”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǔ yi</strong>; “주의하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhù yì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk1-4-196",
+        "syllable": "XIAN",
+        "a": {
+          "hanzi": "先",
+          "pinyin": "xiān",
+          "tones": "1",
+          "level": 3,
+          "meaning": "먼저",
+          "speech": "先"
+        },
+        "b": {
+          "hanzi": "咸",
+          "pinyin": "xián",
+          "tones": "2",
+          "level": 4,
+          "meaning": "짜다",
+          "speech": "咸"
+        },
+        "tip": "“먼저”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiān</strong>; “짜다”의 장면은 기세를 위로 끌어올려 <strong>xián</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk1-4-197",
+        "syllable": "LAN",
+        "a": {
+          "hanzi": "蓝",
+          "pinyin": "lán",
+          "tones": "2",
+          "level": 3,
+          "meaning": "파랑",
+          "speech": "蓝"
+        },
+        "b": {
+          "hanzi": "懒",
+          "pinyin": "lǎn",
+          "tones": "3",
+          "level": 4,
+          "meaning": "게으르다",
+          "speech": "懒"
+        },
+        "tip": "“파랑”의 장면은 기세를 위로 끌어올려 <strong>lán</strong>; “게으르다”의 장면은 낮게 품었다가 다시 꺾어 <strong>lǎn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk1-4-198",
+        "syllable": "CHENG SHI",
+        "a": {
+          "hanzi": "诚实",
+          "pinyin": "chéng shí",
+          "tones": "2·2",
+          "level": 4,
+          "meaning": "성실하다",
+          "speech": "诚实"
+        },
+        "b": {
+          "hanzi": "城市",
+          "pinyin": "chéng shì",
+          "tones": "2·4",
+          "level": 3,
+          "meaning": "도시",
+          "speech": "城市"
+        },
+        "tip": "“성실하다”의 장면은 기세를 위로 끌어올려 <strong>chéng shí</strong>; “도시”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>chéng shì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk1-4-199",
+        "syllable": "QING",
+        "a": {
+          "hanzi": "晴",
+          "pinyin": "qíng",
+          "tones": "2",
+          "level": 2,
+          "meaning": "맑다",
+          "speech": "晴"
+        },
+        "b": {
+          "hanzi": "请",
+          "pinyin": "qǐng",
+          "tones": "3",
+          "level": 1,
+          "meaning": "주다",
+          "speech": "请"
+        },
+        "tip": "“맑다”의 장면은 기세를 위로 끌어올려 <strong>qíng</strong>; “주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>qǐng</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk1-4-200",
+        "syllable": "QING",
+        "a": {
+          "hanzi": "轻",
+          "pinyin": "qīng",
+          "tones": "1",
+          "level": 4,
+          "meaning": "가볍다",
+          "speech": "轻"
+        },
+        "b": {
+          "hanzi": "晴",
+          "pinyin": "qíng",
+          "tones": "2",
+          "level": 2,
+          "meaning": "맑다",
+          "speech": "晴"
+        },
+        "tip": "“가볍다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qīng</strong>; “맑다”의 장면은 기세를 위로 끌어올려 <strong>qíng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      }
+    ]
+  },
+  "hsk5": {
+    "title": "HSK 5급",
+    "shortTitle": "5급",
+    "subtitle": "고급 어휘 확장",
+    "accent": "amber",
+    "pairs": [
+      {
+        "id": "hsk5-001",
+        "syllable": "GAO",
+        "a": {
+          "hanzi": "高",
+          "pinyin": "gāo",
+          "tones": "1",
+          "level": 2,
+          "meaning": "높다",
+          "speech": "高"
+        },
+        "b": {
+          "hanzi": "搞",
+          "pinyin": "gǎo",
+          "tones": "3",
+          "level": 5,
+          "meaning": "그러다",
+          "speech": "搞"
+        },
+        "tip": "“높다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>gāo</strong>; “그러다”의 장면은 낮게 품었다가 다시 꺾어 <strong>gǎo</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-002",
+        "syllable": "ZHONG",
+        "a": {
+          "hanzi": "种",
+          "pinyin": "zhǒng",
+          "tones": "3",
+          "level": 3,
+          "meaning": "종류; 씨앗",
+          "speech": "种"
+        },
+        "b": {
+          "hanzi": "重",
+          "pinyin": "zhòng",
+          "tones": "4",
+          "level": 5,
+          "meaning": "무겁다; 중요하다",
+          "speech": "重"
+        },
+        "tip": "“종류; 씨앗”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǒng</strong>; “무겁다; 중요하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhòng</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-003",
+        "syllable": "ZHI",
+        "a": {
+          "hanzi": "支",
+          "pinyin": "zhī",
+          "tones": "1",
+          "level": 5,
+          "meaning": "손가락",
+          "speech": "支"
+        },
+        "b": {
+          "hanzi": "只",
+          "pinyin": "zhǐ",
+          "tones": "3",
+          "level": 3,
+          "meaning": "오직; 단지",
+          "speech": "只"
+        },
+        "tip": "“손가락”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhī</strong>; “오직; 단지”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǐ</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-004",
+        "syllable": "XIANG",
+        "a": {
+          "hanzi": "想",
+          "pinyin": "xiǎng",
+          "tones": "3",
+          "level": 1,
+          "meaning": "생각하다.)",
+          "speech": "想"
+        },
+        "b": {
+          "hanzi": "项",
+          "pinyin": "xiàng",
+          "tones": "4",
+          "level": 5,
+          "meaning": "항",
+          "speech": "项"
+        },
+        "tip": "“생각하다.)”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎng</strong>; “항”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-005",
+        "syllable": "FANG",
+        "a": {
+          "hanzi": "方",
+          "pinyin": "fāng",
+          "tones": "1",
+          "level": 5,
+          "meaning": "방",
+          "speech": "方"
+        },
+        "b": {
+          "hanzi": "放",
+          "pinyin": "fàng",
+          "tones": "4",
+          "level": 3,
+          "meaning": "놓다",
+          "speech": "放"
+        },
+        "tip": "“방”의 장면은 흔들리지 않게 길게 펼쳐 <strong>fāng</strong>; “놓다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>fàng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-006",
+        "syllable": "PAI",
+        "a": {
+          "hanzi": "拍",
+          "pinyin": "pāi",
+          "tones": "1",
+          "level": 5,
+          "meaning": "찰칵",
+          "speech": "拍"
+        },
+        "b": {
+          "hanzi": "派",
+          "pinyin": "pài",
+          "tones": "4",
+          "level": 5,
+          "meaning": "파",
+          "speech": "派"
+        },
+        "tip": "“찰칵”의 장면은 흔들리지 않게 길게 펼쳐 <strong>pāi</strong>; “파”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>pài</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-007",
+        "syllable": "JI",
+        "a": {
+          "hanzi": "给",
+          "pinyin": "jǐ",
+          "tones": "3",
+          "level": 2,
+          "meaning": "주다",
+          "speech": "给"
+        },
+        "b": {
+          "hanzi": "系",
+          "pinyin": "jì",
+          "tones": "4",
+          "level": 5,
+          "meaning": "매다; 묶다",
+          "speech": "系"
+        },
+        "tip": "“주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐ</strong>; “매다; 묶다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jì</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-008",
+        "syllable": "ZHAO",
+        "a": {
+          "hanzi": "朝",
+          "pinyin": "zhāo",
+          "tones": "1",
+          "level": 5,
+          "meaning": "아침",
+          "speech": "朝"
+        },
+        "b": {
+          "hanzi": "着",
+          "pinyin": "zháo",
+          "tones": "2",
+          "level": 2,
+          "meaning": "닿다; 붙다",
+          "speech": "着"
+        },
+        "tip": "“아침”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhāo</strong>; “닿다; 붙다”의 장면은 기세를 위로 끌어올려 <strong>zháo</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-009",
+        "syllable": "ZHI",
+        "a": {
+          "hanzi": "之",
+          "pinyin": "zhī",
+          "tones": "1",
+          "level": 4,
+          "meaning": "가다. 이르다.",
+          "speech": "之"
+        },
+        "b": {
+          "hanzi": "直",
+          "pinyin": "zhí",
+          "tones": "2",
+          "level": 5,
+          "meaning": "곧",
+          "speech": "直"
+        },
+        "tip": "“가다. 이르다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhī</strong>; “곧”의 장면은 기세를 위로 끌어올려 <strong>zhí</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-010",
+        "syllable": "HEN",
+        "a": {
+          "hanzi": "很",
+          "pinyin": "hěn",
+          "tones": "3",
+          "level": 1,
+          "meaning": "매우",
+          "speech": "很"
+        },
+        "b": {
+          "hanzi": "恨",
+          "pinyin": "hèn",
+          "tones": "4",
+          "level": 5,
+          "meaning": "원망",
+          "speech": "恨"
+        },
+        "tip": "“매우”의 장면은 낮게 품었다가 다시 꺾어 <strong>hěn</strong>; “원망”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hèn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-011",
+        "syllable": "DAI",
+        "a": {
+          "hanzi": "呆",
+          "pinyin": "dāi",
+          "tones": "1",
+          "level": 5,
+          "meaning": "멍",
+          "speech": "呆"
+        },
+        "b": {
+          "hanzi": "带",
+          "pinyin": "dài",
+          "tones": "4",
+          "level": 3,
+          "meaning": "벨트",
+          "speech": "带"
+        },
+        "tip": "“멍”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dāi</strong>; “벨트”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dài</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-012",
+        "syllable": "SHA",
+        "a": {
+          "hanzi": "杀",
+          "pinyin": "shā",
+          "tones": "1",
+          "level": 5,
+          "meaning": "죽이다",
+          "speech": "杀"
+        },
+        "b": {
+          "hanzi": "傻",
+          "pinyin": "shǎ",
+          "tones": "3",
+          "level": 5,
+          "meaning": "바보",
+          "speech": "傻"
+        },
+        "tip": "“죽이다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shā</strong>; “바보”의 장면은 낮게 품었다가 다시 꺾어 <strong>shǎ</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-013",
+        "syllable": "ZHONG",
+        "a": {
+          "hanzi": "钟",
+          "pinyin": "zhōng",
+          "tones": "1",
+          "level": 5,
+          "meaning": "시",
+          "speech": "钟"
+        },
+        "b": {
+          "hanzi": "种",
+          "pinyin": "zhòng",
+          "tones": "4",
+          "level": 3,
+          "meaning": "심다",
+          "speech": "种"
+        },
+        "tip": "“시”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhōng</strong>; “심다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhòng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-014",
+        "syllable": "YE",
+        "a": {
+          "hanzi": "也",
+          "pinyin": "yě",
+          "tones": "3",
+          "level": 2,
+          "meaning": "도",
+          "speech": "也"
+        },
+        "b": {
+          "hanzi": "夜",
+          "pinyin": "yè",
+          "tones": "4",
+          "level": 5,
+          "meaning": "밤",
+          "speech": "夜"
+        },
+        "tip": "“도”의 장면은 낮게 품었다가 다시 꺾어 <strong>yě</strong>; “밤”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yè</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-015",
+        "syllable": "BEI",
+        "a": {
+          "hanzi": "背",
+          "pinyin": "bēi",
+          "tones": "1",
+          "level": 5,
+          "meaning": "외우다",
+          "speech": "背"
+        },
+        "b": {
+          "hanzi": "被",
+          "pinyin": "bèi",
+          "tones": "4",
+          "level": 3,
+          "meaning": "피",
+          "speech": "被"
+        },
+        "tip": "“외우다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bēi</strong>; “피”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bèi</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-016",
+        "syllable": "JIE",
+        "a": {
+          "hanzi": "接",
+          "pinyin": "jiē",
+          "tones": "1",
+          "level": 3,
+          "meaning": "가까이 가다. 접근하다. 접촉하다. 접하다. 닿다.",
+          "speech": "接"
+        },
+        "b": {
+          "hanzi": "节",
+          "pinyin": "jié",
+          "tones": "2",
+          "level": 5,
+          "meaning": "절",
+          "speech": "节"
+        },
+        "tip": "“가까이 가다. 접근하다. 접촉하다. 접하다. 닿다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiē</strong>; “절”의 장면은 기세를 위로 끌어올려 <strong>jié</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-017",
+        "syllable": "CHONG",
+        "a": {
+          "hanzi": "重",
+          "pinyin": "chóng",
+          "tones": "2",
+          "level": 5,
+          "meaning": "다시; 겹치다",
+          "speech": "重"
+        },
+        "b": {
+          "hanzi": "冲",
+          "pinyin": "chòng",
+          "tones": "4",
+          "level": 5,
+          "meaning": "돌진",
+          "speech": "冲"
+        },
+        "tip": "“다시; 겹치다”의 장면은 기세를 위로 끌어올려 <strong>chóng</strong>; “돌진”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>chòng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-018",
+        "syllable": "HE",
+        "a": {
+          "hanzi": "和",
+          "pinyin": "hé",
+          "tones": "2",
+          "level": 1,
+          "meaning": "~와; 화목하다",
+          "speech": "和"
+        },
+        "b": {
+          "hanzi": "吓",
+          "pinyin": "hè",
+          "tones": "4",
+          "level": 5,
+          "meaning": "깜짝",
+          "speech": "吓"
+        },
+        "tip": "“~와; 화목하다”의 장면은 기세를 위로 끌어올려 <strong>hé</strong>; “깜짝”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hè</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-019",
+        "syllable": "TA",
+        "a": {
+          "hanzi": "她",
+          "pinyin": "tā",
+          "tones": "1",
+          "level": 1,
+          "meaning": "그녀",
+          "speech": "她"
+        },
+        "b": {
+          "hanzi": "塔",
+          "pinyin": "tǎ",
+          "tones": "3",
+          "level": 5,
+          "meaning": "탑",
+          "speech": "塔"
+        },
+        "tip": "“그녀”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tā</strong>; “탑”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǎ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-020",
+        "syllable": "JIN",
+        "a": {
+          "hanzi": "紧",
+          "pinyin": "jǐn",
+          "tones": "3",
+          "level": 5,
+          "meaning": "팽팽한",
+          "speech": "紧"
+        },
+        "b": {
+          "hanzi": "进",
+          "pinyin": "jìn",
+          "tones": "4",
+          "level": 2,
+          "meaning": "들어가다",
+          "speech": "进"
+        },
+        "tip": "“팽팽한”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐn</strong>; “들어가다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jìn</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-021",
+        "syllable": "LEI",
+        "a": {
+          "hanzi": "累",
+          "pinyin": "léi",
+          "tones": "2",
+          "level": 2,
+          "meaning": "묶다; 쌓이다",
+          "speech": "累"
+        },
+        "b": {
+          "hanzi": "类",
+          "pinyin": "lèi",
+          "tones": "4",
+          "level": 5,
+          "meaning": "유형",
+          "speech": "类"
+        },
+        "tip": "“묶다; 쌓이다”의 장면은 기세를 위로 끌어올려 <strong>léi</strong>; “유형”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>lèi</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-022",
+        "syllable": "QIAN",
+        "a": {
+          "hanzi": "钱",
+          "pinyin": "qián",
+          "tones": "2",
+          "level": 1,
+          "meaning": "돈",
+          "speech": "钱"
+        },
+        "b": {
+          "hanzi": "欠",
+          "pinyin": "qiàn",
+          "tones": "4",
+          "level": 5,
+          "meaning": "빚",
+          "speech": "欠"
+        },
+        "tip": "“돈”의 장면은 기세를 위로 끌어올려 <strong>qián</strong>; “빚”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>qiàn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-023",
+        "syllable": "DI",
+        "a": {
+          "hanzi": "滴",
+          "pinyin": "dī",
+          "tones": "1",
+          "level": 5,
+          "meaning": "방울",
+          "speech": "滴"
+        },
+        "b": {
+          "hanzi": "地",
+          "pinyin": "dì",
+          "tones": "4",
+          "level": 3,
+          "meaning": "지구(地球). 대지.",
+          "speech": "地"
+        },
+        "tip": "“방울”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dī</strong>; “지구(地球). 대지”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-024",
+        "syllable": "JIU",
+        "a": {
+          "hanzi": "久",
+          "pinyin": "jiǔ",
+          "tones": "3",
+          "level": 3,
+          "meaning": "오래",
+          "speech": "久"
+        },
+        "b": {
+          "hanzi": "救",
+          "pinyin": "jiù",
+          "tones": "4",
+          "level": 5,
+          "meaning": "구하다",
+          "speech": "救"
+        },
+        "tip": "“오래”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǔ</strong>; “구하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiù</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-025",
+        "syllable": "MAO",
+        "a": {
+          "hanzi": "猫",
+          "pinyin": "māo",
+          "tones": "1",
+          "level": 1,
+          "meaning": "고양이",
+          "speech": "猫"
+        },
+        "b": {
+          "hanzi": "毛",
+          "pinyin": "máo",
+          "tones": "2",
+          "level": 5,
+          "meaning": "털",
+          "speech": "毛"
+        },
+        "tip": "“고양이”의 장면은 흔들리지 않게 길게 펼쳐 <strong>māo</strong>; “털”의 장면은 기세를 위로 끌어올려 <strong>máo</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-026",
+        "syllable": "SHI",
+        "a": {
+          "hanzi": "诗",
+          "pinyin": "shī",
+          "tones": "1",
+          "level": 5,
+          "meaning": "시",
+          "speech": "诗"
+        },
+        "b": {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "tones": "4",
+          "level": 1,
+          "meaning": "맞다. 옳다.",
+          "speech": "是"
+        },
+        "tip": "“시”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shī</strong>; “맞다. 옳다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-027",
+        "syllable": "XI",
+        "a": {
+          "hanzi": "西",
+          "pinyin": "xī",
+          "tones": "1",
+          "level": 3,
+          "meaning": "서",
+          "speech": "西"
+        },
+        "b": {
+          "hanzi": "系",
+          "pinyin": "xì",
+          "tones": "4",
+          "level": 5,
+          "meaning": "계통; 연결",
+          "speech": "系"
+        },
+        "tip": "“서”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xī</strong>; “계통; 연결”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-028",
+        "syllable": "NIAN",
+        "a": {
+          "hanzi": "年",
+          "pinyin": "nián",
+          "tones": "2",
+          "level": 1,
+          "meaning": "년",
+          "speech": "年"
+        },
+        "b": {
+          "hanzi": "念",
+          "pinyin": "niàn",
+          "tones": "4",
+          "level": 5,
+          "meaning": "염",
+          "speech": "念"
+        },
+        "tip": "“년”의 장면은 기세를 위로 끌어올려 <strong>nián</strong>; “염”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>niàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-029",
+        "syllable": "PIAN",
+        "a": {
+          "hanzi": "片",
+          "pinyin": "piān",
+          "tones": "1",
+          "level": 5,
+          "meaning": "영화 한 편",
+          "speech": "片"
+        },
+        "b": {
+          "hanzi": "骗",
+          "pinyin": "piàn",
+          "tones": "4",
+          "level": 4,
+          "meaning": "사기 치다",
+          "speech": "骗"
+        },
+        "tip": "“영화 한 편”의 장면은 흔들리지 않게 길게 펼쳐 <strong>piān</strong>; “사기 치다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>piàn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-030",
+        "syllable": "DAO",
+        "a": {
+          "hanzi": "岛",
+          "pinyin": "dǎo",
+          "tones": "3",
+          "level": 5,
+          "meaning": "섬",
+          "speech": "岛"
+        },
+        "b": {
+          "hanzi": "到",
+          "pinyin": "dào",
+          "tones": "4",
+          "level": 2,
+          "meaning": "도착하다. 도달하다. …에 이르다[미치다]. (시간·기간·날짜가) 되다.",
+          "speech": "到"
+        },
+        "tip": "“섬”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǎo</strong>; “도착하다. 도달하다. …에 이르다[미치다]. (시간·기간·날짜가) 되다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dào</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-031",
+        "syllable": "LONG",
+        "a": {
+          "hanzi": "龙",
+          "pinyin": "lóng",
+          "tones": "2",
+          "level": 5,
+          "meaning": "용",
+          "speech": "龙"
+        },
+        "b": {
+          "hanzi": "弄",
+          "pinyin": "lòng",
+          "tones": "4",
+          "level": 4,
+          "meaning": "골목",
+          "speech": "弄"
+        },
+        "tip": "“용”의 장면은 기세를 위로 끌어올려 <strong>lóng</strong>; “골목”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>lòng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-032",
+        "syllable": "PIAN",
+        "a": {
+          "hanzi": "篇",
+          "pinyin": "piān",
+          "tones": "1",
+          "level": 4,
+          "meaning": "편",
+          "speech": "篇"
+        },
+        "b": {
+          "hanzi": "片",
+          "pinyin": "piàn",
+          "tones": "4",
+          "level": 5,
+          "meaning": "조각; 장",
+          "speech": "片"
+        },
+        "tip": "“편”의 장면은 흔들리지 않게 길게 펼쳐 <strong>piān</strong>; “조각; 장”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>piàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-033",
+        "syllable": "JIA",
+        "a": {
+          "hanzi": "家",
+          "pinyin": "jiā",
+          "tones": "1",
+          "level": 1,
+          "meaning": "집",
+          "speech": "家"
+        },
+        "b": {
+          "hanzi": "嫁",
+          "pinyin": "jià",
+          "tones": "4",
+          "level": 5,
+          "meaning": "며머",
+          "speech": "嫁"
+        },
+        "tip": "“집”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiā</strong>; “며머”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jià</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-034",
+        "syllable": "MA",
+        "a": {
+          "hanzi": "吗",
+          "pinyin": "má",
+          "tones": "2",
+          "level": 1,
+          "meaning": "마",
+          "speech": "吗"
+        },
+        "b": {
+          "hanzi": "骂",
+          "pinyin": "mà",
+          "tones": "4",
+          "level": 5,
+          "meaning": "욕하다",
+          "speech": "骂"
+        },
+        "tip": "“마”의 장면은 기세를 위로 끌어올려 <strong>má</strong>; “욕하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>mà</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-035",
+        "syllable": "CHU",
+        "a": {
+          "hanzi": "出",
+          "pinyin": "chū",
+          "tones": "1",
+          "level": 2,
+          "meaning": "출",
+          "speech": "出"
+        },
+        "b": {
+          "hanzi": "除",
+          "pinyin": "chú",
+          "tones": "2",
+          "level": 5,
+          "meaning": "제",
+          "speech": "除"
+        },
+        "tip": "“출”의 장면은 흔들리지 않게 길게 펼쳐 <strong>chū</strong>; “제”의 장면은 기세를 위로 끌어올려 <strong>chú</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-036",
+        "syllable": "LEI",
+        "a": {
+          "hanzi": "雷",
+          "pinyin": "léi",
+          "tones": "2",
+          "level": 5,
+          "meaning": "천둥",
+          "speech": "雷"
+        },
+        "b": {
+          "hanzi": "累",
+          "pinyin": "lèi",
+          "tones": "4",
+          "level": 2,
+          "meaning": "피곤하다",
+          "speech": "累"
+        },
+        "tip": "“천둥”의 장면은 기세를 위로 끌어올려 <strong>léi</strong>; “피곤하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>lèi</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-037",
+        "syllable": "TAO",
+        "a": {
+          "hanzi": "逃",
+          "pinyin": "táo",
+          "tones": "2",
+          "level": 5,
+          "meaning": "도망",
+          "speech": "逃"
+        },
+        "b": {
+          "hanzi": "套",
+          "pinyin": "tào",
+          "tones": "4",
+          "level": 5,
+          "meaning": "세트",
+          "speech": "套"
+        },
+        "tip": "“도망”의 장면은 기세를 위로 끌어올려 <strong>táo</strong>; “세트”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tào</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-038",
+        "syllable": "QIANG",
+        "a": {
+          "hanzi": "枪",
+          "pinyin": "qiāng",
+          "tones": "1",
+          "level": 5,
+          "meaning": "총",
+          "speech": "枪"
+        },
+        "b": {
+          "hanzi": "抢",
+          "pinyin": "qiǎng",
+          "tones": "3",
+          "level": 5,
+          "meaning": "빼앗다",
+          "speech": "抢"
+        },
+        "tip": "“총”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qiāng</strong>; “빼앗다”의 장면은 낮게 품었다가 다시 꺾어 <strong>qiǎng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-039",
+        "syllable": "BAI",
+        "a": {
+          "hanzi": "白",
+          "pinyin": "bái",
+          "tones": "2",
+          "level": 2,
+          "meaning": "백",
+          "speech": "白"
+        },
+        "b": {
+          "hanzi": "摆",
+          "pinyin": "bǎi",
+          "tones": "3",
+          "level": 5,
+          "meaning": "놓다",
+          "speech": "摆"
+        },
+        "tip": "“백”의 장면은 기세를 위로 끌어올려 <strong>bái</strong>; “놓다”의 장면은 낮게 품었다가 다시 꺾어 <strong>bǎi</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-040",
+        "syllable": "QING",
+        "a": {
+          "hanzi": "青",
+          "pinyin": "qīng",
+          "tones": "1",
+          "level": 5,
+          "meaning": "파랑",
+          "speech": "青"
+        },
+        "b": {
+          "hanzi": "请",
+          "pinyin": "qǐng",
+          "tones": "3",
+          "level": 1,
+          "meaning": "주다",
+          "speech": "请"
+        },
+        "tip": "“파랑”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qīng</strong>; “주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>qǐng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-041",
+        "syllable": "ZHU",
+        "a": {
+          "hanzi": "煮",
+          "pinyin": "zhǔ",
+          "tones": "3",
+          "level": 5,
+          "meaning": "끓이다",
+          "speech": "煮"
+        },
+        "b": {
+          "hanzi": "住",
+          "pinyin": "zhù",
+          "tones": "4",
+          "level": 1,
+          "meaning": "주",
+          "speech": "住"
+        },
+        "tip": "“끓이다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǔ</strong>; “주”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhù</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-042",
+        "syllable": "HUI",
+        "a": {
+          "hanzi": "灰",
+          "pinyin": "huī",
+          "tones": "1",
+          "level": 5,
+          "meaning": "재",
+          "speech": "灰"
+        },
+        "b": {
+          "hanzi": "回",
+          "pinyin": "huí",
+          "tones": "2",
+          "level": 1,
+          "meaning": "후이쭈. 회족.",
+          "speech": "回"
+        },
+        "tip": "“재”의 장면은 흔들리지 않게 길게 펼쳐 <strong>huī</strong>; “후이쭈. 회족”의 장면은 기세를 위로 끌어올려 <strong>huí</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-043",
+        "syllable": "WEI",
+        "a": {
+          "hanzi": "为",
+          "pinyin": "wéi",
+          "tones": "2",
+          "level": 2,
+          "meaning": "~이 되다; ~로서",
+          "speech": "为"
+        },
+        "b": {
+          "hanzi": "胃",
+          "pinyin": "wèi",
+          "tones": "4",
+          "level": 5,
+          "meaning": "위",
+          "speech": "胃"
+        },
+        "tip": "“~이 되다; ~로서”의 장면은 기세를 위로 끌어올려 <strong>wéi</strong>; “위”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wèi</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-044",
+        "syllable": "DONG",
+        "a": {
+          "hanzi": "懂",
+          "pinyin": "dǒng",
+          "tones": "3",
+          "level": 2,
+          "meaning": "알다",
+          "speech": "懂"
+        },
+        "b": {
+          "hanzi": "洞",
+          "pinyin": "dòng",
+          "tones": "4",
+          "level": 5,
+          "meaning": "동굴",
+          "speech": "洞"
+        },
+        "tip": "“알다”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǒng</strong>; “동굴”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dòng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-045",
+        "syllable": "WEN",
+        "a": {
+          "hanzi": "闻",
+          "pinyin": "wén",
+          "tones": "2",
+          "level": 5,
+          "meaning": "들으니",
+          "speech": "闻"
+        },
+        "b": {
+          "hanzi": "问",
+          "pinyin": "wèn",
+          "tones": "4",
+          "level": 2,
+          "meaning": "묻다",
+          "speech": "问"
+        },
+        "tip": "“들으니”의 장면은 기세를 위로 끌어올려 <strong>wén</strong>; “묻다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wèn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-046",
+        "syllable": "TI",
+        "a": {
+          "hanzi": "踢",
+          "pinyin": "tī",
+          "tones": "1",
+          "level": 2,
+          "meaning": "차다",
+          "speech": "踢"
+        },
+        "b": {
+          "hanzi": "提",
+          "pinyin": "tí",
+          "tones": "2",
+          "level": 5,
+          "meaning": "제",
+          "speech": "提"
+        },
+        "tip": "“차다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tī</strong>; “제”의 장면은 기세를 위로 끌어올려 <strong>tí</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-047",
+        "syllable": "DANG",
+        "a": {
+          "hanzi": "当",
+          "pinyin": "dāng",
+          "tones": "1",
+          "level": 4,
+          "meaning": "당",
+          "speech": "当"
+        },
+        "b": {
+          "hanzi": "挡",
+          "pinyin": "dǎng",
+          "tones": "3",
+          "level": 5,
+          "meaning": "막다",
+          "speech": "挡"
+        },
+        "tip": "“당”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dāng</strong>; “막다”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǎng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-048",
+        "syllable": "YAO",
+        "a": {
+          "hanzi": "要",
+          "pinyin": "yāo",
+          "tones": "1",
+          "level": 2,
+          "meaning": "요구하다",
+          "speech": "要"
+        },
+        "b": {
+          "hanzi": "咬",
+          "pinyin": "yǎo",
+          "tones": "3",
+          "level": 5,
+          "meaning": "물다",
+          "speech": "咬"
+        },
+        "tip": "“요구하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yāo</strong>; “물다”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǎo</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-049",
+        "syllable": "ZHUANG",
+        "a": {
+          "hanzi": "装",
+          "pinyin": "zhuāng",
+          "tones": "1",
+          "level": 5,
+          "meaning": "담다",
+          "speech": "装"
+        },
+        "b": {
+          "hanzi": "撞",
+          "pinyin": "zhuàng",
+          "tones": "4",
+          "level": 4,
+          "meaning": "부딪힘",
+          "speech": "撞"
+        },
+        "tip": "“담다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhuāng</strong>; “부딪힘”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhuàng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-050",
+        "syllable": "QIANG",
+        "a": {
+          "hanzi": "抢",
+          "pinyin": "qiāng",
+          "tones": "1",
+          "level": 5,
+          "meaning": "부딪치다",
+          "speech": "抢"
+        },
+        "b": {
+          "hanzi": "墙",
+          "pinyin": "qiáng",
+          "tones": "2",
+          "level": 4,
+          "meaning": "벽",
+          "speech": "墙"
+        },
+        "tip": "“부딪치다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qiāng</strong>; “벽”의 장면은 기세를 위로 끌어올려 <strong>qiáng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-051",
+        "syllable": "DUI",
+        "a": {
+          "hanzi": "堆",
+          "pinyin": "duī",
+          "tones": "1",
+          "level": 5,
+          "meaning": "더미",
+          "speech": "堆"
+        },
+        "b": {
+          "hanzi": "对",
+          "pinyin": "duì",
+          "tones": "4",
+          "level": 4,
+          "meaning": "맞다",
+          "speech": "对"
+        },
+        "tip": "“더미”의 장면은 흔들리지 않게 길게 펼쳐 <strong>duī</strong>; “맞다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>duì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-052",
+        "syllable": "MO",
+        "a": {
+          "hanzi": "摸",
+          "pinyin": "mō",
+          "tones": "1",
+          "level": 5,
+          "meaning": "만지다",
+          "speech": "摸"
+        },
+        "b": {
+          "hanzi": "没",
+          "pinyin": "mò",
+          "tones": "4",
+          "level": 1,
+          "meaning": "가라앉다; 물에 잠기다",
+          "speech": "没"
+        },
+        "tip": "“만지다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>mō</strong>; “가라앉다; 물에 잠기다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>mò</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-053",
+        "syllable": "KAN",
+        "a": {
+          "hanzi": "看",
+          "pinyin": "kān",
+          "tones": "1",
+          "level": 1,
+          "meaning": "보다",
+          "speech": "看"
+        },
+        "b": {
+          "hanzi": "砍",
+          "pinyin": "kǎn",
+          "tones": "3",
+          "level": 5,
+          "meaning": "베다",
+          "speech": "砍"
+        },
+        "tip": "“보다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>kān</strong>; “베다”의 장면은 낮게 품었다가 다시 꺾어 <strong>kǎn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-054",
+        "syllable": "DAO",
+        "a": {
+          "hanzi": "刀",
+          "pinyin": "dāo",
+          "tones": "1",
+          "level": 4,
+          "meaning": "칼",
+          "speech": "刀"
+        },
+        "b": {
+          "hanzi": "倒",
+          "pinyin": "dǎo",
+          "tones": "3",
+          "level": 5,
+          "meaning": "거꾸로",
+          "speech": "倒"
+        },
+        "tip": "“칼”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dāo</strong>; “거꾸로”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǎo</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-055",
+        "syllable": "AI",
+        "a": {
+          "hanzi": "唉",
+          "pinyin": "āi",
+          "tones": "1",
+          "level": 5,
+          "meaning": "아이고; 응",
+          "speech": "唉"
+        },
+        "b": {
+          "hanzi": "爱",
+          "pinyin": "ài",
+          "tones": "4",
+          "level": 1,
+          "meaning": "사랑",
+          "speech": "爱"
+        },
+        "tip": "“아이고; 응”의 장면은 흔들리지 않게 길게 펼쳐 <strong>āi</strong>; “사랑”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>ài</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-056",
+        "syllable": "JUAN",
+        "a": {
+          "hanzi": "圈",
+          "pinyin": "juān",
+          "tones": "1",
+          "level": 5,
+          "meaning": "가두다",
+          "speech": "圈"
+        },
+        "b": {
+          "hanzi": "卷",
+          "pinyin": "juàn",
+          "tones": "4",
+          "level": 5,
+          "meaning": "권; 시험지",
+          "speech": "卷"
+        },
+        "tip": "“가두다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>juān</strong>; “권; 시험지”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>juàn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-057",
+        "syllable": "ZUI",
+        "a": {
+          "hanzi": "嘴",
+          "pinyin": "zuǐ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "입의 통칭. 부리. 주둥이.",
+          "speech": "嘴"
+        },
+        "b": {
+          "hanzi": "醉",
+          "pinyin": "zuì",
+          "tones": "4",
+          "level": 5,
+          "meaning": "취하다",
+          "speech": "醉"
+        },
+        "tip": "“입의 통칭. 부리. 주둥이”의 장면은 낮게 품었다가 다시 꺾어 <strong>zuǐ</strong>; “취하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zuì</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-058",
+        "syllable": "TUI",
+        "a": {
+          "hanzi": "推",
+          "pinyin": "tuī",
+          "tones": "1",
+          "level": 4,
+          "meaning": "밀어주다",
+          "speech": "推"
+        },
+        "b": {
+          "hanzi": "退",
+          "pinyin": "tuì",
+          "tones": "4",
+          "level": 5,
+          "meaning": "퇴",
+          "speech": "退"
+        },
+        "tip": "“밀어주다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tuī</strong>; “퇴”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tuì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-059",
+        "syllable": "CAI",
+        "a": {
+          "hanzi": "才",
+          "pinyin": "cái",
+          "tones": "2",
+          "level": 3,
+          "meaning": "비로소",
+          "speech": "才"
+        },
+        "b": {
+          "hanzi": "踩",
+          "pinyin": "cǎi",
+          "tones": "3",
+          "level": 5,
+          "meaning": "밟다",
+          "speech": "踩"
+        },
+        "tip": "“비로소”의 장면은 기세를 위로 끌어올려 <strong>cái</strong>; “밟다”의 장면은 낮게 품었다가 다시 꺾어 <strong>cǎi</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-060",
+        "syllable": "XIAN",
+        "a": {
+          "hanzi": "先",
+          "pinyin": "xiān",
+          "tones": "1",
+          "level": 3,
+          "meaning": "먼저",
+          "speech": "先"
+        },
+        "b": {
+          "hanzi": "县",
+          "pinyin": "xiàn",
+          "tones": "4",
+          "level": 5,
+          "meaning": "현",
+          "speech": "县"
+        },
+        "tip": "“먼저”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiān</strong>; “현”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-061",
+        "syllable": "QU",
+        "a": {
+          "hanzi": "娶",
+          "pinyin": "qǔ",
+          "tones": "3",
+          "level": 5,
+          "meaning": "아내하다",
+          "speech": "娶"
+        },
+        "b": {
+          "hanzi": "去",
+          "pinyin": "qù",
+          "tones": "4",
+          "level": 1,
+          "meaning": "떠나다.",
+          "speech": "去"
+        },
+        "tip": "“아내하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>qǔ</strong>; “떠나다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>qù</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-062",
+        "syllable": "XIA",
+        "a": {
+          "hanzi": "瞎",
+          "pinyin": "xiā",
+          "tones": "1",
+          "level": 5,
+          "meaning": "헛",
+          "speech": "瞎"
+        },
+        "b": {
+          "hanzi": "下",
+          "pinyin": "xià",
+          "tones": "4",
+          "level": 1,
+          "meaning": "하",
+          "speech": "下"
+        },
+        "tip": "“헛”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiā</strong>; “하”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xià</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-063",
+        "syllable": "SHUI",
+        "a": {
+          "hanzi": "水",
+          "pinyin": "shuǐ",
+          "tones": "3",
+          "level": 1,
+          "meaning": "물",
+          "speech": "水"
+        },
+        "b": {
+          "hanzi": "税",
+          "pinyin": "shuì",
+          "tones": "4",
+          "level": 5,
+          "meaning": "세",
+          "speech": "税"
+        },
+        "tip": "“물”의 장면은 낮게 품었다가 다시 꺾어 <strong>shuǐ</strong>; “세”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shuì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-064",
+        "syllable": "YAO",
+        "a": {
+          "hanzi": "摇",
+          "pinyin": "yáo",
+          "tones": "2",
+          "level": 5,
+          "meaning": "흔들다",
+          "speech": "摇"
+        },
+        "b": {
+          "hanzi": "药",
+          "pinyin": "yào",
+          "tones": "4",
+          "level": 2,
+          "meaning": "약",
+          "speech": "药"
+        },
+        "tip": "“흔들다”의 장면은 기세를 위로 끌어올려 <strong>yáo</strong>; “약”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yào</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-065",
+        "syllable": "CHA",
+        "a": {
+          "hanzi": "插",
+          "pinyin": "chā",
+          "tones": "1",
+          "level": 5,
+          "meaning": "꽂다",
+          "speech": "插"
+        },
+        "b": {
+          "hanzi": "差",
+          "pinyin": "chà",
+          "tones": "4",
+          "level": 3,
+          "meaning": "나쁘다; 부족하다",
+          "speech": "差"
+        },
+        "tip": "“꽂다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>chā</strong>; “나쁘다; 부족하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>chà</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-066",
+        "syllable": "LAN",
+        "a": {
+          "hanzi": "蓝",
+          "pinyin": "lán",
+          "tones": "2",
+          "level": 3,
+          "meaning": "파랑",
+          "speech": "蓝"
+        },
+        "b": {
+          "hanzi": "烂",
+          "pinyin": "làn",
+          "tones": "4",
+          "level": 5,
+          "meaning": "썩음",
+          "speech": "烂"
+        },
+        "tip": "“파랑”의 장면은 기세를 위로 끌어올려 <strong>lán</strong>; “썩음”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>làn</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-067",
+        "syllable": "ZHANG",
+        "a": {
+          "hanzi": "长",
+          "pinyin": "zhǎng",
+          "tones": "3",
+          "level": 2,
+          "meaning": "자라다; 우두머리",
+          "speech": "长"
+        },
+        "b": {
+          "hanzi": "涨",
+          "pinyin": "zhàng",
+          "tones": "4",
+          "level": 5,
+          "meaning": "붓다; 팽창하다",
+          "speech": "涨"
+        },
+        "tip": "“자라다; 우두머리”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǎng</strong>; “붓다; 팽창하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhàng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-068",
+        "syllable": "XIAN SHI",
+        "a": {
+          "hanzi": "显示",
+          "pinyin": "xiǎn shì",
+          "tones": "3·4",
+          "level": 5,
+          "meaning": "표시",
+          "speech": "显示"
+        },
+        "b": {
+          "hanzi": "现实",
+          "pinyin": "xiàn shí",
+          "tones": "4·2",
+          "level": 5,
+          "meaning": "현실",
+          "speech": "现实"
+        },
+        "tip": "“표시”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎn shì</strong>; “현실”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàn shí</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-069",
+        "syllable": "YAO",
+        "a": {
+          "hanzi": "腰",
+          "pinyin": "yāo",
+          "tones": "1",
+          "level": 5,
+          "meaning": "허리",
+          "speech": "腰"
+        },
+        "b": {
+          "hanzi": "要",
+          "pinyin": "yào",
+          "tones": "4",
+          "level": 2,
+          "meaning": "원하다; 필요하다",
+          "speech": "要"
+        },
+        "tip": "“허리”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yāo</strong>; “원하다; 필요하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yào</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-070",
+        "syllable": "SHENG",
+        "a": {
+          "hanzi": "升",
+          "pinyin": "shēng",
+          "tones": "1",
+          "level": 5,
+          "meaning": "오르다",
+          "speech": "升"
+        },
+        "b": {
+          "hanzi": "省",
+          "pinyin": "shěng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "절약하다; 성",
+          "speech": "省"
+        },
+        "tip": "“오르다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shēng</strong>; “절약하다; 성”의 장면은 낮게 품었다가 다시 꺾어 <strong>shěng</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-071",
+        "syllable": "ZHANG",
+        "a": {
+          "hanzi": "张",
+          "pinyin": "zhāng",
+          "tones": "1",
+          "level": 2,
+          "meaning": "장",
+          "speech": "张"
+        },
+        "b": {
+          "hanzi": "涨",
+          "pinyin": "zhǎng",
+          "tones": "3",
+          "level": 5,
+          "meaning": "오르다",
+          "speech": "涨"
+        },
+        "tip": "“장”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhāng</strong>; “오르다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǎng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-072",
+        "syllable": "CHAO",
+        "a": {
+          "hanzi": "朝",
+          "pinyin": "cháo",
+          "tones": "2",
+          "level": 5,
+          "meaning": "~을 향하다; 왕조",
+          "speech": "朝"
+        },
+        "b": {
+          "hanzi": "炒",
+          "pinyin": "chǎo",
+          "tones": "3",
+          "level": 5,
+          "meaning": "볶다",
+          "speech": "炒"
+        },
+        "tip": "“~을 향하다; 왕조”의 장면은 기세를 위로 끌어올려 <strong>cháo</strong>; “볶다”의 장면은 낮게 품었다가 다시 꺾어 <strong>chǎo</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-073",
+        "syllable": "JIAN",
+        "a": {
+          "hanzi": "捡",
+          "pinyin": "jiǎn",
+          "tones": "3",
+          "level": 5,
+          "meaning": "줍다",
+          "speech": "捡"
+        },
+        "b": {
+          "hanzi": "件",
+          "pinyin": "jiàn",
+          "tones": "4",
+          "level": 2,
+          "meaning": "건",
+          "speech": "件"
+        },
+        "tip": "“줍다”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎn</strong>; “건”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-074",
+        "syllable": "YI ZHI",
+        "a": {
+          "hanzi": "一直",
+          "pinyin": "yī zhí",
+          "tones": "1·2",
+          "level": 3,
+          "meaning": "줄곧",
+          "speech": "一直"
+        },
+        "b": {
+          "hanzi": "一致",
+          "pinyin": "yī zhì",
+          "tones": "1·4",
+          "level": 5,
+          "meaning": "일치하다",
+          "speech": "一致"
+        },
+        "tip": "“줄곧”의 장면은 기세를 위로 끌어올려 <strong>yī zhí</strong>; “일치하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yī zhì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-075",
+        "syllable": "FEI",
+        "a": {
+          "hanzi": "非",
+          "pinyin": "fēi",
+          "tones": "1",
+          "level": 5,
+          "meaning": "아님",
+          "speech": "非"
+        },
+        "b": {
+          "hanzi": "肺",
+          "pinyin": "fèi",
+          "tones": "4",
+          "level": 5,
+          "meaning": "폐",
+          "speech": "肺"
+        },
+        "tip": "“아님”의 장면은 흔들리지 않게 길게 펼쳐 <strong>fēi</strong>; “폐”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>fèi</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-076",
+        "syllable": "LOU",
+        "a": {
+          "hanzi": "楼",
+          "pinyin": "lóu",
+          "tones": "2",
+          "level": 3,
+          "meaning": "층",
+          "speech": "楼"
+        },
+        "b": {
+          "hanzi": "露",
+          "pinyin": "lòu",
+          "tones": "4",
+          "level": 5,
+          "meaning": "이슬",
+          "speech": "露"
+        },
+        "tip": "“층”의 장면은 기세를 위로 끌어올려 <strong>lóu</strong>; “이슬”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>lòu</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-077",
+        "syllable": "FU",
+        "a": {
+          "hanzi": "幅",
+          "pinyin": "fú",
+          "tones": "2",
+          "level": 5,
+          "meaning": "폭",
+          "speech": "幅"
+        },
+        "b": {
+          "hanzi": "富",
+          "pinyin": "fù",
+          "tones": "4",
+          "level": 4,
+          "meaning": "부",
+          "speech": "富"
+        },
+        "tip": "“폭”의 장면은 기세를 위로 끌어올려 <strong>fú</strong>; “부”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>fù</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-078",
+        "syllable": "WU",
+        "a": {
+          "hanzi": "五",
+          "pinyin": "wǔ",
+          "tones": "3",
+          "level": 1,
+          "meaning": "5. 다섯. 다섯째.",
+          "speech": "五"
+        },
+        "b": {
+          "hanzi": "雾",
+          "pinyin": "wù",
+          "tones": "4",
+          "level": 5,
+          "meaning": "안개",
+          "speech": "雾"
+        },
+        "tip": "“5. 다섯. 다섯째”의 장면은 낮게 품었다가 다시 꺾어 <strong>wǔ</strong>; “안개”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wù</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-079",
+        "syllable": "XIAO SHI",
+        "a": {
+          "hanzi": "消失",
+          "pinyin": "xiāo shī",
+          "tones": "1·1",
+          "level": 5,
+          "meaning": "사라지다",
+          "speech": "消失"
+        },
+        "b": {
+          "hanzi": "小时",
+          "pinyin": "xiǎo shí",
+          "tones": "3·2",
+          "level": 2,
+          "meaning": "시간",
+          "speech": "小时"
+        },
+        "tip": "“사라지다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiāo shī</strong>; “시간”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎo shí</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-080",
+        "syllable": "GUO",
+        "a": {
+          "hanzi": "锅",
+          "pinyin": "guō",
+          "tones": "1",
+          "level": 5,
+          "meaning": "냄비",
+          "speech": "锅"
+        },
+        "b": {
+          "hanzi": "过",
+          "pinyin": "guò",
+          "tones": "4",
+          "level": 4,
+          "meaning": "건너다",
+          "speech": "过"
+        },
+        "tip": "“냄비”의 장면은 흔들리지 않게 길게 펼쳐 <strong>guō</strong>; “건너다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>guò</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-081",
+        "syllable": "BAO",
+        "a": {
+          "hanzi": "包",
+          "pinyin": "bāo",
+          "tones": "1",
+          "level": 3,
+          "meaning": "가방",
+          "speech": "包"
+        },
+        "b": {
+          "hanzi": "薄",
+          "pinyin": "báo",
+          "tones": "2",
+          "level": 5,
+          "meaning": "얇은",
+          "speech": "薄"
+        },
+        "tip": "“가방”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bāo</strong>; “얇은”의 장면은 기세를 위로 끌어올려 <strong>báo</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-082",
+        "syllable": "ZHEN",
+        "a": {
+          "hanzi": "真",
+          "pinyin": "zhēn",
+          "tones": "1",
+          "level": 2,
+          "meaning": "정말",
+          "speech": "真"
+        },
+        "b": {
+          "hanzi": "阵",
+          "pinyin": "zhèn",
+          "tones": "4",
+          "level": 5,
+          "meaning": "진",
+          "speech": "阵"
+        },
+        "tip": "“정말”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhēn</strong>; “진”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhèn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-083",
+        "syllable": "DING",
+        "a": {
+          "hanzi": "丁",
+          "pinyin": "dīng",
+          "tones": "1",
+          "level": 5,
+          "meaning": "정",
+          "speech": "丁"
+        },
+        "b": {
+          "hanzi": "顶",
+          "pinyin": "dǐng",
+          "tones": "3",
+          "level": 5,
+          "meaning": "최고",
+          "speech": "顶"
+        },
+        "tip": "“정”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dīng</strong>; “최고”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǐng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-084",
+        "syllable": "ZU ZHI",
+        "a": {
+          "hanzi": "组织",
+          "pinyin": "zǔ zhī",
+          "tones": "3·1",
+          "level": 4,
+          "meaning": "조직",
+          "speech": "组织"
+        },
+        "b": {
+          "hanzi": "阻止",
+          "pinyin": "zǔ zhǐ",
+          "tones": "3·3",
+          "level": 5,
+          "meaning": "가로막다",
+          "speech": "阻止"
+        },
+        "tip": "“조직”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zǔ zhī</strong>; “가로막다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zǔ zhǐ</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-085",
+        "syllable": "JUAN",
+        "a": {
+          "hanzi": "卷",
+          "pinyin": "juǎn",
+          "tones": "3",
+          "level": 5,
+          "meaning": "말다",
+          "speech": "卷"
+        },
+        "b": {
+          "hanzi": "圈",
+          "pinyin": "juàn",
+          "tones": "4",
+          "level": 5,
+          "meaning": "우리; 축사",
+          "speech": "圈"
+        },
+        "tip": "“말다”의 장면은 낮게 품었다가 다시 꺾어 <strong>juǎn</strong>; “우리; 축사”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>juàn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-086",
+        "syllable": "ZHI DAO",
+        "a": {
+          "hanzi": "知道",
+          "pinyin": "zhī dào",
+          "tones": "1·4",
+          "level": 2,
+          "meaning": "알다",
+          "speech": "知道"
+        },
+        "b": {
+          "hanzi": "指导",
+          "pinyin": "zhǐ dǎo",
+          "tones": "3·3",
+          "level": 5,
+          "meaning": "지도",
+          "speech": "指导"
+        },
+        "tip": "“알다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhī dào</strong>; “지도”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǐ dǎo</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-087",
+        "syllable": "XIU",
+        "a": {
+          "hanzi": "修",
+          "pinyin": "xiū",
+          "tones": "1",
+          "level": 4,
+          "meaning": "수",
+          "speech": "修"
+        },
+        "b": {
+          "hanzi": "臭",
+          "pinyin": "xiù",
+          "tones": "4",
+          "level": 5,
+          "meaning": "냄새를 맡다",
+          "speech": "臭"
+        },
+        "tip": "“수”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiū</strong>; “냄새를 맡다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiù</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-088",
+        "syllable": "WAN",
+        "a": {
+          "hanzi": "弯",
+          "pinyin": "wān",
+          "tones": "1",
+          "level": 5,
+          "meaning": "굽이",
+          "speech": "弯"
+        },
+        "b": {
+          "hanzi": "玩",
+          "pinyin": "wán",
+          "tones": "2",
+          "level": 2,
+          "meaning": "놀다. 놀이하다. 장난하다.",
+          "speech": "玩"
+        },
+        "tip": "“굽이”의 장면은 흔들리지 않게 길게 펼쳐 <strong>wān</strong>; “놀다. 놀이하다. 장난하다”의 장면은 기세를 위로 끌어올려 <strong>wán</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-089",
+        "syllable": "DONG",
+        "a": {
+          "hanzi": "东",
+          "pinyin": "dōng",
+          "tones": "1",
+          "level": 3,
+          "meaning": "동",
+          "speech": "东"
+        },
+        "b": {
+          "hanzi": "冻",
+          "pinyin": "dòng",
+          "tones": "4",
+          "level": 5,
+          "meaning": "얼어 있다",
+          "speech": "冻"
+        },
+        "tip": "“동”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dōng</strong>; “얼어 있다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dòng</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-090",
+        "syllable": "DUN",
+        "a": {
+          "hanzi": "蹲",
+          "pinyin": "dūn",
+          "tones": "1",
+          "level": 5,
+          "meaning": "쪼그리고 앉다",
+          "speech": "蹲"
+        },
+        "b": {
+          "hanzi": "顿",
+          "pinyin": "dùn",
+          "tones": "4",
+          "level": 4,
+          "meaning": "멈추다",
+          "speech": "顿"
+        },
+        "tip": "“쪼그리고 앉다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dūn</strong>; “멈추다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dùn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-091",
+        "syllable": "JIA",
+        "a": {
+          "hanzi": "甲",
+          "pinyin": "jiǎ",
+          "tones": "3",
+          "level": 5,
+          "meaning": "갑",
+          "speech": "甲"
+        },
+        "b": {
+          "hanzi": "假",
+          "pinyin": "jià",
+          "tones": "4",
+          "level": 4,
+          "meaning": "휴가",
+          "speech": "假"
+        },
+        "tip": "“갑”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎ</strong>; “휴가”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jià</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-092",
+        "syllable": "HUI",
+        "a": {
+          "hanzi": "挥",
+          "pinyin": "huī",
+          "tones": "1",
+          "level": 5,
+          "meaning": "휘",
+          "speech": "挥"
+        },
+        "b": {
+          "hanzi": "会",
+          "pinyin": "huì",
+          "tones": "4",
+          "level": 1,
+          "meaning": "될 것",
+          "speech": "会"
+        },
+        "tip": "“휘”의 장면은 흔들리지 않게 길게 펼쳐 <strong>huī</strong>; “될 것”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>huì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-093",
+        "syllable": "SHUAI",
+        "a": {
+          "hanzi": "摔",
+          "pinyin": "shuāi",
+          "tones": "1",
+          "level": 5,
+          "meaning": "떨어지다",
+          "speech": "摔"
+        },
+        "b": {
+          "hanzi": "帅",
+          "pinyin": "shuài",
+          "tones": "4",
+          "level": 4,
+          "meaning": "멋지다",
+          "speech": "帅"
+        },
+        "tip": "“떨어지다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shuāi</strong>; “멋지다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shuài</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-094",
+        "syllable": "LI",
+        "a": {
+          "hanzi": "离",
+          "pinyin": "lí",
+          "tones": "2",
+          "level": 2,
+          "meaning": "떨어짐",
+          "speech": "离"
+        },
+        "b": {
+          "hanzi": "粒",
+          "pinyin": "lì",
+          "tones": "4",
+          "level": 5,
+          "meaning": "알",
+          "speech": "粒"
+        },
+        "tip": "“떨어짐”의 장면은 기세를 위로 끌어올려 <strong>lí</strong>; “알”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>lì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-095",
+        "syllable": "PIAO",
+        "a": {
+          "hanzi": "飘",
+          "pinyin": "piāo",
+          "tones": "1",
+          "level": 5,
+          "meaning": "날리다",
+          "speech": "飘"
+        },
+        "b": {
+          "hanzi": "票",
+          "pinyin": "piào",
+          "tones": "4",
+          "level": 2,
+          "meaning": "표",
+          "speech": "票"
+        },
+        "tip": "“날리다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>piāo</strong>; “표”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>piào</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-096",
+        "syllable": "SI",
+        "a": {
+          "hanzi": "撕",
+          "pinyin": "sī",
+          "tones": "1",
+          "level": 5,
+          "meaning": "찢다",
+          "speech": "撕"
+        },
+        "b": {
+          "hanzi": "死",
+          "pinyin": "sǐ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "죽다., 生(1d))",
+          "speech": "死"
+        },
+        "tip": "“찢다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>sī</strong>; “죽다., 生(1d))”의 장면은 낮게 품었다가 다시 꺾어 <strong>sǐ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-097",
+        "syllable": "WAI",
+        "a": {
+          "hanzi": "歪",
+          "pinyin": "wāi",
+          "tones": "1",
+          "level": 5,
+          "meaning": "일그러침",
+          "speech": "歪"
+        },
+        "b": {
+          "hanzi": "外",
+          "pinyin": "wài",
+          "tones": "4",
+          "level": 2,
+          "meaning": "외",
+          "speech": "外"
+        },
+        "tip": "“일그러침”의 장면은 흔들리지 않게 길게 펼쳐 <strong>wāi</strong>; “외”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wài</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-098",
+        "syllable": "QUAN",
+        "a": {
+          "hanzi": "圈",
+          "pinyin": "quān",
+          "tones": "1",
+          "level": 5,
+          "meaning": "원; 고리",
+          "speech": "圈"
+        },
+        "b": {
+          "hanzi": "劝",
+          "pinyin": "quàn",
+          "tones": "4",
+          "level": 5,
+          "meaning": "권고하다",
+          "speech": "劝"
+        },
+        "tip": "“원; 고리”의 장면은 흔들리지 않게 길게 펼쳐 <strong>quān</strong>; “권고하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>quàn</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-099",
+        "syllable": "ZHENG",
+        "a": {
+          "hanzi": "睁",
+          "pinyin": "zhēng",
+          "tones": "1",
+          "level": 5,
+          "meaning": "눈을 뜨다",
+          "speech": "睁"
+        },
+        "b": {
+          "hanzi": "正",
+          "pinyin": "zhèng",
+          "tones": "4",
+          "level": 5,
+          "meaning": "바르다",
+          "speech": "正"
+        },
+        "tip": "“눈을 뜨다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhēng</strong>; “바르다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhèng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-100",
+        "syllable": "NONG",
+        "a": {
+          "hanzi": "浓",
+          "pinyin": "nóng",
+          "tones": "2",
+          "level": 5,
+          "meaning": "진한",
+          "speech": "浓"
+        },
+        "b": {
+          "hanzi": "弄",
+          "pinyin": "nòng",
+          "tones": "4",
+          "level": 4,
+          "meaning": "다루다; 하다",
+          "speech": "弄"
+        },
+        "tip": "“진한”의 장면은 기세를 위로 끌어올려 <strong>nóng</strong>; “다루다; 하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>nòng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-101",
+        "syllable": "MEI LI",
+        "a": {
+          "hanzi": "美丽",
+          "pinyin": "měi lì",
+          "tones": "3·4",
+          "level": 4,
+          "meaning": "아름답다",
+          "speech": "美丽"
+        },
+        "b": {
+          "hanzi": "魅力",
+          "pinyin": "mèi lì",
+          "tones": "4·4",
+          "level": 5,
+          "meaning": "매력",
+          "speech": "魅力"
+        },
+        "tip": "“아름답다”의 장면은 낮게 품었다가 다시 꺾어 <strong>měi lì</strong>; “매력”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>mèi lì</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-102",
+        "syllable": "DOU",
+        "a": {
+          "hanzi": "都",
+          "pinyin": "dōu",
+          "tones": "1",
+          "level": 1,
+          "meaning": "모두",
+          "speech": "都"
+        },
+        "b": {
+          "hanzi": "逗",
+          "pinyin": "dòu",
+          "tones": "4",
+          "level": 5,
+          "meaning": "장난",
+          "speech": "逗"
+        },
+        "tip": "“모두”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dōu</strong>; “장난”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dòu</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-103",
+        "syllable": "TONG SHI",
+        "a": {
+          "hanzi": "同时",
+          "pinyin": "tóng shí",
+          "tones": "2·2",
+          "level": 5,
+          "meaning": "동시에",
+          "speech": "同时"
+        },
+        "b": {
+          "hanzi": "同事",
+          "pinyin": "tóng shì",
+          "tones": "2·4",
+          "level": 3,
+          "meaning": "동료",
+          "speech": "同事"
+        },
+        "tip": "“동시에”의 장면은 기세를 위로 끌어올려 <strong>tóng shí</strong>; “동료”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tóng shì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-104",
+        "syllable": "AI",
+        "a": {
+          "hanzi": "矮",
+          "pinyin": "ǎi",
+          "tones": "3",
+          "level": 3,
+          "meaning": "키가 작다",
+          "speech": "矮"
+        },
+        "b": {
+          "hanzi": "唉",
+          "pinyin": "ài",
+          "tones": "4",
+          "level": 5,
+          "meaning": "아아; 한숨",
+          "speech": "唉"
+        },
+        "tip": "“키가 작다”의 장면은 낮게 품었다가 다시 꺾어 <strong>ǎi</strong>; “아아; 한숨”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>ài</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-105",
+        "syllable": "YUN",
+        "a": {
+          "hanzi": "云",
+          "pinyin": "yún",
+          "tones": "2",
+          "level": 3,
+          "meaning": "구름",
+          "speech": "云"
+        },
+        "b": {
+          "hanzi": "晕",
+          "pinyin": "yùn",
+          "tones": "4",
+          "level": 5,
+          "meaning": "어지럽다",
+          "speech": "晕"
+        },
+        "tip": "“구름”의 장면은 기세를 위로 끌어올려 <strong>yún</strong>; “어지럽다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yùn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-106",
+        "syllable": "TANG",
+        "a": {
+          "hanzi": "躺",
+          "pinyin": "tǎng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "눕다",
+          "speech": "躺"
+        },
+        "b": {
+          "hanzi": "烫",
+          "pinyin": "tàng",
+          "tones": "4",
+          "level": 5,
+          "meaning": "뜨겁다",
+          "speech": "烫"
+        },
+        "tip": "“눕다”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǎng</strong>; “뜨겁다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tàng</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-107",
+        "syllable": "HAN",
+        "a": {
+          "hanzi": "喊",
+          "pinyin": "hǎn",
+          "tones": "3",
+          "level": 5,
+          "meaning": "소리치다",
+          "speech": "喊"
+        },
+        "b": {
+          "hanzi": "汗",
+          "pinyin": "hàn",
+          "tones": "4",
+          "level": 4,
+          "meaning": "땀",
+          "speech": "汗"
+        },
+        "tip": "“소리치다”의 장면은 낮게 품었다가 다시 꺾어 <strong>hǎn</strong>; “땀”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hàn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-108",
+        "syllable": "REN WU",
+        "a": {
+          "hanzi": "人物",
+          "pinyin": "rén wù",
+          "tones": "2·4",
+          "level": 5,
+          "meaning": "인물",
+          "speech": "人物"
+        },
+        "b": {
+          "hanzi": "任务",
+          "pinyin": "rèn wu",
+          "tones": "4·5",
+          "level": 4,
+          "meaning": "임무",
+          "speech": "任务"
+        },
+        "tip": "“인물”의 장면은 기세를 위로 끌어올려 <strong>rén wù</strong>; “임무”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>rèn wu</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-109",
+        "syllable": "YIN",
+        "a": {
+          "hanzi": "阴",
+          "pinyin": "yīn",
+          "tones": "1",
+          "level": 2,
+          "meaning": "음",
+          "speech": "阴"
+        },
+        "b": {
+          "hanzi": "银",
+          "pinyin": "yín",
+          "tones": "2",
+          "level": 5,
+          "meaning": "은",
+          "speech": "银"
+        },
+        "tip": "“음”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yīn</strong>; “은”의 장면은 기세를 위로 끌어올려 <strong>yín</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-110",
+        "syllable": "PI",
+        "a": {
+          "hanzi": "批",
+          "pinyin": "pī",
+          "tones": "1",
+          "level": 5,
+          "meaning": "도매",
+          "speech": "批"
+        },
+        "b": {
+          "hanzi": "匹",
+          "pinyin": "pǐ",
+          "tones": "3",
+          "level": 5,
+          "meaning": "쌍",
+          "speech": "匹"
+        },
+        "tip": "“도매”의 장면은 흔들리지 않게 길게 펼쳐 <strong>pī</strong>; “쌍”의 장면은 낮게 품었다가 다시 꺾어 <strong>pǐ</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-111",
+        "syllable": "CHOU",
+        "a": {
+          "hanzi": "丑",
+          "pinyin": "chǒu",
+          "tones": "3",
+          "level": 5,
+          "meaning": "추하다",
+          "speech": "丑"
+        },
+        "b": {
+          "hanzi": "臭",
+          "pinyin": "chòu",
+          "tones": "4",
+          "level": 5,
+          "meaning": "냄새나다",
+          "speech": "臭"
+        },
+        "tip": "“추하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>chǒu</strong>; “냄새나다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>chòu</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-112",
+        "syllable": "TONG YI",
+        "a": {
+          "hanzi": "同意",
+          "pinyin": "tóng yì",
+          "tones": "2·4",
+          "level": 3,
+          "meaning": "동의하다",
+          "speech": "同意"
+        },
+        "b": {
+          "hanzi": "统一",
+          "pinyin": "tǒng yī",
+          "tones": "3·1",
+          "level": 5,
+          "meaning": "통일",
+          "speech": "统一"
+        },
+        "tip": "“동의하다”의 장면은 기세를 위로 끌어올려 <strong>tóng yì</strong>; “통일”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǒng yī</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-113",
+        "syllable": "QIAO",
+        "a": {
+          "hanzi": "敲",
+          "pinyin": "qiāo",
+          "tones": "1",
+          "level": 4,
+          "meaning": "치다",
+          "speech": "敲"
+        },
+        "b": {
+          "hanzi": "瞧",
+          "pinyin": "qiáo",
+          "tones": "2",
+          "level": 5,
+          "meaning": "봐",
+          "speech": "瞧"
+        },
+        "tip": "“치다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qiāo</strong>; “봐”의 장면은 기세를 위로 끌어올려 <strong>qiáo</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-114",
+        "syllable": "ZI",
+        "a": {
+          "hanzi": "紫",
+          "pinyin": "zǐ",
+          "tones": "3",
+          "level": 5,
+          "meaning": "보라",
+          "speech": "紫"
+        },
+        "b": {
+          "hanzi": "字",
+          "pinyin": "zì",
+          "tones": "4",
+          "level": 1,
+          "meaning": "글자",
+          "speech": "字"
+        },
+        "tip": "“보라”의 장면은 낮게 품었다가 다시 꺾어 <strong>zǐ</strong>; “글자”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-115",
+        "syllable": "QIAN",
+        "a": {
+          "hanzi": "千",
+          "pinyin": "qiān",
+          "tones": "1",
+          "level": 2,
+          "meaning": "천",
+          "speech": "千"
+        },
+        "b": {
+          "hanzi": "浅",
+          "pinyin": "qiǎn",
+          "tones": "3",
+          "level": 5,
+          "meaning": "얕다",
+          "speech": "浅"
+        },
+        "tip": "“천”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qiān</strong>; “얕다”의 장면은 낮게 품었다가 다시 꺾어 <strong>qiǎn</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-116",
+        "syllable": "ZUO WEI",
+        "a": {
+          "hanzi": "作为",
+          "pinyin": "zuò wéi",
+          "tones": "4·2",
+          "level": 5,
+          "meaning": "소행",
+          "speech": "作为"
+        },
+        "b": {
+          "hanzi": "座位",
+          "pinyin": "zuò wèi",
+          "tones": "4·4",
+          "level": 4,
+          "meaning": "좌석",
+          "speech": "座位"
+        },
+        "tip": "“소행”의 장면은 기세를 위로 끌어올려 <strong>zuò wéi</strong>; “좌석”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zuò wèi</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-117",
+        "syllable": "XIE",
+        "a": {
+          "hanzi": "歇",
+          "pinyin": "xiē",
+          "tones": "1",
+          "level": 5,
+          "meaning": "휴",
+          "speech": "歇"
+        },
+        "b": {
+          "hanzi": "写",
+          "pinyin": "xiě",
+          "tones": "3",
+          "level": 1,
+          "meaning": "쓰다",
+          "speech": "写"
+        },
+        "tip": "“휴”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiē</strong>; “쓰다”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiě</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-118",
+        "syllable": "GAO SU",
+        "a": {
+          "hanzi": "高速",
+          "pinyin": "gāo sù",
+          "tones": "1·4",
+          "level": 5,
+          "meaning": "고속",
+          "speech": "高速"
+        },
+        "b": {
+          "hanzi": "告诉",
+          "pinyin": "gào su",
+          "tones": "4·5",
+          "level": 2,
+          "meaning": "알려 주다",
+          "speech": "告诉"
+        },
+        "tip": "“고속”의 장면은 흔들리지 않게 길게 펼쳐 <strong>gāo sù</strong>; “알려 주다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>gào su</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-119",
+        "syllable": "SHI JIAN",
+        "a": {
+          "hanzi": "时间",
+          "pinyin": "shí jiān",
+          "tones": "2·1",
+          "level": 2,
+          "meaning": "시간",
+          "speech": "时间"
+        },
+        "b": {
+          "hanzi": "实践",
+          "pinyin": "shí jiàn",
+          "tones": "2·4",
+          "level": 5,
+          "meaning": "실천하다",
+          "speech": "实践"
+        },
+        "tip": "“시간”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shí jiān</strong>; “실천하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shí jiàn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-120",
+        "syllable": "JING LI",
+        "a": {
+          "hanzi": "经理",
+          "pinyin": "jīng lǐ",
+          "tones": "1·3",
+          "level": 3,
+          "meaning": "사장님",
+          "speech": "经理"
+        },
+        "b": {
+          "hanzi": "精力",
+          "pinyin": "jīng lì",
+          "tones": "1·4",
+          "level": 5,
+          "meaning": "기력",
+          "speech": "精力"
+        },
+        "tip": "“사장님”의 장면은 낮게 품었다가 다시 꺾어 <strong>jīng lǐ</strong>; “기력”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jīng lì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-121",
+        "syllable": "SHI WU",
+        "a": {
+          "hanzi": "食物",
+          "pinyin": "shí wù",
+          "tones": "2·4",
+          "level": 5,
+          "meaning": "음식",
+          "speech": "食物"
+        },
+        "b": {
+          "hanzi": "事物",
+          "pinyin": "shì wù",
+          "tones": "4·4",
+          "level": 5,
+          "meaning": "사물",
+          "speech": "事物"
+        },
+        "tip": "“음식”의 장면은 기세를 위로 끌어올려 <strong>shí wù</strong>; “사물”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì wù</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-122",
+        "syllable": "TONG ZHI",
+        "a": {
+          "hanzi": "通知",
+          "pinyin": "tōng zhī",
+          "tones": "1·1",
+          "level": 4,
+          "meaning": "알리다",
+          "speech": "通知"
+        },
+        "b": {
+          "hanzi": "统治",
+          "pinyin": "tǒng zhì",
+          "tones": "3·4",
+          "level": 5,
+          "meaning": "통치하다",
+          "speech": "统治"
+        },
+        "tip": "“알리다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tōng zhī</strong>; “통치하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǒng zhì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-123",
+        "syllable": "ZHI HUI",
+        "a": {
+          "hanzi": "指挥",
+          "pinyin": "zhǐ huī",
+          "tones": "3·1",
+          "level": 5,
+          "meaning": "지휘하다",
+          "speech": "指挥"
+        },
+        "b": {
+          "hanzi": "智慧",
+          "pinyin": "zhì huì",
+          "tones": "4·4",
+          "level": 5,
+          "meaning": "지혜",
+          "speech": "智慧"
+        },
+        "tip": "“지휘하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǐ huī</strong>; “지혜”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhì huì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-124",
+        "syllable": "SHI XIAN",
+        "a": {
+          "hanzi": "实现",
+          "pinyin": "shí xiàn",
+          "tones": "2·4",
+          "level": 5,
+          "meaning": "실현하다",
+          "speech": "实现"
+        },
+        "b": {
+          "hanzi": "事先",
+          "pinyin": "shì xiān",
+          "tones": "4·1",
+          "level": 5,
+          "meaning": "미리",
+          "speech": "事先"
+        },
+        "tip": "“실현하다”의 장면은 기세를 위로 끌어올려 <strong>shí xiàn</strong>; “미리”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì xiān</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-125",
+        "syllable": "YOU YU",
+        "a": {
+          "hanzi": "由于",
+          "pinyin": "yóu yú",
+          "tones": "2·2",
+          "level": 4,
+          "meaning": "때문에",
+          "speech": "由于"
+        },
+        "b": {
+          "hanzi": "犹豫",
+          "pinyin": "yóu yù",
+          "tones": "2·4",
+          "level": 5,
+          "meaning": "망설이다",
+          "speech": "犹豫"
+        },
+        "tip": "“때문에”의 장면은 기세를 위로 끌어올려 <strong>yóu yú</strong>; “망설이다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yóu yù</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-126",
+        "syllable": "JIAO",
+        "a": {
+          "hanzi": "浇",
+          "pinyin": "jiāo",
+          "tones": "1",
+          "level": 5,
+          "meaning": "뿌리다",
+          "speech": "浇"
+        },
+        "b": {
+          "hanzi": "叫",
+          "pinyin": "jiào",
+          "tones": "4",
+          "level": 1,
+          "meaning": "외치다. 고함치다. 소리지르다. 소리치다. 부르짖다.",
+          "speech": "叫"
+        },
+        "tip": "“뿌리다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiāo</strong>; “외치다. 고함치다. 소리지르다. 소리치다. 부르짖다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiào</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-127",
+        "syllable": "SHE JI",
+        "a": {
+          "hanzi": "射击",
+          "pinyin": "shè jī",
+          "tones": "4·1",
+          "level": 5,
+          "meaning": "사격",
+          "speech": "射击"
+        },
+        "b": {
+          "hanzi": "设计",
+          "pinyin": "shè jì",
+          "tones": "4·4",
+          "level": 5,
+          "meaning": "디자인",
+          "speech": "设计"
+        },
+        "tip": "“사격”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shè jī</strong>; “디자인”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shè jì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-128",
+        "syllable": "LAO SHI",
+        "a": {
+          "hanzi": "老师",
+          "pinyin": "lǎo shī",
+          "tones": "3·1",
+          "level": 1,
+          "meaning": "선생님",
+          "speech": "老师"
+        },
+        "b": {
+          "hanzi": "老实",
+          "pinyin": "lǎo shi",
+          "tones": "3·5",
+          "level": 5,
+          "meaning": "성실함",
+          "speech": "老实"
+        },
+        "tip": "“선생님”의 장면은 흔들리지 않게 길게 펼쳐 <strong>lǎo shī</strong>; “성실함”의 장면은 짧고 가볍게 덧붙여 <strong>lǎo shi</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-129",
+        "syllable": "ZHE",
+        "a": {
+          "hanzi": "乙",
+          "pinyin": "zhé",
+          "tones": "2",
+          "level": 5,
+          "meaning": "꺾임 획",
+          "speech": "乙"
+        },
+        "b": {
+          "hanzi": "这",
+          "pinyin": "zhè",
+          "tones": "4",
+          "level": 1,
+          "meaning": "이",
+          "speech": "这"
+        },
+        "tip": "“꺾임 획”의 장면은 기세를 위로 끌어올려 <strong>zhé</strong>; “이”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhè</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-130",
+        "syllable": "DI",
+        "a": {
+          "hanzi": "的",
+          "pinyin": "dī",
+          "tones": "1",
+          "level": 1,
+          "meaning": "택시",
+          "speech": "的"
+        },
+        "b": {
+          "hanzi": "递",
+          "pinyin": "dì",
+          "tones": "4",
+          "level": 5,
+          "meaning": "건네주다",
+          "speech": "递"
+        },
+        "tip": "“택시”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dī</strong>; “건네주다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-131",
+        "syllable": "YI",
+        "a": {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "tones": "1",
+          "level": 1,
+          "meaning": "1. 일. 하나.",
+          "speech": "一"
+        },
+        "b": {
+          "hanzi": "乙",
+          "pinyin": "yǐ",
+          "tones": "3",
+          "level": 5,
+          "meaning": "을; 둘째 천간",
+          "speech": "乙"
+        },
+        "tip": "“1. 일. 하나”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yī</strong>; “을; 둘째 천간”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǐ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-132",
+        "syllable": "JI QI",
+        "a": {
+          "hanzi": "机器",
+          "pinyin": "jī qì",
+          "tones": "1·4",
+          "level": 5,
+          "meaning": "기계",
+          "speech": "机器"
+        },
+        "b": {
+          "hanzi": "极其",
+          "pinyin": "jí qí",
+          "tones": "2·2",
+          "level": 4,
+          "meaning": "극히",
+          "speech": "极其"
+        },
+        "tip": "“기계”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jī qì</strong>; “극히”의 장면은 기세를 위로 끌어올려 <strong>jí qí</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-133",
+        "syllable": "LI",
+        "a": {
+          "hanzi": "梨",
+          "pinyin": "lí",
+          "tones": "2",
+          "level": 5,
+          "meaning": "배",
+          "speech": "梨"
+        },
+        "b": {
+          "hanzi": "里",
+          "pinyin": "lǐ",
+          "tones": "3",
+          "level": 1,
+          "meaning": "안",
+          "speech": "里"
+        },
+        "tip": "“배”의 장면은 기세를 위로 끌어올려 <strong>lí</strong>; “안”의 장면은 낮게 품었다가 다시 꺾어 <strong>lǐ</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-134",
+        "syllable": "CHAO",
+        "a": {
+          "hanzi": "抄",
+          "pinyin": "chāo",
+          "tones": "1",
+          "level": 5,
+          "meaning": "베끼다",
+          "speech": "抄"
+        },
+        "b": {
+          "hanzi": "吵",
+          "pinyin": "chǎo",
+          "tones": "3",
+          "level": 4,
+          "meaning": "시끄럽다",
+          "speech": "吵"
+        },
+        "tip": "“베끼다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>chāo</strong>; “시끄럽다”의 장면은 낮게 품었다가 다시 꺾어 <strong>chǎo</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-135",
+        "syllable": "ZI YUAN",
+        "a": {
+          "hanzi": "资源",
+          "pinyin": "zī yuán",
+          "tones": "1·2",
+          "level": 5,
+          "meaning": "자원",
+          "speech": "资源"
+        },
+        "b": {
+          "hanzi": "自愿",
+          "pinyin": "zì yuàn",
+          "tones": "4·4",
+          "level": 5,
+          "meaning": "자발적",
+          "speech": "自愿"
+        },
+        "tip": "“자원”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zī yuán</strong>; “자발적”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zì yuàn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-136",
+        "syllable": "DIAO",
+        "a": {
+          "hanzi": "鸟",
+          "pinyin": "diǎo",
+          "tones": "3",
+          "level": 3,
+          "meaning": "새",
+          "speech": "鸟"
+        },
+        "b": {
+          "hanzi": "钓",
+          "pinyin": "diào",
+          "tones": "4",
+          "level": 5,
+          "meaning": "낚시",
+          "speech": "钓"
+        },
+        "tip": "“새”의 장면은 낮게 품었다가 다시 꺾어 <strong>diǎo</strong>; “낚시”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>diào</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-137",
+        "syllable": "KE",
+        "a": {
+          "hanzi": "渴",
+          "pinyin": "kě",
+          "tones": "3",
+          "level": 3,
+          "meaning": "목마름",
+          "speech": "渴"
+        },
+        "b": {
+          "hanzi": "克",
+          "pinyin": "kè",
+          "tones": "4",
+          "level": 5,
+          "meaning": "캐럿",
+          "speech": "克"
+        },
+        "tip": "“목마름”의 장면은 낮게 품었다가 다시 꺾어 <strong>kě</strong>; “캐럿”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>kè</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-138",
+        "syllable": "REN SHI",
+        "a": {
+          "hanzi": "人事",
+          "pinyin": "rén shì",
+          "tones": "2·4",
+          "level": 5,
+          "meaning": "인사",
+          "speech": "人事"
+        },
+        "b": {
+          "hanzi": "认识",
+          "pinyin": "rèn shi",
+          "tones": "4·5",
+          "level": 1,
+          "meaning": "알다",
+          "speech": "认识"
+        },
+        "tip": "“인사”의 장면은 기세를 위로 끌어올려 <strong>rén shì</strong>; “알다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>rèn shi</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-139",
+        "syllable": "SHI YONG",
+        "a": {
+          "hanzi": "实用",
+          "pinyin": "shí yòng",
+          "tones": "2·4",
+          "level": 5,
+          "meaning": "실용적",
+          "speech": "实用"
+        },
+        "b": {
+          "hanzi": "使用",
+          "pinyin": "shǐ yòng",
+          "tones": "3·4",
+          "level": 4,
+          "meaning": "사용하다",
+          "speech": "使用"
+        },
+        "tip": "“실용적”의 장면은 기세를 위로 끌어올려 <strong>shí yòng</strong>; “사용하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>shǐ yòng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-140",
+        "syllable": "XIAO HUA",
+        "a": {
+          "hanzi": "消化",
+          "pinyin": "xiāo huà",
+          "tones": "1·4",
+          "level": 5,
+          "meaning": "소화",
+          "speech": "消化"
+        },
+        "b": {
+          "hanzi": "笑话",
+          "pinyin": "xiào hua",
+          "tones": "4·5",
+          "level": 4,
+          "meaning": "웃음거리",
+          "speech": "笑话"
+        },
+        "tip": "“소화”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiāo huà</strong>; “웃음거리”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiào hua</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-141",
+        "syllable": "JIAN LI",
+        "a": {
+          "hanzi": "简历",
+          "pinyin": "jiǎn lì",
+          "tones": "3·4",
+          "level": 5,
+          "meaning": "이력서",
+          "speech": "简历"
+        },
+        "b": {
+          "hanzi": "建立",
+          "pinyin": "jiàn lì",
+          "tones": "4·4",
+          "level": 5,
+          "meaning": "세우다",
+          "speech": "建立"
+        },
+        "tip": "“이력서”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎn lì</strong>; “세우다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiàn lì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-142",
+        "syllable": "LAN",
+        "a": {
+          "hanzi": "拦",
+          "pinyin": "lán",
+          "tones": "2",
+          "level": 5,
+          "meaning": "막다",
+          "speech": "拦"
+        },
+        "b": {
+          "hanzi": "懒",
+          "pinyin": "lǎn",
+          "tones": "3",
+          "level": 4,
+          "meaning": "게으르다",
+          "speech": "懒"
+        },
+        "tip": "“막다”의 장면은 기세를 위로 끌어올려 <strong>lán</strong>; “게으르다”의 장면은 낮게 품었다가 다시 꺾어 <strong>lǎn</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-143",
+        "syllable": "BEI JING",
+        "a": {
+          "hanzi": "北京",
+          "pinyin": "Běi jīng",
+          "tones": "3·1",
+          "level": 1,
+          "meaning": "베이징",
+          "speech": "北京"
+        },
+        "b": {
+          "hanzi": "背景",
+          "pinyin": "bèi jǐng",
+          "tones": "4·3",
+          "level": 5,
+          "meaning": "배경",
+          "speech": "背景"
+        },
+        "tip": "“베이징”의 장면은 낮게 품었다가 다시 꺾어 <strong>Běi jīng</strong>; “배경”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bèi jǐng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-144",
+        "syllable": "QU SHI",
+        "a": {
+          "hanzi": "趋势",
+          "pinyin": "qū shì",
+          "tones": "1·4",
+          "level": 5,
+          "meaning": "추세",
+          "speech": "趋势"
+        },
+        "b": {
+          "hanzi": "去世",
+          "pinyin": "qù shì",
+          "tones": "4·4",
+          "level": 5,
+          "meaning": "돌아가시다.",
+          "speech": "去世"
+        },
+        "tip": "“추세”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qū shì</strong>; “돌아가시다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>qù shì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-145",
+        "syllable": "NIAN JI",
+        "a": {
+          "hanzi": "年级",
+          "pinyin": "nián jí",
+          "tones": "2·2",
+          "level": 3,
+          "meaning": "학년",
+          "speech": "年级"
+        },
+        "b": {
+          "hanzi": "年纪",
+          "pinyin": "nián jì",
+          "tones": "2·4",
+          "level": 5,
+          "meaning": "나이",
+          "speech": "年纪"
+        },
+        "tip": "“학년”의 장면은 기세를 위로 끌어올려 <strong>nián jí</strong>; “나이”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>nián jì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-146",
+        "syllable": "HU SHI",
+        "a": {
+          "hanzi": "忽视",
+          "pinyin": "hū shì",
+          "tones": "1·4",
+          "level": 5,
+          "meaning": "무시하다",
+          "speech": "忽视"
+        },
+        "b": {
+          "hanzi": "护士",
+          "pinyin": "hù shi",
+          "tones": "4·5",
+          "level": 4,
+          "meaning": "간호사",
+          "speech": "护士"
+        },
+        "tip": "“무시하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>hū shì</strong>; “간호사”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hù shi</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-147",
+        "syllable": "RANG",
+        "a": {
+          "hanzi": "嚷",
+          "pinyin": "rǎng",
+          "tones": "3",
+          "level": 5,
+          "meaning": "외치다",
+          "speech": "嚷"
+        },
+        "b": {
+          "hanzi": "让",
+          "pinyin": "ràng",
+          "tones": "4",
+          "level": 2,
+          "meaning": "양",
+          "speech": "让"
+        },
+        "tip": "“외치다”의 장면은 낮게 품었다가 다시 꺾어 <strong>rǎng</strong>; “양”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>ràng</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-148",
+        "syllable": "JIE SHI",
+        "a": {
+          "hanzi": "结实",
+          "pinyin": "jiē shi",
+          "tones": "1·5",
+          "level": 5,
+          "meaning": "탄탄함",
+          "speech": "结实"
+        },
+        "b": {
+          "hanzi": "解释",
+          "pinyin": "jiě shì",
+          "tones": "3·4",
+          "level": 4,
+          "meaning": "해석하다",
+          "speech": "解释"
+        },
+        "tip": "“탄탄함”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiē shi</strong>; “해석하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiě shì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-149",
+        "syllable": "ZHAI",
+        "a": {
+          "hanzi": "摘",
+          "pinyin": "zhāi",
+          "tones": "1",
+          "level": 5,
+          "meaning": "따다",
+          "speech": "摘"
+        },
+        "b": {
+          "hanzi": "窄",
+          "pinyin": "zhǎi",
+          "tones": "3",
+          "level": 4,
+          "meaning": "좁은",
+          "speech": "窄"
+        },
+        "tip": "“따다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhāi</strong>; “좁은”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǎi</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-150",
+        "syllable": "GE ZI",
+        "a": {
+          "hanzi": "鸽子",
+          "pinyin": "gē zi",
+          "tones": "1·5",
+          "level": 5,
+          "meaning": "비둘기",
+          "speech": "鸽子"
+        },
+        "b": {
+          "hanzi": "各自",
+          "pinyin": "gè zì",
+          "tones": "4·4",
+          "level": 5,
+          "meaning": "각자",
+          "speech": "各自"
+        },
+        "tip": "“비둘기”의 장면은 흔들리지 않게 길게 펼쳐 <strong>gē zi</strong>; “각자”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>gè zì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk5-151",
+        "syllable": "WU SHU",
+        "a": {
+          "hanzi": "无数",
+          "pinyin": "wú shù",
+          "tones": "2·4",
+          "level": 5,
+          "meaning": "셀 수 없이 많다",
+          "speech": "无数"
+        },
+        "b": {
+          "hanzi": "武术",
+          "pinyin": "wǔ shù",
+          "tones": "3·4",
+          "level": 5,
+          "meaning": "무술",
+          "speech": "武术"
+        },
+        "tip": "“셀 수 없이 많다”의 장면은 기세를 위로 끌어올려 <strong>wú shù</strong>; “무술”의 장면은 낮게 품었다가 다시 꺾어 <strong>wǔ shù</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk5-152",
+        "syllable": "BEI ZI",
+        "a": {
+          "hanzi": "杯子",
+          "pinyin": "bēi zi",
+          "tones": "1·5",
+          "level": 1,
+          "meaning": "컵",
+          "speech": "杯子"
+        },
+        "b": {
+          "hanzi": "被子",
+          "pinyin": "bèi zi",
+          "tones": "4·5",
+          "level": 5,
+          "meaning": "이불",
+          "speech": "被子"
+        },
+        "tip": "“컵”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bēi zi</strong>; “이불”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bèi zi</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk5-153",
+        "syllable": "CHU XI",
+        "a": {
+          "hanzi": "出席",
+          "pinyin": "chū xí",
+          "tones": "1·2",
+          "level": 5,
+          "meaning": "참석하다",
+          "speech": "出席"
+        },
+        "b": {
+          "hanzi": "除夕",
+          "pinyin": "Chú xī",
+          "tones": "2·1",
+          "level": 5,
+          "meaning": "섣달그믐",
+          "speech": "除夕"
+        },
+        "tip": "“참석하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>chū xí</strong>; “섣달그믐”의 장면은 기세를 위로 끌어올려 <strong>Chú xī</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk5-154",
+        "syllable": "GUO JI",
+        "a": {
+          "hanzi": "国籍",
+          "pinyin": "guó jí",
+          "tones": "2·2",
+          "level": 5,
+          "meaning": "국적",
+          "speech": "国籍"
+        },
+        "b": {
+          "hanzi": "国际",
+          "pinyin": "guó jì",
+          "tones": "2·4",
+          "level": 4,
+          "meaning": "국제",
+          "speech": "国际"
+        },
+        "tip": "“국적”의 장면은 기세를 위로 끌어올려 <strong>guó jí</strong>; “국제”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>guó jì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk5-155",
+        "syllable": "ZHU FU",
+        "a": {
+          "hanzi": "嘱咐",
+          "pinyin": "zhǔ fù",
+          "tones": "3·4",
+          "level": 5,
+          "meaning": "당부",
+          "speech": "嘱咐"
+        },
+        "b": {
+          "hanzi": "祝福",
+          "pinyin": "zhù fú",
+          "tones": "4·2",
+          "level": 5,
+          "meaning": "축복",
+          "speech": "祝福"
+        },
+        "tip": "“당부”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǔ fù</strong>; “축복”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhù fú</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      }
+    ]
+  },
+  "hsk6": {
+    "title": "HSK 6급",
+    "shortTitle": "6급",
+    "subtitle": "최상급 어휘 완성",
+    "accent": "coral",
+    "pairs": [
+      {
+        "id": "hsk6-001",
+        "syllable": "MA",
+        "a": {
+          "hanzi": "嘛",
+          "pinyin": "má",
+          "tones": "2",
+          "level": 6,
+          "meaning": "음",
+          "speech": "嘛"
+        },
+        "b": {
+          "hanzi": "马",
+          "pinyin": "mǎ",
+          "tones": "3",
+          "level": 3,
+          "meaning": "말",
+          "speech": "马"
+        },
+        "tip": "“음”의 장면은 기세를 위로 끌어올려 <strong>má</strong>; “말”의 장면은 낮게 품었다가 다시 꺾어 <strong>mǎ</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-002",
+        "syllable": "SHU",
+        "a": {
+          "hanzi": "书",
+          "pinyin": "shū",
+          "tones": "1",
+          "level": 1,
+          "meaning": "책",
+          "speech": "书"
+        },
+        "b": {
+          "hanzi": "数",
+          "pinyin": "shǔ",
+          "tones": "3",
+          "level": 6,
+          "meaning": "세다",
+          "speech": "数"
+        },
+        "tip": "“책”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shū</strong>; “세다”의 장면은 낮게 품었다가 다시 꺾어 <strong>shǔ</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-003",
+        "syllable": "E",
+        "a": {
+          "hanzi": "哦",
+          "pinyin": "é",
+          "tones": "2",
+          "level": 6,
+          "meaning": "오",
+          "speech": "哦"
+        },
+        "b": {
+          "hanzi": "饿",
+          "pinyin": "è",
+          "tones": "4",
+          "level": 3,
+          "meaning": "배고프다",
+          "speech": "饿"
+        },
+        "tip": "“오”의 장면은 기세를 위로 끌어올려 <strong>é</strong>; “배고프다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>è</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-004",
+        "syllable": "SHA",
+        "a": {
+          "hanzi": "杀",
+          "pinyin": "shā",
+          "tones": "1",
+          "level": 5,
+          "meaning": "죽이다",
+          "speech": "杀"
+        },
+        "b": {
+          "hanzi": "啥",
+          "pinyin": "shá",
+          "tones": "2",
+          "level": 6,
+          "meaning": "무슨",
+          "speech": "啥"
+        },
+        "tip": "“죽이다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shā</strong>; “무슨”의 장면은 기세를 위로 끌어올려 <strong>shá</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-005",
+        "syllable": "DANG",
+        "a": {
+          "hanzi": "当",
+          "pinyin": "dāng",
+          "tones": "1",
+          "level": 4,
+          "meaning": "당",
+          "speech": "当"
+        },
+        "b": {
+          "hanzi": "党",
+          "pinyin": "dǎng",
+          "tones": "3",
+          "level": 6,
+          "meaning": "당",
+          "speech": "党"
+        },
+        "tip": "“당”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dāng</strong>; “당”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǎng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-006",
+        "syllable": "HAI",
+        "a": {
+          "hanzi": "嗨",
+          "pinyin": "hāi",
+          "tones": "1",
+          "level": 6,
+          "meaning": "안녕",
+          "speech": "嗨"
+        },
+        "b": {
+          "hanzi": "还",
+          "pinyin": "hái",
+          "tones": "2",
+          "level": 2,
+          "meaning": "아직; 여전히",
+          "speech": "还"
+        },
+        "tip": "“안녕”의 장면은 흔들리지 않게 길게 펼쳐 <strong>hāi</strong>; “아직; 여전히”의 장면은 기세를 위로 끌어올려 <strong>hái</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-007",
+        "syllable": "ZU",
+        "a": {
+          "hanzi": "租",
+          "pinyin": "zū",
+          "tones": "1",
+          "level": 4,
+          "meaning": "임대",
+          "speech": "租"
+        },
+        "b": {
+          "hanzi": "组",
+          "pinyin": "zǔ",
+          "tones": "3",
+          "level": 6,
+          "meaning": "조",
+          "speech": "组"
+        },
+        "tip": "“임대”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zū</strong>; “조”의 장면은 낮게 품었다가 다시 꺾어 <strong>zǔ</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-008",
+        "syllable": "DA",
+        "a": {
+          "hanzi": "搭",
+          "pinyin": "dā",
+          "tones": "1",
+          "level": 6,
+          "meaning": "짝",
+          "speech": "搭"
+        },
+        "b": {
+          "hanzi": "大",
+          "pinyin": "dà",
+          "tones": "4",
+          "level": 1,
+          "meaning": "크다",
+          "speech": "大"
+        },
+        "tip": "“짝”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dā</strong>; “크다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dà</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-009",
+        "syllable": "SHI JIAN",
+        "a": {
+          "hanzi": "时间",
+          "pinyin": "shí jiān",
+          "tones": "2·1",
+          "level": 2,
+          "meaning": "시간",
+          "speech": "时间"
+        },
+        "b": {
+          "hanzi": "事件",
+          "pinyin": "shì jiàn",
+          "tones": "4·4",
+          "level": 6,
+          "meaning": "사건",
+          "speech": "事件"
+        },
+        "tip": "“시간”의 장면은 기세를 위로 끌어올려 <strong>shí jiān</strong>; “사건”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì jiàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-010",
+        "syllable": "MEI",
+        "a": {
+          "hanzi": "枚",
+          "pinyin": "méi",
+          "tones": "2",
+          "level": 6,
+          "meaning": "장",
+          "speech": "枚"
+        },
+        "b": {
+          "hanzi": "每",
+          "pinyin": "měi",
+          "tones": "3",
+          "level": 2,
+          "meaning": "매. 각. …마다[모두].",
+          "speech": "每"
+        },
+        "tip": "“장”의 장면은 기세를 위로 끌어올려 <strong>méi</strong>; “매. 각. …마다[모두]”의 장면은 낮게 품었다가 다시 꺾어 <strong>měi</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-011",
+        "syllable": "FU",
+        "a": {
+          "hanzi": "幅",
+          "pinyin": "fú",
+          "tones": "2",
+          "level": 5,
+          "meaning": "폭",
+          "speech": "幅"
+        },
+        "b": {
+          "hanzi": "副",
+          "pinyin": "fù",
+          "tones": "4",
+          "level": 6,
+          "meaning": "부",
+          "speech": "副"
+        },
+        "tip": "“폭”의 장면은 기세를 위로 끌어올려 <strong>fú</strong>; “부”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>fù</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-012",
+        "syllable": "DUAN",
+        "a": {
+          "hanzi": "端",
+          "pinyin": "duān",
+          "tones": "1",
+          "level": 6,
+          "meaning": "끝",
+          "speech": "端"
+        },
+        "b": {
+          "hanzi": "段",
+          "pinyin": "duàn",
+          "tones": "4",
+          "level": 3,
+          "meaning": "단",
+          "speech": "段"
+        },
+        "tip": "“끝”의 장면은 흔들리지 않게 길게 펼쳐 <strong>duān</strong>; “단”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>duàn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-013",
+        "syllable": "CI",
+        "a": {
+          "hanzi": "刺",
+          "pinyin": "cī",
+          "tones": "1",
+          "level": 6,
+          "meaning": "찌르다",
+          "speech": "刺"
+        },
+        "b": {
+          "hanzi": "次",
+          "pinyin": "cì",
+          "tones": "4",
+          "level": 2,
+          "meaning": "차",
+          "speech": "次"
+        },
+        "tip": "“찌르다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>cī</strong>; “차”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>cì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-014",
+        "syllable": "SHU",
+        "a": {
+          "hanzi": "输",
+          "pinyin": "shū",
+          "tones": "1",
+          "level": 4,
+          "meaning": "패",
+          "speech": "输"
+        },
+        "b": {
+          "hanzi": "数",
+          "pinyin": "shù",
+          "tones": "4",
+          "level": 6,
+          "meaning": "수; 숫자",
+          "speech": "数"
+        },
+        "tip": "“패”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shū</strong>; “수; 숫자”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shù</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-015",
+        "syllable": "ZHE",
+        "a": {
+          "hanzi": "折",
+          "pinyin": "zhé",
+          "tones": "2",
+          "level": 6,
+          "meaning": "접다; 할인하다",
+          "speech": "折"
+        },
+        "b": {
+          "hanzi": "这",
+          "pinyin": "zhè",
+          "tones": "4",
+          "level": 1,
+          "meaning": "이",
+          "speech": "这"
+        },
+        "tip": "“접다; 할인하다”의 장면은 기세를 위로 끌어올려 <strong>zhé</strong>; “이”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhè</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-016",
+        "syllable": "YI",
+        "a": {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "tones": "1",
+          "level": 1,
+          "meaning": "1. 일. 하나.",
+          "speech": "一"
+        },
+        "b": {
+          "hanzi": "亦",
+          "pinyin": "yì",
+          "tones": "4",
+          "level": 6,
+          "meaning": "또한",
+          "speech": "亦"
+        },
+        "tip": "“1. 일. 하나”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yī</strong>; “또한”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-017",
+        "syllable": "MENG",
+        "a": {
+          "hanzi": "蒙",
+          "pinyin": "méng",
+          "tones": "2",
+          "level": 6,
+          "meaning": "몽",
+          "speech": "蒙"
+        },
+        "b": {
+          "hanzi": "梦",
+          "pinyin": "mèng",
+          "tones": "4",
+          "level": 4,
+          "meaning": "꿈",
+          "speech": "梦"
+        },
+        "tip": "“몽”의 장면은 기세를 위로 끌어올려 <strong>méng</strong>; “꿈”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>mèng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-018",
+        "syllable": "LA",
+        "a": {
+          "hanzi": "啦",
+          "pinyin": "lā",
+          "tones": "1",
+          "level": 6,
+          "meaning": "라",
+          "speech": "啦"
+        },
+        "b": {
+          "hanzi": "辣",
+          "pinyin": "là",
+          "tones": "4",
+          "level": 4,
+          "meaning": "매운 맛.",
+          "speech": "辣"
+        },
+        "tip": "“라”의 장면은 흔들리지 않게 길게 펼쳐 <strong>lā</strong>; “매운 맛”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>là</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-019",
+        "syllable": "DONG",
+        "a": {
+          "hanzi": "懂",
+          "pinyin": "dǒng",
+          "tones": "3",
+          "level": 2,
+          "meaning": "알다",
+          "speech": "懂"
+        },
+        "b": {
+          "hanzi": "栋",
+          "pinyin": "dòng",
+          "tones": "4",
+          "level": 6,
+          "meaning": "기둥",
+          "speech": "栋"
+        },
+        "tip": "“알다”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǒng</strong>; “기둥”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dòng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-020",
+        "syllable": "MO",
+        "a": {
+          "hanzi": "膜",
+          "pinyin": "mó",
+          "tones": "2",
+          "level": 6,
+          "meaning": "막",
+          "speech": "膜"
+        },
+        "b": {
+          "hanzi": "没",
+          "pinyin": "mò",
+          "tones": "4",
+          "level": 1,
+          "meaning": "가라앉다; 물에 잠기다",
+          "speech": "没"
+        },
+        "tip": "“막”의 장면은 기세를 위로 끌어올려 <strong>mó</strong>; “가라앉다; 물에 잠기다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>mò</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-021",
+        "syllable": "REN SHI",
+        "a": {
+          "hanzi": "人士",
+          "pinyin": "rén shì",
+          "tones": "2·4",
+          "level": 6,
+          "meaning": "인사",
+          "speech": "人士"
+        },
+        "b": {
+          "hanzi": "认识",
+          "pinyin": "rèn shi",
+          "tones": "4·5",
+          "level": 1,
+          "meaning": "알다",
+          "speech": "认识"
+        },
+        "tip": "“인사”의 장면은 기세를 위로 끌어올려 <strong>rén shì</strong>; “알다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>rèn shi</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-022",
+        "syllable": "TONG ZHI",
+        "a": {
+          "hanzi": "通知",
+          "pinyin": "tōng zhī",
+          "tones": "1·1",
+          "level": 4,
+          "meaning": "알리다",
+          "speech": "通知"
+        },
+        "b": {
+          "hanzi": "同志",
+          "pinyin": "tóng zhì",
+          "tones": "2·4",
+          "level": 6,
+          "meaning": "동지",
+          "speech": "同志"
+        },
+        "tip": "“알리다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tōng zhī</strong>; “동지”의 장면은 기세를 위로 끌어올려 <strong>tóng zhì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-023",
+        "syllable": "DING",
+        "a": {
+          "hanzi": "盯",
+          "pinyin": "dīng",
+          "tones": "1",
+          "level": 6,
+          "meaning": "노려봄",
+          "speech": "盯"
+        },
+        "b": {
+          "hanzi": "顶",
+          "pinyin": "dǐng",
+          "tones": "3",
+          "level": 5,
+          "meaning": "최고",
+          "speech": "顶"
+        },
+        "tip": "“노려봄”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dīng</strong>; “최고”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǐng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-024",
+        "syllable": "WO",
+        "a": {
+          "hanzi": "窝",
+          "pinyin": "wō",
+          "tones": "1",
+          "level": 6,
+          "meaning": "지붕",
+          "speech": "窝"
+        },
+        "b": {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "tones": "3",
+          "level": 1,
+          "meaning": "나",
+          "speech": "我"
+        },
+        "tip": "“지붕”의 장면은 흔들리지 않게 길게 펼쳐 <strong>wō</strong>; “나”의 장면은 낮게 품었다가 다시 꺾어 <strong>wǒ</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-025",
+        "syllable": "JIE",
+        "a": {
+          "hanzi": "皆",
+          "pinyin": "jiē",
+          "tones": "1",
+          "level": 6,
+          "meaning": "다들",
+          "speech": "皆"
+        },
+        "b": {
+          "hanzi": "借",
+          "pinyin": "jiè",
+          "tones": "4",
+          "level": 3,
+          "meaning": "빌리다",
+          "speech": "借"
+        },
+        "tip": "“다들”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiē</strong>; “빌리다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiè</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-026",
+        "syllable": "GE",
+        "a": {
+          "hanzi": "割",
+          "pinyin": "gē",
+          "tones": "1",
+          "level": 6,
+          "meaning": "할",
+          "speech": "割"
+        },
+        "b": {
+          "hanzi": "个",
+          "pinyin": "gè",
+          "tones": "4",
+          "level": 1,
+          "meaning": "개",
+          "speech": "个"
+        },
+        "tip": "“할”의 장면은 흔들리지 않게 길게 펼쳐 <strong>gē</strong>; “개”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>gè</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-027",
+        "syllable": "ZA",
+        "a": {
+          "hanzi": "扎",
+          "pinyin": "zā",
+          "tones": "1",
+          "level": 6,
+          "meaning": "묶다",
+          "speech": "扎"
+        },
+        "b": {
+          "hanzi": "砸",
+          "pinyin": "zá",
+          "tones": "2",
+          "level": 6,
+          "meaning": "깨다",
+          "speech": "砸"
+        },
+        "tip": "“묶다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zā</strong>; “깨다”의 장면은 기세를 위로 끌어올려 <strong>zá</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-028",
+        "syllable": "SHENG MING",
+        "a": {
+          "hanzi": "声明",
+          "pinyin": "shēng míng",
+          "tones": "1·2",
+          "level": 6,
+          "meaning": "성명",
+          "speech": "声明"
+        },
+        "b": {
+          "hanzi": "生命",
+          "pinyin": "shēng mìng",
+          "tones": "1·4",
+          "level": 4,
+          "meaning": "생명",
+          "speech": "生命"
+        },
+        "tip": "“성명”의 장면은 기세를 위로 끌어올려 <strong>shēng míng</strong>; “생명”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shēng mìng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-029",
+        "syllable": "SHI SHI",
+        "a": {
+          "hanzi": "实施",
+          "pinyin": "shí shī",
+          "tones": "2·1",
+          "level": 6,
+          "meaning": "실시하다",
+          "speech": "实施"
+        },
+        "b": {
+          "hanzi": "事实",
+          "pinyin": "shì shí",
+          "tones": "4·2",
+          "level": 5,
+          "meaning": "사실",
+          "speech": "事实"
+        },
+        "tip": "“실시하다”의 장면은 기세를 위로 끌어올려 <strong>shí shī</strong>; “사실”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì shí</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-030",
+        "syllable": "LAO",
+        "a": {
+          "hanzi": "捞",
+          "pinyin": "lāo",
+          "tones": "1",
+          "level": 6,
+          "meaning": "건지다",
+          "speech": "捞"
+        },
+        "b": {
+          "hanzi": "老",
+          "pinyin": "lǎo",
+          "tones": "3",
+          "level": 3,
+          "meaning": "노",
+          "speech": "老"
+        },
+        "tip": "“건지다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>lāo</strong>; “노”의 장면은 낮게 품었다가 다시 꺾어 <strong>lǎo</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-031",
+        "syllable": "HE",
+        "a": {
+          "hanzi": "呵",
+          "pinyin": "hē",
+          "tones": "1",
+          "level": 6,
+          "meaning": "허",
+          "speech": "呵"
+        },
+        "b": {
+          "hanzi": "和",
+          "pinyin": "hé",
+          "tones": "2",
+          "level": 1,
+          "meaning": "~와; 화목하다",
+          "speech": "和"
+        },
+        "tip": "“허”의 장면은 흔들리지 않게 길게 펼쳐 <strong>hē</strong>; “~와; 화목하다”의 장면은 기세를 위로 끌어올려 <strong>hé</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-032",
+        "syllable": "CHUAN",
+        "a": {
+          "hanzi": "穿",
+          "pinyin": "chuān",
+          "tones": "1",
+          "level": 2,
+          "meaning": "(구멍을) 뚫다.",
+          "speech": "穿"
+        },
+        "b": {
+          "hanzi": "串",
+          "pinyin": "chuàn",
+          "tones": "4",
+          "level": 6,
+          "meaning": "꼬치",
+          "speech": "串"
+        },
+        "tip": "“(구멍을) 뚫다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>chuān</strong>; “꼬치”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>chuàn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-033",
+        "syllable": "DIAN",
+        "a": {
+          "hanzi": "点",
+          "pinyin": "diǎn",
+          "tones": "3",
+          "level": 1,
+          "meaning": "포인트",
+          "speech": "点"
+        },
+        "b": {
+          "hanzi": "垫",
+          "pinyin": "diàn",
+          "tones": "4",
+          "level": 6,
+          "meaning": "받침",
+          "speech": "垫"
+        },
+        "tip": "“포인트”의 장면은 낮게 품었다가 다시 꺾어 <strong>diǎn</strong>; “받침”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>diàn</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-034",
+        "syllable": "TAO",
+        "a": {
+          "hanzi": "掏",
+          "pinyin": "tāo",
+          "tones": "1",
+          "level": 6,
+          "meaning": "포",
+          "speech": "掏"
+        },
+        "b": {
+          "hanzi": "套",
+          "pinyin": "tào",
+          "tones": "4",
+          "level": 5,
+          "meaning": "세트",
+          "speech": "套"
+        },
+        "tip": "“포”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tāo</strong>; “세트”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>tào</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-035",
+        "syllable": "BIAN",
+        "a": {
+          "hanzi": "扁",
+          "pinyin": "biǎn",
+          "tones": "3",
+          "level": 6,
+          "meaning": "납작하다",
+          "speech": "扁"
+        },
+        "b": {
+          "hanzi": "便",
+          "pinyin": "biàn",
+          "tones": "4",
+          "level": 5,
+          "meaning": "변",
+          "speech": "便"
+        },
+        "tip": "“납작하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>biǎn</strong>; “변”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>biàn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-036",
+        "syllable": "QUAN",
+        "a": {
+          "hanzi": "圈",
+          "pinyin": "quān",
+          "tones": "1",
+          "level": 5,
+          "meaning": "원; 고리",
+          "speech": "圈"
+        },
+        "b": {
+          "hanzi": "犬",
+          "pinyin": "quǎn",
+          "tones": "3",
+          "level": 6,
+          "meaning": "개",
+          "speech": "犬"
+        },
+        "tip": "“원; 고리”의 장면은 흔들리지 않게 길게 펼쳐 <strong>quān</strong>; “개”의 장면은 낮게 품었다가 다시 꺾어 <strong>quǎn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-037",
+        "syllable": "YI SHI",
+        "a": {
+          "hanzi": "仪式",
+          "pinyin": "yí shì",
+          "tones": "2·4",
+          "level": 6,
+          "meaning": "의식",
+          "speech": "仪式"
+        },
+        "b": {
+          "hanzi": "意识",
+          "pinyin": "yì shí",
+          "tones": "4·2",
+          "level": 6,
+          "meaning": "의식",
+          "speech": "意识"
+        },
+        "tip": "“의식”의 장면은 기세를 위로 끌어올려 <strong>yí shì</strong>; “의식”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yì shí</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-038",
+        "syllable": "PIAN",
+        "a": {
+          "hanzi": "扁",
+          "pinyin": "piān",
+          "tones": "1",
+          "level": 6,
+          "meaning": "작은 배",
+          "speech": "扁"
+        },
+        "b": {
+          "hanzi": "片",
+          "pinyin": "piàn",
+          "tones": "4",
+          "level": 5,
+          "meaning": "조각; 장",
+          "speech": "片"
+        },
+        "tip": "“작은 배”의 장면은 흔들리지 않게 길게 펼쳐 <strong>piān</strong>; “조각; 장”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>piàn</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-039",
+        "syllable": "GUAN",
+        "a": {
+          "hanzi": "关",
+          "pinyin": "guān",
+          "tones": "1",
+          "level": 3,
+          "meaning": "관",
+          "speech": "关"
+        },
+        "b": {
+          "hanzi": "罐",
+          "pinyin": "guàn",
+          "tones": "4",
+          "level": 6,
+          "meaning": "통",
+          "speech": "罐"
+        },
+        "tip": "“관”의 장면은 흔들리지 않게 길게 펼쳐 <strong>guān</strong>; “통”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>guàn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-040",
+        "syllable": "ZHENG SHI",
+        "a": {
+          "hanzi": "证实",
+          "pinyin": "zhèng shí",
+          "tones": "4·2",
+          "level": 6,
+          "meaning": "확인됨",
+          "speech": "证实"
+        },
+        "b": {
+          "hanzi": "正式",
+          "pinyin": "zhèng shì",
+          "tones": "4·4",
+          "level": 4,
+          "meaning": "정식",
+          "speech": "正式"
+        },
+        "tip": "“확인됨”의 장면은 기세를 위로 끌어올려 <strong>zhèng shí</strong>; “정식”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhèng shì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-041",
+        "syllable": "SHUA",
+        "a": {
+          "hanzi": "刷",
+          "pinyin": "shuā",
+          "tones": "1",
+          "level": 3,
+          "meaning": "쓰다",
+          "speech": "刷"
+        },
+        "b": {
+          "hanzi": "耍",
+          "pinyin": "shuǎ",
+          "tones": "3",
+          "level": 6,
+          "meaning": "놀리다",
+          "speech": "耍"
+        },
+        "tip": "“쓰다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shuā</strong>; “놀리다”의 장면은 낮게 품었다가 다시 꺾어 <strong>shuǎ</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-042",
+        "syllable": "XIAN",
+        "a": {
+          "hanzi": "先",
+          "pinyin": "xiān",
+          "tones": "1",
+          "level": 3,
+          "meaning": "먼저",
+          "speech": "先"
+        },
+        "b": {
+          "hanzi": "嫌",
+          "pinyin": "xián",
+          "tones": "2",
+          "level": 6,
+          "meaning": "싫음",
+          "speech": "嫌"
+        },
+        "tip": "“먼저”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiān</strong>; “싫음”의 장면은 기세를 위로 끌어올려 <strong>xián</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-043",
+        "syllable": "MAI",
+        "a": {
+          "hanzi": "买",
+          "pinyin": "mǎi",
+          "tones": "3",
+          "level": 1,
+          "meaning": "사다",
+          "speech": "买"
+        },
+        "b": {
+          "hanzi": "迈",
+          "pinyin": "mài",
+          "tones": "4",
+          "level": 6,
+          "meaning": "달리다",
+          "speech": "迈"
+        },
+        "tip": "“사다”의 장면은 낮게 품었다가 다시 꺾어 <strong>mǎi</strong>; “달리다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>mài</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-044",
+        "syllable": "SHE JI",
+        "a": {
+          "hanzi": "涉及",
+          "pinyin": "shè jí",
+          "tones": "4·2",
+          "level": 6,
+          "meaning": "관련",
+          "speech": "涉及"
+        },
+        "b": {
+          "hanzi": "设计",
+          "pinyin": "shè jì",
+          "tones": "4·4",
+          "level": 5,
+          "meaning": "디자인",
+          "speech": "设计"
+        },
+        "tip": "“관련”의 장면은 기세를 위로 끌어올려 <strong>shè jí</strong>; “디자인”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shè jì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-045",
+        "syllable": "SHI YAN",
+        "a": {
+          "hanzi": "实验",
+          "pinyin": "shí yàn",
+          "tones": "2·4",
+          "level": 5,
+          "meaning": "실험하다",
+          "speech": "实验"
+        },
+        "b": {
+          "hanzi": "试验",
+          "pinyin": "shì yàn",
+          "tones": "4·4",
+          "level": 6,
+          "meaning": "시험",
+          "speech": "试验"
+        },
+        "tip": "“실험하다”의 장면은 기세를 위로 끌어올려 <strong>shí yàn</strong>; “시험”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì yàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-046",
+        "syllable": "LIU",
+        "a": {
+          "hanzi": "溜",
+          "pinyin": "liū",
+          "tones": "1",
+          "level": 6,
+          "meaning": "저수",
+          "speech": "溜"
+        },
+        "b": {
+          "hanzi": "六",
+          "pinyin": "liù",
+          "tones": "4",
+          "level": 1,
+          "meaning": "6",
+          "speech": "六"
+        },
+        "tip": "“저수”의 장면은 흔들리지 않게 길게 펼쳐 <strong>liū</strong>; “6”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>liù</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-047",
+        "syllable": "ZOU",
+        "a": {
+          "hanzi": "走",
+          "pinyin": "zǒu",
+          "tones": "3",
+          "level": 2,
+          "meaning": "가다",
+          "speech": "走"
+        },
+        "b": {
+          "hanzi": "揍",
+          "pinyin": "zòu",
+          "tones": "4",
+          "level": 6,
+          "meaning": "때리다",
+          "speech": "揍"
+        },
+        "tip": "“가다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zǒu</strong>; “때리다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zòu</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-048",
+        "syllable": "YU",
+        "a": {
+          "hanzi": "与",
+          "pinyin": "yǔ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "~와; 주다",
+          "speech": "与"
+        },
+        "b": {
+          "hanzi": "愈",
+          "pinyin": "yù",
+          "tones": "4",
+          "level": 6,
+          "meaning": "치유",
+          "speech": "愈"
+        },
+        "tip": "“~와; 주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǔ</strong>; “치유”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yù</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-049",
+        "syllable": "ZHUANG",
+        "a": {
+          "hanzi": "装",
+          "pinyin": "zhuāng",
+          "tones": "1",
+          "level": 5,
+          "meaning": "담다",
+          "speech": "装"
+        },
+        "b": {
+          "hanzi": "幢",
+          "pinyin": "zhuàng",
+          "tones": "4",
+          "level": 6,
+          "meaning": "채(건물 양사)",
+          "speech": "幢"
+        },
+        "tip": "“담다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhuāng</strong>; “채(건물 양사)”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhuàng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-050",
+        "syllable": "YI",
+        "a": {
+          "hanzi": "以",
+          "pinyin": "yǐ",
+          "tones": "3",
+          "level": 4,
+          "meaning": "…(으)로(써). …을 가지고. …을 근거로.",
+          "speech": "以"
+        },
+        "b": {
+          "hanzi": "翼",
+          "pinyin": "yì",
+          "tones": "4",
+          "level": 6,
+          "meaning": "날개",
+          "speech": "翼"
+        },
+        "tip": "“…(으)로(써). …을 가지고. …을 근거로”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǐ</strong>; “날개”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-051",
+        "syllable": "PO",
+        "a": {
+          "hanzi": "颇",
+          "pinyin": "pō",
+          "tones": "1",
+          "level": 6,
+          "meaning": "꽤",
+          "speech": "颇"
+        },
+        "b": {
+          "hanzi": "破",
+          "pinyin": "pò",
+          "tones": "4",
+          "level": 4,
+          "meaning": "찢다",
+          "speech": "破"
+        },
+        "tip": "“꽤”의 장면은 흔들리지 않게 길게 펼쳐 <strong>pō</strong>; “찢다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>pò</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-052",
+        "syllable": "DIAO",
+        "a": {
+          "hanzi": "鸟",
+          "pinyin": "diǎo",
+          "tones": "3",
+          "level": 3,
+          "meaning": "새",
+          "speech": "鸟"
+        },
+        "b": {
+          "hanzi": "吊",
+          "pinyin": "diào",
+          "tones": "4",
+          "level": 6,
+          "meaning": "매달다",
+          "speech": "吊"
+        },
+        "tip": "“새”의 장면은 낮게 품었다가 다시 꺾어 <strong>diǎo</strong>; “매달다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>diào</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-053",
+        "syllable": "HOU",
+        "a": {
+          "hanzi": "吼",
+          "pinyin": "hǒu",
+          "tones": "3",
+          "level": 6,
+          "meaning": "울부짖다",
+          "speech": "吼"
+        },
+        "b": {
+          "hanzi": "厚",
+          "pinyin": "hòu",
+          "tones": "4",
+          "level": 4,
+          "meaning": "두껍다",
+          "speech": "厚"
+        },
+        "tip": "“울부짖다”의 장면은 낮게 품었다가 다시 꺾어 <strong>hǒu</strong>; “두껍다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hòu</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-054",
+        "syllable": "YE",
+        "a": {
+          "hanzi": "也",
+          "pinyin": "yě",
+          "tones": "3",
+          "level": 2,
+          "meaning": "도",
+          "speech": "也"
+        },
+        "b": {
+          "hanzi": "拽",
+          "pinyin": "yè",
+          "tones": "4",
+          "level": 6,
+          "meaning": "당기다",
+          "speech": "拽"
+        },
+        "tip": "“도”의 장면은 낮게 품었다가 다시 꺾어 <strong>yě</strong>; “당기다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yè</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-055",
+        "syllable": "XIAN JIN",
+        "a": {
+          "hanzi": "先进",
+          "pinyin": "xiān jìn",
+          "tones": "1·4",
+          "level": 6,
+          "meaning": "선진",
+          "speech": "先进"
+        },
+        "b": {
+          "hanzi": "现金",
+          "pinyin": "xiàn jīn",
+          "tones": "4·1",
+          "level": 5,
+          "meaning": "현금",
+          "speech": "现金"
+        },
+        "tip": "“선진”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xiān jìn</strong>; “현금”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàn jīn</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-056",
+        "syllable": "BIE",
+        "a": {
+          "hanzi": "憋",
+          "pinyin": "biē",
+          "tones": "1",
+          "level": 6,
+          "meaning": "참다",
+          "speech": "憋"
+        },
+        "b": {
+          "hanzi": "别",
+          "pinyin": "bié",
+          "tones": "2",
+          "level": 2,
+          "meaning": "하지 말다",
+          "speech": "别"
+        },
+        "tip": "“참다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>biē</strong>; “하지 말다”의 장면은 기세를 위로 끌어올려 <strong>bié</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-057",
+        "syllable": "SHI",
+        "a": {
+          "hanzi": "拾",
+          "pinyin": "shí",
+          "tones": "2",
+          "level": 6,
+          "meaning": "줍다",
+          "speech": "拾"
+        },
+        "b": {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "tones": "4",
+          "level": 1,
+          "meaning": "맞다. 옳다.",
+          "speech": "是"
+        },
+        "tip": "“줍다”의 장면은 기세를 위로 끌어올려 <strong>shí</strong>; “맞다. 옳다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-058",
+        "syllable": "DENG",
+        "a": {
+          "hanzi": "等",
+          "pinyin": "děng",
+          "tones": "3",
+          "level": 4,
+          "meaning": "등",
+          "speech": "等"
+        },
+        "b": {
+          "hanzi": "瞪",
+          "pinyin": "dèng",
+          "tones": "4",
+          "level": 6,
+          "meaning": "노려보다",
+          "speech": "瞪"
+        },
+        "tip": "“등”의 장면은 낮게 품었다가 다시 꺾어 <strong>děng</strong>; “노려보다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dèng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-059",
+        "syllable": "ZAI",
+        "a": {
+          "hanzi": "宰",
+          "pinyin": "zǎi",
+          "tones": "3",
+          "level": 6,
+          "meaning": "도살하다",
+          "speech": "宰"
+        },
+        "b": {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "tones": "4",
+          "level": 1,
+          "meaning": "있다",
+          "speech": "在"
+        },
+        "tip": "“도살하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zǎi</strong>; “있다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zài</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-060",
+        "syllable": "BI",
+        "a": {
+          "hanzi": "比",
+          "pinyin": "bǐ",
+          "tones": "3",
+          "level": 2,
+          "meaning": "보다",
+          "speech": "比"
+        },
+        "b": {
+          "hanzi": "臂",
+          "pinyin": "bì",
+          "tones": "4",
+          "level": 6,
+          "meaning": "팔",
+          "speech": "臂"
+        },
+        "tip": "“보다”의 장면은 낮게 품었다가 다시 꺾어 <strong>bǐ</strong>; “팔”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bì</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-061",
+        "syllable": "HONG",
+        "a": {
+          "hanzi": "红",
+          "pinyin": "hóng",
+          "tones": "2",
+          "level": 2,
+          "meaning": "붉은",
+          "speech": "红"
+        },
+        "b": {
+          "hanzi": "哄",
+          "pinyin": "hòng",
+          "tones": "4",
+          "level": 6,
+          "meaning": "달래다",
+          "speech": "哄"
+        },
+        "tip": "“붉은”의 장면은 기세를 위로 끌어올려 <strong>hóng</strong>; “달래다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>hòng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-062",
+        "syllable": "WAN",
+        "a": {
+          "hanzi": "丸",
+          "pinyin": "wán",
+          "tones": "2",
+          "level": 6,
+          "meaning": "원",
+          "speech": "丸"
+        },
+        "b": {
+          "hanzi": "万",
+          "pinyin": "wàn",
+          "tones": "4",
+          "level": 3,
+          "meaning": "만",
+          "speech": "万"
+        },
+        "tip": "“원”의 장면은 기세를 위로 끌어올려 <strong>wán</strong>; “만”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wàn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-063",
+        "syllable": "WU",
+        "a": {
+          "hanzi": "五",
+          "pinyin": "wǔ",
+          "tones": "3",
+          "level": 1,
+          "meaning": "5. 다섯. 다섯째.",
+          "speech": "五"
+        },
+        "b": {
+          "hanzi": "勿",
+          "pinyin": "wù",
+          "tones": "4",
+          "level": 6,
+          "meaning": "勿",
+          "speech": "勿"
+        },
+        "tip": "“5. 다섯. 다섯째”의 장면은 낮게 품었다가 다시 꺾어 <strong>wǔ</strong>; “勿”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wù</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-064",
+        "syllable": "ZHI",
+        "a": {
+          "hanzi": "枝",
+          "pinyin": "zhī",
+          "tones": "1",
+          "level": 6,
+          "meaning": "가지",
+          "speech": "枝"
+        },
+        "b": {
+          "hanzi": "只",
+          "pinyin": "zhǐ",
+          "tones": "3",
+          "level": 3,
+          "meaning": "오직; 단지",
+          "speech": "只"
+        },
+        "tip": "“가지”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhī</strong>; “오직; 단지”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǐ</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-065",
+        "syllable": "AI",
+        "a": {
+          "hanzi": "挨",
+          "pinyin": "ái",
+          "tones": "2",
+          "level": 6,
+          "meaning": "견디다; 고생하다",
+          "speech": "挨"
+        },
+        "b": {
+          "hanzi": "爱",
+          "pinyin": "ài",
+          "tones": "4",
+          "level": 1,
+          "meaning": "사랑",
+          "speech": "爱"
+        },
+        "tip": "“견디다; 고생하다”의 장면은 기세를 위로 끌어올려 <strong>ái</strong>; “사랑”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>ài</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-066",
+        "syllable": "YI ZHI",
+        "a": {
+          "hanzi": "一直",
+          "pinyin": "yī zhí",
+          "tones": "1·2",
+          "level": 3,
+          "meaning": "줄곧",
+          "speech": "一直"
+        },
+        "b": {
+          "hanzi": "抑制",
+          "pinyin": "yì zhì",
+          "tones": "4·4",
+          "level": 6,
+          "meaning": "억제",
+          "speech": "抑制"
+        },
+        "tip": "“줄곧”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yī zhí</strong>; “억제”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yì zhì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-067",
+        "syllable": "QIAO",
+        "a": {
+          "hanzi": "桥",
+          "pinyin": "qiáo",
+          "tones": "2",
+          "level": 4,
+          "meaning": "다리",
+          "speech": "桥"
+        },
+        "b": {
+          "hanzi": "翘",
+          "pinyin": "qiào",
+          "tones": "4",
+          "level": 6,
+          "meaning": "치켜들다",
+          "speech": "翘"
+        },
+        "tip": "“다리”의 장면은 기세를 위로 끌어올려 <strong>qiáo</strong>; “치켜들다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>qiào</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-068",
+        "syllable": "DA JIA",
+        "a": {
+          "hanzi": "打架",
+          "pinyin": "dǎ jià",
+          "tones": "3·4",
+          "level": 6,
+          "meaning": "싸우다",
+          "speech": "打架"
+        },
+        "b": {
+          "hanzi": "大家",
+          "pinyin": "dà jiā",
+          "tones": "4·1",
+          "level": 2,
+          "meaning": "여러분",
+          "speech": "大家"
+        },
+        "tip": "“싸우다”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǎ jià</strong>; “여러분”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dà jiā</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-069",
+        "syllable": "DOU",
+        "a": {
+          "hanzi": "兜",
+          "pinyin": "dōu",
+          "tones": "1",
+          "level": 6,
+          "meaning": "투구",
+          "speech": "兜"
+        },
+        "b": {
+          "hanzi": "读",
+          "pinyin": "dòu",
+          "tones": "4",
+          "level": 1,
+          "meaning": "쉼표",
+          "speech": "读"
+        },
+        "tip": "“투구”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dōu</strong>; “쉼표”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dòu</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-070",
+        "syllable": "QING CHU",
+        "a": {
+          "hanzi": "清除",
+          "pinyin": "qīng chú",
+          "tones": "1·2",
+          "level": 6,
+          "meaning": "제거",
+          "speech": "清除"
+        },
+        "b": {
+          "hanzi": "清楚",
+          "pinyin": "qīng chu",
+          "tones": "1·5",
+          "level": 3,
+          "meaning": "알고 있다",
+          "speech": "清楚"
+        },
+        "tip": "“제거”의 장면은 기세를 위로 끌어올려 <strong>qīng chú</strong>; “알고 있다”의 장면은 짧고 가볍게 덧붙여 <strong>qīng chu</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-071",
+        "syllable": "HENG",
+        "a": {
+          "hanzi": "哼",
+          "pinyin": "hēng",
+          "tones": "1",
+          "level": 6,
+          "meaning": "흥",
+          "speech": "哼"
+        },
+        "b": {
+          "hanzi": "横",
+          "pinyin": "héng",
+          "tones": "2",
+          "level": 5,
+          "meaning": "가로",
+          "speech": "横"
+        },
+        "tip": "“흥”의 장면은 흔들리지 않게 길게 펼쳐 <strong>hēng</strong>; “가로”의 장면은 기세를 위로 끌어올려 <strong>héng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-072",
+        "syllable": "YI LAI",
+        "a": {
+          "hanzi": "依赖",
+          "pinyin": "yī lài",
+          "tones": "1·4",
+          "level": 6,
+          "meaning": "의존",
+          "speech": "依赖"
+        },
+        "b": {
+          "hanzi": "以来",
+          "pinyin": "yǐ lái",
+          "tones": "3·2",
+          "level": 5,
+          "meaning": "이래",
+          "speech": "以来"
+        },
+        "tip": "“의존”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yī lài</strong>; “이래”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǐ lái</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-073",
+        "syllable": "SHI WU",
+        "a": {
+          "hanzi": "食物",
+          "pinyin": "shí wù",
+          "tones": "2·4",
+          "level": 5,
+          "meaning": "음식",
+          "speech": "食物"
+        },
+        "b": {
+          "hanzi": "事务",
+          "pinyin": "shì wù",
+          "tones": "4·4",
+          "level": 6,
+          "meaning": "일",
+          "speech": "事务"
+        },
+        "tip": "“음식”의 장면은 기세를 위로 끌어올려 <strong>shí wù</strong>; “일”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì wù</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-074",
+        "syllable": "YI BIAN",
+        "a": {
+          "hanzi": "一边",
+          "pinyin": "yī biān",
+          "tones": "1·1",
+          "level": 3,
+          "meaning": "한쪽",
+          "speech": "一边"
+        },
+        "b": {
+          "hanzi": "以便",
+          "pinyin": "yǐ biàn",
+          "tones": "3·4",
+          "level": 6,
+          "meaning": "편의",
+          "speech": "以便"
+        },
+        "tip": "“한쪽”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yī biān</strong>; “편의”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǐ biàn</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-075",
+        "syllable": "SHI JI",
+        "a": {
+          "hanzi": "时机",
+          "pinyin": "shí jī",
+          "tones": "2·1",
+          "level": 6,
+          "meaning": "때",
+          "speech": "时机"
+        },
+        "b": {
+          "hanzi": "世纪",
+          "pinyin": "shì jì",
+          "tones": "4·4",
+          "level": 4,
+          "meaning": "세기",
+          "speech": "世纪"
+        },
+        "tip": "“때”의 장면은 기세를 위로 끌어올려 <strong>shí jī</strong>; “세기”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì jì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-076",
+        "syllable": "JIE CHU",
+        "a": {
+          "hanzi": "接触",
+          "pinyin": "jiē chù",
+          "tones": "1·4",
+          "level": 5,
+          "meaning": "접하다",
+          "speech": "接触"
+        },
+        "b": {
+          "hanzi": "解除",
+          "pinyin": "jiě chú",
+          "tones": "3·2",
+          "level": 6,
+          "meaning": "해제",
+          "speech": "解除"
+        },
+        "tip": "“접하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiē chù</strong>; “해제”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiě chú</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-077",
+        "syllable": "ZHI SHI",
+        "a": {
+          "hanzi": "知识",
+          "pinyin": "zhī shi",
+          "tones": "1·5",
+          "level": 4,
+          "meaning": "지식",
+          "speech": "知识"
+        },
+        "b": {
+          "hanzi": "指示",
+          "pinyin": "zhǐ shì",
+          "tones": "3·4",
+          "level": 6,
+          "meaning": "가리키다",
+          "speech": "指示"
+        },
+        "tip": "“지식”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhī shi</strong>; “가리키다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǐ shì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-078",
+        "syllable": "ZHA",
+        "a": {
+          "hanzi": "扎",
+          "pinyin": "zhā",
+          "tones": "1",
+          "level": 6,
+          "meaning": "찌르다; 주둔하다",
+          "speech": "扎"
+        },
+        "b": {
+          "hanzi": "咋",
+          "pinyin": "zhà",
+          "tones": "4",
+          "level": 6,
+          "meaning": "어때",
+          "speech": "咋"
+        },
+        "tip": "“찌르다; 주둔하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhā</strong>; “어때”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhà</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-079",
+        "syllable": "BA",
+        "a": {
+          "hanzi": "扒",
+          "pinyin": "bā",
+          "tones": "1",
+          "level": 6,
+          "meaning": "벗다",
+          "speech": "扒"
+        },
+        "b": {
+          "hanzi": "把",
+          "pinyin": "bà",
+          "tones": "4",
+          "level": 3,
+          "meaning": "손잡이",
+          "speech": "把"
+        },
+        "tip": "“벗다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bā</strong>; “손잡이”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bà</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-080",
+        "syllable": "SHI YE",
+        "a": {
+          "hanzi": "失业",
+          "pinyin": "shī yè",
+          "tones": "1·4",
+          "level": 5,
+          "meaning": "실업",
+          "speech": "失业"
+        },
+        "b": {
+          "hanzi": "事业",
+          "pinyin": "shì yè",
+          "tones": "4·4",
+          "level": 6,
+          "meaning": "직업",
+          "speech": "事业"
+        },
+        "tip": "“실업”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shī yè</strong>; “직업”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì yè</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-081",
+        "syllable": "ZHENG FU",
+        "a": {
+          "hanzi": "征服",
+          "pinyin": "zhēng fú",
+          "tones": "1·2",
+          "level": 6,
+          "meaning": "정복",
+          "speech": "征服"
+        },
+        "b": {
+          "hanzi": "政府",
+          "pinyin": "zhèng fǔ",
+          "tones": "4·3",
+          "level": 5,
+          "meaning": "정부",
+          "speech": "政府"
+        },
+        "tip": "“정복”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhēng fú</strong>; “정부”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhèng fǔ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-082",
+        "syllable": "AI",
+        "a": {
+          "hanzi": "挨",
+          "pinyin": "āi",
+          "tones": "1",
+          "level": 6,
+          "meaning": "가까이 대다; 차례로",
+          "speech": "挨"
+        },
+        "b": {
+          "hanzi": "唉",
+          "pinyin": "ài",
+          "tones": "4",
+          "level": 5,
+          "meaning": "아아; 한숨",
+          "speech": "唉"
+        },
+        "tip": "“가까이 대다; 차례로”의 장면은 흔들리지 않게 길게 펼쳐 <strong>āi</strong>; “아아; 한숨”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>ài</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-083",
+        "syllable": "XI",
+        "a": {
+          "hanzi": "溪",
+          "pinyin": "xī",
+          "tones": "1",
+          "level": 6,
+          "meaning": "시내",
+          "speech": "溪"
+        },
+        "b": {
+          "hanzi": "系",
+          "pinyin": "xì",
+          "tones": "4",
+          "level": 5,
+          "meaning": "계통; 연결",
+          "speech": "系"
+        },
+        "tip": "“시내”의 장면은 흔들리지 않게 길게 펼쳐 <strong>xī</strong>; “계통; 연결”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xì</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-084",
+        "syllable": "XIANG",
+        "a": {
+          "hanzi": "想",
+          "pinyin": "xiǎng",
+          "tones": "3",
+          "level": 1,
+          "meaning": "생각하다.)",
+          "speech": "想"
+        },
+        "b": {
+          "hanzi": "巷",
+          "pinyin": "xiàng",
+          "tones": "4",
+          "level": 6,
+          "meaning": "거리",
+          "speech": "巷"
+        },
+        "tip": "“생각하다.)”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiǎng</strong>; “거리”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-085",
+        "syllable": "YI QI",
+        "a": {
+          "hanzi": "一起",
+          "pinyin": "yī qǐ",
+          "tones": "1·3",
+          "level": 2,
+          "meaning": "함께",
+          "speech": "一起"
+        },
+        "b": {
+          "hanzi": "仪器",
+          "pinyin": "yí qì",
+          "tones": "2·4",
+          "level": 6,
+          "meaning": "기기",
+          "speech": "仪器"
+        },
+        "tip": "“함께”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yī qǐ</strong>; “기기”의 장면은 기세를 위로 끌어올려 <strong>yí qì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-086",
+        "syllable": "SHENG",
+        "a": {
+          "hanzi": "升",
+          "pinyin": "shēng",
+          "tones": "1",
+          "level": 5,
+          "meaning": "오르다",
+          "speech": "升"
+        },
+        "b": {
+          "hanzi": "盛",
+          "pinyin": "shèng",
+          "tones": "4",
+          "level": 6,
+          "meaning": "성",
+          "speech": "盛"
+        },
+        "tip": "“오르다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shēng</strong>; “성”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shèng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-087",
+        "syllable": "SHENG LI",
+        "a": {
+          "hanzi": "生理",
+          "pinyin": "shēng lǐ",
+          "tones": "1·3",
+          "level": 6,
+          "meaning": "생리",
+          "speech": "生理"
+        },
+        "b": {
+          "hanzi": "胜利",
+          "pinyin": "shèng lì",
+          "tones": "4·4",
+          "level": 5,
+          "meaning": "승리하다",
+          "speech": "胜利"
+        },
+        "tip": "“생리”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shēng lǐ</strong>; “승리하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shèng lì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-088",
+        "syllable": "ZHU",
+        "a": {
+          "hanzi": "株",
+          "pinyin": "zhū",
+          "tones": "1",
+          "level": 6,
+          "meaning": "주식",
+          "speech": "株"
+        },
+        "b": {
+          "hanzi": "住",
+          "pinyin": "zhù",
+          "tones": "4",
+          "level": 1,
+          "meaning": "주",
+          "speech": "住"
+        },
+        "tip": "“주식”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhū</strong>; “주”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhù</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-089",
+        "syllable": "HUI BAO",
+        "a": {
+          "hanzi": "回报",
+          "pinyin": "huí bào",
+          "tones": "2·4",
+          "level": 6,
+          "meaning": "보답",
+          "speech": "回报"
+        },
+        "b": {
+          "hanzi": "汇报",
+          "pinyin": "huì bào",
+          "tones": "4·4",
+          "level": 6,
+          "meaning": "보고하다",
+          "speech": "汇报"
+        },
+        "tip": "“보답”의 장면은 기세를 위로 끌어올려 <strong>huí bào</strong>; “보고하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>huì bào</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-090",
+        "syllable": "SHI XIAN",
+        "a": {
+          "hanzi": "实现",
+          "pinyin": "shí xiàn",
+          "tones": "2·4",
+          "level": 5,
+          "meaning": "실현하다",
+          "speech": "实现"
+        },
+        "b": {
+          "hanzi": "视线",
+          "pinyin": "shì xiàn",
+          "tones": "4·4",
+          "level": 6,
+          "meaning": "시선",
+          "speech": "视线"
+        },
+        "tip": "“실현하다”의 장면은 기세를 위로 끌어올려 <strong>shí xiàn</strong>; “시선”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì xiàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-091",
+        "syllable": "PU",
+        "a": {
+          "hanzi": "扑",
+          "pinyin": "pū",
+          "tones": "1",
+          "level": 6,
+          "meaning": "툭",
+          "speech": "扑"
+        },
+        "b": {
+          "hanzi": "铺",
+          "pinyin": "pù",
+          "tones": "4",
+          "level": 6,
+          "meaning": "바닥",
+          "speech": "铺"
+        },
+        "tip": "“툭”의 장면은 흔들리지 않게 길게 펼쳐 <strong>pū</strong>; “바닥”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>pù</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-092",
+        "syllable": "QIAO",
+        "a": {
+          "hanzi": "敲",
+          "pinyin": "qiāo",
+          "tones": "1",
+          "level": 4,
+          "meaning": "치다",
+          "speech": "敲"
+        },
+        "b": {
+          "hanzi": "翘",
+          "pinyin": "qiáo",
+          "tones": "2",
+          "level": 6,
+          "meaning": "뛰어나다; 고개를 들다",
+          "speech": "翘"
+        },
+        "tip": "“치다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qiāo</strong>; “뛰어나다; 고개를 들다”의 장면은 기세를 위로 끌어올려 <strong>qiáo</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-093",
+        "syllable": "SHI LI",
+        "a": {
+          "hanzi": "实力",
+          "pinyin": "shí lì",
+          "tones": "2·4",
+          "level": 6,
+          "meaning": "실력",
+          "speech": "实力"
+        },
+        "b": {
+          "hanzi": "势力",
+          "pinyin": "shì li",
+          "tones": "4·5",
+          "level": 6,
+          "meaning": "세력",
+          "speech": "势力"
+        },
+        "tip": "“실력”의 장면은 기세를 위로 끌어올려 <strong>shí lì</strong>; “세력”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì li</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-094",
+        "syllable": "TIAN",
+        "a": {
+          "hanzi": "甜",
+          "pinyin": "tián",
+          "tones": "2",
+          "level": 3,
+          "meaning": "달다",
+          "speech": "甜"
+        },
+        "b": {
+          "hanzi": "舔",
+          "pinyin": "tiǎn",
+          "tones": "3",
+          "level": 6,
+          "meaning": "핥다",
+          "speech": "舔"
+        },
+        "tip": "“달다”의 장면은 기세를 위로 끌어올려 <strong>tián</strong>; “핥다”의 장면은 낮게 품었다가 다시 꺾어 <strong>tiǎn</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-095",
+        "syllable": "DENG JI",
+        "a": {
+          "hanzi": "登记",
+          "pinyin": "dēng jì",
+          "tones": "1·4",
+          "level": 5,
+          "meaning": "등록하다",
+          "speech": "登记"
+        },
+        "b": {
+          "hanzi": "等级",
+          "pinyin": "děng jí",
+          "tones": "3·2",
+          "level": 6,
+          "meaning": "등급",
+          "speech": "等级"
+        },
+        "tip": "“등록하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>dēng jì</strong>; “등급”의 장면은 낮게 품었다가 다시 꺾어 <strong>děng jí</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-096",
+        "syllable": "CHUANG",
+        "a": {
+          "hanzi": "幢",
+          "pinyin": "chuáng",
+          "tones": "2",
+          "level": 6,
+          "meaning": "깃발; 장막",
+          "speech": "幢"
+        },
+        "b": {
+          "hanzi": "闯",
+          "pinyin": "chuǎng",
+          "tones": "3",
+          "level": 5,
+          "meaning": "돌파하다",
+          "speech": "闯"
+        },
+        "tip": "“깃발; 장막”의 장면은 기세를 위로 끌어올려 <strong>chuáng</strong>; “돌파하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>chuǎng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-097",
+        "syllable": "QING XING",
+        "a": {
+          "hanzi": "清醒",
+          "pinyin": "qīng xǐng",
+          "tones": "1·3",
+          "level": 6,
+          "meaning": "맑음",
+          "speech": "清醒"
+        },
+        "b": {
+          "hanzi": "情形",
+          "pinyin": "qíng xing",
+          "tones": "2·5",
+          "level": 6,
+          "meaning": "정형",
+          "speech": "情形"
+        },
+        "tip": "“맑음”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qīng xǐng</strong>; “정형”의 장면은 기세를 위로 끌어올려 <strong>qíng xing</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-098",
+        "syllable": "YI ZHI",
+        "a": {
+          "hanzi": "一致",
+          "pinyin": "yī zhì",
+          "tones": "1·4",
+          "level": 5,
+          "meaning": "일치하다",
+          "speech": "一致"
+        },
+        "b": {
+          "hanzi": "意志",
+          "pinyin": "yì zhì",
+          "tones": "4·4",
+          "level": 6,
+          "meaning": "의지",
+          "speech": "意志"
+        },
+        "tip": "“일치하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yī zhì</strong>; “의지”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yì zhì</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-099",
+        "syllable": "BA",
+        "a": {
+          "hanzi": "疤",
+          "pinyin": "bā",
+          "tones": "1",
+          "level": 6,
+          "meaning": "혹",
+          "speech": "疤"
+        },
+        "b": {
+          "hanzi": "把",
+          "pinyin": "bǎ",
+          "tones": "3",
+          "level": 3,
+          "meaning": "잡다; ~을/를",
+          "speech": "把"
+        },
+        "tip": "“혹”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bā</strong>; “잡다; ~을/를”의 장면은 낮게 품었다가 다시 꺾어 <strong>bǎ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-100",
+        "syllable": "GONG JI",
+        "a": {
+          "hanzi": "攻击",
+          "pinyin": "gōng jī",
+          "tones": "1·1",
+          "level": 6,
+          "meaning": "공격",
+          "speech": "攻击"
+        },
+        "b": {
+          "hanzi": "供给",
+          "pinyin": "gōng jǐ",
+          "tones": "1·3",
+          "level": 6,
+          "meaning": "공급",
+          "speech": "供给"
+        },
+        "tip": "“공격”의 장면은 흔들리지 않게 길게 펼쳐 <strong>gōng jī</strong>; “공급”의 장면은 낮게 품었다가 다시 꺾어 <strong>gōng jǐ</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-101",
+        "syllable": "FENG XIAN",
+        "a": {
+          "hanzi": "风险",
+          "pinyin": "fēng xiǎn",
+          "tones": "1·3",
+          "level": 5,
+          "meaning": "위험",
+          "speech": "风险"
+        },
+        "b": {
+          "hanzi": "奉献",
+          "pinyin": "fèng xiàn",
+          "tones": "4·4",
+          "level": 6,
+          "meaning": "헌신",
+          "speech": "奉献"
+        },
+        "tip": "“위험”의 장면은 흔들리지 않게 길게 펼쳐 <strong>fēng xiǎn</strong>; “헌신”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>fèng xiàn</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-102",
+        "syllable": "KE",
+        "a": {
+          "hanzi": "磕",
+          "pinyin": "kē",
+          "tones": "1",
+          "level": 6,
+          "meaning": "돌다",
+          "speech": "磕"
+        },
+        "b": {
+          "hanzi": "克",
+          "pinyin": "kè",
+          "tones": "4",
+          "level": 5,
+          "meaning": "캐럿",
+          "speech": "克"
+        },
+        "tip": "“돌다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>kē</strong>; “캐럿”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>kè</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-103",
+        "syllable": "XIE",
+        "a": {
+          "hanzi": "写",
+          "pinyin": "xiě",
+          "tones": "3",
+          "level": 1,
+          "meaning": "쓰다",
+          "speech": "写"
+        },
+        "b": {
+          "hanzi": "屑",
+          "pinyin": "xiè",
+          "tones": "4",
+          "level": 6,
+          "meaning": "쓰레기",
+          "speech": "屑"
+        },
+        "tip": "“쓰다”의 장면은 낮게 품었다가 다시 꺾어 <strong>xiě</strong>; “쓰레기”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiè</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-104",
+        "syllable": "SHI WU",
+        "a": {
+          "hanzi": "失误",
+          "pinyin": "shī wù",
+          "tones": "1·4",
+          "level": 6,
+          "meaning": "실수하다",
+          "speech": "失误"
+        },
+        "b": {
+          "hanzi": "事物",
+          "pinyin": "shì wù",
+          "tones": "4·4",
+          "level": 5,
+          "meaning": "사물",
+          "speech": "事物"
+        },
+        "tip": "“실수하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shī wù</strong>; “사물”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì wù</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-105",
+        "syllable": "BAN FA",
+        "a": {
+          "hanzi": "颁发",
+          "pinyin": "bān fā",
+          "tones": "1·1",
+          "level": 6,
+          "meaning": "수여",
+          "speech": "颁发"
+        },
+        "b": {
+          "hanzi": "办法",
+          "pinyin": "bàn fǎ",
+          "tones": "4·3",
+          "level": 3,
+          "meaning": "방안",
+          "speech": "办法"
+        },
+        "tip": "“수여”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bān fā</strong>; “방안”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bàn fǎ</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-106",
+        "syllable": "JIU JING",
+        "a": {
+          "hanzi": "究竟",
+          "pinyin": "jiū jìng",
+          "tones": "1·4",
+          "level": 4,
+          "meaning": "도대체",
+          "speech": "究竟"
+        },
+        "b": {
+          "hanzi": "酒精",
+          "pinyin": "jiǔ jīng",
+          "tones": "3·1",
+          "level": 6,
+          "meaning": "알코올",
+          "speech": "酒精"
+        },
+        "tip": "“도대체”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiū jìng</strong>; “알코올”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǔ jīng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-107",
+        "syllable": "TA",
+        "a": {
+          "hanzi": "塌",
+          "pinyin": "tā",
+          "tones": "1",
+          "level": 6,
+          "meaning": "무너짐",
+          "speech": "塌"
+        },
+        "b": {
+          "hanzi": "塔",
+          "pinyin": "tǎ",
+          "tones": "3",
+          "level": 5,
+          "meaning": "탑",
+          "speech": "塔"
+        },
+        "tip": "“무너짐”의 장면은 흔들리지 않게 길게 펼쳐 <strong>tā</strong>; “탑”의 장면은 낮게 품었다가 다시 꺾어 <strong>tǎ</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-108",
+        "syllable": "FANG SHOU",
+        "a": {
+          "hanzi": "防守",
+          "pinyin": "fáng shǒu",
+          "tones": "2·3",
+          "level": 6,
+          "meaning": "수비",
+          "speech": "防守"
+        },
+        "b": {
+          "hanzi": "放手",
+          "pinyin": "fàng shǒu",
+          "tones": "4·3",
+          "level": 6,
+          "meaning": "놓아주다",
+          "speech": "放手"
+        },
+        "tip": "“수비”의 장면은 기세를 위로 끌어올려 <strong>fáng shǒu</strong>; “놓아주다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>fàng shǒu</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-109",
+        "syllable": "JIAN YU",
+        "a": {
+          "hanzi": "监狱",
+          "pinyin": "jiān yù",
+          "tones": "1·4",
+          "level": 6,
+          "meaning": "감옥",
+          "speech": "监狱"
+        },
+        "b": {
+          "hanzi": "鉴于",
+          "pinyin": "jiàn yú",
+          "tones": "4·2",
+          "level": 6,
+          "meaning": "감안하여",
+          "speech": "鉴于"
+        },
+        "tip": "“감옥”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiān yù</strong>; “감안하여”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiàn yú</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-110",
+        "syllable": "ZHI DING",
+        "a": {
+          "hanzi": "指定",
+          "pinyin": "zhǐ dìng",
+          "tones": "3·4",
+          "level": 6,
+          "meaning": "지정하다",
+          "speech": "指定"
+        },
+        "b": {
+          "hanzi": "制定",
+          "pinyin": "zhì dìng",
+          "tones": "4·4",
+          "level": 5,
+          "meaning": "제정",
+          "speech": "制定"
+        },
+        "tip": "“지정하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>zhǐ dìng</strong>; “제정”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhì dìng</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-111",
+        "syllable": "DIAO",
+        "a": {
+          "hanzi": "叼",
+          "pinyin": "diāo",
+          "tones": "1",
+          "level": 6,
+          "meaning": "물다",
+          "speech": "叼"
+        },
+        "b": {
+          "hanzi": "掉",
+          "pinyin": "diào",
+          "tones": "4",
+          "level": 4,
+          "meaning": "(아래로) 떨어지다. 떨어뜨리다.",
+          "speech": "掉"
+        },
+        "tip": "“물다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>diāo</strong>; “(아래로) 떨어지다. 떨어뜨리다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>diào</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-112",
+        "syllable": "JIAN DING",
+        "a": {
+          "hanzi": "坚定",
+          "pinyin": "jiān dìng",
+          "tones": "1·4",
+          "level": 6,
+          "meaning": "확고함",
+          "speech": "坚定"
+        },
+        "b": {
+          "hanzi": "鉴定",
+          "pinyin": "jiàn dìng",
+          "tones": "4·4",
+          "level": 6,
+          "meaning": "감정",
+          "speech": "鉴定"
+        },
+        "tip": "“확고함”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jiān dìng</strong>; “감정”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiàn dìng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-113",
+        "syllable": "QI SHI",
+        "a": {
+          "hanzi": "其实",
+          "pinyin": "qí shí",
+          "tones": "2·2",
+          "level": 3,
+          "meaning": "사실",
+          "speech": "其实"
+        },
+        "b": {
+          "hanzi": "歧视",
+          "pinyin": "qí shì",
+          "tones": "2·4",
+          "level": 6,
+          "meaning": "차별적 시선",
+          "speech": "歧视"
+        },
+        "tip": "“사실”의 장면은 기세를 위로 끌어올려 <strong>qí shí</strong>; “차별적 시선”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>qí shì</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-114",
+        "syllable": "PI",
+        "a": {
+          "hanzi": "批",
+          "pinyin": "pī",
+          "tones": "1",
+          "level": 5,
+          "meaning": "도매",
+          "speech": "批"
+        },
+        "b": {
+          "hanzi": "劈",
+          "pinyin": "pǐ",
+          "tones": "3",
+          "level": 6,
+          "meaning": "쪼개다",
+          "speech": "劈"
+        },
+        "tip": "“도매”의 장면은 흔들리지 않게 길게 펼쳐 <strong>pī</strong>; “쪼개다”의 장면은 낮게 품었다가 다시 꺾어 <strong>pǐ</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-115",
+        "syllable": "LOU",
+        "a": {
+          "hanzi": "楼",
+          "pinyin": "lóu",
+          "tones": "2",
+          "level": 3,
+          "meaning": "층",
+          "speech": "楼"
+        },
+        "b": {
+          "hanzi": "搂",
+          "pinyin": "lǒu",
+          "tones": "3",
+          "level": 6,
+          "meaning": "껴안다",
+          "speech": "搂"
+        },
+        "tip": "“층”의 장면은 기세를 위로 끌어올려 <strong>lóu</strong>; “껴안다”의 장면은 낮게 품었다가 다시 꺾어 <strong>lǒu</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-116",
+        "syllable": "YU YAN",
+        "a": {
+          "hanzi": "语言",
+          "pinyin": "yǔ yán",
+          "tones": "3·2",
+          "level": 4,
+          "meaning": "언어",
+          "speech": "语言"
+        },
+        "b": {
+          "hanzi": "预言",
+          "pinyin": "yù yán",
+          "tones": "4·2",
+          "level": 6,
+          "meaning": "예언",
+          "speech": "预言"
+        },
+        "tip": "“언어”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǔ yán</strong>; “예언”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yù yán</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-117",
+        "syllable": "BU ZHI",
+        "a": {
+          "hanzi": "不止",
+          "pinyin": "bù zhǐ",
+          "tones": "4·3",
+          "level": 6,
+          "meaning": "그뿐만이 아니다",
+          "speech": "不止"
+        },
+        "b": {
+          "hanzi": "布置",
+          "pinyin": "bù zhì",
+          "tones": "4·4",
+          "level": 6,
+          "meaning": "배치",
+          "speech": "布置"
+        },
+        "tip": "“그뿐만이 아니다”의 장면은 낮게 품었다가 다시 꺾어 <strong>bù zhǐ</strong>; “배치”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bù zhì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-118",
+        "syllable": "HUAN JIE",
+        "a": {
+          "hanzi": "环节",
+          "pinyin": "huán jié",
+          "tones": "2·2",
+          "level": 6,
+          "meaning": "고리",
+          "speech": "环节"
+        },
+        "b": {
+          "hanzi": "缓解",
+          "pinyin": "huǎn jiě",
+          "tones": "3·3",
+          "level": 5,
+          "meaning": "완화",
+          "speech": "缓解"
+        },
+        "tip": "“고리”의 장면은 기세를 위로 끌어올려 <strong>huán jié</strong>; “완화”의 장면은 낮게 품었다가 다시 꺾어 <strong>huǎn jiě</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-119",
+        "syllable": "QING",
+        "a": {
+          "hanzi": "氢",
+          "pinyin": "qīng",
+          "tones": "1",
+          "level": 6,
+          "meaning": "수소",
+          "speech": "氢"
+        },
+        "b": {
+          "hanzi": "请",
+          "pinyin": "qǐng",
+          "tones": "3",
+          "level": 1,
+          "meaning": "주다",
+          "speech": "请"
+        },
+        "tip": "“수소”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qīng</strong>; “주다”의 장면은 낮게 품었다가 다시 꺾어 <strong>qǐng</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-120",
+        "syllable": "SHI CHANG",
+        "a": {
+          "hanzi": "时常",
+          "pinyin": "shí cháng",
+          "tones": "2·2",
+          "level": 6,
+          "meaning": "자주",
+          "speech": "时常"
+        },
+        "b": {
+          "hanzi": "市场",
+          "pinyin": "shì chǎng",
+          "tones": "4·3",
+          "level": 4,
+          "meaning": "시장",
+          "speech": "市场"
+        },
+        "tip": "“자주”의 장면은 기세를 위로 끌어올려 <strong>shí cháng</strong>; “시장”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shì chǎng</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-121",
+        "syllable": "JIAN",
+        "a": {
+          "hanzi": "拣",
+          "pinyin": "jiǎn",
+          "tones": "3",
+          "level": 6,
+          "meaning": "줍다",
+          "speech": "拣"
+        },
+        "b": {
+          "hanzi": "件",
+          "pinyin": "jiàn",
+          "tones": "4",
+          "level": 2,
+          "meaning": "건",
+          "speech": "件"
+        },
+        "tip": "“줍다”의 장면은 낮게 품었다가 다시 꺾어 <strong>jiǎn</strong>; “건”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jiàn</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-122",
+        "syllable": "QING JIE",
+        "a": {
+          "hanzi": "清洁",
+          "pinyin": "qīng jié",
+          "tones": "1·2",
+          "level": 6,
+          "meaning": "청결",
+          "speech": "清洁"
+        },
+        "b": {
+          "hanzi": "情节",
+          "pinyin": "qíng jié",
+          "tones": "2·2",
+          "level": 6,
+          "meaning": "줄거리",
+          "speech": "情节"
+        },
+        "tip": "“청결”의 장면은 흔들리지 않게 길게 펼쳐 <strong>qīng jié</strong>; “줄거리”의 장면은 기세를 위로 끌어올려 <strong>qíng jié</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-123",
+        "syllable": "ZHONG DIAN",
+        "a": {
+          "hanzi": "终点",
+          "pinyin": "zhōng diǎn",
+          "tones": "1·3",
+          "level": 6,
+          "meaning": "종착점",
+          "speech": "终点"
+        },
+        "b": {
+          "hanzi": "重点",
+          "pinyin": "zhòng diǎn",
+          "tones": "4·3",
+          "level": 4,
+          "meaning": "중점",
+          "speech": "重点"
+        },
+        "tip": "“종착점”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhōng diǎn</strong>; “중점”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhòng diǎn</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-124",
+        "syllable": "SHE",
+        "a": {
+          "hanzi": "折",
+          "pinyin": "shé",
+          "tones": "2",
+          "level": 6,
+          "meaning": "부러지다",
+          "speech": "折"
+        },
+        "b": {
+          "hanzi": "拾",
+          "pinyin": "shè",
+          "tones": "4",
+          "level": 6,
+          "meaning": "가볍게 오르다",
+          "speech": "拾"
+        },
+        "tip": "“부러지다”의 장면은 기세를 위로 끌어올려 <strong>shé</strong>; “가볍게 오르다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shè</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-125",
+        "syllable": "NU LI",
+        "a": {
+          "hanzi": "奴隶",
+          "pinyin": "nú lì",
+          "tones": "2·4",
+          "level": 6,
+          "meaning": "하인",
+          "speech": "奴隶"
+        },
+        "b": {
+          "hanzi": "努力",
+          "pinyin": "nǔ lì",
+          "tones": "3·4",
+          "level": 3,
+          "meaning": "노력",
+          "speech": "努力"
+        },
+        "tip": "“하인”의 장면은 기세를 위로 끌어올려 <strong>nú lì</strong>; “노력”의 장면은 낮게 품었다가 다시 꺾어 <strong>nǔ lì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-126",
+        "syllable": "WU ZHI",
+        "a": {
+          "hanzi": "无知",
+          "pinyin": "wú zhī",
+          "tones": "2·1",
+          "level": 6,
+          "meaning": "무식하다",
+          "speech": "无知"
+        },
+        "b": {
+          "hanzi": "物质",
+          "pinyin": "wù zhì",
+          "tones": "4·4",
+          "level": 5,
+          "meaning": "물질",
+          "speech": "物质"
+        },
+        "tip": "“무식하다”의 장면은 기세를 위로 끌어올려 <strong>wú zhī</strong>; “물질”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>wù zhì</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-127",
+        "syllable": "CHUI",
+        "a": {
+          "hanzi": "吹",
+          "pinyin": "chuī",
+          "tones": "1",
+          "level": 5,
+          "meaning": "불",
+          "speech": "吹"
+        },
+        "b": {
+          "hanzi": "锤",
+          "pinyin": "chuí",
+          "tones": "2",
+          "level": 6,
+          "meaning": "망치",
+          "speech": "锤"
+        },
+        "tip": "“불”의 장면은 흔들리지 않게 길게 펼쳐 <strong>chuī</strong>; “망치”의 장면은 기세를 위로 끌어올려 <strong>chuí</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-128",
+        "syllable": "BAI TUO",
+        "a": {
+          "hanzi": "摆脱",
+          "pinyin": "bǎi tuō",
+          "tones": "3·1",
+          "level": 6,
+          "meaning": "벗어남",
+          "speech": "摆脱"
+        },
+        "b": {
+          "hanzi": "拜托",
+          "pinyin": "bài tuō",
+          "tones": "4·1",
+          "level": 6,
+          "meaning": "부탁하다",
+          "speech": "拜托"
+        },
+        "tip": "“벗어남”의 장면은 낮게 품었다가 다시 꺾어 <strong>bǎi tuō</strong>; “부탁하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>bài tuō</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-129",
+        "syllable": "SHU FU",
+        "a": {
+          "hanzi": "舒服",
+          "pinyin": "shū fu",
+          "tones": "1·5",
+          "level": 3,
+          "meaning": "편안하다",
+          "speech": "舒服"
+        },
+        "b": {
+          "hanzi": "束缚",
+          "pinyin": "shù fù",
+          "tones": "4·4",
+          "level": 6,
+          "meaning": "속박하다",
+          "speech": "束缚"
+        },
+        "tip": "“편안하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>shū fu</strong>; “속박하다”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>shù fù</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-130",
+        "syllable": "YU QI",
+        "a": {
+          "hanzi": "语气",
+          "pinyin": "yǔ qì",
+          "tones": "3·4",
+          "level": 5,
+          "meaning": "어조",
+          "speech": "语气"
+        },
+        "b": {
+          "hanzi": "预期",
+          "pinyin": "yù qī",
+          "tones": "4·1",
+          "level": 6,
+          "meaning": "예상",
+          "speech": "预期"
+        },
+        "tip": "“어조”의 장면은 낮게 품었다가 다시 꺾어 <strong>yǔ qì</strong>; “예상”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yù qī</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-131",
+        "syllable": "MING MING",
+        "a": {
+          "hanzi": "明明",
+          "pinyin": "míng míng",
+          "tones": "2·2",
+          "level": 6,
+          "meaning": "분명히",
+          "speech": "明明"
+        },
+        "b": {
+          "hanzi": "命名",
+          "pinyin": "mìng míng",
+          "tones": "4·2",
+          "level": 6,
+          "meaning": "명명",
+          "speech": "命名"
+        },
+        "tip": "“분명히”의 장면은 기세를 위로 끌어올려 <strong>míng míng</strong>; “명명”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>mìng míng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-132",
+        "syllable": "JI YU",
+        "a": {
+          "hanzi": "机遇",
+          "pinyin": "jī yù",
+          "tones": "1·4",
+          "level": 6,
+          "meaning": "기회",
+          "speech": "机遇"
+        },
+        "b": {
+          "hanzi": "给予",
+          "pinyin": "jǐ yǔ",
+          "tones": "3·3",
+          "level": 6,
+          "meaning": "기여하다",
+          "speech": "给予"
+        },
+        "tip": "“기회”의 장면은 흔들리지 않게 길게 펼쳐 <strong>jī yù</strong>; “기여하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>jǐ yǔ</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-133",
+        "syllable": "DI ZHI",
+        "a": {
+          "hanzi": "抵制",
+          "pinyin": "dǐ zhì",
+          "tones": "3·4",
+          "level": 6,
+          "meaning": "저항하다",
+          "speech": "抵制"
+        },
+        "b": {
+          "hanzi": "地址",
+          "pinyin": "dì zhǐ",
+          "tones": "4·3",
+          "level": 4,
+          "meaning": "주소",
+          "speech": "地址"
+        },
+        "tip": "“저항하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>dǐ zhì</strong>; “주소”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>dì zhǐ</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-134",
+        "syllable": "GUAN LI",
+        "a": {
+          "hanzi": "管理",
+          "pinyin": "guǎn lǐ",
+          "tones": "3·3",
+          "level": 4,
+          "meaning": "관리하다",
+          "speech": "管理"
+        },
+        "b": {
+          "hanzi": "惯例",
+          "pinyin": "guàn lì",
+          "tones": "4·4",
+          "level": 6,
+          "meaning": "관례",
+          "speech": "惯例"
+        },
+        "tip": "“관리하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>guǎn lǐ</strong>; “관례”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>guàn lì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-135",
+        "syllable": "PI",
+        "a": {
+          "hanzi": "劈",
+          "pinyin": "pī",
+          "tones": "1",
+          "level": 6,
+          "meaning": "내리치다; 가르다",
+          "speech": "劈"
+        },
+        "b": {
+          "hanzi": "匹",
+          "pinyin": "pǐ",
+          "tones": "3",
+          "level": 5,
+          "meaning": "쌍",
+          "speech": "匹"
+        },
+        "tip": "“내리치다; 가르다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>pī</strong>; “쌍”의 장면은 낮게 품었다가 다시 꺾어 <strong>pǐ</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-136",
+        "syllable": "ZHE",
+        "a": {
+          "hanzi": "折",
+          "pinyin": "zhē",
+          "tones": "1",
+          "level": 6,
+          "meaning": "뒤집다",
+          "speech": "折"
+        },
+        "b": {
+          "hanzi": "乙",
+          "pinyin": "zhé",
+          "tones": "2",
+          "level": 5,
+          "meaning": "꺾임 획",
+          "speech": "乙"
+        },
+        "tip": "“뒤집다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhē</strong>; “꺾임 획”의 장면은 기세를 위로 끌어올려 <strong>zhé</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-137",
+        "syllable": "XIAN",
+        "a": {
+          "hanzi": "弦",
+          "pinyin": "xián",
+          "tones": "2",
+          "level": 6,
+          "meaning": "현",
+          "speech": "弦"
+        },
+        "b": {
+          "hanzi": "县",
+          "pinyin": "xiàn",
+          "tones": "4",
+          "level": 5,
+          "meaning": "현",
+          "speech": "县"
+        },
+        "tip": "“현”의 장면은 기세를 위로 끌어올려 <strong>xián</strong>; “현”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>xiàn</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-138",
+        "syllable": "BAO WEI",
+        "a": {
+          "hanzi": "包围",
+          "pinyin": "bāo wéi",
+          "tones": "1·2",
+          "level": 6,
+          "meaning": "둘러싸기",
+          "speech": "包围"
+        },
+        "b": {
+          "hanzi": "保卫",
+          "pinyin": "bǎo wèi",
+          "tones": "3·4",
+          "level": 6,
+          "meaning": "수호하다",
+          "speech": "保卫"
+        },
+        "tip": "“둘러싸기”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bāo wéi</strong>; “수호하다”의 장면은 낮게 품었다가 다시 꺾어 <strong>bǎo wèi</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-139",
+        "syllable": "ZHENG YI",
+        "a": {
+          "hanzi": "争议",
+          "pinyin": "zhēng yì",
+          "tones": "1·4",
+          "level": 6,
+          "meaning": "논쟁",
+          "speech": "争议"
+        },
+        "b": {
+          "hanzi": "正义",
+          "pinyin": "zhèng yì",
+          "tones": "4·4",
+          "level": 6,
+          "meaning": "정의",
+          "speech": "正义"
+        },
+        "tip": "“논쟁”의 장면은 흔들리지 않게 길게 펼쳐 <strong>zhēng yì</strong>; “정의”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>zhèng yì</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-140",
+        "syllable": "LOU",
+        "a": {
+          "hanzi": "搂",
+          "pinyin": "lōu",
+          "tones": "1",
+          "level": 6,
+          "meaning": "끌어당기다",
+          "speech": "搂"
+        },
+        "b": {
+          "hanzi": "露",
+          "pinyin": "lòu",
+          "tones": "4",
+          "level": 5,
+          "meaning": "이슬",
+          "speech": "露"
+        },
+        "tip": "“끌어당기다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>lōu</strong>; “이슬”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>lòu</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      },
+      {
+        "id": "hsk6-141",
+        "syllable": "BU JIN",
+        "a": {
+          "hanzi": "不禁",
+          "pinyin": "bù jīn",
+          "tones": "4·1",
+          "level": 6,
+          "meaning": "참지 못하고",
+          "speech": "不禁"
+        },
+        "b": {
+          "hanzi": "不仅",
+          "pinyin": "bù jǐn",
+          "tones": "4·3",
+          "level": 4,
+          "meaning": "뿐만 아니다",
+          "speech": "不仅"
+        },
+        "tip": "“참지 못하고”의 장면은 흔들리지 않게 길게 펼쳐 <strong>bù jīn</strong>; “뿐만 아니다”의 장면은 낮게 품었다가 다시 꺾어 <strong>bù jǐn</strong> — 뜻이 성조의 길을 직접 탄다!"
+      },
+      {
+        "id": "hsk6-142",
+        "syllable": "JI DU",
+        "a": {
+          "hanzi": "嫉妒",
+          "pinyin": "jí dù",
+          "tones": "2·4",
+          "level": 6,
+          "meaning": "질투하다",
+          "speech": "嫉妒"
+        },
+        "b": {
+          "hanzi": "季度",
+          "pinyin": "jì dù",
+          "tones": "4·4",
+          "level": 6,
+          "meaning": "분기",
+          "speech": "季度"
+        },
+        "tip": "“질투하다”의 장면은 기세를 위로 끌어올려 <strong>jí dù</strong>; “분기”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>jì dù</strong> — 같은 소리라도 장면의 움직임은 정반대!"
+      },
+      {
+        "id": "hsk6-143",
+        "syllable": "YOU YU",
+        "a": {
+          "hanzi": "忧郁",
+          "pinyin": "yōu yù",
+          "tones": "1·4",
+          "level": 6,
+          "meaning": "우울해하다",
+          "speech": "忧郁"
+        },
+        "b": {
+          "hanzi": "由于",
+          "pinyin": "yóu yú",
+          "tones": "2·2",
+          "level": 4,
+          "meaning": "때문에",
+          "speech": "由于"
+        },
+        "tip": "“우울해하다”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yōu yù</strong>; “때문에”의 장면은 기세를 위로 끌어올려 <strong>yóu yú</strong> — 입으로 외우기 전에 두 장면을 움직여 보자."
+      },
+      {
+        "id": "hsk6-144",
+        "syllable": "YIN XIANG",
+        "a": {
+          "hanzi": "音响",
+          "pinyin": "yīn xiǎng",
+          "tones": "1·3",
+          "level": 6,
+          "meaning": "음향",
+          "speech": "音响"
+        },
+        "b": {
+          "hanzi": "印象",
+          "pinyin": "yìn xiàng",
+          "tones": "4·4",
+          "level": 4,
+          "meaning": "인상",
+          "speech": "印象"
+        },
+        "tip": "“음향”의 장면은 흔들리지 않게 길게 펼쳐 <strong>yīn xiǎng</strong>; “인상”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>yìn xiàng</strong> — 두 뜻을 성조의 궤도에 붙이면 덜 헷갈린다."
+      },
+      {
+        "id": "hsk6-145",
+        "syllable": "LENG",
+        "a": {
+          "hanzi": "冷",
+          "pinyin": "lěng",
+          "tones": "3",
+          "level": 1,
+          "meaning": "춥다",
+          "speech": "冷"
+        },
+        "b": {
+          "hanzi": "愣",
+          "pinyin": "lèng",
+          "tones": "4",
+          "level": 6,
+          "meaning": "멍",
+          "speech": "愣"
+        },
+        "tip": "“춥다”의 장면은 낮게 품었다가 다시 꺾어 <strong>lěng</strong>; “멍”의 장면은 결론을 내리듯 아래로 딱 떨어뜨려 <strong>lèng</strong> — 소리는 쌍둥이, 뜻의 동선은 각자 다르다!"
+      }
+    ]
+  }
+};

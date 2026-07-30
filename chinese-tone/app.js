@@ -124,6 +124,7 @@ function firstDifferentTone(pair) {
 function memoryTip(pair) {
   const classic = CLASSIC_MEMORY_TIPS[`${pair.a.hanzi}|${pair.b.hanzi}`];
   if (classic) return classic;
+  if (pair.tip) return pair.tip;
 
   const seed = stableNumber(pair.id);
   const [toneA, toneB] = firstDifferentTone(pair);
@@ -211,7 +212,6 @@ function renderCard() {
     document.querySelector(`#pinyin-${side}`).className =
       `pinyin length-${Math.min(word.pinyin.length, 12)}`;
     setText(`tone-number-${side}`, word.tones);
-    setText(`tone-name-${side}`, `HSK ${word.level}급 · 성조 ${word.tones}`);
     setText(`meaning-${side}`, word.meaning);
   });
   document.querySelector("#memory-tip").innerHTML =

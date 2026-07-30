@@ -446,14 +446,6 @@ h1 em { color: var(--green); font-style: normal; }
   font-size: 0.96rem;
 }
 
-.tone-name {
-  min-height: 33px;
-  margin: 8px 0 12px;
-  color: #8c9188;
-  font-size: 0.62rem;
-  line-height: 1.35;
-}
-
 .meaning {
   display: inline-block;
   padding: 7px 13px;
@@ -911,7 +903,6 @@ kbd {
   .hanzi.length-3 { font-size: clamp(2rem, 10vw, 2.9rem); }
   .hanzi.length-4 { font-size: clamp(1.55rem, 8vw, 2.25rem); }
   .pinyin { font-size: 1rem; }
-  .tone-name { font-size: .56rem; }
   .meaning { padding: 6px 10px; font-size: 0.68rem; }
   .memory-tip { margin-top: 9px; padding: 8px 6px; font-size: .58rem; }
   .decision-row { gap: 7px; margin-top: 8px; }
@@ -995,7 +986,6 @@ kbd {
   .word-side { padding-top: 23px; padding-bottom: 9px; }
   .hanzi { font-size: clamp(3rem, 17vw, 4rem); }
   .hanzi.length-2 { font-size: clamp(2.4rem, 12vw, 3.35rem); }
-  .tone-name { min-height: 27px; margin-block: 5px 7px; }
   .memory-tip { margin-top: 6px; padding-block: 6px; }
   .decision-row { margin-top: 6px; }
   .decision-button { min-height: 46px; }
