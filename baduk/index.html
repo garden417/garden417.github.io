@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111814" />
+    <meta name="description" content="19×19 웹 바둑 게임" />
+    <title>바둑 한 수</title>
+    <link rel="stylesheet" href="./styles.css?v=1" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="masthead">
+        <div>
+          <p class="eyebrow">THE GAME OF GO</p>
+          <h1>바둑 <em>한 수</em></h1>
+        </div>
+        <p class="intro">영토를 만들고 상대의 돌을 포위하세요.</p>
+      </header>
+
+      <section class="game-layout">
+        <aside class="sidebar" aria-label="대국 정보">
+          <div class="mode-switch" aria-label="게임 모드">
+            <button class="mode active" type="button" data-mode="ai">컴퓨터 대전</button>
+            <button class="mode" type="button" data-mode="local">2인 대전</button>
+          </div>
+
+          <div class="players">
+            <article id="black-player" class="player active">
+              <span class="stone black"></span>
+              <div>
+                <small>흑</small>
+                <strong id="black-name">나</strong>
+              </div>
+              <div class="capture">
+                <small>잡은 돌</small>
+                <b id="black-captures">0</b>
+              </div>
+            </article>
+            <article id="white-player" class="player">
+              <span class="stone white"></span>
+              <div>
+                <small>백 · 덤 6.5</small>
+                <strong id="white-name">컴퓨터</strong>
+              </div>
+              <div class="capture">
+                <small>잡은 돌</small>
+                <b id="white-captures">0</b>
+              </div>
+            </article>
+          </div>
+
+          <div class="turn-card" aria-live="polite">
+            <span id="turn-dot" class="turn-dot black"></span>
+            <div>
+              <small id="turn-kicker">당신의 차례</small>
+              <strong id="turn-text">흑돌을 놓아주세요</strong>
+            </div>
+          </div>
+
+          <div class="actions">
+            <button id="pass-button" class="primary-action" type="button">한 수 쉼</button>
+            <button id="undo-button" type="button" disabled>무르기</button>
+            <button id="reset-button" type="button">새 대국</button>
+          </div>
+
+          <div class="rule-note">
+            <span>집 계산</span>
+            두 번 연속 한 수 쉬면 중국식 계가로 승부를 결정합니다.
+          </div>
+        </aside>
+
+        <section class="board-section" aria-label="바둑 대국">
+          <div class="board-frame">
+            <canvas id="board" width="780" height="780" aria-label="19 곱하기 19 바둑판"></canvas>
+            <div id="result-overlay" class="result-overlay" hidden>
+              <div class="result-card">
+                <small>대국 종료</small>
+                <h2 id="result-title">흑 승</h2>
+                <p id="result-score">흑 0집 · 백 6.5집</p>
+                <button id="again-button" type="button">새 대국 시작</button>
+              </div>
+            </div>
+          </div>
+          <p id="board-message" class="board-message">교차점을 눌러 돌을 놓으세요</p>
+        </section>
+      </section>
+    </main>
+
+    <script src="./app.js?v=1"></script>
+  </body>
+</html>
