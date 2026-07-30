@@ -205,7 +205,7 @@ h1 em { color: var(--gold); font-style: normal; }
 .turn-card small { display: block; color: var(--jade); font-size: .61rem; font-weight: 800; }
 .turn-card strong { font-size: .78rem; }
 
-.actions { margin-top: 12px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.actions { margin-top: 12px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
 .actions button, .result-card button {
   min-height: 42px;
   border: 1px solid var(--line);
@@ -219,8 +219,17 @@ h1 em { color: var(--gold); font-style: normal; }
 .actions button:hover:not(:disabled) { background: #334038; }
 .actions button:active, .result-card button:active { transform: scale(.97); }
 .actions button:disabled { opacity: .35; cursor: not-allowed; }
+.actions button[hidden] { display: none; }
 .actions .primary-action { grid-column: 1 / -1; color: #172019; background: var(--jade); border-color: transparent; }
 .actions .primary-action:hover:not(:disabled) { background: #9bbba4; }
+.actions .recommendation-action {
+  position: relative;
+  overflow: hidden;
+}
+.actions .recommendation-action::before {
+  content: "✦";
+  margin-right: 7px;
+}
 
 .rule-note {
   margin-top: 18px;
