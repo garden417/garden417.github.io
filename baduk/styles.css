@@ -105,6 +105,67 @@ h1 em { color: var(--gold); font-style: normal; }
 
 .mode.active { color: var(--cream); background: #303c34; box-shadow: 0 4px 12px rgba(0,0,0,.22); }
 
+.ai-engine-panel {
+  margin-top: 14px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(27, 36, 30, .85);
+}
+
+.ai-engine-panel[hidden] { display: none; }
+.engine-heading { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.engine-heading small { display: block; color: #849087; font-size: .61rem; }
+.engine-heading strong { display: block; margin-top: 2px; font-size: .81rem; }
+.engine-badge { padding: 5px 7px; border-radius: 999px; color: #d1a35c; background: rgba(208,163,92,.12); font-size: .58rem; font-weight: 800; }
+.engine-badge.ready { color: #9fc0a8; background: rgba(131,169,142,.13); }
+.engine-badge.error { color: #e5a08e; background: rgba(217,141,121,.12); }
+
+.engine-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7px;
+  margin-top: 11px;
+}
+
+.engine-option {
+  min-width: 0;
+  padding: 9px 8px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: #8d988f;
+  background: rgba(0,0,0,.12);
+  cursor: pointer;
+  text-align: left;
+}
+
+.engine-option strong, .engine-option small { display: block; }
+.engine-option strong { font-size: .69rem; }
+.engine-option small { margin-top: 2px; color: #69756c; font-size: .55rem; }
+.engine-option.active { border-color: rgba(131,169,142,.5); color: var(--cream); background: rgba(131,169,142,.12); }
+.engine-option.active small { color: #9da9a0; }
+
+.katago-settings { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); }
+.katago-settings[hidden] { display: none; }
+.katago-settings label { display: block; margin: 8px 0 5px; color: #9aa59d; font-size: .6rem; font-weight: 700; }
+.katago-settings label:first-child { margin-top: 0; }
+.katago-settings label span { color: #68746b; font-weight: 400; }
+.katago-settings input {
+  width: 100%;
+  min-height: 38px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  outline: none;
+  color: var(--cream);
+  background: #141c17;
+  font: inherit;
+  font-size: .65rem;
+}
+.katago-settings input:focus { border-color: rgba(131,169,142,.62); box-shadow: 0 0 0 3px rgba(131,169,142,.08); }
+.katago-settings button { width: 100%; min-height: 38px; margin-top: 9px; border: 0; border-radius: 9px; color: #172019; background: var(--jade); cursor: pointer; font-size: .67rem; font-weight: 800; }
+.katago-settings p { margin: 8px 0 0; color: #68746b; font-size: .56rem; line-height: 1.45; }
+
 .players {
   margin-top: 14px;
   overflow: hidden;
@@ -224,7 +285,7 @@ h1 em { color: var(--gold); font-style: normal; }
   .shell { width: min(720px, calc(100% - 28px)); }
   .game-layout { grid-template-columns: 1fr; gap: 20px; }
   .sidebar { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 16px; }
-  .mode-switch, .players { margin: 0; }
+  .mode-switch, .players, .ai-engine-panel { margin: 0; }
   .turn-card, .actions { margin: 0; }
   .rule-note { display: none; }
 }

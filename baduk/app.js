@@ -11,16 +11,26 @@ const canvas = document.querySelector("#board");
 const ctx = canvas.getContext("2d");
 const overlay = document.querySelector("#result-overlay");
 const modeButtons = [...document.querySelectorAll(".mode")];
+const engineButtons = [...document.querySelectorAll(".engine-option")];
+const enginePanel = document.querySelector("#ai-engine-panel");
+const katagoSettings = document.querySelector("#katago-settings");
+const katagoEndpointInput = document.querySelector("#katago-endpoint");
+const katagoTokenInput = document.querySelector("#katago-token");
 
 let board = emptyBoard();
 let currentPlayer = BLACK;
 let mode = "ai";
+let aiEngine = localStorage.getItem("baduk-ai-engine") === "katago" ? "katago" : "local";
+let katagoEndpoint = localStorage.getItem("baduk-katago-endpoint") || "";
+let katagoToken = sessionStorage.getItem("baduk-katago-token") || "";
 let captures = { [BLACK]: 0, [WHITE]: 0 };
 let history = [];
+let gameMoves = [];
 let positionHistory = [boardHash(board)];
 let consecutivePasses = 0;
 let gameOver = false;
 let aiThinking = false;
+let katagoConnectionError = false;
 let hoverPoint = null;
 let lastMove = null;
 let aiTimer = null;
@@ -103,6 +113,7 @@ function snapshot() {
     currentPlayer,
     captures: { ...captures },
     positionHistory: [...positionHistory],
+    gameMoves: gameMoves.map((move) => [...move]),
     consecutivePasses,
     lastMove: lastMove ? { ...lastMove } : null
   };
@@ -116,6 +127,7 @@ function playMove(row, col, player) {
   }
   history.push(snapshot());
   board = result.next;
+  gameMoves.push([player === BLACK ? "B" : "W", toKataGoCoordinate(row, col)]);
   captures[player] += result.captured;
   positionHistory.push(result.hash);
   consecutivePasses = 0;
@@ -130,6 +142,7 @@ function playMove(row, col, player) {
 function passTurn() {
   if (gameOver || aiThinking || (mode === "ai" && currentPlayer === WHITE)) return;
   history.push(snapshot());
+  gameMoves.push([currentPlayer === BLACK ? "B" : "W", "pass"]);
   consecutivePasses += 1;
   lastMove = null;
   positionHistory.push(boardHash(board));
@@ -146,6 +159,7 @@ function passTurn() {
 
 function aiPass() {
   history.push(snapshot());
+  gameMoves.push(["W", "pass"]);
   consecutivePasses += 1;
   lastMove = null;
   positionHistory.push(boardHash(board));
@@ -225,6 +239,7 @@ function undo() {
   currentPlayer = state.currentPlayer;
   captures = { ...state.captures };
   positionHistory = [...state.positionHistory];
+  gameMoves = state.gameMoves.map((move) => [...move]);
   consecutivePasses = state.consecutivePasses;
   lastMove = state.lastMove;
   showMessage("마지막 수를 되돌렸습니다.");
@@ -238,6 +253,7 @@ function resetGame() {
   currentPlayer = BLACK;
   captures = { [BLACK]: 0, [WHITE]: 0 };
   history = [];
+  gameMoves = [];
   positionHistory = [boardHash(board)];
   consecutivePasses = 0;
   gameOver = false;
@@ -365,7 +381,7 @@ function stoneSpacingScore(row, col) {
   return score;
 }
 
-function runAiTurn() {
+function runLocalAiTurn(delay = 480, fallbackMessage = "") {
   if (mode !== "ai" || gameOver || currentPlayer !== WHITE) return;
   aiThinking = true;
   updateUI();
@@ -377,10 +393,130 @@ function runAiTurn() {
       return;
     }
     playMove(moves[0].row, moves[0].col, WHITE);
-  }, 480);
+    if (fallbackMessage) showMessage(fallbackMessage, true);
+  }, delay);
+}
+
+function toKataGoCoordinate(row, col) {
+  const columns = "ABCDEFGHJKLMNOPQRST";
+  return `${columns[col]}${SIZE - row}`;
+}
+
+function fromKataGoCoordinate(value) {
+  if (typeof value !== "string" || value.toLowerCase() === "pass") return null;
+  const match = value.trim().toUpperCase().match(/^([A-HJ-T])(\d{1,2})$/);
+  if (!match) throw new Error("KataGo가 알 수 없는 좌표를 보냈습니다.");
+  const columns = "ABCDEFGHJKLMNOPQRST";
+  const col = columns.indexOf(match[1]);
+  const row = SIZE - Number(match[2]);
+  if (!inside(row, col)) throw new Error("KataGo 좌표가 바둑판 밖입니다.");
+  return { row, col };
+}
+
+function validateKataGoEndpoint(value) {
+  const url = new URL(value);
+  const localHost = ["localhost", "127.0.0.1"].includes(url.hostname);
+  if (url.protocol !== "https:" && !localHost) {
+    throw new Error("공개 사이트에서는 HTTPS 서버 주소가 필요합니다.");
+  }
+  return url.toString();
+}
+
+function katagoQuery() {
+  return {
+    id: `baduk-${Date.now()}`,
+    moves: gameMoves.map((move) => [...move]),
+    initialStones: [],
+    rules: "chinese",
+    komi: KOMI,
+    boardXSize: SIZE,
+    boardYSize: SIZE,
+    analyzeTurns: [gameMoves.length],
+    maxVisits: 300
+  };
+}
+
+async function runKataGoTurn() {
+  if (mode !== "ai" || gameOver || currentPlayer !== WHITE) return;
+  if (!katagoEndpoint) {
+    runLocalAiTurn(260, "KataGo 서버가 연결되지 않아 빠른 AI가 대신 두었습니다.");
+    return;
+  }
+
+  aiThinking = true;
+  updateUI();
+  showMessage("KataGo 서버에서 다음 수를 분석하고 있습니다.");
+  const controller = new AbortController();
+  const timeout = window.setTimeout(() => controller.abort(), 20000);
+
+  try {
+    const headers = { "Content-Type": "application/json" };
+    if (katagoToken) headers.Authorization = `Bearer ${katagoToken}`;
+    const response = await fetch(katagoEndpoint, {
+      method: "POST",
+      headers,
+      body: JSON.stringify(katagoQuery()),
+      signal: controller.signal
+    });
+    if (!response.ok) throw new Error(`서버 응답 ${response.status}`);
+    const analysis = await response.json();
+    const moveName = analysis.move || analysis.bestMove || analysis.moveInfos?.[0]?.move;
+    if (!moveName) throw new Error("응답에서 추천 수를 찾지 못했습니다.");
+    aiThinking = false;
+    if (String(moveName).toLowerCase() === "pass") {
+      aiPass();
+      return;
+    }
+    const move = fromKataGoCoordinate(moveName);
+    if (!simulateMove(move.row, move.col, WHITE).legal) {
+      throw new Error("KataGo가 현재 규칙에서 둘 수 없는 수를 보냈습니다.");
+    }
+    playMove(move.row, move.col, WHITE);
+    katagoConnectionError = false;
+    setEngineStatus("KataGo 연결됨", "연결됨", "ready");
+  } catch (error) {
+    aiThinking = false;
+    const reason = error.name === "AbortError"
+      ? "응답 시간이 초과되었습니다."
+      : error.name === "TypeError"
+        ? "KataGo 서버에 연결하지 못했습니다."
+        : error.message;
+    katagoConnectionError = true;
+    setEngineStatus("KataGo 연결 오류", "대체 실행", "error");
+    runLocalAiTurn(260, `${reason} 빠른 AI가 대신 두었습니다.`);
+  } finally {
+    window.clearTimeout(timeout);
+  }
+}
+
+function runAiTurn() {
+  if (aiEngine === "katago") runKataGoTurn();
+  else runLocalAiTurn();
+}
+
+function setEngineStatus(title, badge, state = "") {
+  document.querySelector("#engine-status").textContent = title;
+  const badgeElement = document.querySelector("#engine-badge");
+  badgeElement.textContent = badge;
+  badgeElement.className = `engine-badge ${state}`.trim();
+}
+
+function updateEngineUI() {
+  enginePanel.hidden = mode !== "ai";
+  katagoSettings.hidden = aiEngine !== "katago";
+  engineButtons.forEach((button) => {
+    const active = button.dataset.engine === aiEngine;
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-checked", String(active));
+  });
+  if (aiEngine === "local") setEngineStatus("브라우저 내장", "바로 사용", "ready");
+  else if (katagoConnectionError) setEngineStatus("KataGo 연결 오류", "대체 실행", "error");
+  else if (katagoEndpoint) setEngineStatus("KataGo 외부 서버", "설정됨", "ready");
+  else setEngineStatus("KataGo 외부 서버", "연결 필요");
 }
 
 function updateUI() {
+  updateEngineUI();
   document.querySelector("#black-captures").textContent = captures[BLACK];
   document.querySelector("#white-captures").textContent = captures[WHITE];
   document.querySelector("#black-player").classList.toggle("active", currentPlayer === BLACK && !gameOver);
@@ -526,6 +662,36 @@ modeButtons.forEach((button) => button.addEventListener("click", () => {
   resetGame();
 }));
 
+engineButtons.forEach((button) => button.addEventListener("click", () => {
+  aiEngine = button.dataset.engine;
+  localStorage.setItem("baduk-ai-engine", aiEngine);
+  updateEngineUI();
+  if (aiEngine === "katago" && !katagoEndpoint) {
+    katagoEndpointInput.focus();
+    showMessage("KataGo를 사용하려면 분석 서버 주소를 입력하세요.");
+  } else {
+    showMessage(aiEngine === "katago" ? "KataGo를 선택했습니다." : "빠른 AI를 선택했습니다.");
+  }
+}));
+
+document.querySelector("#katago-save").addEventListener("click", () => {
+  try {
+    const endpoint = katagoEndpointInput.value.trim();
+    if (!endpoint) throw new Error("분석 서버 주소를 입력하세요.");
+    katagoEndpoint = validateKataGoEndpoint(endpoint);
+    katagoToken = katagoTokenInput.value.trim();
+    katagoConnectionError = false;
+    localStorage.setItem("baduk-katago-endpoint", katagoEndpoint);
+    if (katagoToken) sessionStorage.setItem("baduk-katago-token", katagoToken);
+    else sessionStorage.removeItem("baduk-katago-token");
+    updateEngineUI();
+    showMessage("KataGo 서버 설정을 저장했습니다. 다음 백돌 차례부터 사용합니다.");
+  } catch (error) {
+    setEngineStatus("KataGo 설정 오류", "확인 필요", "error");
+    showMessage(error.message, true);
+  }
+});
+
 document.querySelector("#pass-button").addEventListener("click", passTurn);
 document.querySelector("#undo-button").addEventListener("click", undo);
 document.querySelector("#reset-button").addEventListener("click", resetGame);
@@ -533,5 +699,7 @@ document.querySelector("#again-button").addEventListener("click", resetGame);
 window.addEventListener("resize", setupCanvas);
 
 canvas.tabIndex = 0;
+katagoEndpointInput.value = katagoEndpoint;
+katagoTokenInput.value = katagoToken;
 setupCanvas();
 updateUI();
