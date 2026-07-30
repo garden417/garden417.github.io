@@ -62,6 +62,86 @@ function setText(id, value) {
   document.querySelector(`#${id}`).textContent = value;
 }
 
+const CLASSIC_MEMORY_TIPS = {
+  "买|卖": "살 때는 낮게 <strong>mǎi</strong>, 팔 때는 단호하게 <strong>mài</strong>",
+  "妈|马": "엄마는 길고 평평하게 <strong>mā</strong>, 말은 낮게 꺾어 <strong>mǎ</strong>",
+  "汤|糖": "뜨거운 국은 평평한 <strong>tāng</strong>, 달콤함은 올라가는 <strong>táng</strong>",
+  "温|问": "온기는 잔잔하게 <strong>wēn</strong>, 질문은 또렷하게 <strong>wèn</strong>",
+  "书|树": "책장은 평평하게 <strong>shū</strong>, 나무는 아래로 뿌리내리듯 <strong>shù</strong>",
+  "盐|眼": "소금은 살짝 올려 <strong>yán</strong>, 눈은 아래로 꺾어 <strong>yǎn</strong>",
+  "鱼|雨": "물고기는 물 위로 <strong>yú</strong>, 비는 아래로 떨어져 <strong>yǔ</strong>",
+  "花|画": "꽃은 활짝 평평하게 <strong>huā</strong>, 그림은 붓을 내리듯 <strong>huà</strong>",
+  "包|饱": "가방끈은 곧게 <strong>bāo</strong>, 배부르면 묵직하게 <strong>bǎo</strong>",
+  "京|井": "수도는 넓고 평평하게 <strong>jīng</strong>, 우물은 깊고 낮게 <strong>jǐng</strong>",
+  "十|是": "숫자 10은 올라가는 <strong>shí</strong>, 확답은 내려찍는 <strong>shì</strong>",
+  "七|起": "숫자 7은 곧게 <strong>qī</strong>, 일어날 땐 힘을 모아 꺾는 <strong>qǐ</strong>",
+  "杯|北": "컵의 가장자리는 평평한 <strong>bēi</strong>, 북쪽은 낮게 꺾는 <strong>běi</strong>",
+  "长|唱": "길이는 위로 뻗는 <strong>cháng</strong>, 노래의 끝은 내려오는 <strong>chàng</strong>",
+  "东|懂": "동쪽 지평선은 평평한 <strong>dōng</strong>, 이해할 땐 고개를 끄덕이며 <strong>dǒng</strong>",
+  "房|放": "방으로 올라가는 <strong>fáng</strong>, 물건을 내려놓는 <strong>fàng</strong>"
+};
+
+const TONE_IMAGES = {
+  1: ["수평선처럼 곧게", "외줄을 타듯 반듯하게", "음을 길게 편 채"],
+  2: ["엘리베이터처럼 위로", "물음표 꼬리처럼 올려", "연을 띄우듯 끌어올려"],
+  3: ["웅크렸다 튀듯 낮게 꺾어", "그네가 바닥을 찍듯 푹 꺾어", "잠깐 숨었다 나오듯 낮게 꺾어"],
+  4: ["마침표를 찍듯 단호하게 내려", "낙하산 없이 툭 떨어뜨려", "도장을 찍듯 힘있게 내려"],
+  5: ["깃털처럼 가볍게", "끝음을 살짝 놓듯 가볍게", "속삭이듯 짧고 가볍게"]
+};
+
+function escapeHTML(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+
+function stableNumber(value) {
+  return [...value].reduce((total, character) => total + character.codePointAt(0), 0);
+}
+
+function compactMeaning(value) {
+  const firstMeaning = String(value).split(/[;；]/)[0].trim();
+  const compact = firstMeaning.length > 18
+    ? `${firstMeaning.slice(0, 18)}…`
+    : firstMeaning;
+  return escapeHTML(compact);
+}
+
+function firstDifferentTone(pair) {
+  const tonesA = String(pair.a.tones).split("·").map(Number);
+  const tonesB = String(pair.b.tones).split("·").map(Number);
+  const length = Math.max(tonesA.length, tonesB.length);
+  for (let index = 0; index < length; index += 1) {
+    if (tonesA[index] !== tonesB[index]) {
+      return [tonesA[index] || 5, tonesB[index] || 5];
+    }
+  }
+  return [tonesA[0] || 5, tonesB[0] || 5];
+}
+
+function memoryTip(pair) {
+  const classic = CLASSIC_MEMORY_TIPS[`${pair.a.hanzi}|${pair.b.hanzi}`];
+  if (classic) return classic;
+
+  const seed = stableNumber(pair.id);
+  const [toneA, toneB] = firstDifferentTone(pair);
+  const cueA = (TONE_IMAGES[toneA] || TONE_IMAGES[5])[seed % 3];
+  const cueB = (TONE_IMAGES[toneB] || TONE_IMAGES[5])[(seed + 1) % 3];
+  const meaningA = compactMeaning(pair.a.meaning);
+  const meaningB = compactMeaning(pair.b.meaning);
+  const pinyinA = escapeHTML(pair.a.pinyin);
+  const pinyinB = escapeHTML(pair.b.pinyin);
+
+  const templates = [
+    `“${meaningA}”는 ${cueA} <strong>${pinyinA}</strong>, “${meaningB}”는 ${cueB} <strong>${pinyinB}</strong>!`,
+    `${meaningA}을 떠올리며 ${cueA} <strong>${pinyinA}</strong>. ${meaningB}은 ${cueB} <strong>${pinyinB}</strong>!`,
+    `소리는 쌍둥이, 움직임은 딴판! ${cueA} <strong>${pinyinA}</strong>는 ${meaningA}, ${cueB} <strong>${pinyinB}</strong>는 ${meaningB}.`
+  ];
+  return templates[seed % templates.length];
+}
+
 function currentPair() {
   return session.queue[0];
 }
@@ -135,8 +215,7 @@ function renderCard() {
     setText(`meaning-${side}`, word.meaning);
   });
   document.querySelector("#memory-tip").innerHTML =
-    `<b>성조 포인트</b> <strong>${pair.a.pinyin}</strong>와 ` +
-    `<strong>${pair.b.pinyin}</strong>의 높낮이를 비교해 보세요.`;
+    `<b>기억 한 끗</b> ${memoryTip(pair)}`;
 
   const progress = (session.mastered.size / pairs.length) * 100;
   elements.mastered.textContent = session.mastered.size;
