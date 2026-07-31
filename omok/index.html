@@ -6,10 +6,10 @@
     <meta name="theme-color" content="#171511" />
     <meta
       name="description"
-      content="따뜻한 나무판 위에서 즐기는 19×19 웹 오목 게임"
+      content="따뜻한 나무판 위에서 즐기는 15×15·19×19 웹 오목 게임"
     />
     <title>오목 한 판</title>
-    <link rel="stylesheet" href="./styles.css?v=19" />
+    <link rel="stylesheet" href="./styles.css?v=20" />
   </head>
   <body>
     <main class="game-shell">
@@ -25,6 +25,12 @@
           <button class="mode-button" type="button" data-mode="local">
             2인 대전
           </button>
+        </div>
+
+        <div class="size-switch" aria-label="오목판 크기">
+          <span>판 크기</span>
+          <button class="size-button active" type="button" data-size="19">19×19</button>
+          <button class="size-button" type="button" data-size="15">15×15</button>
         </div>
 
         <div class="score-card">
@@ -85,15 +91,26 @@
               <small>GAME OVER</small>
               <h2 id="result-title">흑돌 승리!</h2>
               <p id="result-message">멋진 승부였습니다.</p>
-              <button id="play-again-button" type="button">한 판 더</button>
+              <div class="result-actions">
+                <button id="result-undo-button" class="secondary" type="button">마지막 수 무르기</button>
+                <button id="play-again-button" type="button">한 판 더</button>
+              </div>
             </div>
           </div>
         </div>
 
-        <p class="board-hint">교차점을 눌러 돌을 놓으세요</p>
+        <div id="touch-confirm" class="touch-confirm" hidden>
+          <span id="touch-confirm-text">선택한 교차점에 둘까요?</span>
+          <div>
+            <button id="touch-cancel-button" type="button">취소</button>
+            <button id="touch-place-button" class="confirm" type="button">여기에 착수</button>
+          </div>
+        </div>
+
+        <p id="board-hint" class="board-hint">교차점을 눌러 돌을 놓으세요</p>
       </section>
     </main>
 
-    <script src="./app.js?v=19"></script>
+    <script src="./app.js?v=20"></script>
   </body>
 </html>
