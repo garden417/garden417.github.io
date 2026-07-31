@@ -849,8 +849,8 @@ kbd {
     height: 100dvh;
     min-height: 0;
     display: grid;
-    grid-template-rows: auto minmax(0, 1fr);
-    padding: 9px 0;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    padding: 9px 0 5px;
     overflow: hidden;
   }
 
@@ -943,8 +943,17 @@ kbd {
   .memory-tip { margin-top: 9px; padding: 8px 6px; font-size: .58rem; }
   .decision-row { gap: 7px; margin-top: 8px; }
   .decision-button { min-height: 51px; gap: 7px; }
-  .keyboard-hint,
-  .credit { display: none; }
+  .keyboard-hint { display: none; }
+  .credit {
+    display: block;
+    max-width: 100%;
+    padding: 4px 2px 0;
+    overflow: hidden;
+    color: #9ca19a;
+    font-size: 0.46rem;
+    line-height: 1.25;
+    text-wrap: balance;
+  }
 
   .status-overlay { padding: 12px; }
   .status-card {
