@@ -1,6 +1,6 @@
 "use strict";
 
-const SIZE = 19;
+let SIZE = localStorage.getItem("baduk-board-size") === "15" ? 15 : 19;
 const EMPTY = 0;
 const BLACK = 1;
 const WHITE = 2;
@@ -12,6 +12,7 @@ const ctx = canvas.getContext("2d");
 const overlay = document.querySelector("#result-overlay");
 const modeButtons = [...document.querySelectorAll(".mode")];
 const engineButtons = [...document.querySelectorAll(".engine-option")];
+const sizeButtons = [...document.querySelectorAll(".size-button")];
 const enginePanel = document.querySelector("#ai-engine-panel");
 const modelSettings = document.querySelector("#model-settings");
 const modelWarning = document.querySelector("#model-warning");
@@ -20,6 +21,11 @@ const modelProgress = document.querySelector("#model-progress");
 const modelProgressText = document.querySelector("#model-progress-text");
 const modelDownloadButton = document.querySelector("#model-download");
 const recommendationButton = document.querySelector("#recommendation-button");
+const resultUndoButton = document.querySelector("#result-undo-button");
+const touchConfirm = document.querySelector("#touch-confirm");
+const touchConfirmText = document.querySelector("#touch-confirm-text");
+const touchPlaceButton = document.querySelector("#touch-place-button");
+const touchCancelButton = document.querySelector("#touch-cancel-button");
 const SMALL_MODEL_URL = "./katago-engine/models/katago-small.bin.gz";
 const BROWSER_ENGINE_CONFIG = {
   "browser-small": { label: "작은 브라우저 모델", size: "약 3.8MB", url: SMALL_MODEL_URL, visits: 24, maxTimeMs: 7000 },
@@ -56,6 +62,7 @@ const browserModelUrls = new Map();
 let hoverPoint = null;
 let lastMove = null;
 let aiTimer = null;
+let pendingMove = null;
 
 function emptyBoard() {
   return Array.from({ length: SIZE }, () => Array(SIZE).fill(EMPTY));
@@ -147,6 +154,7 @@ function playMove(row, col, player) {
     showMessage(result.reason, true);
     return false;
   }
+  clearPendingMove();
   recommendationPoint = null;
   history.push(snapshot());
   board = result.next;
@@ -164,6 +172,7 @@ function playMove(row, col, player) {
 
 function passTurn() {
   if (gameOver || aiThinking || recommendationThinking || (mode === "ai" && currentPlayer === WHITE)) return;
+  clearPendingMove();
   recommendationPoint = null;
   history.push(snapshot());
   gameMoves.push([currentPlayer === BLACK ? "B" : "W", "pass"]);
@@ -182,6 +191,7 @@ function passTurn() {
 }
 
 function aiPass() {
+  clearPendingMove();
   recommendationPoint = null;
   history.push(snapshot());
   gameMoves.push(["W", "pass"]);
@@ -246,6 +256,7 @@ function finishByScore() {
   aiThinking = false;
   recommendationThinking = false;
   recommendationPoint = null;
+  clearPendingMove();
   const score = territoryScore();
   const winner = score.black > score.white ? BLACK : WHITE;
   const margin = Math.abs(score.black - score.white).toFixed(1).replace(".0", "");
@@ -257,10 +268,10 @@ function finishByScore() {
 }
 
 function undo() {
-  if (!history.length || gameOver || aiThinking || recommendationThinking) return;
-  const count = mode === "ai" && history.length >= 2 ? 2 : 1;
-  let state;
-  for (let i = 0; i < count; i += 1) state = history.pop() || state;
+  if (!history.length || aiThinking || recommendationThinking) return;
+  window.clearTimeout(aiTimer);
+  let state = history.pop();
+  if (mode === "ai" && state?.currentPlayer === WHITE && history.length) state = history.pop() || state;
   if (!state) return;
   board = cloneBoard(state.board);
   currentPlayer = state.currentPlayer;
@@ -269,7 +280,10 @@ function undo() {
   gameMoves = state.gameMoves.map((move) => [...move]);
   consecutivePasses = state.consecutivePasses;
   lastMove = state.lastMove;
+  gameOver = false;
+  overlay.hidden = true;
   recommendationPoint = null;
+  clearPendingMove();
   showMessage("마지막 수를 되돌렸습니다.");
   updateUI();
   draw();
@@ -290,7 +304,10 @@ function resetGame() {
   recommendationPoint = null;
   hoverPoint = null;
   lastMove = null;
+  clearPendingMove();
   overlay.hidden = true;
+  canvas.setAttribute("aria-label", `${SIZE} 곱하기 ${SIZE} 바둑판`);
+  sizeButtons.forEach((button) => button.classList.toggle("active", Number(button.dataset.size) === SIZE));
   showMessage("교차점을 눌러 돌을 놓으세요");
   updateUI();
   draw();
@@ -298,7 +315,12 @@ function resetGame() {
 
 function legalAiMoves(player = WHITE) {
   const opponent = player === BLACK ? WHITE : BLACK;
-  const openingPoints = new Set(["3,3", "3,15", "15,3", "15,15", "3,9", "9,3", "9,15", "15,9"]);
+  const middle = Math.floor(SIZE / 2);
+  const far = SIZE - 4;
+  const openingPoints = new Set([
+    `3,3`, `3,${far}`, `${far},3`, `${far},${far}`,
+    `3,${middle}`, `${middle},3`, `${middle},${far}`, `${far},${middle}`
+  ]);
   const urgentLiberties = new Map();
   const scannedGroups = new Set();
 
@@ -341,7 +363,7 @@ function legalAiMoves(player = WHITE) {
         .filter((group) => group.liberties.size === 1)
         .reduce((sum, group) => sum + group.stones.length, 0);
       const rescueSize = urgentLiberties.get(`${row},${col}`) || 0;
-      const centerDistance = Math.hypot(row - 9, col - 9);
+      const centerDistance = Math.hypot(row - middle, col - middle);
       const edgeDistance = Math.min(row, col, SIZE - 1 - row, SIZE - 1 - col);
       const openingBonus = history.length < 12 && openingPoints.has(`${row},${col}`) ? 150 : 0;
       const edgeScore = edgeDistance <= 1 ? -90 : edgeDistance === 2 ? 4 : edgeDistance === 3 ? 20 : 0;
@@ -601,6 +623,7 @@ function setRecommendation(move, label) {
 async function requestAiRecommendation() {
   if (mode !== "ai" || gameOver || currentPlayer !== BLACK || aiThinking || recommendationThinking) return;
 
+  clearPendingMove();
   const targetEngine = aiEngine;
   const config = getBrowserEngineConfig();
   recommendationPoint = null;
@@ -726,7 +749,8 @@ function updateUI() {
     : recommendationPoint
       ? "추천 다시 받기"
       : "AI 추천 수 보기";
-  document.querySelector("#undo-button").disabled = !history.length || gameOver || aiThinking || recommendationThinking;
+  document.querySelector("#undo-button").disabled = !history.length || aiThinking || recommendationThinking;
+  resultUndoButton.disabled = !history.length || aiThinking || recommendationThinking;
   document.querySelector("#pass-button").disabled = gameOver || aiThinking || recommendationThinking || (mode === "ai" && currentPlayer === WHITE);
 }
 
@@ -773,12 +797,13 @@ function draw(side = canvas.getBoundingClientRect().width) {
   ctx.lineWidth = Math.max(1, gap * .035);
   for (let i = 0; i < SIZE; i += 1) {
     const p = pad + i * gap;
-    ctx.beginPath(); ctx.moveTo(pad, p); ctx.lineTo(pad + gap * 18, p); ctx.stroke();
-    ctx.beginPath(); ctx.moveTo(p, pad); ctx.lineTo(p, pad + gap * 18); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(pad, p); ctx.lineTo(pad + gap * (SIZE - 1), p); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(p, pad); ctx.lineTo(p, pad + gap * (SIZE - 1)); ctx.stroke();
   }
 
   ctx.fillStyle = "rgba(43, 25, 10, .86)";
-  [3, 9, 15].forEach((row) => [3, 9, 15].forEach((col) => {
+  const starLines = [3, Math.floor(SIZE / 2), SIZE - 4];
+  starLines.forEach((row) => starLines.forEach((col) => {
     ctx.beginPath();
     ctx.arc(pad + col * gap, pad + row * gap, Math.max(2.2, gap * .1), 0, Math.PI * 2);
     ctx.fill();
@@ -803,6 +828,14 @@ function draw(side = canvas.getBoundingClientRect().width) {
   }
   if (recommendationPoint && board[recommendationPoint.row][recommendationPoint.col] === EMPTY) {
     drawRecommendation(recommendationPoint.row, recommendationPoint.col, pad, gap);
+  }
+  if (pendingMove && board[pendingMove.row][pendingMove.col] === EMPTY) {
+    drawStone(pendingMove.row, pendingMove.col, pendingMove.player, pad, gap, .58);
+    ctx.beginPath();
+    ctx.strokeStyle = "#e8f6eb";
+    ctx.lineWidth = Math.max(2, gap * .08);
+    ctx.arc(pad + pendingMove.col * gap, pad + pendingMove.row * gap, gap * .49, 0, Math.PI * 2);
+    ctx.stroke();
   }
 }
 
@@ -856,17 +889,51 @@ function pointerCell(event) {
   return { row, col };
 }
 
+function clearPendingMove() {
+  pendingMove = null;
+  touchConfirm.hidden = true;
+}
+
+function selectTouchMove(row, col) {
+  const result = simulateMove(row, col, currentPlayer);
+  if (!result.legal) {
+    showMessage(result.reason, true);
+    return;
+  }
+  pendingMove = { row, col, player: currentPlayer };
+  const color = currentPlayer === BLACK ? "흑돌" : "백돌";
+  touchConfirmText.textContent = `${toKataGoCoordinate(row, col)}에 ${color}을 둘까요?`;
+  touchConfirm.hidden = false;
+  showMessage("후보 위치를 확인한 뒤 착수 버튼을 눌러주세요");
+  draw();
+}
+
+function confirmPendingMove() {
+  if (!pendingMove || pendingMove.player !== currentPlayer) {
+    clearPendingMove();
+    draw();
+    return;
+  }
+  const { row, col } = pendingMove;
+  if (playMove(row, col, currentPlayer) && mode === "ai" && !gameOver) runAiTurn();
+}
+
 canvas.addEventListener("pointermove", (event) => { hoverPoint = pointerCell(event); draw(); });
 canvas.addEventListener("pointerleave", () => { hoverPoint = null; draw(); });
 canvas.addEventListener("pointerdown", (event) => {
   if (gameOver || aiThinking || recommendationThinking || (mode === "ai" && currentPlayer === WHITE)) return;
   const point = pointerCell(event);
   if (!point) return;
+  if (event.pointerType === "touch") {
+    selectTouchMove(point.row, point.col);
+    return;
+  }
   if (playMove(point.row, point.col, currentPlayer) && mode === "ai" && !gameOver) runAiTurn();
 });
 
 modeButtons.forEach((button) => button.addEventListener("click", () => {
   if (aiThinking || recommendationThinking) return;
+  clearPendingMove();
   mode = button.dataset.mode;
   modeButtons.forEach((item) => item.classList.toggle("active", item === button));
   document.querySelector("#black-name").textContent = mode === "ai" ? "나" : "플레이어 1";
@@ -877,6 +944,7 @@ modeButtons.forEach((button) => button.addEventListener("click", () => {
 engineButtons.forEach((button) => button.addEventListener("click", () => {
   if (aiThinking || recommendationThinking || browserModelLoading) return;
   recommendationPoint = null;
+  clearPendingMove();
   aiEngine = button.dataset.engine;
   localStorage.setItem("baduk-ai-engine", aiEngine);
   modelProgressWrap.hidden = true;
@@ -889,15 +957,27 @@ engineButtons.forEach((button) => button.addEventListener("click", () => {
     : "현재 AI 버전을 선택했습니다.");
 }));
 
+sizeButtons.forEach((button) => button.addEventListener("click", () => {
+  if (aiThinking || recommendationThinking || browserModelLoading) return;
+  const nextSize = Number(button.dataset.size);
+  if (![15, 19].includes(nextSize) || nextSize === SIZE) return;
+  SIZE = nextSize;
+  localStorage.setItem("baduk-board-size", String(SIZE));
+  resetGame();
+}));
+
 modelDownloadButton.addEventListener("click", prepareBrowserModel);
 
 recommendationButton.addEventListener("click", requestAiRecommendation);
 document.querySelector("#pass-button").addEventListener("click", passTurn);
 document.querySelector("#undo-button").addEventListener("click", undo);
+resultUndoButton.addEventListener("click", undo);
 document.querySelector("#reset-button").addEventListener("click", resetGame);
 document.querySelector("#again-button").addEventListener("click", resetGame);
+touchPlaceButton.addEventListener("click", confirmPendingMove);
+touchCancelButton.addEventListener("click", () => { clearPendingMove(); showMessage("교차점을 눌러 돌을 놓으세요"); draw(); });
 window.addEventListener("resize", setupCanvas);
 
 canvas.tabIndex = 0;
 setupCanvas();
-updateUI();
+resetGame();

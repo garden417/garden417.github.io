@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#111814" />
-    <meta name="description" content="19×19 웹 바둑 게임" />
+    <meta name="description" content="15×15·19×19 웹 바둑 게임" />
     <title>바둑 한 수</title>
-    <link rel="stylesheet" href="./styles.css?v=3" />
+    <link rel="stylesheet" href="./styles.css?v=4" />
   </head>
   <body>
     <main class="shell">
@@ -23,6 +23,12 @@
           <div class="mode-switch" aria-label="게임 모드">
             <button class="mode active" type="button" data-mode="ai">컴퓨터 대전</button>
             <button class="mode" type="button" data-mode="local">2인 대전</button>
+          </div>
+
+          <div class="size-switch" aria-label="바둑판 크기">
+            <span>판 크기</span>
+            <button class="size-button active" type="button" data-size="19">19×19</button>
+            <button class="size-button" type="button" data-size="15">15×15</button>
           </div>
 
           <section id="ai-engine-panel" class="ai-engine-panel" aria-labelledby="ai-engine-title">
@@ -114,8 +120,18 @@
                 <small>대국 종료</small>
                 <h2 id="result-title">흑 승</h2>
                 <p id="result-score">흑 0집 · 백 6.5집</p>
-                <button id="again-button" type="button">새 대국 시작</button>
+                <div class="result-actions">
+                  <button id="result-undo-button" class="secondary" type="button">마지막 수 무르기</button>
+                  <button id="again-button" type="button">새 대국 시작</button>
+                </div>
               </div>
+            </div>
+          </div>
+          <div id="touch-confirm" class="touch-confirm" hidden>
+            <span id="touch-confirm-text">선택한 교차점에 둘까요?</span>
+            <div>
+              <button id="touch-cancel-button" type="button">취소</button>
+              <button id="touch-place-button" class="confirm" type="button">여기에 착수</button>
             </div>
           </div>
           <p id="board-message" class="board-message">교차점을 눌러 돌을 놓으세요</p>
@@ -123,6 +139,6 @@
       </section>
     </main>
 
-    <script src="./app.js?v=5"></script>
+    <script src="./app.js?v=6"></script>
   </body>
 </html>

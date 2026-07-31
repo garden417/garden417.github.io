@@ -1,6 +1,6 @@
 "use strict";
 
-const SIZE = 19;
+let SIZE = localStorage.getItem("omok-board-size") === "15" ? 15 : 19;
 const EMPTY = 0;
 const BLACK = 1;
 const WHITE = 2;
@@ -13,6 +13,13 @@ const undoButton = document.querySelector("#undo-button");
 const resetButton = document.querySelector("#reset-button");
 const playAgainButton = document.querySelector("#play-again-button");
 const modeButtons = [...document.querySelectorAll(".mode-button")];
+const sizeButtons = [...document.querySelectorAll(".size-button")];
+const resultUndoButton = document.querySelector("#result-undo-button");
+const touchConfirm = document.querySelector("#touch-confirm");
+const touchConfirmText = document.querySelector("#touch-confirm-text");
+const touchPlaceButton = document.querySelector("#touch-place-button");
+const touchCancelButton = document.querySelector("#touch-cancel-button");
+const boardHint = document.querySelector("#board-hint");
 
 let board = createBoard();
 let currentPlayer = BLACK;
@@ -24,6 +31,9 @@ let scores = { black: 0, white: 0 };
 let hoverPoint = null;
 let winningLine = [];
 let aiTimer = null;
+let resultTimer = null;
+let finishedWinner = null;
+let pendingMove = null;
 
 function createBoard() {
   return Array.from({ length: SIZE }, () => Array(SIZE).fill(EMPTY));
@@ -70,6 +80,15 @@ function draw(side = canvas.getBoundingClientRect().width) {
     ctx.fillStyle = last.player === BLACK ? "#e9ad52" : "#8a2c20";
     ctx.arc(pad + last.col * gap, pad + last.row * gap, Math.max(2, gap * 0.085), 0, Math.PI * 2);
     ctx.fill();
+  }
+
+  if (pendingMove && board[pendingMove.row][pendingMove.col] === EMPTY) {
+    drawStone(pendingMove.row, pendingMove.col, pendingMove.player, pad, gap, 0.58);
+    ctx.beginPath();
+    ctx.strokeStyle = "#fff2cf";
+    ctx.lineWidth = Math.max(2, gap * 0.08);
+    ctx.arc(pad + pendingMove.col * gap, pad + pendingMove.row * gap, gap * 0.47, 0, Math.PI * 2);
+    ctx.stroke();
   }
 }
 
@@ -200,12 +219,44 @@ function pointerToCell(event) {
   return { row, col };
 }
 
+function coordinateLabel(row, col) {
+  const columns = "ABCDEFGHJKLMNOPQRST";
+  return `${columns[col]}${SIZE - row}`;
+}
+
+function clearPendingMove() {
+  pendingMove = null;
+  touchConfirm.hidden = true;
+  boardHint.textContent = "교차점을 눌러 돌을 놓으세요";
+}
+
+function selectTouchMove(row, col) {
+  if (!canPlace(row, col)) return;
+  pendingMove = { row, col, player: currentPlayer };
+  const color = currentPlayer === BLACK ? "흑돌" : "백돌";
+  touchConfirmText.textContent = `${coordinateLabel(row, col)}에 ${color}을 둘까요?`;
+  touchConfirm.hidden = false;
+  boardHint.textContent = "후보 위치를 확인한 뒤 착수 버튼을 눌러주세요";
+  draw();
+}
+
+function confirmPendingMove() {
+  if (!pendingMove || pendingMove.player !== currentPlayer || !canPlace(pendingMove.row, pendingMove.col)) {
+    clearPendingMove();
+    draw();
+    return;
+  }
+  const { row, col } = pendingMove;
+  if (placeStone(row, col, currentPlayer) && !gameOver) runAiTurn();
+}
+
 function canPlace(row, col) {
   return !gameOver && board[row][col] === EMPTY && !(mode === "ai" && currentPlayer === WHITE);
 }
 
 function placeStone(row, col, player) {
   if (board[row][col] !== EMPTY || gameOver) return false;
+  clearPendingMove();
   board[row][col] = player;
   history.push({ row, col, player });
   winningLine = getWinningLine(row, col, player);
@@ -245,13 +296,14 @@ function getWinningLine(row, col, player) {
 function finishGame(player) {
   gameOver = true;
   aiThinking = false;
+  finishedWinner = player;
   if (player === BLACK) scores.black += 1;
   if (player === WHITE) scores.white += 1;
   updateScores();
   updateStatus();
   draw();
 
-  window.setTimeout(() => {
+  resultTimer = window.setTimeout(() => {
     document.querySelector("#result-title").textContent =
       player === EMPTY ? "무승부" : `${player === BLACK ? "흑돌" : "백돌"} 승리!`;
     document.querySelector("#result-message").textContent =
@@ -286,7 +338,8 @@ function updateStatus() {
     kicker.textContent = currentPlayer === BLACK ? "플레이어 1" : "플레이어 2";
     text.textContent = `${currentPlayer === BLACK ? "흑돌" : "백돌"}을 놓아주세요`;
   }
-  undoButton.disabled = history.length === 0 || gameOver || aiThinking;
+  undoButton.disabled = history.length === 0 || aiThinking;
+  resultUndoButton.disabled = history.length === 0 || aiThinking;
 }
 
 function updateScores() {
@@ -296,27 +349,44 @@ function updateScores() {
 
 function resetGame() {
   window.clearTimeout(aiTimer);
+  window.clearTimeout(resultTimer);
   board = createBoard();
   history = [];
   currentPlayer = BLACK;
   gameOver = false;
   aiThinking = false;
   winningLine = [];
+  finishedWinner = null;
   hoverPoint = null;
+  clearPendingMove();
   overlay.hidden = true;
+  canvas.setAttribute("aria-label", `${SIZE} 곱하기 ${SIZE} 오목판`);
+  sizeButtons.forEach((button) => button.classList.toggle("active", Number(button.dataset.size) === SIZE));
   updateStatus();
   draw();
 }
 
 function undo() {
-  if (history.length === 0 || gameOver || aiThinking) return;
-  const count = mode === "ai" && history.length >= 2 ? 2 : 1;
+  if (history.length === 0 || aiThinking) return;
+  window.clearTimeout(aiTimer);
+  window.clearTimeout(resultTimer);
+  if (gameOver && finishedWinner === BLACK) scores.black = Math.max(0, scores.black - 1);
+  if (gameOver && finishedWinner === WHITE) scores.white = Math.max(0, scores.white - 1);
+  const latest = history.at(-1);
+  const previous = history.at(-2);
+  const count = mode === "ai" && latest?.player === WHITE && previous?.player === BLACK ? 2 : 1;
   for (let i = 0; i < count; i += 1) {
     const move = history.pop();
     if (move) board[move.row][move.col] = EMPTY;
   }
   currentPlayer = mode === "ai" ? BLACK : (history.length % 2 === 0 ? BLACK : WHITE);
+  gameOver = false;
+  aiThinking = false;
+  finishedWinner = null;
   winningLine = [];
+  overlay.hidden = true;
+  clearPendingMove();
+  updateScores();
   updateStatus();
   draw();
 }
@@ -399,11 +469,16 @@ canvas.addEventListener("pointerleave", () => {
 canvas.addEventListener("pointerdown", (event) => {
   const cell = pointerToCell(event);
   if (!cell || !canPlace(cell.row, cell.col)) return;
+  if (event.pointerType === "touch") {
+    selectTouchMove(cell.row, cell.col);
+    return;
+  }
   if (placeStone(cell.row, cell.col, currentPlayer) && !gameOver) runAiTurn();
 });
 
 modeButtons.forEach((button) => {
   button.addEventListener("click", () => {
+    if (aiThinking) return;
     mode = button.dataset.mode;
     modeButtons.forEach((item) => item.classList.toggle("active", item === button));
     document.querySelector("#black-label").textContent = mode === "ai" ? "나" : "플레이어 1";
@@ -414,15 +489,33 @@ modeButtons.forEach((button) => {
   });
 });
 
+sizeButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    if (aiThinking) return;
+    const nextSize = Number(button.dataset.size);
+    if (![15, 19].includes(nextSize) || nextSize === SIZE) return;
+    SIZE = nextSize;
+    localStorage.setItem("omok-board-size", String(SIZE));
+    resetGame();
+  });
+});
+
 undoButton.addEventListener("click", undo);
+resultUndoButton.addEventListener("click", undo);
 resetButton.addEventListener("click", resetGame);
 playAgainButton.addEventListener("click", resetGame);
+touchPlaceButton.addEventListener("click", confirmPendingMove);
+touchCancelButton.addEventListener("click", () => { clearPendingMove(); draw(); });
 window.addEventListener("resize", setupCanvas);
 
 canvas.tabIndex = 0;
 canvas.addEventListener("keydown", (event) => {
-  if (event.key === "Escape") hoverPoint = null;
+  if (event.key === "Escape") {
+    hoverPoint = null;
+    clearPendingMove();
+    draw();
+  }
 });
 
 setupCanvas();
-updateStatus();
+resetGame();

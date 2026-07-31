@@ -207,14 +207,14 @@ function d() {
   return l || (l = new h()), l;
 }
 const v = "ABCDEFGHJKLMNOPQRST";
-function m([r, e]) {
+function m([r, e], o = 19) {
   const n = r.toUpperCase() === "B" ? "black" : "white";
   if (e.toLowerCase() === "pass") return { x: -1, y: -1, player: n };
   const t = e.toUpperCase().match(/^([A-HJ-T])(\d{1,2})$/);
   if (!t) throw new Error(`Unsupported move coordinate: ${e}`);
   return {
     x: v.indexOf(t[1]),
-    y: 19 - Number(t[2]),
+    y: o - Number(t[2]),
     player: n
   };
 }
@@ -232,7 +232,7 @@ async function k(r) {
     backend: r.backend ?? "webgpu",
     board: y(r.board),
     currentPlayer: r.currentPlayer === 1 ? "black" : "white",
-    moveHistory: r.moves.map(m),
+    moveHistory: r.moves.map((o) => m(o, r.board.length)),
     komi: 6.5,
     rules: "chinese",
     topK: 5,
