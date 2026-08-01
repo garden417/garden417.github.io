@@ -1,4 +1,4 @@
-/* Direct Chinese-to-Korean meanings from Papago. Grounded tone cues reviewed 2026-07-30. */
+/* Direct zh-CN-to-ko meanings from Google Cloud Translation API Advanced (v3), general/nmt. Grounded tone cues reviewed 2026-07-30. */
 window.HSK_PAIR_SETS = {
   "hsk1-4": {
     "title": "HSK 1–4급",

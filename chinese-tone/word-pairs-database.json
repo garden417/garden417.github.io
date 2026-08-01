@@ -3,8 +3,16 @@
     "title": "성조 한 끗 500쌍 단어 DB",
     "pairCount": 500,
     "wordEntryCount": 1000,
-    "translationDirection": "중국어(간체) → 한국어",
-    "translationSource": "Papago",
+    "translationDirection": "zh-CN → ko",
+    "translationSource": "Google Cloud Translation API – Advanced (v3)",
+    "translationProvider": "google_cloud_translation",
+    "translationModel": "general/nmt",
+    "translationPythonLibrary": "google-cloud-translate",
+    "translationApiService": "translate.googleapis.com",
+    "translationQuotaPolicy": {
+      "monthlyFreeCharacters": 500000,
+      "dailyCharacterLimit": 10000
+    },
     "mnemonicPolicy": "자연스러운 의미 연상만 사용하고, 억지 연상은 정확한 뜻과 성조 대비로 대체",
     "mnemonicsReviewedAt": "2026-07-30"
   },
