@@ -46,13 +46,13 @@
     </div>
 
     <script>
-        // 하노이 중심부 기준 맵 초기화 (공항까지 볼 수 있도록 축척 11)
+        // 하노이 중심부 기준 맵 초기화 (공항까지 볼 수 있도록 축척 12)
         var map = L.map('map').setView([21.050, 105.830], 12);
 
-        // 오픈스트리트맵 타일 (지리적 정확도 보장, 강/도로 실비율)
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-            attribution: '&copy; OpenStreetMap, CartoDB',
-            maxZoom: 18
+        // 공식 OpenStreetMap 타일 (API 키 불필요, 100% 무료)
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 19
         }).addTo(map);
 
         // 아이콘 생성 함수
@@ -116,7 +116,7 @@
                 icon: createIcon(loc.icon, colorClass, loc.html || '')
             }).addTo(map);
 
-            // 항상 보이는 텍스트 라벨 (겹침 방지를 위해 툴팁 사용)
+            // 항상 보이는 텍스트 라벨
             marker.bindTooltip(`
                 <div style="text-align:center;">
                     <b style="color:#333; font-size:12px;">${loc.title}</b><br>
