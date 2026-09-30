@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>하노이 역사·학술·여행 종합 지도</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Leaflet CSS & JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; font-family: 'Malgun Gothic', sans-serif; }
+        #map { width: 100%; height: 100%; }
+        .legend {
+            background: white; padding: 15px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            line-height: 1.5; color: #333; font-size: 14px; position: absolute; bottom: 30px; right: 10px; z-index: 1000;
+        }
+        .legend i { width: 24px; text-align: center; font-size: 16px; margin-right: 5px; }
+        .custom-div-icon { background: none; border: none; }
+        .icon-wrapper {
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            width: 30px; height: 30px; background: white; border-radius: 50%;
+            border: 2px solid; box-shadow: 0 2px 5px rgba(0,0,0,0.3); font-size: 14px;
+        }
+        .icon-hist { border-color: #c0392b; color: #c0392b; }
+        .icon-tour { border-color: #2980b9; color: #2980b9; }
+        .icon-market { border-color: #e67e22; color: #e67e22; }
+        .icon-math { border-color: #8e44ad; color: #8e44ad; font-family: serif; font-weight: bold; font-style: italic; }
+        .icon-trans { border-color: #2c3e50; color: #2c3e50; }
+        .label-text {
+            background: rgba(255,255,255,0.9); padding: 2px 6px; border-radius: 4px;
+            font-size: 12px; font-weight: bold; white-space: nowrap; margin-top: 5px; border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div class="legend">
+        <h4 style="margin:0 0 10px 0; border-bottom: 2px solid #ccc; padding-bottom: 5px;">범례 (Legend)</h4>
+        <div><i class="fa-solid fa-landmark" style="color:#c0392b;"></i> 역사·국가정체성</div>
+        <div><i class="fa-solid fa-camera" style="color:#2980b9;"></i> 주요 관광지</div>
+        <div><i class="fa-solid fa-apple-whole" style="color:#e67e22;"></i> 과일·시장·슈퍼</div>
+        <div><i class="fa-solid fa-square-root-variable" style="color:#8e44ad;"></i> 수학·학술 기관</div>
+        <div><i class="fa-solid fa-plane" style="color:#2c3e50;"></i> 교통 시설</div>
+    </div>
+
+    <script>
+        // 하노이 중심부 기준 맵 초기화 (공항까지 볼 수 있도록 축척 11)
+        var map = L.map('map').setView([21.050, 105.830], 12);
+
+        // 오픈스트리트맵 타일 (지리적 정확도 보장, 강/도로 실비율)
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; OpenStreetMap, CartoDB',
+            maxZoom: 18
+        }).addTo(map);
+
+        // 아이콘 생성 함수
+        function createIcon(iconClass, colorClass, htmlChar = '') {
+            let innerHtml = htmlChar ? htmlChar : `<i class="${iconClass}"></i>`;
+            return L.divIcon({
+                className: 'custom-div-icon',
+                html: `<div class="icon-wrapper ${colorClass}">${innerHtml}</div>`,
+                iconSize: [30, 30], iconAnchor: [15, 15]
+            });
+        }
+
+        // 카테고리별 장소 데이터 (실제 위경도 좌표 적용)
+        var locations = [
+            // 1. 역사 및 국가정체성
+            { lat: 21.0368, lng: 105.8346, title: "바딘 광장 / 호찌민 묘소", sub: "Ba Đình Sq / Ho Chi Minh Mausoleum", type: 'hist', icon: 'fa-solid fa-monument' },
+            { lat: 21.0384, lng: 105.8335, title: "주석궁 & 관저", sub: "Presidential Palace", type: 'hist', icon: 'fa-solid fa-landmark-flag' },
+            { lat: 21.0355, lng: 105.8322, title: "호찌민 박물관", sub: "Ho Chi Minh Museum", type: 'hist', icon: 'fa-solid fa-building-columns' },
+            { lat: 21.0366, lng: 105.8324, title: "베트남 국회의사당", sub: "National Assembly Building", type: 'hist', icon: 'fa-solid fa-building-user' },
+            { lat: 21.0345, lng: 105.8414, title: "탕롱 황성", sub: "Imperial Citadel of Thăng Long", type: 'hist', icon: 'fa-brands fa-fort-awesome' },
+            { lat: 21.0326, lng: 105.8396, title: "하노이 깃발탑 & 군사역사박물관", sub: "Flag Tower / Military Museum", type: 'hist', icon: 'fa-solid fa-flag' },
+            { lat: 21.0253, lng: 105.8576, title: "국립역사박물관", sub: "Vietnam National Museum of History", type: 'hist', icon: 'fa-solid fa-landmark' },
+            { lat: 21.0252, lng: 105.8465, title: "호아로 수용소 유적", sub: "Hỏa Lò Prison Relic", type: 'hist', icon: 'fa-solid fa-dungeon' },
+            { lat: 21.0294, lng: 105.8354, title: "문묘·국자감", sub: "Temple of Literature", type: 'hist', icon: 'fa-solid fa-book-open-reader' },
+            { lat: 21.0307, lng: 105.8523, title: "응옥선 사당", sub: "Ngọc Sơn Temple", type: 'hist', icon: 'fa-solid fa-vihara' },
+            { lat: 21.0335, lng: 105.8520, title: "선전포스터 갤러리 거리", sub: "Propaganda Posters (Hang Bac)", type: 'hist', icon: 'fa-solid fa-scroll' },
+
+            // 2. 주요 관광지 및 도시 공간
+            { lat: 21.0285, lng: 105.8523, title: "호안끼엠 호수", sub: "Hoàn Kiếm Lake", type: 'tour', icon: 'fa-solid fa-water' },
+            { lat: 21.0340, lng: 105.8500, title: "하노이 구시가지", sub: "Hanoi Old Quarter", type: 'tour', icon: 'fa-solid fa-map-location-dot' },
+            { lat: 21.0287, lng: 105.8489, title: "성 요셉 대성당", sub: "St. Joseph's Cathedral", type: 'tour', icon: 'fa-solid fa-church' },
+            { lat: 21.0241, lng: 105.8576, title: "하노이 오페라하우스", sub: "Hanoi Opera House", type: 'tour', icon: 'fa-solid fa-masks-theater' },
+            { lat: 21.0481, lng: 105.8369, title: "쩐꾸옥 사원 (서호)", sub: "Trấn Quốc Pagoda (West Lake)", type: 'tour', icon: 'fa-solid fa-place-of-worship' },
+            { lat: 21.0315, lng: 105.8427, title: "하노이 기차거리", sub: "Hanoi Train Street", type: 'tour', icon: 'fa-solid fa-train-tram' },
+            
+            // 3. 시장, 과일, 도매
+            { lat: 21.0388, lng: 105.8505, title: "동쑤언 시장", sub: "Đồng Xuân Market", type: 'market', icon: 'fa-solid fa-store' },
+            { lat: 21.0421, lng: 105.8503, title: "롱비엔 도매시장 (과일)", sub: "Long Biên Market", type: 'market', icon: 'fa-solid fa-apple-whole' },
+            { lat: 21.0163, lng: 105.8517, title: "홈 시장 (재래시장)", sub: "Chợ Hôm", type: 'market', icon: 'fa-solid fa-basket-shopping' },
+            { lat: 21.0318, lng: 105.8124, title: "롯데마트 (롯데센터)", sub: "Lotte Mart (Supermarket)", type: 'market', icon: 'fa-solid fa-cart-shopping' },
+
+            // 4. 수학·학술 관련 (기호 아이콘 적용)
+            { lat: 21.0475, lng: 105.7950, title: "하노이 수학연구소(VAST)", sub: "Institute of Mathematics", type: 'math', icon: '', html: 'π' },
+            { lat: 21.0064, lng: 105.8428, title: "베트남 고등수학연구소", sub: "VIASM", type: 'math', icon: '', html: '∫' },
+            { lat: 21.0379, lng: 105.7816, title: "하노이 국립대학교", sub: "VNU Hanoi (Xuan Thuy)", type: 'math', icon: '', html: '∑' },
+
+            // 5. 교통 시설
+            { lat: 21.2187, lng: 105.8042, title: "노이바이 국제공항", sub: "Nội Bài Int'l Airport", type: 'trans', icon: 'fa-solid fa-plane' },
+            { lat: 21.0243, lng: 105.8412, title: "하노이역", sub: "Hanoi Railway Station", type: 'trans', icon: 'fa-solid fa-train' },
+            { lat: 21.0441, lng: 105.8596, title: "롱비엔 다리 & 역", sub: "Long Biên Bridge & Station", type: 'trans', icon: 'fa-solid fa-bridge' }
+        ];
+
+        // 맵에 마커 및 라벨 추가
+        locations.forEach(loc => {
+            let colorClass = loc.type === 'hist' ? 'icon-hist' : 
+                             loc.type === 'tour' ? 'icon-tour' : 
+                             loc.type === 'market' ? 'icon-market' : 
+                             loc.type === 'math' ? 'icon-math' : 'icon-trans';
+                             
+            let marker = L.marker([loc.lat, loc.lng], {
+                icon: createIcon(loc.icon, colorClass, loc.html || '')
+            }).addTo(map);
+
+            // 항상 보이는 텍스트 라벨 (겹침 방지를 위해 툴팁 사용)
+            marker.bindTooltip(`
+                <div style="text-align:center;">
+                    <b style="color:#333; font-size:12px;">${loc.title}</b><br>
+                    <span style="color:#666; font-size:10px;">${loc.sub}</span>
+                </div>
+            `, { permanent: true, direction: "bottom", offset: [0, 15], className: "label-text" });
+        });
+
+        // 홍강(Red River) 대략적인 흐름 폴리라인 표시
+        var redRiverCoords = [
+            [21.100, 105.800], [21.080, 105.830], [21.050, 105.860], 
+            [21.030, 105.875], [21.000, 105.890], [20.970, 105.910]
+        ];
+        L.polyline(redRiverCoords, {color: 'rgba(52, 152, 219, 0.4)', weight: 30, className: 'river'}).addTo(map).bindPopup("홍강 (Red River / Sông Hồng)");
+        
+        // 공항 -> 도심 이동 방향 화살표
+        var airportToCity = [ [21.2187, 105.8042], [21.096, 105.819], [21.040, 105.830] ];
+        L.polyline(airportToCity, {color: '#2c3e50', weight: 4, dashArray: '10, 10'}).addTo(map).bindPopup("공항에서 도심 진입 방향 (녓떤 다리 경유)");
+
+    </script>
+</body>
+</html>
